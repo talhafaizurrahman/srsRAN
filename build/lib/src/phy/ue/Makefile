@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/msudurip1/Documents/srsRAN_modified/srsRAN
+CMAKE_SOURCE_DIR = /home/talha/srsRAN
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/msudurip1/Documents/srsRAN_modified/srsRAN/build
+CMAKE_BINARY_DIR = /home/talha/srsRAN/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -105,7 +105,7 @@ test/fast: test
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/CPackSourceConfig.cmake
+	cd /home/talha/srsRAN/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/talha/srsRAN/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -149,7 +149,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/talha/srsRAN/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -159,14 +159,14 @@ package/fast: package
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/CMakeFiles /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/ue/CMakeFiles/progress.marks
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/ue/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/CMakeFiles 0
+	cd /home/talha/srsRAN/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/talha/srsRAN/build/CMakeFiles /home/talha/srsRAN/build/lib/src/phy/ue/CMakeFiles/progress.marks
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/ue/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/talha/srsRAN/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/ue/clean
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/ue/clean
 .PHONY : clean
 
 # The main clean target
@@ -176,22 +176,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: cmake_check_build_system
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/ue/preinstall
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/ue/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/ue/preinstall
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/ue/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/talha/srsRAN/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/src/phy/ue/CMakeFiles/srsran_ue.dir/rule:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/ue/CMakeFiles/srsran_ue.dir/rule
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/ue/CMakeFiles/srsran_ue.dir/rule
 .PHONY : lib/src/phy/ue/CMakeFiles/srsran_ue.dir/rule
 
 # Convenience name for target.
@@ -201,7 +201,7 @@ srsran_ue: lib/src/phy/ue/CMakeFiles/srsran_ue.dir/rule
 
 # fast build rule for target.
 srsran_ue/fast:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build.make lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build.make lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build
 .PHONY : srsran_ue/fast
 
 ue_cell_search.o: ue_cell_search.c.o
@@ -210,7 +210,7 @@ ue_cell_search.o: ue_cell_search.c.o
 
 # target to build an object file
 ue_cell_search.c.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build.make lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_cell_search.c.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build.make lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_cell_search.c.o
 .PHONY : ue_cell_search.c.o
 
 ue_cell_search.i: ue_cell_search.c.i
@@ -219,7 +219,7 @@ ue_cell_search.i: ue_cell_search.c.i
 
 # target to preprocess a source file
 ue_cell_search.c.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build.make lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_cell_search.c.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build.make lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_cell_search.c.i
 .PHONY : ue_cell_search.c.i
 
 ue_cell_search.s: ue_cell_search.c.s
@@ -228,7 +228,7 @@ ue_cell_search.s: ue_cell_search.c.s
 
 # target to generate assembly for a file
 ue_cell_search.c.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build.make lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_cell_search.c.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build.make lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_cell_search.c.s
 .PHONY : ue_cell_search.c.s
 
 ue_cell_search_nbiot.o: ue_cell_search_nbiot.c.o
@@ -237,7 +237,7 @@ ue_cell_search_nbiot.o: ue_cell_search_nbiot.c.o
 
 # target to build an object file
 ue_cell_search_nbiot.c.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build.make lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_cell_search_nbiot.c.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build.make lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_cell_search_nbiot.c.o
 .PHONY : ue_cell_search_nbiot.c.o
 
 ue_cell_search_nbiot.i: ue_cell_search_nbiot.c.i
@@ -246,7 +246,7 @@ ue_cell_search_nbiot.i: ue_cell_search_nbiot.c.i
 
 # target to preprocess a source file
 ue_cell_search_nbiot.c.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build.make lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_cell_search_nbiot.c.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build.make lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_cell_search_nbiot.c.i
 .PHONY : ue_cell_search_nbiot.c.i
 
 ue_cell_search_nbiot.s: ue_cell_search_nbiot.c.s
@@ -255,7 +255,7 @@ ue_cell_search_nbiot.s: ue_cell_search_nbiot.c.s
 
 # target to generate assembly for a file
 ue_cell_search_nbiot.c.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build.make lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_cell_search_nbiot.c.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build.make lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_cell_search_nbiot.c.s
 .PHONY : ue_cell_search_nbiot.c.s
 
 ue_dl.o: ue_dl.c.o
@@ -264,7 +264,7 @@ ue_dl.o: ue_dl.c.o
 
 # target to build an object file
 ue_dl.c.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build.make lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_dl.c.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build.make lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_dl.c.o
 .PHONY : ue_dl.c.o
 
 ue_dl.i: ue_dl.c.i
@@ -273,7 +273,7 @@ ue_dl.i: ue_dl.c.i
 
 # target to preprocess a source file
 ue_dl.c.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build.make lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_dl.c.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build.make lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_dl.c.i
 .PHONY : ue_dl.c.i
 
 ue_dl.s: ue_dl.c.s
@@ -282,7 +282,7 @@ ue_dl.s: ue_dl.c.s
 
 # target to generate assembly for a file
 ue_dl.c.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build.make lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_dl.c.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build.make lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_dl.c.s
 .PHONY : ue_dl.c.s
 
 ue_dl_nbiot.o: ue_dl_nbiot.c.o
@@ -291,7 +291,7 @@ ue_dl_nbiot.o: ue_dl_nbiot.c.o
 
 # target to build an object file
 ue_dl_nbiot.c.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build.make lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_dl_nbiot.c.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build.make lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_dl_nbiot.c.o
 .PHONY : ue_dl_nbiot.c.o
 
 ue_dl_nbiot.i: ue_dl_nbiot.c.i
@@ -300,7 +300,7 @@ ue_dl_nbiot.i: ue_dl_nbiot.c.i
 
 # target to preprocess a source file
 ue_dl_nbiot.c.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build.make lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_dl_nbiot.c.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build.make lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_dl_nbiot.c.i
 .PHONY : ue_dl_nbiot.c.i
 
 ue_dl_nbiot.s: ue_dl_nbiot.c.s
@@ -309,7 +309,7 @@ ue_dl_nbiot.s: ue_dl_nbiot.c.s
 
 # target to generate assembly for a file
 ue_dl_nbiot.c.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build.make lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_dl_nbiot.c.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build.make lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_dl_nbiot.c.s
 .PHONY : ue_dl_nbiot.c.s
 
 ue_dl_nr.o: ue_dl_nr.c.o
@@ -318,7 +318,7 @@ ue_dl_nr.o: ue_dl_nr.c.o
 
 # target to build an object file
 ue_dl_nr.c.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build.make lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_dl_nr.c.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build.make lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_dl_nr.c.o
 .PHONY : ue_dl_nr.c.o
 
 ue_dl_nr.i: ue_dl_nr.c.i
@@ -327,7 +327,7 @@ ue_dl_nr.i: ue_dl_nr.c.i
 
 # target to preprocess a source file
 ue_dl_nr.c.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build.make lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_dl_nr.c.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build.make lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_dl_nr.c.i
 .PHONY : ue_dl_nr.c.i
 
 ue_dl_nr.s: ue_dl_nr.c.s
@@ -336,7 +336,7 @@ ue_dl_nr.s: ue_dl_nr.c.s
 
 # target to generate assembly for a file
 ue_dl_nr.c.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build.make lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_dl_nr.c.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build.make lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_dl_nr.c.s
 .PHONY : ue_dl_nr.c.s
 
 ue_mib.o: ue_mib.c.o
@@ -345,7 +345,7 @@ ue_mib.o: ue_mib.c.o
 
 # target to build an object file
 ue_mib.c.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build.make lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_mib.c.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build.make lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_mib.c.o
 .PHONY : ue_mib.c.o
 
 ue_mib.i: ue_mib.c.i
@@ -354,7 +354,7 @@ ue_mib.i: ue_mib.c.i
 
 # target to preprocess a source file
 ue_mib.c.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build.make lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_mib.c.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build.make lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_mib.c.i
 .PHONY : ue_mib.c.i
 
 ue_mib.s: ue_mib.c.s
@@ -363,7 +363,7 @@ ue_mib.s: ue_mib.c.s
 
 # target to generate assembly for a file
 ue_mib.c.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build.make lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_mib.c.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build.make lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_mib.c.s
 .PHONY : ue_mib.c.s
 
 ue_mib_nbiot.o: ue_mib_nbiot.c.o
@@ -372,7 +372,7 @@ ue_mib_nbiot.o: ue_mib_nbiot.c.o
 
 # target to build an object file
 ue_mib_nbiot.c.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build.make lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_mib_nbiot.c.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build.make lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_mib_nbiot.c.o
 .PHONY : ue_mib_nbiot.c.o
 
 ue_mib_nbiot.i: ue_mib_nbiot.c.i
@@ -381,7 +381,7 @@ ue_mib_nbiot.i: ue_mib_nbiot.c.i
 
 # target to preprocess a source file
 ue_mib_nbiot.c.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build.make lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_mib_nbiot.c.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build.make lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_mib_nbiot.c.i
 .PHONY : ue_mib_nbiot.c.i
 
 ue_mib_nbiot.s: ue_mib_nbiot.c.s
@@ -390,7 +390,7 @@ ue_mib_nbiot.s: ue_mib_nbiot.c.s
 
 # target to generate assembly for a file
 ue_mib_nbiot.c.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build.make lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_mib_nbiot.c.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build.make lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_mib_nbiot.c.s
 .PHONY : ue_mib_nbiot.c.s
 
 ue_mib_sl.o: ue_mib_sl.c.o
@@ -399,7 +399,7 @@ ue_mib_sl.o: ue_mib_sl.c.o
 
 # target to build an object file
 ue_mib_sl.c.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build.make lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_mib_sl.c.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build.make lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_mib_sl.c.o
 .PHONY : ue_mib_sl.c.o
 
 ue_mib_sl.i: ue_mib_sl.c.i
@@ -408,7 +408,7 @@ ue_mib_sl.i: ue_mib_sl.c.i
 
 # target to preprocess a source file
 ue_mib_sl.c.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build.make lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_mib_sl.c.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build.make lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_mib_sl.c.i
 .PHONY : ue_mib_sl.c.i
 
 ue_mib_sl.s: ue_mib_sl.c.s
@@ -417,7 +417,7 @@ ue_mib_sl.s: ue_mib_sl.c.s
 
 # target to generate assembly for a file
 ue_mib_sl.c.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build.make lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_mib_sl.c.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build.make lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_mib_sl.c.s
 .PHONY : ue_mib_sl.c.s
 
 ue_sync.o: ue_sync.c.o
@@ -426,7 +426,7 @@ ue_sync.o: ue_sync.c.o
 
 # target to build an object file
 ue_sync.c.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build.make lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_sync.c.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build.make lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_sync.c.o
 .PHONY : ue_sync.c.o
 
 ue_sync.i: ue_sync.c.i
@@ -435,7 +435,7 @@ ue_sync.i: ue_sync.c.i
 
 # target to preprocess a source file
 ue_sync.c.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build.make lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_sync.c.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build.make lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_sync.c.i
 .PHONY : ue_sync.c.i
 
 ue_sync.s: ue_sync.c.s
@@ -444,7 +444,7 @@ ue_sync.s: ue_sync.c.s
 
 # target to generate assembly for a file
 ue_sync.c.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build.make lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_sync.c.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build.make lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_sync.c.s
 .PHONY : ue_sync.c.s
 
 ue_sync_nbiot.o: ue_sync_nbiot.c.o
@@ -453,7 +453,7 @@ ue_sync_nbiot.o: ue_sync_nbiot.c.o
 
 # target to build an object file
 ue_sync_nbiot.c.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build.make lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_sync_nbiot.c.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build.make lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_sync_nbiot.c.o
 .PHONY : ue_sync_nbiot.c.o
 
 ue_sync_nbiot.i: ue_sync_nbiot.c.i
@@ -462,7 +462,7 @@ ue_sync_nbiot.i: ue_sync_nbiot.c.i
 
 # target to preprocess a source file
 ue_sync_nbiot.c.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build.make lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_sync_nbiot.c.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build.make lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_sync_nbiot.c.i
 .PHONY : ue_sync_nbiot.c.i
 
 ue_sync_nbiot.s: ue_sync_nbiot.c.s
@@ -471,7 +471,7 @@ ue_sync_nbiot.s: ue_sync_nbiot.c.s
 
 # target to generate assembly for a file
 ue_sync_nbiot.c.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build.make lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_sync_nbiot.c.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build.make lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_sync_nbiot.c.s
 .PHONY : ue_sync_nbiot.c.s
 
 ue_sync_nr.o: ue_sync_nr.c.o
@@ -480,7 +480,7 @@ ue_sync_nr.o: ue_sync_nr.c.o
 
 # target to build an object file
 ue_sync_nr.c.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build.make lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_sync_nr.c.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build.make lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_sync_nr.c.o
 .PHONY : ue_sync_nr.c.o
 
 ue_sync_nr.i: ue_sync_nr.c.i
@@ -489,7 +489,7 @@ ue_sync_nr.i: ue_sync_nr.c.i
 
 # target to preprocess a source file
 ue_sync_nr.c.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build.make lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_sync_nr.c.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build.make lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_sync_nr.c.i
 .PHONY : ue_sync_nr.c.i
 
 ue_sync_nr.s: ue_sync_nr.c.s
@@ -498,7 +498,7 @@ ue_sync_nr.s: ue_sync_nr.c.s
 
 # target to generate assembly for a file
 ue_sync_nr.c.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build.make lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_sync_nr.c.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build.make lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_sync_nr.c.s
 .PHONY : ue_sync_nr.c.s
 
 ue_ul.o: ue_ul.c.o
@@ -507,7 +507,7 @@ ue_ul.o: ue_ul.c.o
 
 # target to build an object file
 ue_ul.c.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build.make lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_ul.c.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build.make lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_ul.c.o
 .PHONY : ue_ul.c.o
 
 ue_ul.i: ue_ul.c.i
@@ -516,7 +516,7 @@ ue_ul.i: ue_ul.c.i
 
 # target to preprocess a source file
 ue_ul.c.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build.make lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_ul.c.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build.make lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_ul.c.i
 .PHONY : ue_ul.c.i
 
 ue_ul.s: ue_ul.c.s
@@ -525,7 +525,7 @@ ue_ul.s: ue_ul.c.s
 
 # target to generate assembly for a file
 ue_ul.c.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build.make lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_ul.c.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build.make lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_ul.c.s
 .PHONY : ue_ul.c.s
 
 ue_ul_nr.o: ue_ul_nr.c.o
@@ -534,7 +534,7 @@ ue_ul_nr.o: ue_ul_nr.c.o
 
 # target to build an object file
 ue_ul_nr.c.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build.make lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_ul_nr.c.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build.make lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_ul_nr.c.o
 .PHONY : ue_ul_nr.c.o
 
 ue_ul_nr.i: ue_ul_nr.c.i
@@ -543,7 +543,7 @@ ue_ul_nr.i: ue_ul_nr.c.i
 
 # target to preprocess a source file
 ue_ul_nr.c.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build.make lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_ul_nr.c.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build.make lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_ul_nr.c.i
 .PHONY : ue_ul_nr.c.i
 
 ue_ul_nr.s: ue_ul_nr.c.s
@@ -552,7 +552,7 @@ ue_ul_nr.s: ue_ul_nr.c.s
 
 # target to generate assembly for a file
 ue_ul_nr.c.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build.make lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_ul_nr.c.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/ue/CMakeFiles/srsran_ue.dir/build.make lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_ul_nr.c.s
 .PHONY : ue_ul_nr.c.s
 
 # Help Target
@@ -621,6 +621,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/talha/srsRAN/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

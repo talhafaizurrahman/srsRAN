@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/msudurip1/Documents/srsRAN_modified/srsRAN
+CMAKE_SOURCE_DIR = /home/talha/srsRAN
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/msudurip1/Documents/srsRAN_modified/srsRAN/build
+CMAKE_BINARY_DIR = /home/talha/srsRAN/build
 
 # Include any dependencies generated for this target.
 include lib/src/radio/test/CMakeFiles/test_radio_rt_gain.dir/depend.make
@@ -59,16 +59,16 @@ include lib/src/radio/test/CMakeFiles/test_radio_rt_gain.dir/flags.make
 
 lib/src/radio/test/CMakeFiles/test_radio_rt_gain.dir/test_radio_rt_gain.cc.o: lib/src/radio/test/CMakeFiles/test_radio_rt_gain.dir/flags.make
 lib/src/radio/test/CMakeFiles/test_radio_rt_gain.dir/test_radio_rt_gain.cc.o: ../lib/src/radio/test/test_radio_rt_gain.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/src/radio/test/CMakeFiles/test_radio_rt_gain.dir/test_radio_rt_gain.cc.o"
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/radio/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_radio_rt_gain.dir/test_radio_rt_gain.cc.o -c /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/radio/test/test_radio_rt_gain.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/talha/srsRAN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/src/radio/test/CMakeFiles/test_radio_rt_gain.dir/test_radio_rt_gain.cc.o"
+	cd /home/talha/srsRAN/build/lib/src/radio/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_radio_rt_gain.dir/test_radio_rt_gain.cc.o -c /home/talha/srsRAN/lib/src/radio/test/test_radio_rt_gain.cc
 
 lib/src/radio/test/CMakeFiles/test_radio_rt_gain.dir/test_radio_rt_gain.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_radio_rt_gain.dir/test_radio_rt_gain.cc.i"
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/radio/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/radio/test/test_radio_rt_gain.cc > CMakeFiles/test_radio_rt_gain.dir/test_radio_rt_gain.cc.i
+	cd /home/talha/srsRAN/build/lib/src/radio/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/talha/srsRAN/lib/src/radio/test/test_radio_rt_gain.cc > CMakeFiles/test_radio_rt_gain.dir/test_radio_rt_gain.cc.i
 
 lib/src/radio/test/CMakeFiles/test_radio_rt_gain.dir/test_radio_rt_gain.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_radio_rt_gain.dir/test_radio_rt_gain.cc.s"
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/radio/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/radio/test/test_radio_rt_gain.cc -o CMakeFiles/test_radio_rt_gain.dir/test_radio_rt_gain.cc.s
+	cd /home/talha/srsRAN/build/lib/src/radio/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/talha/srsRAN/lib/src/radio/test/test_radio_rt_gain.cc -o CMakeFiles/test_radio_rt_gain.dir/test_radio_rt_gain.cc.s
 
 # Object files for target test_radio_rt_gain
 test_radio_rt_gain_OBJECTS = \
@@ -88,14 +88,13 @@ lib/src/radio/test/test_radio_rt_gain: lib/src/common/libsrsran_common.a
 lib/src/radio/test/test_radio_rt_gain: lib/src/support/libsupport.a
 lib/src/radio/test/test_radio_rt_gain: lib/src/srslog/libsrslog.a
 lib/src/radio/test/test_radio_rt_gain: /usr/lib/x86_64-linux-gnu/libmbedcrypto.so
-lib/src/radio/test/test_radio_rt_gain: /usr/lib/x86_64-linux-gnu/libsctp.so
 lib/src/radio/test/test_radio_rt_gain: lib/src/phy/rf/libsrsran_rf.so.22.04.1
 lib/src/radio/test/test_radio_rt_gain: lib/src/phy/rf/libsrsran_rf_utils.a
 lib/src/radio/test/test_radio_rt_gain: lib/src/phy/libsrsran_phy.a
 lib/src/radio/test/test_radio_rt_gain: /usr/lib/x86_64-linux-gnu/libfftw3f.so
 lib/src/radio/test/test_radio_rt_gain: lib/src/radio/test/CMakeFiles/test_radio_rt_gain.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable test_radio_rt_gain"
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/radio/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_radio_rt_gain.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/talha/srsRAN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable test_radio_rt_gain"
+	cd /home/talha/srsRAN/build/lib/src/radio/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_radio_rt_gain.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lib/src/radio/test/CMakeFiles/test_radio_rt_gain.dir/build: lib/src/radio/test/test_radio_rt_gain
@@ -103,10 +102,10 @@ lib/src/radio/test/CMakeFiles/test_radio_rt_gain.dir/build: lib/src/radio/test/t
 .PHONY : lib/src/radio/test/CMakeFiles/test_radio_rt_gain.dir/build
 
 lib/src/radio/test/CMakeFiles/test_radio_rt_gain.dir/clean:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/radio/test && $(CMAKE_COMMAND) -P CMakeFiles/test_radio_rt_gain.dir/cmake_clean.cmake
+	cd /home/talha/srsRAN/build/lib/src/radio/test && $(CMAKE_COMMAND) -P CMakeFiles/test_radio_rt_gain.dir/cmake_clean.cmake
 .PHONY : lib/src/radio/test/CMakeFiles/test_radio_rt_gain.dir/clean
 
 lib/src/radio/test/CMakeFiles/test_radio_rt_gain.dir/depend:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/msudurip1/Documents/srsRAN_modified/srsRAN /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/radio/test /home/msudurip1/Documents/srsRAN_modified/srsRAN/build /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/radio/test /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/radio/test/CMakeFiles/test_radio_rt_gain.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/talha/srsRAN/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/talha/srsRAN /home/talha/srsRAN/lib/src/radio/test /home/talha/srsRAN/build /home/talha/srsRAN/build/lib/src/radio/test /home/talha/srsRAN/build/lib/src/radio/test/CMakeFiles/test_radio_rt_gain.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lib/src/radio/test/CMakeFiles/test_radio_rt_gain.dir/depend
 

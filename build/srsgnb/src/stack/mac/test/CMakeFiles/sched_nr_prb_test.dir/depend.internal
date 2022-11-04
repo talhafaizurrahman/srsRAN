@@ -192,5 +192,5 @@ srsgnb/src/stack/mac/test/CMakeFiles/sched_nr_prb_test.dir/sched_nr_prb_test.cc.
  ../srsenb/hdr/stack/mac/common/sched_config.h
  ../srsgnb/hdr/stack/mac/sched_nr_interface.h
  ../srsgnb/hdr/stack/mac/sched_nr_rb.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsgnb/src/stack/mac/test/sched_nr_prb_test.cc
+ /home/talha/srsRAN/srsgnb/src/stack/mac/test/sched_nr_prb_test.cc
  lib/include/srsran/version.h

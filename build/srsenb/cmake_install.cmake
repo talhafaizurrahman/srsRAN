@@ -1,4 +1,4 @@
-# Install script for directory: /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsenb
+# Install script for directory: /home/talha/srsRAN/srsenb
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,25 +38,25 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/srsran" TYPE FILE FILES "/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsenb/enb.conf.example")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/srsran" TYPE FILE FILES "/home/talha/srsRAN/srsenb/enb.conf.example")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/srsran" TYPE FILE FILES "/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsenb/rb.conf.example")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/srsran" TYPE FILE FILES "/home/talha/srsRAN/srsenb/rb.conf.example")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/srsran" TYPE FILE FILES "/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsenb/rr.conf.example")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/srsran" TYPE FILE FILES "/home/talha/srsRAN/srsenb/rr.conf.example")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/srsran" TYPE FILE FILES "/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsenb/sib.conf.example")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/srsran" TYPE FILE FILES "/home/talha/srsRAN/srsenb/sib.conf.example")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsenb/src/cmake_install.cmake")
-  include("/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsenb/test/cmake_install.cmake")
+  include("/home/talha/srsRAN/build/srsenb/src/cmake_install.cmake")
+  include("/home/talha/srsRAN/build/srsenb/test/cmake_install.cmake")
 
 endif()
 

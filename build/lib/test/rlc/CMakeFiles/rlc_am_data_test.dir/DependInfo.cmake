@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/test/rlc/rlc_am_data_test.cc" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/test/rlc/CMakeFiles/rlc_am_data_test.dir/rlc_am_data_test.cc.o"
+  "/home/talha/srsRAN/lib/test/rlc/rlc_am_data_test.cc" "/home/talha/srsRAN/build/lib/test/rlc/CMakeFiles/rlc_am_data_test.dir/rlc_am_data_test.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -25,11 +25,11 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/rlc/CMakeFiles/srsran_rlc.dir/DependInfo.cmake"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/CMakeFiles/srsran_phy.dir/DependInfo.cmake"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/common/CMakeFiles/srsran_common.dir/DependInfo.cmake"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/support/CMakeFiles/support.dir/DependInfo.cmake"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/srslog/CMakeFiles/srslog.dir/DependInfo.cmake"
+  "/home/talha/srsRAN/build/lib/src/rlc/CMakeFiles/srsran_rlc.dir/DependInfo.cmake"
+  "/home/talha/srsRAN/build/lib/src/phy/CMakeFiles/srsran_phy.dir/DependInfo.cmake"
+  "/home/talha/srsRAN/build/lib/src/common/CMakeFiles/srsran_common.dir/DependInfo.cmake"
+  "/home/talha/srsRAN/build/lib/src/support/CMakeFiles/support.dir/DependInfo.cmake"
+  "/home/talha/srsRAN/build/lib/src/srslog/CMakeFiles/srslog.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

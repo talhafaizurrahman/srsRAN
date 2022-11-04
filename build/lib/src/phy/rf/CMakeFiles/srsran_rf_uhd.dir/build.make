@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/msudurip1/Documents/srsRAN_modified/srsRAN
+CMAKE_SOURCE_DIR = /home/talha/srsRAN
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/msudurip1/Documents/srsRAN_modified/srsRAN/build
+CMAKE_BINARY_DIR = /home/talha/srsRAN/build
 
 # Include any dependencies generated for this target.
 include lib/src/phy/rf/CMakeFiles/srsran_rf_uhd.dir/depend.make
@@ -59,16 +59,16 @@ include lib/src/phy/rf/CMakeFiles/srsran_rf_uhd.dir/flags.make
 
 lib/src/phy/rf/CMakeFiles/srsran_rf_uhd.dir/rf_uhd_imp.cc.o: lib/src/phy/rf/CMakeFiles/srsran_rf_uhd.dir/flags.make
 lib/src/phy/rf/CMakeFiles/srsran_rf_uhd.dir/rf_uhd_imp.cc.o: ../lib/src/phy/rf/rf_uhd_imp.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/src/phy/rf/CMakeFiles/srsran_rf_uhd.dir/rf_uhd_imp.cc.o"
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/rf && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsran_rf_uhd.dir/rf_uhd_imp.cc.o -c /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/rf/rf_uhd_imp.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/talha/srsRAN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/src/phy/rf/CMakeFiles/srsran_rf_uhd.dir/rf_uhd_imp.cc.o"
+	cd /home/talha/srsRAN/build/lib/src/phy/rf && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsran_rf_uhd.dir/rf_uhd_imp.cc.o -c /home/talha/srsRAN/lib/src/phy/rf/rf_uhd_imp.cc
 
 lib/src/phy/rf/CMakeFiles/srsran_rf_uhd.dir/rf_uhd_imp.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsran_rf_uhd.dir/rf_uhd_imp.cc.i"
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/rf && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/rf/rf_uhd_imp.cc > CMakeFiles/srsran_rf_uhd.dir/rf_uhd_imp.cc.i
+	cd /home/talha/srsRAN/build/lib/src/phy/rf && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/talha/srsRAN/lib/src/phy/rf/rf_uhd_imp.cc > CMakeFiles/srsran_rf_uhd.dir/rf_uhd_imp.cc.i
 
 lib/src/phy/rf/CMakeFiles/srsran_rf_uhd.dir/rf_uhd_imp.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/srsran_rf_uhd.dir/rf_uhd_imp.cc.s"
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/rf && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/rf/rf_uhd_imp.cc -o CMakeFiles/srsran_rf_uhd.dir/rf_uhd_imp.cc.s
+	cd /home/talha/srsRAN/build/lib/src/phy/rf && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/talha/srsRAN/lib/src/phy/rf/rf_uhd_imp.cc -o CMakeFiles/srsran_rf_uhd.dir/rf_uhd_imp.cc.s
 
 # Object files for target srsran_rf_uhd
 srsran_rf_uhd_OBJECTS = \
@@ -81,14 +81,14 @@ lib/src/phy/rf/libsrsran_rf_uhd.so.22.04.1: lib/src/phy/rf/CMakeFiles/srsran_rf_
 lib/src/phy/rf/libsrsran_rf_uhd.so.22.04.1: lib/src/phy/rf/CMakeFiles/srsran_rf_uhd.dir/build.make
 lib/src/phy/rf/libsrsran_rf_uhd.so.22.04.1: lib/src/phy/rf/libsrsran_rf_utils.a
 lib/src/phy/rf/libsrsran_rf_uhd.so.22.04.1: lib/src/phy/libsrsran_phy.a
-lib/src/phy/rf/libsrsran_rf_uhd.so.22.04.1: /usr/lib/x86_64-linux-gnu/libuhd.so
+lib/src/phy/rf/libsrsran_rf_uhd.so.22.04.1: /usr/local/lib/libuhd.so
 lib/src/phy/rf/libsrsran_rf_uhd.so.22.04.1: /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0
 lib/src/phy/rf/libsrsran_rf_uhd.so.22.04.1: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
 lib/src/phy/rf/libsrsran_rf_uhd.so.22.04.1: /usr/lib/x86_64-linux-gnu/libfftw3f.so
 lib/src/phy/rf/libsrsran_rf_uhd.so.22.04.1: lib/src/phy/rf/CMakeFiles/srsran_rf_uhd.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library libsrsran_rf_uhd.so"
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/rf && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/srsran_rf_uhd.dir/link.txt --verbose=$(VERBOSE)
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/rf && $(CMAKE_COMMAND) -E cmake_symlink_library libsrsran_rf_uhd.so.22.04.1 libsrsran_rf_uhd.so.0 libsrsran_rf_uhd.so
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/talha/srsRAN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library libsrsran_rf_uhd.so"
+	cd /home/talha/srsRAN/build/lib/src/phy/rf && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/srsran_rf_uhd.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/talha/srsRAN/build/lib/src/phy/rf && $(CMAKE_COMMAND) -E cmake_symlink_library libsrsran_rf_uhd.so.22.04.1 libsrsran_rf_uhd.so.0 libsrsran_rf_uhd.so
 
 lib/src/phy/rf/libsrsran_rf_uhd.so.0: lib/src/phy/rf/libsrsran_rf_uhd.so.22.04.1
 	@$(CMAKE_COMMAND) -E touch_nocreate lib/src/phy/rf/libsrsran_rf_uhd.so.0
@@ -102,10 +102,10 @@ lib/src/phy/rf/CMakeFiles/srsran_rf_uhd.dir/build: lib/src/phy/rf/libsrsran_rf_u
 .PHONY : lib/src/phy/rf/CMakeFiles/srsran_rf_uhd.dir/build
 
 lib/src/phy/rf/CMakeFiles/srsran_rf_uhd.dir/clean:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/rf && $(CMAKE_COMMAND) -P CMakeFiles/srsran_rf_uhd.dir/cmake_clean.cmake
+	cd /home/talha/srsRAN/build/lib/src/phy/rf && $(CMAKE_COMMAND) -P CMakeFiles/srsran_rf_uhd.dir/cmake_clean.cmake
 .PHONY : lib/src/phy/rf/CMakeFiles/srsran_rf_uhd.dir/clean
 
 lib/src/phy/rf/CMakeFiles/srsran_rf_uhd.dir/depend:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/msudurip1/Documents/srsRAN_modified/srsRAN /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/rf /home/msudurip1/Documents/srsRAN_modified/srsRAN/build /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/rf /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/rf/CMakeFiles/srsran_rf_uhd.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/talha/srsRAN/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/talha/srsRAN /home/talha/srsRAN/lib/src/phy/rf /home/talha/srsRAN/build /home/talha/srsRAN/build/lib/src/phy/rf /home/talha/srsRAN/build/lib/src/phy/rf/CMakeFiles/srsran_rf_uhd.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lib/src/phy/rf/CMakeFiles/srsran_rf_uhd.dir/depend
 

@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/support/emergency_handlers.cc" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/support/CMakeFiles/support.dir/emergency_handlers.cc.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/support/signal_handler.cc" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/support/CMakeFiles/support.dir/signal_handler.cc.o"
+  "/home/talha/srsRAN/lib/src/support/emergency_handlers.cc" "/home/talha/srsRAN/build/lib/src/support/CMakeFiles/support.dir/emergency_handlers.cc.o"
+  "/home/talha/srsRAN/lib/src/support/signal_handler.cc" "/home/talha/srsRAN/build/lib/src/support/CMakeFiles/support.dir/signal_handler.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

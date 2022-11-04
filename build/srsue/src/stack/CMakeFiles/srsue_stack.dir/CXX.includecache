@@ -3816,15 +3816,15 @@ stack/upper/gw_metrics.h
 stack/upper/nas_metrics.h
 ../srsue/hdr/stack/upper/nas_metrics.h
 
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/stack/ue_stack_lte.cc
+/home/talha/srsRAN/srsue/src/stack/ue_stack_lte.cc
 srsue/hdr/stack/ue_stack_lte.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/stack/srsue/hdr/stack/ue_stack_lte.h
+/home/talha/srsRAN/srsue/src/stack/srsue/hdr/stack/ue_stack_lte.h
 srsran/common/standard_streams.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/stack/srsran/common/standard_streams.h
+/home/talha/srsRAN/srsue/src/stack/srsran/common/standard_streams.h
 srsran/interfaces/ue_phy_interfaces.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/stack/srsran/interfaces/ue_phy_interfaces.h
+/home/talha/srsRAN/srsue/src/stack/srsran/interfaces/ue_phy_interfaces.h
 srsran/srslog/event_trace.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/stack/srsran/srslog/event_trace.h
+/home/talha/srsRAN/srsue/src/stack/srsran/srslog/event_trace.h
 algorithm
 -
 chrono

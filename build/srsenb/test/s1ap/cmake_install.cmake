@@ -1,4 +1,4 @@
-# Install script for directory: /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsenb/test/s1ap
+# Install script for directory: /home/talha/srsRAN/srsenb/test/s1ap
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

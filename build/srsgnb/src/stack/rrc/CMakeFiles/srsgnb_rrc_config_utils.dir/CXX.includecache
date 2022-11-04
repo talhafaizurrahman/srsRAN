@@ -2174,11 +2174,11 @@ srsran/interfaces/gnb_rrc_nr_interfaces.h
 rrc_nr_config.h
 ../srsgnb/hdr/stack/rrc/rrc_nr_config.h
 
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsgnb/src/stack/rrc/rrc_nr_config_utils.cc
+/home/talha/srsRAN/srsgnb/src/stack/rrc/rrc_nr_config_utils.cc
 srsgnb/hdr/stack/rrc/rrc_nr_config_utils.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsgnb/src/stack/rrc/srsgnb/hdr/stack/rrc/rrc_nr_config_utils.h
+/home/talha/srsRAN/srsgnb/src/stack/rrc/srsgnb/hdr/stack/rrc/rrc_nr_config_utils.h
 srsran/common/band_helper.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsgnb/src/stack/rrc/srsran/common/band_helper.h
+/home/talha/srsRAN/srsgnb/src/stack/rrc/srsran/common/band_helper.h
 
 lib/include/srsran/version.h
 srsran/config.h

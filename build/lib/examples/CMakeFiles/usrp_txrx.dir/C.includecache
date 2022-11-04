@@ -1750,7 +1750,7 @@ srsran/phy/sync/sss.h
 srsran/phy/sync/sync.h
 ../lib/include/srsran/srsran/phy/sync/sync.h
 
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/examples/usrp_txrx.c
+/home/talha/srsRAN/lib/examples/usrp_txrx.c
 complex.h
 -
 math.h
@@ -1766,9 +1766,9 @@ time.h
 unistd.h
 -
 srsran/phy/rf/rf.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/examples/srsran/phy/rf/rf.h
+/home/talha/srsRAN/lib/examples/srsran/phy/rf/rf.h
 srsran/srsran.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/examples/srsran/srsran.h
+/home/talha/srsRAN/lib/examples/srsran/srsran.h
 
 lib/include/srsran/version.h
 srsran/config.h

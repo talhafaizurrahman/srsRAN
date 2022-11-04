@@ -2710,7 +2710,7 @@ srsran/asn1/rrc_nr.h
 srsran/interfaces/ue_nr_interfaces.h
 ../test/phy/srsran/interfaces/ue_nr_interfaces.h
 
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/phy/test/gnb_emulator.h
+/home/talha/srsRAN/srsue/src/phy/test/gnb_emulator.h
 srsran/phy/channel/channel.h
 -
 srsran/radio/rf_timestamp.h
@@ -2720,9 +2720,9 @@ srsran/srsran.h
 srsran/support/srsran_assert.h
 -
 
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/phy/test/gnb_rf_emulator.h
+/home/talha/srsRAN/srsue/src/phy/test/gnb_rf_emulator.h
 gnb_emulator.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/phy/test/gnb_emulator.h
+/home/talha/srsRAN/srsue/src/phy/test/gnb_emulator.h
 set
 -
 srsran/interfaces/radio_interfaces.h
@@ -2734,19 +2734,19 @@ srsran/srsran.h
 srsran/support/srsran_assert.h
 -
 
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/phy/test/nr_sa_cell_search_test.cc
+/home/talha/srsRAN/srsue/src/phy/test/nr_sa_cell_search_test.cc
 gnb_rf_emulator.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/phy/test/gnb_rf_emulator.h
+/home/talha/srsRAN/srsue/src/phy/test/gnb_rf_emulator.h
 srsran/common/band_helper.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/phy/test/srsran/common/band_helper.h
+/home/talha/srsRAN/srsue/src/phy/test/srsran/common/band_helper.h
 srsran/common/crash_handler.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/phy/test/srsran/common/crash_handler.h
+/home/talha/srsRAN/srsue/src/phy/test/srsran/common/crash_handler.h
 srsran/common/string_helpers.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/phy/test/srsran/common/string_helpers.h
+/home/talha/srsRAN/srsue/src/phy/test/srsran/common/string_helpers.h
 srsue/hdr/phy/phy_nr_sa.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/phy/test/srsue/hdr/phy/phy_nr_sa.h
+/home/talha/srsRAN/srsue/src/phy/test/srsue/hdr/phy/phy_nr_sa.h
 test/phy/dummy_ue_stack.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/phy/test/test/phy/dummy_ue_stack.h
+/home/talha/srsRAN/srsue/src/phy/test/test/phy/dummy_ue_stack.h
 boost/program_options.hpp
 -
 boost/program_options/parsers.hpp

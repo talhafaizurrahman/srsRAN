@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/msudurip1/Documents/srsRAN_modified/srsRAN
+CMAKE_SOURCE_DIR = /home/talha/srsRAN
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/msudurip1/Documents/srsRAN_modified/srsRAN/build
+CMAKE_BINARY_DIR = /home/talha/srsRAN/build
 
 # Include any dependencies generated for this target.
 include srsue/src/phy/test/CMakeFiles/nr_cell_search_rf.dir/depend.make
@@ -59,16 +59,16 @@ include srsue/src/phy/test/CMakeFiles/nr_cell_search_rf.dir/flags.make
 
 srsue/src/phy/test/CMakeFiles/nr_cell_search_rf.dir/nr_cell_search_rf.cc.o: srsue/src/phy/test/CMakeFiles/nr_cell_search_rf.dir/flags.make
 srsue/src/phy/test/CMakeFiles/nr_cell_search_rf.dir/nr_cell_search_rf.cc.o: ../srsue/src/phy/test/nr_cell_search_rf.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object srsue/src/phy/test/CMakeFiles/nr_cell_search_rf.dir/nr_cell_search_rf.cc.o"
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsue/src/phy/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nr_cell_search_rf.dir/nr_cell_search_rf.cc.o -c /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/phy/test/nr_cell_search_rf.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/talha/srsRAN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object srsue/src/phy/test/CMakeFiles/nr_cell_search_rf.dir/nr_cell_search_rf.cc.o"
+	cd /home/talha/srsRAN/build/srsue/src/phy/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nr_cell_search_rf.dir/nr_cell_search_rf.cc.o -c /home/talha/srsRAN/srsue/src/phy/test/nr_cell_search_rf.cc
 
 srsue/src/phy/test/CMakeFiles/nr_cell_search_rf.dir/nr_cell_search_rf.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nr_cell_search_rf.dir/nr_cell_search_rf.cc.i"
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsue/src/phy/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/phy/test/nr_cell_search_rf.cc > CMakeFiles/nr_cell_search_rf.dir/nr_cell_search_rf.cc.i
+	cd /home/talha/srsRAN/build/srsue/src/phy/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/talha/srsRAN/srsue/src/phy/test/nr_cell_search_rf.cc > CMakeFiles/nr_cell_search_rf.dir/nr_cell_search_rf.cc.i
 
 srsue/src/phy/test/CMakeFiles/nr_cell_search_rf.dir/nr_cell_search_rf.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nr_cell_search_rf.dir/nr_cell_search_rf.cc.s"
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsue/src/phy/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/phy/test/nr_cell_search_rf.cc -o CMakeFiles/nr_cell_search_rf.dir/nr_cell_search_rf.cc.s
+	cd /home/talha/srsRAN/build/srsue/src/phy/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/talha/srsRAN/srsue/src/phy/test/nr_cell_search_rf.cc -o CMakeFiles/nr_cell_search_rf.dir/nr_cell_search_rf.cc.s
 
 # Object files for target nr_cell_search_rf
 nr_cell_search_rf_OBJECTS = \
@@ -89,14 +89,13 @@ srsue/src/phy/test/nr_cell_search_rf: lib/src/common/libsrsran_common.a
 srsue/src/phy/test/nr_cell_search_rf: lib/src/support/libsupport.a
 srsue/src/phy/test/nr_cell_search_rf: lib/src/srslog/libsrslog.a
 srsue/src/phy/test/nr_cell_search_rf: /usr/lib/x86_64-linux-gnu/libmbedcrypto.so
-srsue/src/phy/test/nr_cell_search_rf: /usr/lib/x86_64-linux-gnu/libsctp.so
 srsue/src/phy/test/nr_cell_search_rf: lib/src/phy/rf/libsrsran_rf.so.22.04.1
 srsue/src/phy/test/nr_cell_search_rf: lib/src/phy/rf/libsrsran_rf_utils.a
 srsue/src/phy/test/nr_cell_search_rf: lib/src/phy/libsrsran_phy.a
 srsue/src/phy/test/nr_cell_search_rf: /usr/lib/x86_64-linux-gnu/libfftw3f.so
 srsue/src/phy/test/nr_cell_search_rf: srsue/src/phy/test/CMakeFiles/nr_cell_search_rf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable nr_cell_search_rf"
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsue/src/phy/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/nr_cell_search_rf.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/talha/srsRAN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable nr_cell_search_rf"
+	cd /home/talha/srsRAN/build/srsue/src/phy/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/nr_cell_search_rf.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 srsue/src/phy/test/CMakeFiles/nr_cell_search_rf.dir/build: srsue/src/phy/test/nr_cell_search_rf
@@ -104,10 +103,10 @@ srsue/src/phy/test/CMakeFiles/nr_cell_search_rf.dir/build: srsue/src/phy/test/nr
 .PHONY : srsue/src/phy/test/CMakeFiles/nr_cell_search_rf.dir/build
 
 srsue/src/phy/test/CMakeFiles/nr_cell_search_rf.dir/clean:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsue/src/phy/test && $(CMAKE_COMMAND) -P CMakeFiles/nr_cell_search_rf.dir/cmake_clean.cmake
+	cd /home/talha/srsRAN/build/srsue/src/phy/test && $(CMAKE_COMMAND) -P CMakeFiles/nr_cell_search_rf.dir/cmake_clean.cmake
 .PHONY : srsue/src/phy/test/CMakeFiles/nr_cell_search_rf.dir/clean
 
 srsue/src/phy/test/CMakeFiles/nr_cell_search_rf.dir/depend:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/msudurip1/Documents/srsRAN_modified/srsRAN /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/phy/test /home/msudurip1/Documents/srsRAN_modified/srsRAN/build /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsue/src/phy/test /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsue/src/phy/test/CMakeFiles/nr_cell_search_rf.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/talha/srsRAN/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/talha/srsRAN /home/talha/srsRAN/srsue/src/phy/test /home/talha/srsRAN/build /home/talha/srsRAN/build/srsue/src/phy/test /home/talha/srsRAN/build/srsue/src/phy/test/CMakeFiles/nr_cell_search_rf.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : srsue/src/phy/test/CMakeFiles/nr_cell_search_rf.dir/depend
 

@@ -8,5 +8,5 @@ lib/src/phy/mimo/test/CMakeFiles/pmi_select_test.dir/pmi_select_test.c.o
  ../lib/include/srsran/phy/utils/debug.h
  ../lib/include/srsran/phy/utils/phy_logger.h
  ../lib/include/srsran/phy/utils/vector.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/mimo/test/pmi_select_test.c
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/mimo/test/pmi_select_test.h
+ /home/talha/srsRAN/lib/src/phy/mimo/test/pmi_select_test.c
+ /home/talha/srsRAN/lib/src/phy/mimo/test/pmi_select_test.h

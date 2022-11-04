@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/msudurip1/Documents/srsRAN_modified/srsRAN
+CMAKE_SOURCE_DIR = /home/talha/srsRAN
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/msudurip1/Documents/srsRAN_modified/srsRAN/build
+CMAKE_BINARY_DIR = /home/talha/srsRAN/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -105,7 +105,7 @@ test/fast: test
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/CPackSourceConfig.cmake
+	cd /home/talha/srsRAN/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/talha/srsRAN/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -149,7 +149,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/talha/srsRAN/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -159,14 +159,14 @@ package/fast: package
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/CMakeFiles /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsgnb/src/stack/mac/CMakeFiles/progress.marks
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsgnb/src/stack/mac/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/CMakeFiles 0
+	cd /home/talha/srsRAN/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/talha/srsRAN/build/CMakeFiles /home/talha/srsRAN/build/srsgnb/src/stack/mac/CMakeFiles/progress.marks
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsgnb/src/stack/mac/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/talha/srsRAN/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsgnb/src/stack/mac/clean
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsgnb/src/stack/mac/clean
 .PHONY : clean
 
 # The main clean target
@@ -176,22 +176,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: cmake_check_build_system
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsgnb/src/stack/mac/preinstall
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsgnb/src/stack/mac/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsgnb/src/stack/mac/preinstall
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsgnb/src/stack/mac/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/talha/srsRAN/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/rule:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/rule
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/rule
 .PHONY : srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/rule
 
 # Convenience name for target.
@@ -201,7 +201,7 @@ srsgnb_mac: srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/rule
 
 # fast build rule for target.
 srsgnb_mac/fast:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build
 .PHONY : srsgnb_mac/fast
 
 harq_softbuffer.o: harq_softbuffer.cc.o
@@ -210,7 +210,7 @@ harq_softbuffer.o: harq_softbuffer.cc.o
 
 # target to build an object file
 harq_softbuffer.cc.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/harq_softbuffer.cc.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/harq_softbuffer.cc.o
 .PHONY : harq_softbuffer.cc.o
 
 harq_softbuffer.i: harq_softbuffer.cc.i
@@ -219,7 +219,7 @@ harq_softbuffer.i: harq_softbuffer.cc.i
 
 # target to preprocess a source file
 harq_softbuffer.cc.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/harq_softbuffer.cc.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/harq_softbuffer.cc.i
 .PHONY : harq_softbuffer.cc.i
 
 harq_softbuffer.s: harq_softbuffer.cc.s
@@ -228,7 +228,7 @@ harq_softbuffer.s: harq_softbuffer.cc.s
 
 # target to generate assembly for a file
 harq_softbuffer.cc.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/harq_softbuffer.cc.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/harq_softbuffer.cc.s
 .PHONY : harq_softbuffer.cc.s
 
 mac_nr.o: mac_nr.cc.o
@@ -237,7 +237,7 @@ mac_nr.o: mac_nr.cc.o
 
 # target to build an object file
 mac_nr.cc.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/mac_nr.cc.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/mac_nr.cc.o
 .PHONY : mac_nr.cc.o
 
 mac_nr.i: mac_nr.cc.i
@@ -246,7 +246,7 @@ mac_nr.i: mac_nr.cc.i
 
 # target to preprocess a source file
 mac_nr.cc.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/mac_nr.cc.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/mac_nr.cc.i
 .PHONY : mac_nr.cc.i
 
 mac_nr.s: mac_nr.cc.s
@@ -255,7 +255,7 @@ mac_nr.s: mac_nr.cc.s
 
 # target to generate assembly for a file
 mac_nr.cc.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/mac_nr.cc.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/mac_nr.cc.s
 .PHONY : mac_nr.cc.s
 
 sched_nr.o: sched_nr.cc.o
@@ -264,7 +264,7 @@ sched_nr.o: sched_nr.cc.o
 
 # target to build an object file
 sched_nr.cc.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr.cc.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr.cc.o
 .PHONY : sched_nr.cc.o
 
 sched_nr.i: sched_nr.cc.i
@@ -273,7 +273,7 @@ sched_nr.i: sched_nr.cc.i
 
 # target to preprocess a source file
 sched_nr.cc.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr.cc.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr.cc.i
 .PHONY : sched_nr.cc.i
 
 sched_nr.s: sched_nr.cc.s
@@ -282,7 +282,7 @@ sched_nr.s: sched_nr.cc.s
 
 # target to generate assembly for a file
 sched_nr.cc.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr.cc.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr.cc.s
 .PHONY : sched_nr.cc.s
 
 sched_nr_bwp.o: sched_nr_bwp.cc.o
@@ -291,7 +291,7 @@ sched_nr_bwp.o: sched_nr_bwp.cc.o
 
 # target to build an object file
 sched_nr_bwp.cc.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_bwp.cc.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_bwp.cc.o
 .PHONY : sched_nr_bwp.cc.o
 
 sched_nr_bwp.i: sched_nr_bwp.cc.i
@@ -300,7 +300,7 @@ sched_nr_bwp.i: sched_nr_bwp.cc.i
 
 # target to preprocess a source file
 sched_nr_bwp.cc.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_bwp.cc.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_bwp.cc.i
 .PHONY : sched_nr_bwp.cc.i
 
 sched_nr_bwp.s: sched_nr_bwp.cc.s
@@ -309,7 +309,7 @@ sched_nr_bwp.s: sched_nr_bwp.cc.s
 
 # target to generate assembly for a file
 sched_nr_bwp.cc.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_bwp.cc.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_bwp.cc.s
 .PHONY : sched_nr_bwp.cc.s
 
 sched_nr_cfg.o: sched_nr_cfg.cc.o
@@ -318,7 +318,7 @@ sched_nr_cfg.o: sched_nr_cfg.cc.o
 
 # target to build an object file
 sched_nr_cfg.cc.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_cfg.cc.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_cfg.cc.o
 .PHONY : sched_nr_cfg.cc.o
 
 sched_nr_cfg.i: sched_nr_cfg.cc.i
@@ -327,7 +327,7 @@ sched_nr_cfg.i: sched_nr_cfg.cc.i
 
 # target to preprocess a source file
 sched_nr_cfg.cc.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_cfg.cc.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_cfg.cc.i
 .PHONY : sched_nr_cfg.cc.i
 
 sched_nr_cfg.s: sched_nr_cfg.cc.s
@@ -336,7 +336,7 @@ sched_nr_cfg.s: sched_nr_cfg.cc.s
 
 # target to generate assembly for a file
 sched_nr_cfg.cc.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_cfg.cc.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_cfg.cc.s
 .PHONY : sched_nr_cfg.cc.s
 
 sched_nr_grant_allocator.o: sched_nr_grant_allocator.cc.o
@@ -345,7 +345,7 @@ sched_nr_grant_allocator.o: sched_nr_grant_allocator.cc.o
 
 # target to build an object file
 sched_nr_grant_allocator.cc.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_grant_allocator.cc.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_grant_allocator.cc.o
 .PHONY : sched_nr_grant_allocator.cc.o
 
 sched_nr_grant_allocator.i: sched_nr_grant_allocator.cc.i
@@ -354,7 +354,7 @@ sched_nr_grant_allocator.i: sched_nr_grant_allocator.cc.i
 
 # target to preprocess a source file
 sched_nr_grant_allocator.cc.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_grant_allocator.cc.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_grant_allocator.cc.i
 .PHONY : sched_nr_grant_allocator.cc.i
 
 sched_nr_grant_allocator.s: sched_nr_grant_allocator.cc.s
@@ -363,7 +363,7 @@ sched_nr_grant_allocator.s: sched_nr_grant_allocator.cc.s
 
 # target to generate assembly for a file
 sched_nr_grant_allocator.cc.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_grant_allocator.cc.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_grant_allocator.cc.s
 .PHONY : sched_nr_grant_allocator.cc.s
 
 sched_nr_harq.o: sched_nr_harq.cc.o
@@ -372,7 +372,7 @@ sched_nr_harq.o: sched_nr_harq.cc.o
 
 # target to build an object file
 sched_nr_harq.cc.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_harq.cc.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_harq.cc.o
 .PHONY : sched_nr_harq.cc.o
 
 sched_nr_harq.i: sched_nr_harq.cc.i
@@ -381,7 +381,7 @@ sched_nr_harq.i: sched_nr_harq.cc.i
 
 # target to preprocess a source file
 sched_nr_harq.cc.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_harq.cc.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_harq.cc.i
 .PHONY : sched_nr_harq.cc.i
 
 sched_nr_harq.s: sched_nr_harq.cc.s
@@ -390,7 +390,7 @@ sched_nr_harq.s: sched_nr_harq.cc.s
 
 # target to generate assembly for a file
 sched_nr_harq.cc.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_harq.cc.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_harq.cc.s
 .PHONY : sched_nr_harq.cc.s
 
 sched_nr_helpers.o: sched_nr_helpers.cc.o
@@ -399,7 +399,7 @@ sched_nr_helpers.o: sched_nr_helpers.cc.o
 
 # target to build an object file
 sched_nr_helpers.cc.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_helpers.cc.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_helpers.cc.o
 .PHONY : sched_nr_helpers.cc.o
 
 sched_nr_helpers.i: sched_nr_helpers.cc.i
@@ -408,7 +408,7 @@ sched_nr_helpers.i: sched_nr_helpers.cc.i
 
 # target to preprocess a source file
 sched_nr_helpers.cc.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_helpers.cc.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_helpers.cc.i
 .PHONY : sched_nr_helpers.cc.i
 
 sched_nr_helpers.s: sched_nr_helpers.cc.s
@@ -417,7 +417,7 @@ sched_nr_helpers.s: sched_nr_helpers.cc.s
 
 # target to generate assembly for a file
 sched_nr_helpers.cc.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_helpers.cc.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_helpers.cc.s
 .PHONY : sched_nr_helpers.cc.s
 
 sched_nr_interface_utils.o: sched_nr_interface_utils.cc.o
@@ -426,7 +426,7 @@ sched_nr_interface_utils.o: sched_nr_interface_utils.cc.o
 
 # target to build an object file
 sched_nr_interface_utils.cc.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_interface_utils.cc.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_interface_utils.cc.o
 .PHONY : sched_nr_interface_utils.cc.o
 
 sched_nr_interface_utils.i: sched_nr_interface_utils.cc.i
@@ -435,7 +435,7 @@ sched_nr_interface_utils.i: sched_nr_interface_utils.cc.i
 
 # target to preprocess a source file
 sched_nr_interface_utils.cc.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_interface_utils.cc.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_interface_utils.cc.i
 .PHONY : sched_nr_interface_utils.cc.i
 
 sched_nr_interface_utils.s: sched_nr_interface_utils.cc.s
@@ -444,7 +444,7 @@ sched_nr_interface_utils.s: sched_nr_interface_utils.cc.s
 
 # target to generate assembly for a file
 sched_nr_interface_utils.cc.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_interface_utils.cc.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_interface_utils.cc.s
 .PHONY : sched_nr_interface_utils.cc.s
 
 sched_nr_pdcch.o: sched_nr_pdcch.cc.o
@@ -453,7 +453,7 @@ sched_nr_pdcch.o: sched_nr_pdcch.cc.o
 
 # target to build an object file
 sched_nr_pdcch.cc.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_pdcch.cc.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_pdcch.cc.o
 .PHONY : sched_nr_pdcch.cc.o
 
 sched_nr_pdcch.i: sched_nr_pdcch.cc.i
@@ -462,7 +462,7 @@ sched_nr_pdcch.i: sched_nr_pdcch.cc.i
 
 # target to preprocess a source file
 sched_nr_pdcch.cc.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_pdcch.cc.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_pdcch.cc.i
 .PHONY : sched_nr_pdcch.cc.i
 
 sched_nr_pdcch.s: sched_nr_pdcch.cc.s
@@ -471,7 +471,7 @@ sched_nr_pdcch.s: sched_nr_pdcch.cc.s
 
 # target to generate assembly for a file
 sched_nr_pdcch.cc.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_pdcch.cc.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_pdcch.cc.s
 .PHONY : sched_nr_pdcch.cc.s
 
 sched_nr_rb.o: sched_nr_rb.cc.o
@@ -480,7 +480,7 @@ sched_nr_rb.o: sched_nr_rb.cc.o
 
 # target to build an object file
 sched_nr_rb.cc.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_rb.cc.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_rb.cc.o
 .PHONY : sched_nr_rb.cc.o
 
 sched_nr_rb.i: sched_nr_rb.cc.i
@@ -489,7 +489,7 @@ sched_nr_rb.i: sched_nr_rb.cc.i
 
 # target to preprocess a source file
 sched_nr_rb.cc.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_rb.cc.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_rb.cc.i
 .PHONY : sched_nr_rb.cc.i
 
 sched_nr_rb.s: sched_nr_rb.cc.s
@@ -498,7 +498,7 @@ sched_nr_rb.s: sched_nr_rb.cc.s
 
 # target to generate assembly for a file
 sched_nr_rb.cc.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_rb.cc.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_rb.cc.s
 .PHONY : sched_nr_rb.cc.s
 
 sched_nr_sch.o: sched_nr_sch.cc.o
@@ -507,7 +507,7 @@ sched_nr_sch.o: sched_nr_sch.cc.o
 
 # target to build an object file
 sched_nr_sch.cc.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_sch.cc.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_sch.cc.o
 .PHONY : sched_nr_sch.cc.o
 
 sched_nr_sch.i: sched_nr_sch.cc.i
@@ -516,7 +516,7 @@ sched_nr_sch.i: sched_nr_sch.cc.i
 
 # target to preprocess a source file
 sched_nr_sch.cc.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_sch.cc.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_sch.cc.i
 .PHONY : sched_nr_sch.cc.i
 
 sched_nr_sch.s: sched_nr_sch.cc.s
@@ -525,7 +525,7 @@ sched_nr_sch.s: sched_nr_sch.cc.s
 
 # target to generate assembly for a file
 sched_nr_sch.cc.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_sch.cc.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_sch.cc.s
 .PHONY : sched_nr_sch.cc.s
 
 sched_nr_signalling.o: sched_nr_signalling.cc.o
@@ -534,7 +534,7 @@ sched_nr_signalling.o: sched_nr_signalling.cc.o
 
 # target to build an object file
 sched_nr_signalling.cc.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_signalling.cc.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_signalling.cc.o
 .PHONY : sched_nr_signalling.cc.o
 
 sched_nr_signalling.i: sched_nr_signalling.cc.i
@@ -543,7 +543,7 @@ sched_nr_signalling.i: sched_nr_signalling.cc.i
 
 # target to preprocess a source file
 sched_nr_signalling.cc.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_signalling.cc.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_signalling.cc.i
 .PHONY : sched_nr_signalling.cc.i
 
 sched_nr_signalling.s: sched_nr_signalling.cc.s
@@ -552,7 +552,7 @@ sched_nr_signalling.s: sched_nr_signalling.cc.s
 
 # target to generate assembly for a file
 sched_nr_signalling.cc.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_signalling.cc.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_signalling.cc.s
 .PHONY : sched_nr_signalling.cc.s
 
 sched_nr_time_rr.o: sched_nr_time_rr.cc.o
@@ -561,7 +561,7 @@ sched_nr_time_rr.o: sched_nr_time_rr.cc.o
 
 # target to build an object file
 sched_nr_time_rr.cc.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_time_rr.cc.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_time_rr.cc.o
 .PHONY : sched_nr_time_rr.cc.o
 
 sched_nr_time_rr.i: sched_nr_time_rr.cc.i
@@ -570,7 +570,7 @@ sched_nr_time_rr.i: sched_nr_time_rr.cc.i
 
 # target to preprocess a source file
 sched_nr_time_rr.cc.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_time_rr.cc.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_time_rr.cc.i
 .PHONY : sched_nr_time_rr.cc.i
 
 sched_nr_time_rr.s: sched_nr_time_rr.cc.s
@@ -579,7 +579,7 @@ sched_nr_time_rr.s: sched_nr_time_rr.cc.s
 
 # target to generate assembly for a file
 sched_nr_time_rr.cc.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_time_rr.cc.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_time_rr.cc.s
 .PHONY : sched_nr_time_rr.cc.s
 
 sched_nr_ue.o: sched_nr_ue.cc.o
@@ -588,7 +588,7 @@ sched_nr_ue.o: sched_nr_ue.cc.o
 
 # target to build an object file
 sched_nr_ue.cc.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_ue.cc.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_ue.cc.o
 .PHONY : sched_nr_ue.cc.o
 
 sched_nr_ue.i: sched_nr_ue.cc.i
@@ -597,7 +597,7 @@ sched_nr_ue.i: sched_nr_ue.cc.i
 
 # target to preprocess a source file
 sched_nr_ue.cc.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_ue.cc.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_ue.cc.i
 .PHONY : sched_nr_ue.cc.i
 
 sched_nr_ue.s: sched_nr_ue.cc.s
@@ -606,7 +606,7 @@ sched_nr_ue.s: sched_nr_ue.cc.s
 
 # target to generate assembly for a file
 sched_nr_ue.cc.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_ue.cc.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_ue.cc.s
 .PHONY : sched_nr_ue.cc.s
 
 sched_nr_worker.o: sched_nr_worker.cc.o
@@ -615,7 +615,7 @@ sched_nr_worker.o: sched_nr_worker.cc.o
 
 # target to build an object file
 sched_nr_worker.cc.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_worker.cc.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_worker.cc.o
 .PHONY : sched_nr_worker.cc.o
 
 sched_nr_worker.i: sched_nr_worker.cc.i
@@ -624,7 +624,7 @@ sched_nr_worker.i: sched_nr_worker.cc.i
 
 # target to preprocess a source file
 sched_nr_worker.cc.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_worker.cc.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_worker.cc.i
 .PHONY : sched_nr_worker.cc.i
 
 sched_nr_worker.s: sched_nr_worker.cc.s
@@ -633,7 +633,7 @@ sched_nr_worker.s: sched_nr_worker.cc.s
 
 # target to generate assembly for a file
 sched_nr_worker.cc.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_worker.cc.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_worker.cc.s
 .PHONY : sched_nr_worker.cc.s
 
 sched_ue/ue_cfg_manager.o: sched_ue/ue_cfg_manager.cc.o
@@ -642,7 +642,7 @@ sched_ue/ue_cfg_manager.o: sched_ue/ue_cfg_manager.cc.o
 
 # target to build an object file
 sched_ue/ue_cfg_manager.cc.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_ue/ue_cfg_manager.cc.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_ue/ue_cfg_manager.cc.o
 .PHONY : sched_ue/ue_cfg_manager.cc.o
 
 sched_ue/ue_cfg_manager.i: sched_ue/ue_cfg_manager.cc.i
@@ -651,7 +651,7 @@ sched_ue/ue_cfg_manager.i: sched_ue/ue_cfg_manager.cc.i
 
 # target to preprocess a source file
 sched_ue/ue_cfg_manager.cc.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_ue/ue_cfg_manager.cc.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_ue/ue_cfg_manager.cc.i
 .PHONY : sched_ue/ue_cfg_manager.cc.i
 
 sched_ue/ue_cfg_manager.s: sched_ue/ue_cfg_manager.cc.s
@@ -660,7 +660,7 @@ sched_ue/ue_cfg_manager.s: sched_ue/ue_cfg_manager.cc.s
 
 # target to generate assembly for a file
 sched_ue/ue_cfg_manager.cc.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_ue/ue_cfg_manager.cc.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_ue/ue_cfg_manager.cc.s
 .PHONY : sched_ue/ue_cfg_manager.cc.s
 
 ue_nr.o: ue_nr.cc.o
@@ -669,7 +669,7 @@ ue_nr.o: ue_nr.cc.o
 
 # target to build an object file
 ue_nr.cc.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/ue_nr.cc.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/ue_nr.cc.o
 .PHONY : ue_nr.cc.o
 
 ue_nr.i: ue_nr.cc.i
@@ -678,7 +678,7 @@ ue_nr.i: ue_nr.cc.i
 
 # target to preprocess a source file
 ue_nr.cc.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/ue_nr.cc.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/ue_nr.cc.i
 .PHONY : ue_nr.cc.i
 
 ue_nr.s: ue_nr.cc.s
@@ -687,7 +687,7 @@ ue_nr.s: ue_nr.cc.s
 
 # target to generate assembly for a file
 ue_nr.cc.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/ue_nr.cc.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/build.make srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/ue_nr.cc.s
 .PHONY : ue_nr.cc.s
 
 # Help Target
@@ -771,6 +771,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/talha/srsRAN/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

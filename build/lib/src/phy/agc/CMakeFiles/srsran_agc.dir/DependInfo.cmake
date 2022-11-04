@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/agc/agc.c" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/agc/CMakeFiles/srsran_agc.dir/agc.c.o"
+  "/home/talha/srsRAN/lib/src/phy/agc/agc.c" "/home/talha/srsRAN/build/lib/src/phy/agc/CMakeFiles/srsran_agc.dir/agc.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

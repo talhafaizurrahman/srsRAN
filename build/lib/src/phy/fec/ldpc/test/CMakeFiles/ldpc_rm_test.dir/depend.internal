@@ -12,4 +12,4 @@ lib/src/phy/fec/ldpc/test/CMakeFiles/ldpc_rm_test.dir/ldpc_rm_test.c.o
  ../lib/include/srsran/phy/utils/phy_logger.h
  ../lib/include/srsran/phy/utils/random.h
  ../lib/include/srsran/phy/utils/vector.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/fec/ldpc/test/ldpc_rm_test.c
+ /home/talha/srsRAN/lib/src/phy/fec/ldpc/test/ldpc_rm_test.c

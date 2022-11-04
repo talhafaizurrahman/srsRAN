@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsenb/src/stack/mac/schedulers/sched_base.cc" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsenb/src/stack/mac/schedulers/CMakeFiles/mac_schedulers.dir/sched_base.cc.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsenb/src/stack/mac/schedulers/sched_time_pf.cc" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsenb/src/stack/mac/schedulers/CMakeFiles/mac_schedulers.dir/sched_time_pf.cc.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsenb/src/stack/mac/schedulers/sched_time_rr.cc" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsenb/src/stack/mac/schedulers/CMakeFiles/mac_schedulers.dir/sched_time_rr.cc.o"
+  "/home/talha/srsRAN/srsenb/src/stack/mac/schedulers/sched_base.cc" "/home/talha/srsRAN/build/srsenb/src/stack/mac/schedulers/CMakeFiles/mac_schedulers.dir/sched_base.cc.o"
+  "/home/talha/srsRAN/srsenb/src/stack/mac/schedulers/sched_time_pf.cc" "/home/talha/srsRAN/build/srsenb/src/stack/mac/schedulers/CMakeFiles/mac_schedulers.dir/sched_time_pf.cc.o"
+  "/home/talha/srsRAN/srsenb/src/stack/mac/schedulers/sched_time_rr.cc" "/home/talha/srsRAN/build/srsenb/src/stack/mac/schedulers/CMakeFiles/mac_schedulers.dir/sched_time_rr.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

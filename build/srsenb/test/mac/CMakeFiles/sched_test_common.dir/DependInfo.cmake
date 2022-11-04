@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsenb/test/mac/sched_common_test_suite.cc" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsenb/test/mac/CMakeFiles/sched_test_common.dir/sched_common_test_suite.cc.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsenb/test/mac/sched_sim_ue.cc" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsenb/test/mac/CMakeFiles/sched_test_common.dir/sched_sim_ue.cc.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsenb/test/mac/sched_test_common.cc" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsenb/test/mac/CMakeFiles/sched_test_common.dir/sched_test_common.cc.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsenb/test/mac/sched_ue_ded_test_suite.cc" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsenb/test/mac/CMakeFiles/sched_test_common.dir/sched_ue_ded_test_suite.cc.o"
+  "/home/talha/srsRAN/srsenb/test/mac/sched_common_test_suite.cc" "/home/talha/srsRAN/build/srsenb/test/mac/CMakeFiles/sched_test_common.dir/sched_common_test_suite.cc.o"
+  "/home/talha/srsRAN/srsenb/test/mac/sched_sim_ue.cc" "/home/talha/srsRAN/build/srsenb/test/mac/CMakeFiles/sched_test_common.dir/sched_sim_ue.cc.o"
+  "/home/talha/srsRAN/srsenb/test/mac/sched_test_common.cc" "/home/talha/srsRAN/build/srsenb/test/mac/CMakeFiles/sched_test_common.dir/sched_test_common.cc.o"
+  "/home/talha/srsRAN/srsenb/test/mac/sched_ue_ded_test_suite.cc" "/home/talha/srsRAN/build/srsenb/test/mac/CMakeFiles/sched_test_common.dir/sched_ue_ded_test_suite.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -28,13 +28,13 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/common/CMakeFiles/srsran_common.dir/DependInfo.cmake"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/mac/CMakeFiles/srsran_mac.dir/DependInfo.cmake"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsenb/src/stack/mac/CMakeFiles/srsenb_mac.dir/DependInfo.cmake"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/CMakeFiles/srsran_phy.dir/DependInfo.cmake"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/support/CMakeFiles/support.dir/DependInfo.cmake"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/srslog/CMakeFiles/srslog.dir/DependInfo.cmake"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsenb/src/stack/mac/common/CMakeFiles/srsenb_mac_common.dir/DependInfo.cmake"
+  "/home/talha/srsRAN/build/lib/src/common/CMakeFiles/srsran_common.dir/DependInfo.cmake"
+  "/home/talha/srsRAN/build/lib/src/mac/CMakeFiles/srsran_mac.dir/DependInfo.cmake"
+  "/home/talha/srsRAN/build/srsenb/src/stack/mac/CMakeFiles/srsenb_mac.dir/DependInfo.cmake"
+  "/home/talha/srsRAN/build/lib/src/phy/CMakeFiles/srsran_phy.dir/DependInfo.cmake"
+  "/home/talha/srsRAN/build/lib/src/support/CMakeFiles/support.dir/DependInfo.cmake"
+  "/home/talha/srsRAN/build/lib/src/srslog/CMakeFiles/srslog.dir/DependInfo.cmake"
+  "/home/talha/srsRAN/build/srsenb/src/stack/mac/common/CMakeFiles/srsenb_mac_common.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

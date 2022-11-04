@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/msudurip1/Documents/srsRAN_modified/srsRAN
+CMAKE_SOURCE_DIR = /home/talha/srsRAN
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/msudurip1/Documents/srsRAN_modified/srsRAN/build
+CMAKE_BINARY_DIR = /home/talha/srsRAN/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -138,7 +138,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/talha/srsRAN/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -149,7 +149,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/CPackSourceConfig.cmake
+	cd /home/talha/srsRAN/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/talha/srsRAN/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -159,14 +159,14 @@ package_source/fast: package_source
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/CMakeFiles /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsenb/src/stack/mac/common/CMakeFiles/progress.marks
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsenb/src/stack/mac/common/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/CMakeFiles 0
+	cd /home/talha/srsRAN/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/talha/srsRAN/build/CMakeFiles /home/talha/srsRAN/build/srsenb/src/stack/mac/common/CMakeFiles/progress.marks
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsenb/src/stack/mac/common/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/talha/srsRAN/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsenb/src/stack/mac/common/clean
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsenb/src/stack/mac/common/clean
 .PHONY : clean
 
 # The main clean target
@@ -176,22 +176,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: cmake_check_build_system
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsenb/src/stack/mac/common/preinstall
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsenb/src/stack/mac/common/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsenb/src/stack/mac/common/preinstall
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsenb/src/stack/mac/common/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/talha/srsRAN/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 srsenb/src/stack/mac/common/CMakeFiles/srsenb_mac_common.dir/rule:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsenb/src/stack/mac/common/CMakeFiles/srsenb_mac_common.dir/rule
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsenb/src/stack/mac/common/CMakeFiles/srsenb_mac_common.dir/rule
 .PHONY : srsenb/src/stack/mac/common/CMakeFiles/srsenb_mac_common.dir/rule
 
 # Convenience name for target.
@@ -201,7 +201,7 @@ srsenb_mac_common: srsenb/src/stack/mac/common/CMakeFiles/srsenb_mac_common.dir/
 
 # fast build rule for target.
 srsenb_mac_common/fast:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/src/stack/mac/common/CMakeFiles/srsenb_mac_common.dir/build.make srsenb/src/stack/mac/common/CMakeFiles/srsenb_mac_common.dir/build
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/src/stack/mac/common/CMakeFiles/srsenb_mac_common.dir/build.make srsenb/src/stack/mac/common/CMakeFiles/srsenb_mac_common.dir/build
 .PHONY : srsenb_mac_common/fast
 
 base_ue_buffer_manager.o: base_ue_buffer_manager.cc.o
@@ -210,7 +210,7 @@ base_ue_buffer_manager.o: base_ue_buffer_manager.cc.o
 
 # target to build an object file
 base_ue_buffer_manager.cc.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/src/stack/mac/common/CMakeFiles/srsenb_mac_common.dir/build.make srsenb/src/stack/mac/common/CMakeFiles/srsenb_mac_common.dir/base_ue_buffer_manager.cc.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/src/stack/mac/common/CMakeFiles/srsenb_mac_common.dir/build.make srsenb/src/stack/mac/common/CMakeFiles/srsenb_mac_common.dir/base_ue_buffer_manager.cc.o
 .PHONY : base_ue_buffer_manager.cc.o
 
 base_ue_buffer_manager.i: base_ue_buffer_manager.cc.i
@@ -219,7 +219,7 @@ base_ue_buffer_manager.i: base_ue_buffer_manager.cc.i
 
 # target to preprocess a source file
 base_ue_buffer_manager.cc.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/src/stack/mac/common/CMakeFiles/srsenb_mac_common.dir/build.make srsenb/src/stack/mac/common/CMakeFiles/srsenb_mac_common.dir/base_ue_buffer_manager.cc.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/src/stack/mac/common/CMakeFiles/srsenb_mac_common.dir/build.make srsenb/src/stack/mac/common/CMakeFiles/srsenb_mac_common.dir/base_ue_buffer_manager.cc.i
 .PHONY : base_ue_buffer_manager.cc.i
 
 base_ue_buffer_manager.s: base_ue_buffer_manager.cc.s
@@ -228,7 +228,7 @@ base_ue_buffer_manager.s: base_ue_buffer_manager.cc.s
 
 # target to generate assembly for a file
 base_ue_buffer_manager.cc.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/src/stack/mac/common/CMakeFiles/srsenb_mac_common.dir/build.make srsenb/src/stack/mac/common/CMakeFiles/srsenb_mac_common.dir/base_ue_buffer_manager.cc.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/src/stack/mac/common/CMakeFiles/srsenb_mac_common.dir/build.make srsenb/src/stack/mac/common/CMakeFiles/srsenb_mac_common.dir/base_ue_buffer_manager.cc.s
 .PHONY : base_ue_buffer_manager.cc.s
 
 # Help Target
@@ -261,6 +261,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/talha/srsRAN/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -234,7 +234,7 @@ map
 mutex
 -
 
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/stack/mac_common/mac_common.cc
+/home/talha/srsRAN/srsue/src/stack/mac_common/mac_common.cc
 srsue/hdr/stack/mac_common/mac_common.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/stack/mac_common/srsue/hdr/stack/mac_common/mac_common.h
+/home/talha/srsRAN/srsue/src/stack/mac_common/srsue/hdr/stack/mac_common/mac_common.h
 

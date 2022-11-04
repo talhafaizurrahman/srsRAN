@@ -63,4 +63,4 @@ lib/test/phy/CMakeFiles/phy_dl_nr_test.dir/phy_dl_nr_test.c.o
  ../lib/include/srsran/phy/utils/random.h
  ../lib/include/srsran/phy/utils/re_pattern.h
  ../lib/include/srsran/phy/utils/vector.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/test/phy/phy_dl_nr_test.c
+ /home/talha/srsRAN/lib/test/phy/phy_dl_nr_test.c

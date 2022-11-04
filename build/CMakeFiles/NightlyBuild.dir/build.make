@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/msudurip1/Documents/srsRAN_modified/srsRAN
+CMAKE_SOURCE_DIR = /home/talha/srsRAN
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/msudurip1/Documents/srsRAN_modified/srsRAN/build
+CMAKE_BINARY_DIR = /home/talha/srsRAN/build
 
 # Utility rule file for NightlyBuild.
 
@@ -71,6 +71,6 @@ CMakeFiles/NightlyBuild.dir/clean:
 .PHONY : CMakeFiles/NightlyBuild.dir/clean
 
 CMakeFiles/NightlyBuild.dir/depend:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/msudurip1/Documents/srsRAN_modified/srsRAN /home/msudurip1/Documents/srsRAN_modified/srsRAN /home/msudurip1/Documents/srsRAN_modified/srsRAN/build /home/msudurip1/Documents/srsRAN_modified/srsRAN/build /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/CMakeFiles/NightlyBuild.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/talha/srsRAN/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/talha/srsRAN /home/talha/srsRAN /home/talha/srsRAN/build /home/talha/srsRAN/build /home/talha/srsRAN/build/CMakeFiles/NightlyBuild.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/NightlyBuild.dir/depend
 

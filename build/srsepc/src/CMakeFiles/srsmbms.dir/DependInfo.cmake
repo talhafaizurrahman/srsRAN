@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsepc/src/mbms-gw/main.cc" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsepc/src/CMakeFiles/srsmbms.dir/mbms-gw/main.cc.o"
+  "/home/talha/srsRAN/srsepc/src/mbms-gw/main.cc" "/home/talha/srsRAN/build/srsepc/src/CMakeFiles/srsmbms.dir/mbms-gw/main.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -28,13 +28,13 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsepc/src/mbms-gw/CMakeFiles/srsepc_mbms_gw.dir/DependInfo.cmake"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/asn1/CMakeFiles/srsran_asn1.dir/DependInfo.cmake"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/gtpu/CMakeFiles/srsran_gtpu.dir/DependInfo.cmake"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/common/CMakeFiles/srsran_common.dir/DependInfo.cmake"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/srslog/CMakeFiles/srslog.dir/DependInfo.cmake"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/CMakeFiles/srsran_phy.dir/DependInfo.cmake"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/support/CMakeFiles/support.dir/DependInfo.cmake"
+  "/home/talha/srsRAN/build/srsepc/src/mbms-gw/CMakeFiles/srsepc_mbms_gw.dir/DependInfo.cmake"
+  "/home/talha/srsRAN/build/lib/src/asn1/CMakeFiles/srsran_asn1.dir/DependInfo.cmake"
+  "/home/talha/srsRAN/build/lib/src/gtpu/CMakeFiles/srsran_gtpu.dir/DependInfo.cmake"
+  "/home/talha/srsRAN/build/lib/src/common/CMakeFiles/srsran_common.dir/DependInfo.cmake"
+  "/home/talha/srsRAN/build/lib/src/srslog/CMakeFiles/srslog.dir/DependInfo.cmake"
+  "/home/talha/srsRAN/build/lib/src/phy/CMakeFiles/srsran_phy.dir/DependInfo.cmake"
+  "/home/talha/srsRAN/build/lib/src/support/CMakeFiles/support.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

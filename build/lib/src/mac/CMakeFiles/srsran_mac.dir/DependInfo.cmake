@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/mac/mac_rar_pdu_nr.cc" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/mac/CMakeFiles/srsran_mac.dir/mac_rar_pdu_nr.cc.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/mac/mac_sch_pdu_nr.cc" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/mac/CMakeFiles/srsran_mac.dir/mac_sch_pdu_nr.cc.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/mac/pdu.cc" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/mac/CMakeFiles/srsran_mac.dir/pdu.cc.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/mac/pdu_queue.cc" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/mac/CMakeFiles/srsran_mac.dir/pdu_queue.cc.o"
+  "/home/talha/srsRAN/lib/src/mac/mac_rar_pdu_nr.cc" "/home/talha/srsRAN/build/lib/src/mac/CMakeFiles/srsran_mac.dir/mac_rar_pdu_nr.cc.o"
+  "/home/talha/srsRAN/lib/src/mac/mac_sch_pdu_nr.cc" "/home/talha/srsRAN/build/lib/src/mac/CMakeFiles/srsran_mac.dir/mac_sch_pdu_nr.cc.o"
+  "/home/talha/srsRAN/lib/src/mac/pdu.cc" "/home/talha/srsRAN/build/lib/src/mac/CMakeFiles/srsran_mac.dir/pdu.cc.o"
+  "/home/talha/srsRAN/lib/src/mac/pdu_queue.cc" "/home/talha/srsRAN/build/lib/src/mac/CMakeFiles/srsran_mac.dir/pdu_queue.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -28,10 +28,10 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/common/CMakeFiles/srsran_common.dir/DependInfo.cmake"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/CMakeFiles/srsran_phy.dir/DependInfo.cmake"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/support/CMakeFiles/support.dir/DependInfo.cmake"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/srslog/CMakeFiles/srslog.dir/DependInfo.cmake"
+  "/home/talha/srsRAN/build/lib/src/common/CMakeFiles/srsran_common.dir/DependInfo.cmake"
+  "/home/talha/srsRAN/build/lib/src/phy/CMakeFiles/srsran_phy.dir/DependInfo.cmake"
+  "/home/talha/srsRAN/build/lib/src/support/CMakeFiles/support.dir/DependInfo.cmake"
+  "/home/talha/srsRAN/build/lib/src/srslog/CMakeFiles/srslog.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

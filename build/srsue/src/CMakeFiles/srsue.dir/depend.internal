@@ -229,7 +229,7 @@ srsue/src/CMakeFiles/srsue.dir/main.cc.o
  ../srsue/hdr/stack/upper/usim_base.h
  ../srsue/hdr/ue.h
  ../srsue/hdr/ue_metrics_interface.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/main.cc
+ /home/talha/srsRAN/srsue/src/main.cc
  lib/include/srsran/version.h
 srsue/src/CMakeFiles/srsue.dir/metrics_csv.cc.o
  ../lib/include/srsran/common/common.h
@@ -401,7 +401,7 @@ srsue/src/CMakeFiles/srsue.dir/metrics_csv.cc.o
  ../srsue/hdr/stack/upper/nas_emm_state.h
  ../srsue/hdr/stack/upper/nas_metrics.h
  ../srsue/hdr/ue_metrics_interface.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/metrics_csv.cc
+ /home/talha/srsRAN/srsue/src/metrics_csv.cc
  lib/include/srsran/version.h
 srsue/src/CMakeFiles/srsue.dir/metrics_json.cc.o
  ../lib/include/srsran/common/common.h
@@ -573,7 +573,7 @@ srsue/src/CMakeFiles/srsue.dir/metrics_json.cc.o
  ../srsue/hdr/stack/upper/nas_emm_state.h
  ../srsue/hdr/stack/upper/nas_metrics.h
  ../srsue/hdr/ue_metrics_interface.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/metrics_json.cc
+ /home/talha/srsRAN/srsue/src/metrics_json.cc
  lib/include/srsran/version.h
 srsue/src/CMakeFiles/srsue.dir/metrics_stdout.cc.o
  ../lib/include/srsran/common/common.h
@@ -745,7 +745,7 @@ srsue/src/CMakeFiles/srsue.dir/metrics_stdout.cc.o
  ../srsue/hdr/stack/upper/nas_emm_state.h
  ../srsue/hdr/stack/upper/nas_metrics.h
  ../srsue/hdr/ue_metrics_interface.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/metrics_stdout.cc
+ /home/talha/srsRAN/srsue/src/metrics_stdout.cc
  lib/include/srsran/version.h
 srsue/src/CMakeFiles/srsue.dir/ue.cc.o
  ../lib/include/srsran/adt/accumulators.h
@@ -1097,6 +1097,6 @@ srsue/src/CMakeFiles/srsue.dir/ue.cc.o
  ../srsue/hdr/stack/upper/usim_base.h
  ../srsue/hdr/ue.h
  ../srsue/hdr/ue_metrics_interface.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/ue.cc
+ /home/talha/srsRAN/srsue/src/ue.cc
  lib/include/srsran/build_info.h
  lib/include/srsran/version.h

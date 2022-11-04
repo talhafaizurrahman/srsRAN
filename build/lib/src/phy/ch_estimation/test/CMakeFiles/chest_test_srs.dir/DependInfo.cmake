@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/ch_estimation/test/chest_test_srs.c" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/ch_estimation/test/CMakeFiles/chest_test_srs.dir/chest_test_srs.c.o"
+  "/home/talha/srsRAN/lib/src/phy/ch_estimation/test/chest_test_srs.c" "/home/talha/srsRAN/build/lib/src/phy/ch_estimation/test/CMakeFiles/chest_test_srs.dir/chest_test_srs.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -25,10 +25,10 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/CMakeFiles/srsran_phy.dir/DependInfo.cmake"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/common/CMakeFiles/srsran_common.dir/DependInfo.cmake"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/support/CMakeFiles/support.dir/DependInfo.cmake"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/srslog/CMakeFiles/srslog.dir/DependInfo.cmake"
+  "/home/talha/srsRAN/build/lib/src/phy/CMakeFiles/srsran_phy.dir/DependInfo.cmake"
+  "/home/talha/srsRAN/build/lib/src/common/CMakeFiles/srsran_common.dir/DependInfo.cmake"
+  "/home/talha/srsRAN/build/lib/src/support/CMakeFiles/support.dir/DependInfo.cmake"
+  "/home/talha/srsRAN/build/lib/src/srslog/CMakeFiles/srslog.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

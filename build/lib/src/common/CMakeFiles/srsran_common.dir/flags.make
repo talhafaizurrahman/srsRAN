@@ -7,13 +7,13 @@ C_FLAGS =  -march=native -Werror=incompatible-pointer-types -Wall -Wno-comment -
 
 C_DEFINES = -DASSERTS_ENABLED -DBACKWARD_HAS_BACKTRACE=0 -DBACKWARD_HAS_BACKTRACE_SYMBOL=1 -DBACKWARD_HAS_BFD=0 -DBACKWARD_HAS_DW=0 -DBACKWARD_HAS_DWARF=0 -DBACKWARD_HAS_LIBUNWIND=0 -DBACKWARD_HAS_UNWIND=1 -DENABLE_TIMEPROF -DHAVE_MBEDTLS
 
-C_INCLUDES = -I/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/include -I/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/include -I/home/msudurip1/Documents/srsRAN_modified/srsRAN -I/home/msudurip1/Documents/srsRAN_modified/srsRAN/cmake/modules 
+C_INCLUDES = -I/home/talha/srsRAN/build/lib/include -I/home/talha/srsRAN/lib/include -I/home/talha/srsRAN -I/home/talha/srsRAN/cmake/modules 
 
 CXX_FLAGS =  -Wall -Wno-comment -Wno-reorder -Wno-unused-variable -Wtype-limits -std=c++14 -fno-strict-aliasing -Wno-unused-but-set-variable -march=native -mfpmath=sse -mavx2 -DLV_HAVE_AVX2 -DLV_HAVE_AVX -DLV_HAVE_SSE -fvisibility=hidden -O3 -fno-trapping-math -fno-math-errno -DBUILD_TYPE_RELEASE -mavx512f -mavx512cd -mavx512bw -mavx512dq -DLV_HAVE_AVX512 -Werror -O3 -DNDEBUG -fPIC  
 
 CXX_DEFINES = -DASSERTS_ENABLED -DBACKWARD_HAS_BACKTRACE=0 -DBACKWARD_HAS_BACKTRACE_SYMBOL=1 -DBACKWARD_HAS_BFD=0 -DBACKWARD_HAS_DW=0 -DBACKWARD_HAS_DWARF=0 -DBACKWARD_HAS_LIBUNWIND=0 -DBACKWARD_HAS_UNWIND=1 -DENABLE_TIMEPROF -DHAVE_MBEDTLS
 
-CXX_INCLUDES = -I/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/include -I/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/include -I/home/msudurip1/Documents/srsRAN_modified/srsRAN -I/home/msudurip1/Documents/srsRAN_modified/srsRAN/cmake/modules 
+CXX_INCLUDES = -I/home/talha/srsRAN/build/lib/include -I/home/talha/srsRAN/lib/include -I/home/talha/srsRAN -I/home/talha/srsRAN/cmake/modules 
 
 # Custom flags: lib/src/common/CMakeFiles/srsran_common.dir/security.cc.o_FLAGS = -Wno-deprecated-declarations
 

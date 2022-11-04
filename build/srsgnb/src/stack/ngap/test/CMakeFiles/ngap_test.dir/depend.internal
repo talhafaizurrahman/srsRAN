@@ -67,4 +67,4 @@ srsgnb/src/stack/ngap/test/CMakeFiles/ngap_test.dir/ngap_test.cc.o
  ../srsenb/hdr/common/common_enb.h
  ../srsgnb/hdr/stack/ngap/ngap.h
  ../srsgnb/hdr/stack/ngap/ngap_metrics.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsgnb/src/stack/ngap/test/ngap_test.cc
+ /home/talha/srsRAN/srsgnb/src/stack/ngap/test/ngap_test.cc

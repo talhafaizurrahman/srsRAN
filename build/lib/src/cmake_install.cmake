@@ -1,4 +1,4 @@
-# Install script for directory: /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src
+# Install script for directory: /home/talha/srsRAN/lib/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,17 +39,17 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/asn1/cmake_install.cmake")
-  include("/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/common/cmake_install.cmake")
-  include("/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/mac/cmake_install.cmake")
-  include("/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/cmake_install.cmake")
-  include("/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/radio/cmake_install.cmake")
-  include("/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/rlc/cmake_install.cmake")
-  include("/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/pdcp/cmake_install.cmake")
-  include("/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/gtpu/cmake_install.cmake")
-  include("/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/srslog/cmake_install.cmake")
-  include("/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/support/cmake_install.cmake")
-  include("/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/system/cmake_install.cmake")
+  include("/home/talha/srsRAN/build/lib/src/asn1/cmake_install.cmake")
+  include("/home/talha/srsRAN/build/lib/src/common/cmake_install.cmake")
+  include("/home/talha/srsRAN/build/lib/src/mac/cmake_install.cmake")
+  include("/home/talha/srsRAN/build/lib/src/phy/cmake_install.cmake")
+  include("/home/talha/srsRAN/build/lib/src/radio/cmake_install.cmake")
+  include("/home/talha/srsRAN/build/lib/src/rlc/cmake_install.cmake")
+  include("/home/talha/srsRAN/build/lib/src/pdcp/cmake_install.cmake")
+  include("/home/talha/srsRAN/build/lib/src/gtpu/cmake_install.cmake")
+  include("/home/talha/srsRAN/build/lib/src/srslog/cmake_install.cmake")
+  include("/home/talha/srsRAN/build/lib/src/support/cmake_install.cmake")
+  include("/home/talha/srsRAN/build/lib/src/system/cmake_install.cmake")
 
 endif()
 

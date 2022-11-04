@@ -534,7 +534,7 @@ stdint.h
 stdio.h
 -
 
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/examples/usrp_capture_sync_nbiot.c
+/home/talha/srsRAN/lib/examples/usrp_capture_sync_nbiot.c
 math.h
 -
 signal.h
@@ -554,13 +554,13 @@ time.h
 unistd.h
 -
 srsran/phy/io/filesink.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/examples/srsran/phy/io/filesink.h
+/home/talha/srsRAN/lib/examples/srsran/phy/io/filesink.h
 srsran/phy/rf/rf.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/examples/srsran/phy/rf/rf.h
+/home/talha/srsRAN/lib/examples/srsran/phy/rf/rf.h
 srsran/phy/ue/ue_mib_nbiot.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/examples/srsran/phy/ue/ue_mib_nbiot.h
+/home/talha/srsRAN/lib/examples/srsran/phy/ue/ue_mib_nbiot.h
 srsran/phy/ue/ue_sync_nbiot.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/examples/srsran/phy/ue/ue_sync_nbiot.h
+/home/talha/srsRAN/lib/examples/srsran/phy/ue/ue_sync_nbiot.h
 srsran/phy/utils/debug.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/examples/srsran/phy/utils/debug.h
+/home/talha/srsRAN/lib/examples/srsran/phy/utils/debug.h
 

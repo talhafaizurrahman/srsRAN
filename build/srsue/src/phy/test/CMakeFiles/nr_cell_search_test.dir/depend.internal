@@ -198,5 +198,5 @@ srsue/src/phy/test/CMakeFiles/nr_cell_search_test.dir/nr_cell_search_test.cc.o
  ../lib/include/srsran/support/srsran_test.h
  ../srsue/hdr/phy/scell/intra_measure_base.h
  ../srsue/hdr/phy/scell/intra_measure_nr.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/phy/test/nr_cell_search_test.cc
+ /home/talha/srsRAN/srsue/src/phy/test/nr_cell_search_test.cc
  lib/include/srsran/version.h

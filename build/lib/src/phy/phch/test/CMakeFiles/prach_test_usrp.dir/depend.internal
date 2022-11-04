@@ -173,5 +173,5 @@ lib/src/phy/phch/test/CMakeFiles/prach_test_usrp.dir/prach_test_usrp.c.o
  ../lib/include/srsran/srsran.h
  ../lib/include/srsran/support/srsran_assert.h
  ../lib/include/srsran/support/srsran_test.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/phch/test/prach_test_usrp.c
+ /home/talha/srsRAN/lib/src/phy/phch/test/prach_test_usrp.c
  lib/include/srsran/version.h

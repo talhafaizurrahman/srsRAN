@@ -1,4 +1,4 @@
-# Install script for directory: /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsgnb/src/stack
+# Install script for directory: /home/talha/srsRAN/srsgnb/src/stack
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,10 +39,10 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsgnb/src/stack/mac/cmake_install.cmake")
-  include("/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsgnb/src/stack/ngap/cmake_install.cmake")
-  include("/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsgnb/src/stack/rrc/cmake_install.cmake")
-  include("/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsgnb/src/stack/sdap/cmake_install.cmake")
+  include("/home/talha/srsRAN/build/srsgnb/src/stack/mac/cmake_install.cmake")
+  include("/home/talha/srsRAN/build/srsgnb/src/stack/ngap/cmake_install.cmake")
+  include("/home/talha/srsRAN/build/srsgnb/src/stack/rrc/cmake_install.cmake")
+  include("/home/talha/srsRAN/build/srsgnb/src/stack/sdap/cmake_install.cmake")
 
 endif()
 

@@ -3248,19 +3248,19 @@ srsran/srslog/srslog.h
 mutex
 -
 
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsgnb/src/stack/gnb_stack_nr.cc
+/home/talha/srsRAN/srsgnb/src/stack/gnb_stack_nr.cc
 srsgnb/hdr/stack/gnb_stack_nr.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsgnb/src/stack/srsgnb/hdr/stack/gnb_stack_nr.h
+/home/talha/srsRAN/srsgnb/src/stack/srsgnb/hdr/stack/gnb_stack_nr.h
 srsenb/hdr/stack/upper/gtpu.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsgnb/src/stack/srsenb/hdr/stack/upper/gtpu.h
+/home/talha/srsRAN/srsgnb/src/stack/srsenb/hdr/stack/upper/gtpu.h
 srsenb/hdr/stack/upper/gtpu_pdcp_adapter.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsgnb/src/stack/srsenb/hdr/stack/upper/gtpu_pdcp_adapter.h
+/home/talha/srsRAN/srsgnb/src/stack/srsenb/hdr/stack/upper/gtpu_pdcp_adapter.h
 srsgnb/hdr/stack/ngap/ngap.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsgnb/src/stack/srsgnb/hdr/stack/ngap/ngap.h
+/home/talha/srsRAN/srsgnb/src/stack/srsgnb/hdr/stack/ngap/ngap.h
 srsran/common/network_utils.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsgnb/src/stack/srsran/common/network_utils.h
+/home/talha/srsRAN/srsgnb/src/stack/srsran/common/network_utils.h
 srsran/srsran.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsgnb/src/stack/srsran/srsran.h
+/home/talha/srsRAN/srsgnb/src/stack/srsran/srsran.h
 srsran/interfaces/enb_metrics_interface.h
 -
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/test
+# Install script for directory: /home/talha/srsRAN/lib/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,13 +39,13 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/test/asn1/cmake_install.cmake")
-  include("/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/test/common/cmake_install.cmake")
-  include("/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/test/phy/cmake_install.cmake")
-  include("/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/test/srslog/cmake_install.cmake")
-  include("/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/test/rlc/cmake_install.cmake")
-  include("/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/test/pdcp/cmake_install.cmake")
-  include("/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/test/adt/cmake_install.cmake")
+  include("/home/talha/srsRAN/build/lib/test/asn1/cmake_install.cmake")
+  include("/home/talha/srsRAN/build/lib/test/common/cmake_install.cmake")
+  include("/home/talha/srsRAN/build/lib/test/phy/cmake_install.cmake")
+  include("/home/talha/srsRAN/build/lib/test/srslog/cmake_install.cmake")
+  include("/home/talha/srsRAN/build/lib/test/rlc/cmake_install.cmake")
+  include("/home/talha/srsRAN/build/lib/test/pdcp/cmake_install.cmake")
+  include("/home/talha/srsRAN/build/lib/test/adt/cmake_install.cmake")
 
 endif()
 

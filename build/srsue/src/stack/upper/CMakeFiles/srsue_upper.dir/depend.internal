@@ -50,7 +50,7 @@ srsue/src/stack/upper/CMakeFiles/srsue_upper.dir/gw.cc.o
  ../srsue/hdr/stack/upper/gw.h
  ../srsue/hdr/stack/upper/gw_metrics.h
  ../srsue/hdr/stack/upper/tft_packet_filter.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/stack/upper/gw.cc
+ /home/talha/srsRAN/srsue/src/stack/upper/gw.cc
 srsue/src/stack/upper/CMakeFiles/srsue_upper.dir/nas.cc.o
  ../lib/include/srsran/adt/bounded_vector.h
  ../lib/include/srsran/adt/circular_buffer.h
@@ -253,7 +253,7 @@ srsue/src/stack/upper/CMakeFiles/srsue_upper.dir/nas.cc.o
  ../srsue/hdr/stack/upper/nas_emm_state.h
  ../srsue/hdr/stack/upper/nas_idle_procedures.h
  ../srsue/hdr/stack/upper/nas_metrics.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/stack/upper/nas.cc
+ /home/talha/srsRAN/srsue/src/stack/upper/nas.cc
  lib/include/srsran/version.h
 srsue/src/stack/upper/CMakeFiles/srsue_upper.dir/nas_5g.cc.o
  ../lib/include/srsran/adt/bounded_vector.h
@@ -458,7 +458,7 @@ srsue/src/stack/upper/CMakeFiles/srsue_upper.dir/nas_5g.cc.o
  ../srsue/hdr/stack/upper/nas_5gmm_state.h
  ../srsue/hdr/stack/upper/nas_base.h
  ../srsue/hdr/stack/upper/nas_config.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/stack/upper/nas_5g.cc
+ /home/talha/srsRAN/srsue/src/stack/upper/nas_5g.cc
  lib/include/srsran/version.h
 srsue/src/stack/upper/CMakeFiles/srsue_upper.dir/nas_5g_procedures.cc.o
  ../lib/include/srsran/adt/bounded_vector.h
@@ -663,7 +663,7 @@ srsue/src/stack/upper/CMakeFiles/srsue_upper.dir/nas_5g_procedures.cc.o
  ../srsue/hdr/stack/upper/nas_5gmm_state.h
  ../srsue/hdr/stack/upper/nas_base.h
  ../srsue/hdr/stack/upper/nas_config.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/stack/upper/nas_5g_procedures.cc
+ /home/talha/srsRAN/srsue/src/stack/upper/nas_5g_procedures.cc
  lib/include/srsran/version.h
 srsue/src/stack/upper/CMakeFiles/srsue_upper.dir/nas_5gmm_state.cc.o
  ../lib/include/srsran/srslog/bundled/fmt/core.h
@@ -687,7 +687,7 @@ srsue/src/stack/upper/CMakeFiles/srsue_upper.dir/nas_5gmm_state.cc.o
  ../lib/include/srsran/srslog/sink.h
  ../lib/include/srsran/srslog/srslog.h
  ../srsue/hdr/stack/upper/nas_5gmm_state.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/stack/upper/nas_5gmm_state.cc
+ /home/talha/srsRAN/srsue/src/stack/upper/nas_5gmm_state.cc
 srsue/src/stack/upper/CMakeFiles/srsue_upper.dir/nas_base.cc.o
  ../lib/include/srsran/adt/bounded_vector.h
  ../lib/include/srsran/adt/circular_buffer.h
@@ -730,7 +730,7 @@ srsue/src/stack/upper/CMakeFiles/srsue_upper.dir/nas_base.cc.o
  ../lib/include/srsran/srslog/srslog.h
  ../lib/include/srsran/support/srsran_assert.h
  ../srsue/hdr/stack/upper/nas_base.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/stack/upper/nas_base.cc
+ /home/talha/srsRAN/srsue/src/stack/upper/nas_base.cc
 srsue/src/stack/upper/CMakeFiles/srsue_upper.dir/nas_emm_state.cc.o
  ../lib/include/srsran/srslog/bundled/fmt/core.h
  ../lib/include/srsran/srslog/bundled/fmt/format-inl.h
@@ -753,7 +753,7 @@ srsue/src/stack/upper/CMakeFiles/srsue_upper.dir/nas_emm_state.cc.o
  ../lib/include/srsran/srslog/sink.h
  ../lib/include/srsran/srslog/srslog.h
  ../srsue/hdr/stack/upper/nas_emm_state.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/stack/upper/nas_emm_state.cc
+ /home/talha/srsRAN/srsue/src/stack/upper/nas_emm_state.cc
 srsue/src/stack/upper/CMakeFiles/srsue_upper.dir/nas_idle_procedures.cc.o
  ../lib/include/srsran/adt/bounded_vector.h
  ../lib/include/srsran/adt/circular_buffer.h
@@ -954,7 +954,7 @@ srsue/src/stack/upper/CMakeFiles/srsue_upper.dir/nas_idle_procedures.cc.o
  ../srsue/hdr/stack/upper/nas_emm_state.h
  ../srsue/hdr/stack/upper/nas_idle_procedures.h
  ../srsue/hdr/stack/upper/nas_metrics.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/stack/upper/nas_idle_procedures.cc
+ /home/talha/srsRAN/srsue/src/stack/upper/nas_idle_procedures.cc
  lib/include/srsran/version.h
 srsue/src/stack/upper/CMakeFiles/srsue_upper.dir/sdap.cc.o
  ../lib/include/srsran/adt/bounded_vector.h
@@ -999,7 +999,7 @@ srsue/src/stack/upper/CMakeFiles/srsue_upper.dir/sdap.cc.o
  ../lib/include/srsran/srslog/srslog.h
  ../lib/include/srsran/support/srsran_assert.h
  ../srsue/hdr/stack/upper/sdap.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/stack/upper/sdap.cc
+ /home/talha/srsRAN/srsue/src/stack/upper/sdap.cc
 srsue/src/stack/upper/CMakeFiles/srsue_upper.dir/tft_packet_filter.cc.o
  ../lib/include/srsran/adt/bounded_vector.h
  ../lib/include/srsran/adt/circular_buffer.h
@@ -1039,7 +1039,7 @@ srsue/src/stack/upper/CMakeFiles/srsue_upper.dir/tft_packet_filter.cc.o
  ../lib/include/srsran/support/srsran_assert.h
  ../lib/include/srsran/upper/ipv6.h
  ../srsue/hdr/stack/upper/tft_packet_filter.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/stack/upper/tft_packet_filter.cc
+ /home/talha/srsRAN/srsue/src/stack/upper/tft_packet_filter.cc
 srsue/src/stack/upper/CMakeFiles/srsue_upper.dir/usim.cc.o
  ../lib/include/srsran/common/bcd_helpers.h
  ../lib/include/srsran/common/common.h
@@ -1202,7 +1202,7 @@ srsue/src/stack/upper/CMakeFiles/srsue_upper.dir/usim.cc.o
  ../lib/include/srsran/srsran.h
  ../srsue/hdr/stack/upper/usim.h
  ../srsue/hdr/stack/upper/usim_base.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/stack/upper/usim.cc
+ /home/talha/srsRAN/srsue/src/stack/upper/usim.cc
  lib/include/srsran/version.h
 srsue/src/stack/upper/CMakeFiles/srsue_upper.dir/usim_base.cc.o
  ../lib/include/srsran/common/bcd_helpers.h
@@ -1366,5 +1366,5 @@ srsue/src/stack/upper/CMakeFiles/srsue_upper.dir/usim_base.cc.o
  ../srsue/hdr/stack/upper/pcsc_usim.h
  ../srsue/hdr/stack/upper/usim.h
  ../srsue/hdr/stack/upper/usim_base.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/stack/upper/usim_base.cc
+ /home/talha/srsRAN/srsue/src/stack/upper/usim_base.cc
  lib/include/srsran/version.h

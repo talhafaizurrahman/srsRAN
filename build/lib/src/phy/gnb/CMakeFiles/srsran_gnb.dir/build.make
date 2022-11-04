@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/msudurip1/Documents/srsRAN_modified/srsRAN
+CMAKE_SOURCE_DIR = /home/talha/srsRAN
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/msudurip1/Documents/srsRAN_modified/srsRAN/build
+CMAKE_BINARY_DIR = /home/talha/srsRAN/build
 
 # Include any dependencies generated for this target.
 include lib/src/phy/gnb/CMakeFiles/srsran_gnb.dir/depend.make
@@ -59,29 +59,29 @@ include lib/src/phy/gnb/CMakeFiles/srsran_gnb.dir/flags.make
 
 lib/src/phy/gnb/CMakeFiles/srsran_gnb.dir/gnb_dl.c.o: lib/src/phy/gnb/CMakeFiles/srsran_gnb.dir/flags.make
 lib/src/phy/gnb/CMakeFiles/srsran_gnb.dir/gnb_dl.c.o: ../lib/src/phy/gnb/gnb_dl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/src/phy/gnb/CMakeFiles/srsran_gnb.dir/gnb_dl.c.o"
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/gnb && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_gnb.dir/gnb_dl.c.o   -c /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/gnb/gnb_dl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/talha/srsRAN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/src/phy/gnb/CMakeFiles/srsran_gnb.dir/gnb_dl.c.o"
+	cd /home/talha/srsRAN/build/lib/src/phy/gnb && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_gnb.dir/gnb_dl.c.o   -c /home/talha/srsRAN/lib/src/phy/gnb/gnb_dl.c
 
 lib/src/phy/gnb/CMakeFiles/srsran_gnb.dir/gnb_dl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/srsran_gnb.dir/gnb_dl.c.i"
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/gnb && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/gnb/gnb_dl.c > CMakeFiles/srsran_gnb.dir/gnb_dl.c.i
+	cd /home/talha/srsRAN/build/lib/src/phy/gnb && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/talha/srsRAN/lib/src/phy/gnb/gnb_dl.c > CMakeFiles/srsran_gnb.dir/gnb_dl.c.i
 
 lib/src/phy/gnb/CMakeFiles/srsran_gnb.dir/gnb_dl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/srsran_gnb.dir/gnb_dl.c.s"
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/gnb && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/gnb/gnb_dl.c -o CMakeFiles/srsran_gnb.dir/gnb_dl.c.s
+	cd /home/talha/srsRAN/build/lib/src/phy/gnb && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/talha/srsRAN/lib/src/phy/gnb/gnb_dl.c -o CMakeFiles/srsran_gnb.dir/gnb_dl.c.s
 
 lib/src/phy/gnb/CMakeFiles/srsran_gnb.dir/gnb_ul.c.o: lib/src/phy/gnb/CMakeFiles/srsran_gnb.dir/flags.make
 lib/src/phy/gnb/CMakeFiles/srsran_gnb.dir/gnb_ul.c.o: ../lib/src/phy/gnb/gnb_ul.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object lib/src/phy/gnb/CMakeFiles/srsran_gnb.dir/gnb_ul.c.o"
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/gnb && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_gnb.dir/gnb_ul.c.o   -c /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/gnb/gnb_ul.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/talha/srsRAN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object lib/src/phy/gnb/CMakeFiles/srsran_gnb.dir/gnb_ul.c.o"
+	cd /home/talha/srsRAN/build/lib/src/phy/gnb && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_gnb.dir/gnb_ul.c.o   -c /home/talha/srsRAN/lib/src/phy/gnb/gnb_ul.c
 
 lib/src/phy/gnb/CMakeFiles/srsran_gnb.dir/gnb_ul.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/srsran_gnb.dir/gnb_ul.c.i"
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/gnb && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/gnb/gnb_ul.c > CMakeFiles/srsran_gnb.dir/gnb_ul.c.i
+	cd /home/talha/srsRAN/build/lib/src/phy/gnb && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/talha/srsRAN/lib/src/phy/gnb/gnb_ul.c > CMakeFiles/srsran_gnb.dir/gnb_ul.c.i
 
 lib/src/phy/gnb/CMakeFiles/srsran_gnb.dir/gnb_ul.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/srsran_gnb.dir/gnb_ul.c.s"
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/gnb && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/gnb/gnb_ul.c -o CMakeFiles/srsran_gnb.dir/gnb_ul.c.s
+	cd /home/talha/srsRAN/build/lib/src/phy/gnb && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/talha/srsRAN/lib/src/phy/gnb/gnb_ul.c -o CMakeFiles/srsran_gnb.dir/gnb_ul.c.s
 
 srsran_gnb: lib/src/phy/gnb/CMakeFiles/srsran_gnb.dir/gnb_dl.c.o
 srsran_gnb: lib/src/phy/gnb/CMakeFiles/srsran_gnb.dir/gnb_ul.c.o
@@ -95,10 +95,10 @@ lib/src/phy/gnb/CMakeFiles/srsran_gnb.dir/build: srsran_gnb
 .PHONY : lib/src/phy/gnb/CMakeFiles/srsran_gnb.dir/build
 
 lib/src/phy/gnb/CMakeFiles/srsran_gnb.dir/clean:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/gnb && $(CMAKE_COMMAND) -P CMakeFiles/srsran_gnb.dir/cmake_clean.cmake
+	cd /home/talha/srsRAN/build/lib/src/phy/gnb && $(CMAKE_COMMAND) -P CMakeFiles/srsran_gnb.dir/cmake_clean.cmake
 .PHONY : lib/src/phy/gnb/CMakeFiles/srsran_gnb.dir/clean
 
 lib/src/phy/gnb/CMakeFiles/srsran_gnb.dir/depend:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/msudurip1/Documents/srsRAN_modified/srsRAN /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/gnb /home/msudurip1/Documents/srsRAN_modified/srsRAN/build /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/gnb /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/gnb/CMakeFiles/srsran_gnb.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/talha/srsRAN/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/talha/srsRAN /home/talha/srsRAN/lib/src/phy/gnb /home/talha/srsRAN/build /home/talha/srsRAN/build/lib/src/phy/gnb /home/talha/srsRAN/build/lib/src/phy/gnb/CMakeFiles/srsran_gnb.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lib/src/phy/gnb/CMakeFiles/srsran_gnb.dir/depend
 

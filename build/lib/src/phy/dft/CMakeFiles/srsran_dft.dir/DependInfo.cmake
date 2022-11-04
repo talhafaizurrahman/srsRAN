@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/dft/dft_fftw.c" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/dft/CMakeFiles/srsran_dft.dir/dft_fftw.c.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/dft/dft_precoding.c" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/dft/CMakeFiles/srsran_dft.dir/dft_precoding.c.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/dft/ofdm.c" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/dft/CMakeFiles/srsran_dft.dir/ofdm.c.o"
+  "/home/talha/srsRAN/lib/src/phy/dft/dft_fftw.c" "/home/talha/srsRAN/build/lib/src/phy/dft/CMakeFiles/srsran_dft.dir/dft_fftw.c.o"
+  "/home/talha/srsRAN/lib/src/phy/dft/dft_precoding.c" "/home/talha/srsRAN/build/lib/src/phy/dft/CMakeFiles/srsran_dft.dir/dft_precoding.c.o"
+  "/home/talha/srsRAN/lib/src/phy/dft/ofdm.c" "/home/talha/srsRAN/build/lib/src/phy/dft/CMakeFiles/srsran_dft.dir/ofdm.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

@@ -222,7 +222,7 @@ srsue/src/phy/test/CMakeFiles/nr_sa_cell_search_test.dir/nr_sa_cell_search_test.
  ../test/phy/dummy_rx_harq_proc.h
  ../test/phy/dummy_tx_harq_proc.h
  ../test/phy/dummy_ue_stack.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/phy/test/gnb_emulator.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/phy/test/gnb_rf_emulator.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/phy/test/nr_sa_cell_search_test.cc
+ /home/talha/srsRAN/srsue/src/phy/test/gnb_emulator.h
+ /home/talha/srsRAN/srsue/src/phy/test/gnb_rf_emulator.h
+ /home/talha/srsRAN/srsue/src/phy/test/nr_sa_cell_search_test.cc
  lib/include/srsran/version.h

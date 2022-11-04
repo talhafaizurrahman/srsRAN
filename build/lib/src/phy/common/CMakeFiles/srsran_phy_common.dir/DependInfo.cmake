@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/common/phy_common.c" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/phy_common.c.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/common/phy_common_nr.c" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/phy_common_nr.c.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/common/phy_common_sl.c" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/phy_common_sl.c.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/common/sequence.c" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/sequence.c.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/common/sliv.c" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/sliv.c.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/common/timestamp.c" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/timestamp.c.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/common/zc_sequence.c" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/zc_sequence.c.o"
+  "/home/talha/srsRAN/lib/src/phy/common/phy_common.c" "/home/talha/srsRAN/build/lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/phy_common.c.o"
+  "/home/talha/srsRAN/lib/src/phy/common/phy_common_nr.c" "/home/talha/srsRAN/build/lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/phy_common_nr.c.o"
+  "/home/talha/srsRAN/lib/src/phy/common/phy_common_sl.c" "/home/talha/srsRAN/build/lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/phy_common_sl.c.o"
+  "/home/talha/srsRAN/lib/src/phy/common/sequence.c" "/home/talha/srsRAN/build/lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/sequence.c.o"
+  "/home/talha/srsRAN/lib/src/phy/common/sliv.c" "/home/talha/srsRAN/build/lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/sliv.c.o"
+  "/home/talha/srsRAN/lib/src/phy/common/timestamp.c" "/home/talha/srsRAN/build/lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/timestamp.c.o"
+  "/home/talha/srsRAN/lib/src/phy/common/zc_sequence.c" "/home/talha/srsRAN/build/lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/zc_sequence.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

@@ -723,7 +723,7 @@ int cc_worker::read_pucch_d(cf_t* pdsch_d)
   string hex_output;
 
   // complex<float>* pucch_array = (complex<float>*) enb_ul.pucch.z_tmp;
-  // for (int i=0; i < nof_re; i++){  
+  // for (int i=0; i < nof_re; i++){
   //   hex_output = "6363";
   //   hex_output.append(ieee_float_to_hex(pucch_array[i].real()));
   //   hex_output.append(ieee_float_to_hex(pucch_array[i].imag()));
@@ -756,7 +756,7 @@ string ieee_float_to_hex(float f)
 // ADDED
 int output_probe(string text, string file_name){
   // Call this function with `#include "srsenb/hdr/phy/lte/cc_worker.h"`
-  
+
   // text refers to what you want to print
   // file_name is the name of the file to be added to the probes/ directory
 
@@ -765,18 +765,19 @@ int output_probe(string text, string file_name){
   fstream outfile;
   string file_path;
 
-  file_path = "/home/msudurip1/Documents/srsRAN_modified/srsRAN/Probe/";
+  file_path = "/home/talha/srsRAN/Probe/";
   file_path.append(file_name);
 
   outfile.open(file_path, ios_base::app);
-  if (outfile.is_open())
-    outfile << time(0) << ": " << text << endl;
+  if (outfile.is_open()){
+    // outfile << time(0) << ": " << text << endl;
+  }
   else
     cout << "Could Not Print " << endl;
   return 0;
 }
 
-// ADDED 
+// ADDED
 int probe_rbg_mask(srsenb::rbgmask_t mask, string file_name){
   // print rbg_mask contents to file
 
@@ -785,18 +786,18 @@ int probe_rbg_mask(srsenb::rbgmask_t mask, string file_name){
 
   string s;
   s.assign(mask.size(), '0');
-  
-  file_path = "/home/msudurip1/Documents/srsRAN_modified/srsRAN/Probe/";
+
+  file_path = "/home/talha/srsRAN/Probe/";
   file_path.append(file_name);
 
   outfile.open(file_path, ios_base::app);
   if (outfile.is_open()){
-    outfile << time(0) << ": ";
+    // outfile << time(0) << ": ";
 
-    outfile << "size: " << mask.size() << ", ";
+    // outfile << "size: " << mask.size() << ", ";
 
     for (size_t i = mask.size(); i > 0; --i) {
-      outfile << (mask.test(i - 1) ? '1' : '0');
+      // outfile << (mask.test(i - 1) ? '1' : '0');
     }
 
     outfile << endl;
@@ -805,7 +806,7 @@ int probe_rbg_mask(srsenb::rbgmask_t mask, string file_name){
     cout << "Could Not Print " << endl;
   return 0;
 }
-// ADDED 
+// ADDED
 int probe_rbg_mask_New(srsenb::rbgmask_t mask, uint32_t UERNTI, uint32_t tti_rx, uint32_t pid,   srsran_dci_format_t  dci_format, int req_bytes, uint32_t tbAV, uint32_t dl_cqi, string file_name){
   // print rbg_mask contents to file
 
@@ -814,25 +815,25 @@ int probe_rbg_mask_New(srsenb::rbgmask_t mask, uint32_t UERNTI, uint32_t tti_rx,
 
   string s;
   s.assign(mask.size(), '0');
-  
-  file_path = "/home/msudurip1/Documents/srsRAN_modified/srsRAN/Probe/";
+
+  file_path = "/home/talha/srsRAN/Probe/";
   file_path.append(file_name);
 
   outfile.open(file_path, ios_base::app);
   if (outfile.is_open()){
-    outfile << "rnti=0x" << UERNTI << ", ";
-    outfile << "TTI=" << tti_rx << ", ";
-    outfile << "pid=" << pid << ", ";
-    outfile << "dci_format=" << dci_format << ", ";
-    outfile << "Req_data=" << req_bytes << ", ";
-    outfile << "Available_TB=" << tbAV << ", ";
-    outfile << "DL_CQI=" << dl_cqi << ", ";
-    outfile << "size: " << mask.size() << ", ";
-    for (size_t i = mask.size(); i > 0; --i) {
-      outfile << (mask.test(i - 1) ? '1' : '0');
-    }
+    // outfile << "rnti=0x" << UERNTI << ", ";
+    // outfile << "TTI=" << tti_rx << ", ";
+    // outfile << "pid=" << pid << ", ";
+    // outfile << "dci_format=" << dci_format << ", ";
+    // outfile << "Req_data=" << req_bytes << ", ";
+    // outfile << "Available_TB=" << tbAV << ", ";
+    // outfile << "DL_CQI=" << dl_cqi << ", ";
+    // outfile << "size: " << mask.size() << ", ";
+    // for (size_t i = mask.size(); i > 0; --i) {
+    //   outfile << (mask.test(i - 1) ? '1' : '0');
+     // }
 
-    outfile << endl;
+    // outfile << endl;
   }
   else
     cout << "Could Not Print " << endl;

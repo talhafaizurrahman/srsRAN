@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/msudurip1/Documents/srsRAN_modified/srsRAN
+CMAKE_SOURCE_DIR = /home/talha/srsRAN
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/msudurip1/Documents/srsRAN_modified/srsRAN/build
+CMAKE_BINARY_DIR = /home/talha/srsRAN/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -105,7 +105,7 @@ test/fast: test
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/CPackSourceConfig.cmake
+	cd /home/talha/srsRAN/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/talha/srsRAN/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -149,7 +149,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/talha/srsRAN/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -159,14 +159,14 @@ package/fast: package
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/CMakeFiles /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsenb/src/phy/CMakeFiles/progress.marks
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsenb/src/phy/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/CMakeFiles 0
+	cd /home/talha/srsRAN/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/talha/srsRAN/build/CMakeFiles /home/talha/srsRAN/build/srsenb/src/phy/CMakeFiles/progress.marks
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsenb/src/phy/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/talha/srsRAN/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsenb/src/phy/clean
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsenb/src/phy/clean
 .PHONY : clean
 
 # The main clean target
@@ -176,22 +176,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: cmake_check_build_system
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsenb/src/phy/preinstall
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsenb/src/phy/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsenb/src/phy/preinstall
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsenb/src/phy/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/talha/srsRAN/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 srsenb/src/phy/CMakeFiles/srsenb_phy.dir/rule:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsenb/src/phy/CMakeFiles/srsenb_phy.dir/rule
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsenb/src/phy/CMakeFiles/srsenb_phy.dir/rule
 .PHONY : srsenb/src/phy/CMakeFiles/srsenb_phy.dir/rule
 
 # Convenience name for target.
@@ -201,7 +201,7 @@ srsenb_phy: srsenb/src/phy/CMakeFiles/srsenb_phy.dir/rule
 
 # fast build rule for target.
 srsenb_phy/fast:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/src/phy/CMakeFiles/srsenb_phy.dir/build.make srsenb/src/phy/CMakeFiles/srsenb_phy.dir/build
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/src/phy/CMakeFiles/srsenb_phy.dir/build.make srsenb/src/phy/CMakeFiles/srsenb_phy.dir/build
 .PHONY : srsenb_phy/fast
 
 lte/cc_worker.o: lte/cc_worker.cc.o
@@ -210,7 +210,7 @@ lte/cc_worker.o: lte/cc_worker.cc.o
 
 # target to build an object file
 lte/cc_worker.cc.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/src/phy/CMakeFiles/srsenb_phy.dir/build.make srsenb/src/phy/CMakeFiles/srsenb_phy.dir/lte/cc_worker.cc.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/src/phy/CMakeFiles/srsenb_phy.dir/build.make srsenb/src/phy/CMakeFiles/srsenb_phy.dir/lte/cc_worker.cc.o
 .PHONY : lte/cc_worker.cc.o
 
 lte/cc_worker.i: lte/cc_worker.cc.i
@@ -219,7 +219,7 @@ lte/cc_worker.i: lte/cc_worker.cc.i
 
 # target to preprocess a source file
 lte/cc_worker.cc.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/src/phy/CMakeFiles/srsenb_phy.dir/build.make srsenb/src/phy/CMakeFiles/srsenb_phy.dir/lte/cc_worker.cc.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/src/phy/CMakeFiles/srsenb_phy.dir/build.make srsenb/src/phy/CMakeFiles/srsenb_phy.dir/lte/cc_worker.cc.i
 .PHONY : lte/cc_worker.cc.i
 
 lte/cc_worker.s: lte/cc_worker.cc.s
@@ -228,7 +228,7 @@ lte/cc_worker.s: lte/cc_worker.cc.s
 
 # target to generate assembly for a file
 lte/cc_worker.cc.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/src/phy/CMakeFiles/srsenb_phy.dir/build.make srsenb/src/phy/CMakeFiles/srsenb_phy.dir/lte/cc_worker.cc.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/src/phy/CMakeFiles/srsenb_phy.dir/build.make srsenb/src/phy/CMakeFiles/srsenb_phy.dir/lte/cc_worker.cc.s
 .PHONY : lte/cc_worker.cc.s
 
 lte/sf_worker.o: lte/sf_worker.cc.o
@@ -237,7 +237,7 @@ lte/sf_worker.o: lte/sf_worker.cc.o
 
 # target to build an object file
 lte/sf_worker.cc.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/src/phy/CMakeFiles/srsenb_phy.dir/build.make srsenb/src/phy/CMakeFiles/srsenb_phy.dir/lte/sf_worker.cc.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/src/phy/CMakeFiles/srsenb_phy.dir/build.make srsenb/src/phy/CMakeFiles/srsenb_phy.dir/lte/sf_worker.cc.o
 .PHONY : lte/sf_worker.cc.o
 
 lte/sf_worker.i: lte/sf_worker.cc.i
@@ -246,7 +246,7 @@ lte/sf_worker.i: lte/sf_worker.cc.i
 
 # target to preprocess a source file
 lte/sf_worker.cc.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/src/phy/CMakeFiles/srsenb_phy.dir/build.make srsenb/src/phy/CMakeFiles/srsenb_phy.dir/lte/sf_worker.cc.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/src/phy/CMakeFiles/srsenb_phy.dir/build.make srsenb/src/phy/CMakeFiles/srsenb_phy.dir/lte/sf_worker.cc.i
 .PHONY : lte/sf_worker.cc.i
 
 lte/sf_worker.s: lte/sf_worker.cc.s
@@ -255,7 +255,7 @@ lte/sf_worker.s: lte/sf_worker.cc.s
 
 # target to generate assembly for a file
 lte/sf_worker.cc.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/src/phy/CMakeFiles/srsenb_phy.dir/build.make srsenb/src/phy/CMakeFiles/srsenb_phy.dir/lte/sf_worker.cc.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/src/phy/CMakeFiles/srsenb_phy.dir/build.make srsenb/src/phy/CMakeFiles/srsenb_phy.dir/lte/sf_worker.cc.s
 .PHONY : lte/sf_worker.cc.s
 
 lte/worker_pool.o: lte/worker_pool.cc.o
@@ -264,7 +264,7 @@ lte/worker_pool.o: lte/worker_pool.cc.o
 
 # target to build an object file
 lte/worker_pool.cc.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/src/phy/CMakeFiles/srsenb_phy.dir/build.make srsenb/src/phy/CMakeFiles/srsenb_phy.dir/lte/worker_pool.cc.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/src/phy/CMakeFiles/srsenb_phy.dir/build.make srsenb/src/phy/CMakeFiles/srsenb_phy.dir/lte/worker_pool.cc.o
 .PHONY : lte/worker_pool.cc.o
 
 lte/worker_pool.i: lte/worker_pool.cc.i
@@ -273,7 +273,7 @@ lte/worker_pool.i: lte/worker_pool.cc.i
 
 # target to preprocess a source file
 lte/worker_pool.cc.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/src/phy/CMakeFiles/srsenb_phy.dir/build.make srsenb/src/phy/CMakeFiles/srsenb_phy.dir/lte/worker_pool.cc.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/src/phy/CMakeFiles/srsenb_phy.dir/build.make srsenb/src/phy/CMakeFiles/srsenb_phy.dir/lte/worker_pool.cc.i
 .PHONY : lte/worker_pool.cc.i
 
 lte/worker_pool.s: lte/worker_pool.cc.s
@@ -282,7 +282,7 @@ lte/worker_pool.s: lte/worker_pool.cc.s
 
 # target to generate assembly for a file
 lte/worker_pool.cc.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/src/phy/CMakeFiles/srsenb_phy.dir/build.make srsenb/src/phy/CMakeFiles/srsenb_phy.dir/lte/worker_pool.cc.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/src/phy/CMakeFiles/srsenb_phy.dir/build.make srsenb/src/phy/CMakeFiles/srsenb_phy.dir/lte/worker_pool.cc.s
 .PHONY : lte/worker_pool.cc.s
 
 nr/slot_worker.o: nr/slot_worker.cc.o
@@ -291,7 +291,7 @@ nr/slot_worker.o: nr/slot_worker.cc.o
 
 # target to build an object file
 nr/slot_worker.cc.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/src/phy/CMakeFiles/srsenb_phy.dir/build.make srsenb/src/phy/CMakeFiles/srsenb_phy.dir/nr/slot_worker.cc.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/src/phy/CMakeFiles/srsenb_phy.dir/build.make srsenb/src/phy/CMakeFiles/srsenb_phy.dir/nr/slot_worker.cc.o
 .PHONY : nr/slot_worker.cc.o
 
 nr/slot_worker.i: nr/slot_worker.cc.i
@@ -300,7 +300,7 @@ nr/slot_worker.i: nr/slot_worker.cc.i
 
 # target to preprocess a source file
 nr/slot_worker.cc.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/src/phy/CMakeFiles/srsenb_phy.dir/build.make srsenb/src/phy/CMakeFiles/srsenb_phy.dir/nr/slot_worker.cc.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/src/phy/CMakeFiles/srsenb_phy.dir/build.make srsenb/src/phy/CMakeFiles/srsenb_phy.dir/nr/slot_worker.cc.i
 .PHONY : nr/slot_worker.cc.i
 
 nr/slot_worker.s: nr/slot_worker.cc.s
@@ -309,7 +309,7 @@ nr/slot_worker.s: nr/slot_worker.cc.s
 
 # target to generate assembly for a file
 nr/slot_worker.cc.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/src/phy/CMakeFiles/srsenb_phy.dir/build.make srsenb/src/phy/CMakeFiles/srsenb_phy.dir/nr/slot_worker.cc.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/src/phy/CMakeFiles/srsenb_phy.dir/build.make srsenb/src/phy/CMakeFiles/srsenb_phy.dir/nr/slot_worker.cc.s
 .PHONY : nr/slot_worker.cc.s
 
 nr/worker_pool.o: nr/worker_pool.cc.o
@@ -318,7 +318,7 @@ nr/worker_pool.o: nr/worker_pool.cc.o
 
 # target to build an object file
 nr/worker_pool.cc.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/src/phy/CMakeFiles/srsenb_phy.dir/build.make srsenb/src/phy/CMakeFiles/srsenb_phy.dir/nr/worker_pool.cc.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/src/phy/CMakeFiles/srsenb_phy.dir/build.make srsenb/src/phy/CMakeFiles/srsenb_phy.dir/nr/worker_pool.cc.o
 .PHONY : nr/worker_pool.cc.o
 
 nr/worker_pool.i: nr/worker_pool.cc.i
@@ -327,7 +327,7 @@ nr/worker_pool.i: nr/worker_pool.cc.i
 
 # target to preprocess a source file
 nr/worker_pool.cc.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/src/phy/CMakeFiles/srsenb_phy.dir/build.make srsenb/src/phy/CMakeFiles/srsenb_phy.dir/nr/worker_pool.cc.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/src/phy/CMakeFiles/srsenb_phy.dir/build.make srsenb/src/phy/CMakeFiles/srsenb_phy.dir/nr/worker_pool.cc.i
 .PHONY : nr/worker_pool.cc.i
 
 nr/worker_pool.s: nr/worker_pool.cc.s
@@ -336,7 +336,7 @@ nr/worker_pool.s: nr/worker_pool.cc.s
 
 # target to generate assembly for a file
 nr/worker_pool.cc.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/src/phy/CMakeFiles/srsenb_phy.dir/build.make srsenb/src/phy/CMakeFiles/srsenb_phy.dir/nr/worker_pool.cc.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/src/phy/CMakeFiles/srsenb_phy.dir/build.make srsenb/src/phy/CMakeFiles/srsenb_phy.dir/nr/worker_pool.cc.s
 .PHONY : nr/worker_pool.cc.s
 
 phy.o: phy.cc.o
@@ -345,7 +345,7 @@ phy.o: phy.cc.o
 
 # target to build an object file
 phy.cc.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/src/phy/CMakeFiles/srsenb_phy.dir/build.make srsenb/src/phy/CMakeFiles/srsenb_phy.dir/phy.cc.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/src/phy/CMakeFiles/srsenb_phy.dir/build.make srsenb/src/phy/CMakeFiles/srsenb_phy.dir/phy.cc.o
 .PHONY : phy.cc.o
 
 phy.i: phy.cc.i
@@ -354,7 +354,7 @@ phy.i: phy.cc.i
 
 # target to preprocess a source file
 phy.cc.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/src/phy/CMakeFiles/srsenb_phy.dir/build.make srsenb/src/phy/CMakeFiles/srsenb_phy.dir/phy.cc.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/src/phy/CMakeFiles/srsenb_phy.dir/build.make srsenb/src/phy/CMakeFiles/srsenb_phy.dir/phy.cc.i
 .PHONY : phy.cc.i
 
 phy.s: phy.cc.s
@@ -363,7 +363,7 @@ phy.s: phy.cc.s
 
 # target to generate assembly for a file
 phy.cc.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/src/phy/CMakeFiles/srsenb_phy.dir/build.make srsenb/src/phy/CMakeFiles/srsenb_phy.dir/phy.cc.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/src/phy/CMakeFiles/srsenb_phy.dir/build.make srsenb/src/phy/CMakeFiles/srsenb_phy.dir/phy.cc.s
 .PHONY : phy.cc.s
 
 phy_common.o: phy_common.cc.o
@@ -372,7 +372,7 @@ phy_common.o: phy_common.cc.o
 
 # target to build an object file
 phy_common.cc.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/src/phy/CMakeFiles/srsenb_phy.dir/build.make srsenb/src/phy/CMakeFiles/srsenb_phy.dir/phy_common.cc.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/src/phy/CMakeFiles/srsenb_phy.dir/build.make srsenb/src/phy/CMakeFiles/srsenb_phy.dir/phy_common.cc.o
 .PHONY : phy_common.cc.o
 
 phy_common.i: phy_common.cc.i
@@ -381,7 +381,7 @@ phy_common.i: phy_common.cc.i
 
 # target to preprocess a source file
 phy_common.cc.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/src/phy/CMakeFiles/srsenb_phy.dir/build.make srsenb/src/phy/CMakeFiles/srsenb_phy.dir/phy_common.cc.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/src/phy/CMakeFiles/srsenb_phy.dir/build.make srsenb/src/phy/CMakeFiles/srsenb_phy.dir/phy_common.cc.i
 .PHONY : phy_common.cc.i
 
 phy_common.s: phy_common.cc.s
@@ -390,7 +390,7 @@ phy_common.s: phy_common.cc.s
 
 # target to generate assembly for a file
 phy_common.cc.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/src/phy/CMakeFiles/srsenb_phy.dir/build.make srsenb/src/phy/CMakeFiles/srsenb_phy.dir/phy_common.cc.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/src/phy/CMakeFiles/srsenb_phy.dir/build.make srsenb/src/phy/CMakeFiles/srsenb_phy.dir/phy_common.cc.s
 .PHONY : phy_common.cc.s
 
 phy_ue_db.o: phy_ue_db.cc.o
@@ -399,7 +399,7 @@ phy_ue_db.o: phy_ue_db.cc.o
 
 # target to build an object file
 phy_ue_db.cc.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/src/phy/CMakeFiles/srsenb_phy.dir/build.make srsenb/src/phy/CMakeFiles/srsenb_phy.dir/phy_ue_db.cc.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/src/phy/CMakeFiles/srsenb_phy.dir/build.make srsenb/src/phy/CMakeFiles/srsenb_phy.dir/phy_ue_db.cc.o
 .PHONY : phy_ue_db.cc.o
 
 phy_ue_db.i: phy_ue_db.cc.i
@@ -408,7 +408,7 @@ phy_ue_db.i: phy_ue_db.cc.i
 
 # target to preprocess a source file
 phy_ue_db.cc.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/src/phy/CMakeFiles/srsenb_phy.dir/build.make srsenb/src/phy/CMakeFiles/srsenb_phy.dir/phy_ue_db.cc.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/src/phy/CMakeFiles/srsenb_phy.dir/build.make srsenb/src/phy/CMakeFiles/srsenb_phy.dir/phy_ue_db.cc.i
 .PHONY : phy_ue_db.cc.i
 
 phy_ue_db.s: phy_ue_db.cc.s
@@ -417,7 +417,7 @@ phy_ue_db.s: phy_ue_db.cc.s
 
 # target to generate assembly for a file
 phy_ue_db.cc.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/src/phy/CMakeFiles/srsenb_phy.dir/build.make srsenb/src/phy/CMakeFiles/srsenb_phy.dir/phy_ue_db.cc.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/src/phy/CMakeFiles/srsenb_phy.dir/build.make srsenb/src/phy/CMakeFiles/srsenb_phy.dir/phy_ue_db.cc.s
 .PHONY : phy_ue_db.cc.s
 
 prach_worker.o: prach_worker.cc.o
@@ -426,7 +426,7 @@ prach_worker.o: prach_worker.cc.o
 
 # target to build an object file
 prach_worker.cc.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/src/phy/CMakeFiles/srsenb_phy.dir/build.make srsenb/src/phy/CMakeFiles/srsenb_phy.dir/prach_worker.cc.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/src/phy/CMakeFiles/srsenb_phy.dir/build.make srsenb/src/phy/CMakeFiles/srsenb_phy.dir/prach_worker.cc.o
 .PHONY : prach_worker.cc.o
 
 prach_worker.i: prach_worker.cc.i
@@ -435,7 +435,7 @@ prach_worker.i: prach_worker.cc.i
 
 # target to preprocess a source file
 prach_worker.cc.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/src/phy/CMakeFiles/srsenb_phy.dir/build.make srsenb/src/phy/CMakeFiles/srsenb_phy.dir/prach_worker.cc.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/src/phy/CMakeFiles/srsenb_phy.dir/build.make srsenb/src/phy/CMakeFiles/srsenb_phy.dir/prach_worker.cc.i
 .PHONY : prach_worker.cc.i
 
 prach_worker.s: prach_worker.cc.s
@@ -444,7 +444,7 @@ prach_worker.s: prach_worker.cc.s
 
 # target to generate assembly for a file
 prach_worker.cc.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/src/phy/CMakeFiles/srsenb_phy.dir/build.make srsenb/src/phy/CMakeFiles/srsenb_phy.dir/prach_worker.cc.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/src/phy/CMakeFiles/srsenb_phy.dir/build.make srsenb/src/phy/CMakeFiles/srsenb_phy.dir/prach_worker.cc.s
 .PHONY : prach_worker.cc.s
 
 txrx.o: txrx.cc.o
@@ -453,7 +453,7 @@ txrx.o: txrx.cc.o
 
 # target to build an object file
 txrx.cc.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/src/phy/CMakeFiles/srsenb_phy.dir/build.make srsenb/src/phy/CMakeFiles/srsenb_phy.dir/txrx.cc.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/src/phy/CMakeFiles/srsenb_phy.dir/build.make srsenb/src/phy/CMakeFiles/srsenb_phy.dir/txrx.cc.o
 .PHONY : txrx.cc.o
 
 txrx.i: txrx.cc.i
@@ -462,7 +462,7 @@ txrx.i: txrx.cc.i
 
 # target to preprocess a source file
 txrx.cc.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/src/phy/CMakeFiles/srsenb_phy.dir/build.make srsenb/src/phy/CMakeFiles/srsenb_phy.dir/txrx.cc.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/src/phy/CMakeFiles/srsenb_phy.dir/build.make srsenb/src/phy/CMakeFiles/srsenb_phy.dir/txrx.cc.i
 .PHONY : txrx.cc.i
 
 txrx.s: txrx.cc.s
@@ -471,7 +471,7 @@ txrx.s: txrx.cc.s
 
 # target to generate assembly for a file
 txrx.cc.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/src/phy/CMakeFiles/srsenb_phy.dir/build.make srsenb/src/phy/CMakeFiles/srsenb_phy.dir/txrx.cc.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/src/phy/CMakeFiles/srsenb_phy.dir/build.make srsenb/src/phy/CMakeFiles/srsenb_phy.dir/txrx.cc.s
 .PHONY : txrx.cc.s
 
 # Help Target
@@ -531,6 +531,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/talha/srsRAN/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

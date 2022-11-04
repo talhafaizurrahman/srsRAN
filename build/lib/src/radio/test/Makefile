@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/msudurip1/Documents/srsRAN_modified/srsRAN
+CMAKE_SOURCE_DIR = /home/talha/srsRAN
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/msudurip1/Documents/srsRAN_modified/srsRAN/build
+CMAKE_BINARY_DIR = /home/talha/srsRAN/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -138,7 +138,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/talha/srsRAN/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -149,7 +149,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/CPackSourceConfig.cmake
+	cd /home/talha/srsRAN/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/talha/srsRAN/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -159,14 +159,14 @@ package_source/fast: package_source
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/CMakeFiles /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/radio/test/CMakeFiles/progress.marks
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/radio/test/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/CMakeFiles 0
+	cd /home/talha/srsRAN/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/talha/srsRAN/build/CMakeFiles /home/talha/srsRAN/build/lib/src/radio/test/CMakeFiles/progress.marks
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/radio/test/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/talha/srsRAN/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/radio/test/clean
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/radio/test/clean
 .PHONY : clean
 
 # The main clean target
@@ -176,22 +176,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: cmake_check_build_system
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/radio/test/preinstall
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/radio/test/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/radio/test/preinstall
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/radio/test/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/talha/srsRAN/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/src/radio/test/CMakeFiles/test_radio_rt_gain.dir/rule:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/radio/test/CMakeFiles/test_radio_rt_gain.dir/rule
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/radio/test/CMakeFiles/test_radio_rt_gain.dir/rule
 .PHONY : lib/src/radio/test/CMakeFiles/test_radio_rt_gain.dir/rule
 
 # Convenience name for target.
@@ -201,12 +201,12 @@ test_radio_rt_gain: lib/src/radio/test/CMakeFiles/test_radio_rt_gain.dir/rule
 
 # fast build rule for target.
 test_radio_rt_gain/fast:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/radio/test/CMakeFiles/test_radio_rt_gain.dir/build.make lib/src/radio/test/CMakeFiles/test_radio_rt_gain.dir/build
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/radio/test/CMakeFiles/test_radio_rt_gain.dir/build.make lib/src/radio/test/CMakeFiles/test_radio_rt_gain.dir/build
 .PHONY : test_radio_rt_gain/fast
 
 # Convenience name for target.
 lib/src/radio/test/CMakeFiles/benchmark_radio.dir/rule:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/radio/test/CMakeFiles/benchmark_radio.dir/rule
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/radio/test/CMakeFiles/benchmark_radio.dir/rule
 .PHONY : lib/src/radio/test/CMakeFiles/benchmark_radio.dir/rule
 
 # Convenience name for target.
@@ -216,7 +216,7 @@ benchmark_radio: lib/src/radio/test/CMakeFiles/benchmark_radio.dir/rule
 
 # fast build rule for target.
 benchmark_radio/fast:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/radio/test/CMakeFiles/benchmark_radio.dir/build.make lib/src/radio/test/CMakeFiles/benchmark_radio.dir/build
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/radio/test/CMakeFiles/benchmark_radio.dir/build.make lib/src/radio/test/CMakeFiles/benchmark_radio.dir/build
 .PHONY : benchmark_radio/fast
 
 benchmark_radio.o: benchmark_radio.cc.o
@@ -225,7 +225,7 @@ benchmark_radio.o: benchmark_radio.cc.o
 
 # target to build an object file
 benchmark_radio.cc.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/radio/test/CMakeFiles/benchmark_radio.dir/build.make lib/src/radio/test/CMakeFiles/benchmark_radio.dir/benchmark_radio.cc.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/radio/test/CMakeFiles/benchmark_radio.dir/build.make lib/src/radio/test/CMakeFiles/benchmark_radio.dir/benchmark_radio.cc.o
 .PHONY : benchmark_radio.cc.o
 
 benchmark_radio.i: benchmark_radio.cc.i
@@ -234,7 +234,7 @@ benchmark_radio.i: benchmark_radio.cc.i
 
 # target to preprocess a source file
 benchmark_radio.cc.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/radio/test/CMakeFiles/benchmark_radio.dir/build.make lib/src/radio/test/CMakeFiles/benchmark_radio.dir/benchmark_radio.cc.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/radio/test/CMakeFiles/benchmark_radio.dir/build.make lib/src/radio/test/CMakeFiles/benchmark_radio.dir/benchmark_radio.cc.i
 .PHONY : benchmark_radio.cc.i
 
 benchmark_radio.s: benchmark_radio.cc.s
@@ -243,7 +243,7 @@ benchmark_radio.s: benchmark_radio.cc.s
 
 # target to generate assembly for a file
 benchmark_radio.cc.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/radio/test/CMakeFiles/benchmark_radio.dir/build.make lib/src/radio/test/CMakeFiles/benchmark_radio.dir/benchmark_radio.cc.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/radio/test/CMakeFiles/benchmark_radio.dir/build.make lib/src/radio/test/CMakeFiles/benchmark_radio.dir/benchmark_radio.cc.s
 .PHONY : benchmark_radio.cc.s
 
 test_radio_rt_gain.o: test_radio_rt_gain.cc.o
@@ -252,7 +252,7 @@ test_radio_rt_gain.o: test_radio_rt_gain.cc.o
 
 # target to build an object file
 test_radio_rt_gain.cc.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/radio/test/CMakeFiles/test_radio_rt_gain.dir/build.make lib/src/radio/test/CMakeFiles/test_radio_rt_gain.dir/test_radio_rt_gain.cc.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/radio/test/CMakeFiles/test_radio_rt_gain.dir/build.make lib/src/radio/test/CMakeFiles/test_radio_rt_gain.dir/test_radio_rt_gain.cc.o
 .PHONY : test_radio_rt_gain.cc.o
 
 test_radio_rt_gain.i: test_radio_rt_gain.cc.i
@@ -261,7 +261,7 @@ test_radio_rt_gain.i: test_radio_rt_gain.cc.i
 
 # target to preprocess a source file
 test_radio_rt_gain.cc.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/radio/test/CMakeFiles/test_radio_rt_gain.dir/build.make lib/src/radio/test/CMakeFiles/test_radio_rt_gain.dir/test_radio_rt_gain.cc.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/radio/test/CMakeFiles/test_radio_rt_gain.dir/build.make lib/src/radio/test/CMakeFiles/test_radio_rt_gain.dir/test_radio_rt_gain.cc.i
 .PHONY : test_radio_rt_gain.cc.i
 
 test_radio_rt_gain.s: test_radio_rt_gain.cc.s
@@ -270,7 +270,7 @@ test_radio_rt_gain.s: test_radio_rt_gain.cc.s
 
 # target to generate assembly for a file
 test_radio_rt_gain.cc.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/radio/test/CMakeFiles/test_radio_rt_gain.dir/build.make lib/src/radio/test/CMakeFiles/test_radio_rt_gain.dir/test_radio_rt_gain.cc.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/radio/test/CMakeFiles/test_radio_rt_gain.dir/build.make lib/src/radio/test/CMakeFiles/test_radio_rt_gain.dir/test_radio_rt_gain.cc.s
 .PHONY : test_radio_rt_gain.cc.s
 
 # Help Target
@@ -307,6 +307,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/talha/srsRAN/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -70,11 +70,11 @@ stdint.h
 stdio.h
 -
 
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/rf/rf_helper.h
+/home/talha/srsRAN/lib/src/phy/rf/rf_helper.h
 srsran/config.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/rf/srsran/config.h
+/home/talha/srsRAN/lib/src/phy/rf/srsran/config.h
 srsran/phy/rf/rf.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/rf/srsran/phy/rf/rf.h
+/home/talha/srsRAN/lib/src/phy/rf/srsran/phy/rf/rf.h
 stdio.h
 -
 stdlib.h
@@ -82,15 +82,15 @@ stdlib.h
 string.h
 -
 
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/rf/rf_plugin.h
+/home/talha/srsRAN/lib/src/phy/rf/rf_plugin.h
 srsran/phy/rf/rf.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/rf/srsran/phy/rf/rf.h
+/home/talha/srsRAN/lib/src/phy/rf/srsran/phy/rf/rf.h
 
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/rf/rf_uhd_generic.h
+/home/talha/srsRAN/lib/src/phy/rf/rf_uhd_generic.h
 rf_uhd_safe.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/rf/rf_uhd_safe.h
+/home/talha/srsRAN/lib/src/phy/rf/rf_uhd_safe.h
 
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/rf/rf_uhd_imp.cc
+/home/talha/srsRAN/lib/src/phy/rf/rf_uhd_imp.cc
 atomic
 -
 condition_variable
@@ -108,33 +108,33 @@ uhd/types/sensors.h
 uhd/usrp/multi_usrp.hpp
 -
 rf_helper.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/rf/rf_helper.h
+/home/talha/srsRAN/lib/src/phy/rf/rf_helper.h
 rf_plugin.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/rf/rf_plugin.h
+/home/talha/srsRAN/lib/src/phy/rf/rf_plugin.h
 srsran/phy/utils/debug.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/rf/srsran/phy/utils/debug.h
+/home/talha/srsRAN/lib/src/phy/rf/srsran/phy/utils/debug.h
 srsran/phy/utils/vector.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/rf/srsran/phy/utils/vector.h
+/home/talha/srsRAN/lib/src/phy/rf/srsran/phy/utils/vector.h
 rf_uhd_generic.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/rf/rf_uhd_generic.h
+/home/talha/srsRAN/lib/src/phy/rf/rf_uhd_generic.h
 rf_uhd_imp.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/rf/rf_uhd_imp.h
+/home/talha/srsRAN/lib/src/phy/rf/rf_uhd_imp.h
 rf_uhd_rfnoc.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/rf/rf_uhd_rfnoc.h
+/home/talha/srsRAN/lib/src/phy/rf/rf_uhd_rfnoc.h
 
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/rf/rf_uhd_imp.h
+/home/talha/srsRAN/lib/src/phy/rf/rf_uhd_imp.h
 stdbool.h
 -
 stdint.h
 -
 srsran/config.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/rf/srsran/config.h
+/home/talha/srsRAN/lib/src/phy/rf/srsran/config.h
 srsran/phy/common/phy_common.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/rf/srsran/phy/common/phy_common.h
+/home/talha/srsRAN/lib/src/phy/rf/srsran/phy/common/phy_common.h
 srsran/phy/rf/rf.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/rf/srsran/phy/rf/rf.h
+/home/talha/srsRAN/lib/src/phy/rf/srsran/phy/rf/rf.h
 
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/rf/rf_uhd_rfnoc.h
+/home/talha/srsRAN/lib/src/phy/rf/rf_uhd_rfnoc.h
 chrono
 -
 complex
@@ -174,9 +174,9 @@ uhd/rfnoc/ddc_ch2_block_ctrl.hpp
 uhd/rfnoc/duc_ch2_block_ctrl.hpp
 -
 rf_uhd_safe.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/rf/rf_uhd_safe.h
+/home/talha/srsRAN/lib/src/phy/rf/rf_uhd_safe.h
 
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/rf/rf_uhd_safe.h
+/home/talha/srsRAN/lib/src/phy/rf/rf_uhd_safe.h
 set
 -
 uhd/utils/log.hpp

@@ -135,7 +135,7 @@ lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_cell_search.c.o
  ../lib/include/srsran/phy/utils/ringbuffer.h
  ../lib/include/srsran/phy/utils/vector.h
  ../lib/include/srsran/srsran.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/ue/ue_cell_search.c
+ /home/talha/srsRAN/lib/src/phy/ue/ue_cell_search.c
  lib/include/srsran/version.h
 lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_cell_search_nbiot.c.o
  ../lib/include/srsran/config.h
@@ -186,7 +186,7 @@ lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_cell_search_nbiot.c.o
  ../lib/include/srsran/phy/utils/phy_logger.h
  ../lib/include/srsran/phy/utils/random.h
  ../lib/include/srsran/phy/utils/vector.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/ue/ue_cell_search_nbiot.c
+ /home/talha/srsRAN/lib/src/phy/ue/ue_cell_search_nbiot.c
 lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_dl.c.o
  ../lib/include/srsran/config.h
  ../lib/include/srsran/phy/agc/agc.h
@@ -321,7 +321,7 @@ lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_dl.c.o
  ../lib/include/srsran/phy/utils/ringbuffer.h
  ../lib/include/srsran/phy/utils/vector.h
  ../lib/include/srsran/srsran.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/ue/ue_dl.c
+ /home/talha/srsRAN/lib/src/phy/ue/ue_dl.c
  lib/include/srsran/version.h
 lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_dl_nbiot.c.o
  ../lib/include/srsran/config.h
@@ -379,7 +379,7 @@ lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_dl_nbiot.c.o
  ../lib/include/srsran/phy/utils/phy_logger.h
  ../lib/include/srsran/phy/utils/random.h
  ../lib/include/srsran/phy/utils/vector.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/ue/ue_dl_nbiot.c
+ /home/talha/srsRAN/lib/src/phy/ue/ue_dl_nbiot.c
 lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_dl_nr.c.o
  ../lib/include/srsran/config.h
  ../lib/include/srsran/phy/cfr/cfr.h
@@ -436,7 +436,7 @@ lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_dl_nr.c.o
  ../lib/include/srsran/phy/utils/random.h
  ../lib/include/srsran/phy/utils/re_pattern.h
  ../lib/include/srsran/phy/utils/vector.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/ue/ue_dl_nr.c
+ /home/talha/srsRAN/lib/src/phy/ue/ue_dl_nr.c
 lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_mib.c.o
  ../lib/include/srsran/config.h
  ../lib/include/srsran/phy/agc/agc.h
@@ -571,7 +571,7 @@ lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_mib.c.o
  ../lib/include/srsran/phy/utils/ringbuffer.h
  ../lib/include/srsran/phy/utils/vector.h
  ../lib/include/srsran/srsran.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/ue/ue_mib.c
+ /home/talha/srsRAN/lib/src/phy/ue/ue_mib.c
  lib/include/srsran/version.h
 lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_mib_nbiot.c.o
  ../lib/include/srsran/config.h
@@ -621,7 +621,7 @@ lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_mib_nbiot.c.o
  ../lib/include/srsran/phy/utils/phy_logger.h
  ../lib/include/srsran/phy/utils/random.h
  ../lib/include/srsran/phy/utils/vector.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/ue/ue_mib_nbiot.c
+ /home/talha/srsRAN/lib/src/phy/ue/ue_mib_nbiot.c
 lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_mib_sl.c.o
  ../lib/include/srsran/config.h
  ../lib/include/srsran/phy/ue/ue_mib_sl.h
@@ -629,7 +629,7 @@ lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_mib_sl.c.o
  ../lib/include/srsran/phy/utils/debug.h
  ../lib/include/srsran/phy/utils/phy_logger.h
  ../lib/include/srsran/phy/utils/vector.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/ue/ue_mib_sl.c
+ /home/talha/srsRAN/lib/src/phy/ue/ue_mib_sl.c
 lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_sync.c.o
  ../lib/include/srsran/config.h
  ../lib/include/srsran/phy/agc/agc.h
@@ -764,7 +764,7 @@ lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_sync.c.o
  ../lib/include/srsran/phy/utils/ringbuffer.h
  ../lib/include/srsran/phy/utils/vector.h
  ../lib/include/srsran/srsran.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/ue/ue_sync.c
+ /home/talha/srsRAN/lib/src/phy/ue/ue_sync.c
  lib/include/srsran/version.h
 lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_sync_nbiot.c.o
  ../lib/include/srsran/config.h
@@ -907,7 +907,7 @@ lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_sync_nbiot.c.o
  ../lib/include/srsran/phy/utils/ringbuffer.h
  ../lib/include/srsran/phy/utils/vector.h
  ../lib/include/srsran/srsran.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/ue/ue_sync_nbiot.c
+ /home/talha/srsRAN/lib/src/phy/ue/ue_sync_nbiot.c
  lib/include/srsran/version.h
 lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_sync_nr.c.o
  ../lib/include/srsran/config.h
@@ -928,7 +928,7 @@ lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_sync_nr.c.o
  ../lib/include/srsran/phy/utils/debug.h
  ../lib/include/srsran/phy/utils/phy_logger.h
  ../lib/include/srsran/phy/utils/vector.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/ue/ue_sync_nr.c
+ /home/talha/srsRAN/lib/src/phy/ue/ue_sync_nr.c
 lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_ul.c.o
  ../lib/include/srsran/config.h
  ../lib/include/srsran/phy/agc/agc.h
@@ -1063,7 +1063,7 @@ lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_ul.c.o
  ../lib/include/srsran/phy/utils/ringbuffer.h
  ../lib/include/srsran/phy/utils/vector.h
  ../lib/include/srsran/srsran.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/ue/ue_ul.c
+ /home/talha/srsRAN/lib/src/phy/ue/ue_ul.c
  lib/include/srsran/version.h
 lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_ul_nr.c.o
  ../lib/include/srsran/config.h
@@ -1123,4 +1123,4 @@ lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_ul_nr.c.o
  ../lib/include/srsran/phy/utils/random.h
  ../lib/include/srsran/phy/utils/re_pattern.h
  ../lib/include/srsran/phy/utils/vector.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/ue/ue_ul_nr.c
+ /home/talha/srsRAN/lib/src/phy/ue/ue_ul_nr.c

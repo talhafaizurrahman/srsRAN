@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/msudurip1/Documents/srsRAN_modified/srsRAN/test
-# Build directory: /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/test
+# Source directory: /home/talha/srsRAN/test
+# Build directory: /home/talha/srsRAN/build/test
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

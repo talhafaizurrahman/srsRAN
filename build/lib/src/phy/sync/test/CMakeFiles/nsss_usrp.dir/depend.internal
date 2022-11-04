@@ -16,4 +16,4 @@ lib/src/phy/sync/test/CMakeFiles/nsss_usrp.dir/nsss_usrp.c.o
  ../lib/include/srsran/phy/utils/debug.h
  ../lib/include/srsran/phy/utils/phy_logger.h
  ../lib/include/srsran/phy/utils/vector.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/sync/test/nsss_usrp.c
+ /home/talha/srsRAN/lib/src/phy/sync/test/nsss_usrp.c

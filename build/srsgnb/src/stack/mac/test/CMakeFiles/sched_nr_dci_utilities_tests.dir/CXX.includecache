@@ -522,9 +522,9 @@ srsran_assert.h
 stdio.h
 -
 
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsgnb/src/stack/mac/test/sched_nr_dci_utilities_tests.cc
+/home/talha/srsRAN/srsgnb/src/stack/mac/test/sched_nr_dci_utilities_tests.cc
 srsran/common/test_common.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsgnb/src/stack/mac/test/srsran/common/test_common.h
+/home/talha/srsRAN/srsgnb/src/stack/mac/test/srsran/common/test_common.h
 srsran/phy/phch/ra_nr.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsgnb/src/stack/mac/test/srsran/phy/phch/ra_nr.h
+/home/talha/srsRAN/srsgnb/src/stack/mac/test/srsran/phy/phch/ra_nr.h
 

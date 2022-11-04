@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/msudurip1/Documents/srsRAN_modified/srsRAN
+CMAKE_SOURCE_DIR = /home/talha/srsRAN
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/msudurip1/Documents/srsRAN_modified/srsRAN/build
+CMAKE_BINARY_DIR = /home/talha/srsRAN/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -116,7 +116,7 @@ test/fast: test
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/CPackSourceConfig.cmake
+	cd /home/talha/srsRAN/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/talha/srsRAN/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -127,7 +127,7 @@ package_source/fast: package_source
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/talha/srsRAN/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -159,14 +159,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/CMakeFiles /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/ue/test/CMakeFiles/progress.marks
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/ue/test/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/CMakeFiles 0
+	cd /home/talha/srsRAN/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/talha/srsRAN/build/CMakeFiles /home/talha/srsRAN/build/lib/src/phy/ue/test/CMakeFiles/progress.marks
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/ue/test/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/talha/srsRAN/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/ue/test/clean
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/ue/test/clean
 .PHONY : clean
 
 # The main clean target
@@ -176,22 +176,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: cmake_check_build_system
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/ue/test/preinstall
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/ue/test/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/ue/test/preinstall
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/ue/test/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/talha/srsRAN/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/src/phy/ue/test/CMakeFiles/gen_ack_nr_test.dir/rule:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/ue/test/CMakeFiles/gen_ack_nr_test.dir/rule
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/ue/test/CMakeFiles/gen_ack_nr_test.dir/rule
 .PHONY : lib/src/phy/ue/test/CMakeFiles/gen_ack_nr_test.dir/rule
 
 # Convenience name for target.
@@ -201,12 +201,12 @@ gen_ack_nr_test: lib/src/phy/ue/test/CMakeFiles/gen_ack_nr_test.dir/rule
 
 # fast build rule for target.
 gen_ack_nr_test/fast:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/ue/test/CMakeFiles/gen_ack_nr_test.dir/build.make lib/src/phy/ue/test/CMakeFiles/gen_ack_nr_test.dir/build
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/ue/test/CMakeFiles/gen_ack_nr_test.dir/build.make lib/src/phy/ue/test/CMakeFiles/gen_ack_nr_test.dir/build
 .PHONY : gen_ack_nr_test/fast
 
 # Convenience name for target.
 lib/src/phy/ue/test/CMakeFiles/ue_sync_nr_test.dir/rule:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/ue/test/CMakeFiles/ue_sync_nr_test.dir/rule
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/ue/test/CMakeFiles/ue_sync_nr_test.dir/rule
 .PHONY : lib/src/phy/ue/test/CMakeFiles/ue_sync_nr_test.dir/rule
 
 # Convenience name for target.
@@ -216,12 +216,12 @@ ue_sync_nr_test: lib/src/phy/ue/test/CMakeFiles/ue_sync_nr_test.dir/rule
 
 # fast build rule for target.
 ue_sync_nr_test/fast:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/ue/test/CMakeFiles/ue_sync_nr_test.dir/build.make lib/src/phy/ue/test/CMakeFiles/ue_sync_nr_test.dir/build
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/ue/test/CMakeFiles/ue_sync_nr_test.dir/build.make lib/src/phy/ue/test/CMakeFiles/ue_sync_nr_test.dir/build
 .PHONY : ue_sync_nr_test/fast
 
 # Convenience name for target.
 lib/src/phy/ue/test/CMakeFiles/ue_mib_sync_test_nbiot_usrp.dir/rule:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/ue/test/CMakeFiles/ue_mib_sync_test_nbiot_usrp.dir/rule
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/ue/test/CMakeFiles/ue_mib_sync_test_nbiot_usrp.dir/rule
 .PHONY : lib/src/phy/ue/test/CMakeFiles/ue_mib_sync_test_nbiot_usrp.dir/rule
 
 # Convenience name for target.
@@ -231,12 +231,12 @@ ue_mib_sync_test_nbiot_usrp: lib/src/phy/ue/test/CMakeFiles/ue_mib_sync_test_nbi
 
 # fast build rule for target.
 ue_mib_sync_test_nbiot_usrp/fast:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/ue/test/CMakeFiles/ue_mib_sync_test_nbiot_usrp.dir/build.make lib/src/phy/ue/test/CMakeFiles/ue_mib_sync_test_nbiot_usrp.dir/build
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/ue/test/CMakeFiles/ue_mib_sync_test_nbiot_usrp.dir/build.make lib/src/phy/ue/test/CMakeFiles/ue_mib_sync_test_nbiot_usrp.dir/build
 .PHONY : ue_mib_sync_test_nbiot_usrp/fast
 
 # Convenience name for target.
 lib/src/phy/ue/test/CMakeFiles/gen_ack_test.dir/rule:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/ue/test/CMakeFiles/gen_ack_test.dir/rule
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/ue/test/CMakeFiles/gen_ack_test.dir/rule
 .PHONY : lib/src/phy/ue/test/CMakeFiles/gen_ack_test.dir/rule
 
 # Convenience name for target.
@@ -246,12 +246,12 @@ gen_ack_test: lib/src/phy/ue/test/CMakeFiles/gen_ack_test.dir/rule
 
 # fast build rule for target.
 gen_ack_test/fast:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/ue/test/CMakeFiles/gen_ack_test.dir/build.make lib/src/phy/ue/test/CMakeFiles/gen_ack_test.dir/build
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/ue/test/CMakeFiles/gen_ack_test.dir/build.make lib/src/phy/ue/test/CMakeFiles/gen_ack_test.dir/build
 .PHONY : gen_ack_test/fast
 
 # Convenience name for target.
 lib/src/phy/ue/test/CMakeFiles/pucch_resource_test.dir/rule:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/ue/test/CMakeFiles/pucch_resource_test.dir/rule
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/ue/test/CMakeFiles/pucch_resource_test.dir/rule
 .PHONY : lib/src/phy/ue/test/CMakeFiles/pucch_resource_test.dir/rule
 
 # Convenience name for target.
@@ -261,12 +261,12 @@ pucch_resource_test: lib/src/phy/ue/test/CMakeFiles/pucch_resource_test.dir/rule
 
 # fast build rule for target.
 pucch_resource_test/fast:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/ue/test/CMakeFiles/pucch_resource_test.dir/build.make lib/src/phy/ue/test/CMakeFiles/pucch_resource_test.dir/build
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/ue/test/CMakeFiles/pucch_resource_test.dir/build.make lib/src/phy/ue/test/CMakeFiles/pucch_resource_test.dir/build
 .PHONY : pucch_resource_test/fast
 
 # Convenience name for target.
 lib/src/phy/ue/test/CMakeFiles/ue_sync_test_nbiot_usrp.dir/rule:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/ue/test/CMakeFiles/ue_sync_test_nbiot_usrp.dir/rule
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/ue/test/CMakeFiles/ue_sync_test_nbiot_usrp.dir/rule
 .PHONY : lib/src/phy/ue/test/CMakeFiles/ue_sync_test_nbiot_usrp.dir/rule
 
 # Convenience name for target.
@@ -276,12 +276,12 @@ ue_sync_test_nbiot_usrp: lib/src/phy/ue/test/CMakeFiles/ue_sync_test_nbiot_usrp.
 
 # fast build rule for target.
 ue_sync_test_nbiot_usrp/fast:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/ue/test/CMakeFiles/ue_sync_test_nbiot_usrp.dir/build.make lib/src/phy/ue/test/CMakeFiles/ue_sync_test_nbiot_usrp.dir/build
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/ue/test/CMakeFiles/ue_sync_test_nbiot_usrp.dir/build.make lib/src/phy/ue/test/CMakeFiles/ue_sync_test_nbiot_usrp.dir/build
 .PHONY : ue_sync_test_nbiot_usrp/fast
 
 # Convenience name for target.
 lib/src/phy/ue/test/CMakeFiles/ue_dl_nbiot_test.dir/rule:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/ue/test/CMakeFiles/ue_dl_nbiot_test.dir/rule
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/ue/test/CMakeFiles/ue_dl_nbiot_test.dir/rule
 .PHONY : lib/src/phy/ue/test/CMakeFiles/ue_dl_nbiot_test.dir/rule
 
 # Convenience name for target.
@@ -291,12 +291,12 @@ ue_dl_nbiot_test: lib/src/phy/ue/test/CMakeFiles/ue_dl_nbiot_test.dir/rule
 
 # fast build rule for target.
 ue_dl_nbiot_test/fast:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/ue/test/CMakeFiles/ue_dl_nbiot_test.dir/build.make lib/src/phy/ue/test/CMakeFiles/ue_dl_nbiot_test.dir/build
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/ue/test/CMakeFiles/ue_dl_nbiot_test.dir/build.make lib/src/phy/ue/test/CMakeFiles/ue_dl_nbiot_test.dir/build
 .PHONY : ue_dl_nbiot_test/fast
 
 # Convenience name for target.
 lib/src/phy/ue/test/CMakeFiles/ue_dl_nr_file_test.dir/rule:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/ue/test/CMakeFiles/ue_dl_nr_file_test.dir/rule
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/ue/test/CMakeFiles/ue_dl_nr_file_test.dir/rule
 .PHONY : lib/src/phy/ue/test/CMakeFiles/ue_dl_nr_file_test.dir/rule
 
 # Convenience name for target.
@@ -306,7 +306,7 @@ ue_dl_nr_file_test: lib/src/phy/ue/test/CMakeFiles/ue_dl_nr_file_test.dir/rule
 
 # fast build rule for target.
 ue_dl_nr_file_test/fast:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/ue/test/CMakeFiles/ue_dl_nr_file_test.dir/build.make lib/src/phy/ue/test/CMakeFiles/ue_dl_nr_file_test.dir/build
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/ue/test/CMakeFiles/ue_dl_nr_file_test.dir/build.make lib/src/phy/ue/test/CMakeFiles/ue_dl_nr_file_test.dir/build
 .PHONY : ue_dl_nr_file_test/fast
 
 gen_ack_nr_test.o: gen_ack_nr_test.c.o
@@ -315,7 +315,7 @@ gen_ack_nr_test.o: gen_ack_nr_test.c.o
 
 # target to build an object file
 gen_ack_nr_test.c.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/ue/test/CMakeFiles/gen_ack_nr_test.dir/build.make lib/src/phy/ue/test/CMakeFiles/gen_ack_nr_test.dir/gen_ack_nr_test.c.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/ue/test/CMakeFiles/gen_ack_nr_test.dir/build.make lib/src/phy/ue/test/CMakeFiles/gen_ack_nr_test.dir/gen_ack_nr_test.c.o
 .PHONY : gen_ack_nr_test.c.o
 
 gen_ack_nr_test.i: gen_ack_nr_test.c.i
@@ -324,7 +324,7 @@ gen_ack_nr_test.i: gen_ack_nr_test.c.i
 
 # target to preprocess a source file
 gen_ack_nr_test.c.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/ue/test/CMakeFiles/gen_ack_nr_test.dir/build.make lib/src/phy/ue/test/CMakeFiles/gen_ack_nr_test.dir/gen_ack_nr_test.c.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/ue/test/CMakeFiles/gen_ack_nr_test.dir/build.make lib/src/phy/ue/test/CMakeFiles/gen_ack_nr_test.dir/gen_ack_nr_test.c.i
 .PHONY : gen_ack_nr_test.c.i
 
 gen_ack_nr_test.s: gen_ack_nr_test.c.s
@@ -333,7 +333,7 @@ gen_ack_nr_test.s: gen_ack_nr_test.c.s
 
 # target to generate assembly for a file
 gen_ack_nr_test.c.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/ue/test/CMakeFiles/gen_ack_nr_test.dir/build.make lib/src/phy/ue/test/CMakeFiles/gen_ack_nr_test.dir/gen_ack_nr_test.c.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/ue/test/CMakeFiles/gen_ack_nr_test.dir/build.make lib/src/phy/ue/test/CMakeFiles/gen_ack_nr_test.dir/gen_ack_nr_test.c.s
 .PHONY : gen_ack_nr_test.c.s
 
 gen_ack_test.o: gen_ack_test.c.o
@@ -342,7 +342,7 @@ gen_ack_test.o: gen_ack_test.c.o
 
 # target to build an object file
 gen_ack_test.c.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/ue/test/CMakeFiles/gen_ack_test.dir/build.make lib/src/phy/ue/test/CMakeFiles/gen_ack_test.dir/gen_ack_test.c.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/ue/test/CMakeFiles/gen_ack_test.dir/build.make lib/src/phy/ue/test/CMakeFiles/gen_ack_test.dir/gen_ack_test.c.o
 .PHONY : gen_ack_test.c.o
 
 gen_ack_test.i: gen_ack_test.c.i
@@ -351,7 +351,7 @@ gen_ack_test.i: gen_ack_test.c.i
 
 # target to preprocess a source file
 gen_ack_test.c.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/ue/test/CMakeFiles/gen_ack_test.dir/build.make lib/src/phy/ue/test/CMakeFiles/gen_ack_test.dir/gen_ack_test.c.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/ue/test/CMakeFiles/gen_ack_test.dir/build.make lib/src/phy/ue/test/CMakeFiles/gen_ack_test.dir/gen_ack_test.c.i
 .PHONY : gen_ack_test.c.i
 
 gen_ack_test.s: gen_ack_test.c.s
@@ -360,7 +360,7 @@ gen_ack_test.s: gen_ack_test.c.s
 
 # target to generate assembly for a file
 gen_ack_test.c.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/ue/test/CMakeFiles/gen_ack_test.dir/build.make lib/src/phy/ue/test/CMakeFiles/gen_ack_test.dir/gen_ack_test.c.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/ue/test/CMakeFiles/gen_ack_test.dir/build.make lib/src/phy/ue/test/CMakeFiles/gen_ack_test.dir/gen_ack_test.c.s
 .PHONY : gen_ack_test.c.s
 
 pucch_resource_test.o: pucch_resource_test.c.o
@@ -369,7 +369,7 @@ pucch_resource_test.o: pucch_resource_test.c.o
 
 # target to build an object file
 pucch_resource_test.c.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/ue/test/CMakeFiles/pucch_resource_test.dir/build.make lib/src/phy/ue/test/CMakeFiles/pucch_resource_test.dir/pucch_resource_test.c.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/ue/test/CMakeFiles/pucch_resource_test.dir/build.make lib/src/phy/ue/test/CMakeFiles/pucch_resource_test.dir/pucch_resource_test.c.o
 .PHONY : pucch_resource_test.c.o
 
 pucch_resource_test.i: pucch_resource_test.c.i
@@ -378,7 +378,7 @@ pucch_resource_test.i: pucch_resource_test.c.i
 
 # target to preprocess a source file
 pucch_resource_test.c.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/ue/test/CMakeFiles/pucch_resource_test.dir/build.make lib/src/phy/ue/test/CMakeFiles/pucch_resource_test.dir/pucch_resource_test.c.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/ue/test/CMakeFiles/pucch_resource_test.dir/build.make lib/src/phy/ue/test/CMakeFiles/pucch_resource_test.dir/pucch_resource_test.c.i
 .PHONY : pucch_resource_test.c.i
 
 pucch_resource_test.s: pucch_resource_test.c.s
@@ -387,7 +387,7 @@ pucch_resource_test.s: pucch_resource_test.c.s
 
 # target to generate assembly for a file
 pucch_resource_test.c.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/ue/test/CMakeFiles/pucch_resource_test.dir/build.make lib/src/phy/ue/test/CMakeFiles/pucch_resource_test.dir/pucch_resource_test.c.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/ue/test/CMakeFiles/pucch_resource_test.dir/build.make lib/src/phy/ue/test/CMakeFiles/pucch_resource_test.dir/pucch_resource_test.c.s
 .PHONY : pucch_resource_test.c.s
 
 ue_dl_nbiot_test.o: ue_dl_nbiot_test.c.o
@@ -396,7 +396,7 @@ ue_dl_nbiot_test.o: ue_dl_nbiot_test.c.o
 
 # target to build an object file
 ue_dl_nbiot_test.c.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/ue/test/CMakeFiles/ue_dl_nbiot_test.dir/build.make lib/src/phy/ue/test/CMakeFiles/ue_dl_nbiot_test.dir/ue_dl_nbiot_test.c.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/ue/test/CMakeFiles/ue_dl_nbiot_test.dir/build.make lib/src/phy/ue/test/CMakeFiles/ue_dl_nbiot_test.dir/ue_dl_nbiot_test.c.o
 .PHONY : ue_dl_nbiot_test.c.o
 
 ue_dl_nbiot_test.i: ue_dl_nbiot_test.c.i
@@ -405,7 +405,7 @@ ue_dl_nbiot_test.i: ue_dl_nbiot_test.c.i
 
 # target to preprocess a source file
 ue_dl_nbiot_test.c.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/ue/test/CMakeFiles/ue_dl_nbiot_test.dir/build.make lib/src/phy/ue/test/CMakeFiles/ue_dl_nbiot_test.dir/ue_dl_nbiot_test.c.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/ue/test/CMakeFiles/ue_dl_nbiot_test.dir/build.make lib/src/phy/ue/test/CMakeFiles/ue_dl_nbiot_test.dir/ue_dl_nbiot_test.c.i
 .PHONY : ue_dl_nbiot_test.c.i
 
 ue_dl_nbiot_test.s: ue_dl_nbiot_test.c.s
@@ -414,7 +414,7 @@ ue_dl_nbiot_test.s: ue_dl_nbiot_test.c.s
 
 # target to generate assembly for a file
 ue_dl_nbiot_test.c.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/ue/test/CMakeFiles/ue_dl_nbiot_test.dir/build.make lib/src/phy/ue/test/CMakeFiles/ue_dl_nbiot_test.dir/ue_dl_nbiot_test.c.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/ue/test/CMakeFiles/ue_dl_nbiot_test.dir/build.make lib/src/phy/ue/test/CMakeFiles/ue_dl_nbiot_test.dir/ue_dl_nbiot_test.c.s
 .PHONY : ue_dl_nbiot_test.c.s
 
 ue_dl_nr_file_test.o: ue_dl_nr_file_test.cc.o
@@ -423,7 +423,7 @@ ue_dl_nr_file_test.o: ue_dl_nr_file_test.cc.o
 
 # target to build an object file
 ue_dl_nr_file_test.cc.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/ue/test/CMakeFiles/ue_dl_nr_file_test.dir/build.make lib/src/phy/ue/test/CMakeFiles/ue_dl_nr_file_test.dir/ue_dl_nr_file_test.cc.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/ue/test/CMakeFiles/ue_dl_nr_file_test.dir/build.make lib/src/phy/ue/test/CMakeFiles/ue_dl_nr_file_test.dir/ue_dl_nr_file_test.cc.o
 .PHONY : ue_dl_nr_file_test.cc.o
 
 ue_dl_nr_file_test.i: ue_dl_nr_file_test.cc.i
@@ -432,7 +432,7 @@ ue_dl_nr_file_test.i: ue_dl_nr_file_test.cc.i
 
 # target to preprocess a source file
 ue_dl_nr_file_test.cc.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/ue/test/CMakeFiles/ue_dl_nr_file_test.dir/build.make lib/src/phy/ue/test/CMakeFiles/ue_dl_nr_file_test.dir/ue_dl_nr_file_test.cc.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/ue/test/CMakeFiles/ue_dl_nr_file_test.dir/build.make lib/src/phy/ue/test/CMakeFiles/ue_dl_nr_file_test.dir/ue_dl_nr_file_test.cc.i
 .PHONY : ue_dl_nr_file_test.cc.i
 
 ue_dl_nr_file_test.s: ue_dl_nr_file_test.cc.s
@@ -441,7 +441,7 @@ ue_dl_nr_file_test.s: ue_dl_nr_file_test.cc.s
 
 # target to generate assembly for a file
 ue_dl_nr_file_test.cc.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/ue/test/CMakeFiles/ue_dl_nr_file_test.dir/build.make lib/src/phy/ue/test/CMakeFiles/ue_dl_nr_file_test.dir/ue_dl_nr_file_test.cc.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/ue/test/CMakeFiles/ue_dl_nr_file_test.dir/build.make lib/src/phy/ue/test/CMakeFiles/ue_dl_nr_file_test.dir/ue_dl_nr_file_test.cc.s
 .PHONY : ue_dl_nr_file_test.cc.s
 
 ue_mib_sync_test_nbiot_usrp.o: ue_mib_sync_test_nbiot_usrp.c.o
@@ -450,7 +450,7 @@ ue_mib_sync_test_nbiot_usrp.o: ue_mib_sync_test_nbiot_usrp.c.o
 
 # target to build an object file
 ue_mib_sync_test_nbiot_usrp.c.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/ue/test/CMakeFiles/ue_mib_sync_test_nbiot_usrp.dir/build.make lib/src/phy/ue/test/CMakeFiles/ue_mib_sync_test_nbiot_usrp.dir/ue_mib_sync_test_nbiot_usrp.c.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/ue/test/CMakeFiles/ue_mib_sync_test_nbiot_usrp.dir/build.make lib/src/phy/ue/test/CMakeFiles/ue_mib_sync_test_nbiot_usrp.dir/ue_mib_sync_test_nbiot_usrp.c.o
 .PHONY : ue_mib_sync_test_nbiot_usrp.c.o
 
 ue_mib_sync_test_nbiot_usrp.i: ue_mib_sync_test_nbiot_usrp.c.i
@@ -459,7 +459,7 @@ ue_mib_sync_test_nbiot_usrp.i: ue_mib_sync_test_nbiot_usrp.c.i
 
 # target to preprocess a source file
 ue_mib_sync_test_nbiot_usrp.c.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/ue/test/CMakeFiles/ue_mib_sync_test_nbiot_usrp.dir/build.make lib/src/phy/ue/test/CMakeFiles/ue_mib_sync_test_nbiot_usrp.dir/ue_mib_sync_test_nbiot_usrp.c.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/ue/test/CMakeFiles/ue_mib_sync_test_nbiot_usrp.dir/build.make lib/src/phy/ue/test/CMakeFiles/ue_mib_sync_test_nbiot_usrp.dir/ue_mib_sync_test_nbiot_usrp.c.i
 .PHONY : ue_mib_sync_test_nbiot_usrp.c.i
 
 ue_mib_sync_test_nbiot_usrp.s: ue_mib_sync_test_nbiot_usrp.c.s
@@ -468,7 +468,7 @@ ue_mib_sync_test_nbiot_usrp.s: ue_mib_sync_test_nbiot_usrp.c.s
 
 # target to generate assembly for a file
 ue_mib_sync_test_nbiot_usrp.c.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/ue/test/CMakeFiles/ue_mib_sync_test_nbiot_usrp.dir/build.make lib/src/phy/ue/test/CMakeFiles/ue_mib_sync_test_nbiot_usrp.dir/ue_mib_sync_test_nbiot_usrp.c.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/ue/test/CMakeFiles/ue_mib_sync_test_nbiot_usrp.dir/build.make lib/src/phy/ue/test/CMakeFiles/ue_mib_sync_test_nbiot_usrp.dir/ue_mib_sync_test_nbiot_usrp.c.s
 .PHONY : ue_mib_sync_test_nbiot_usrp.c.s
 
 ue_sync_nr_test.o: ue_sync_nr_test.c.o
@@ -477,7 +477,7 @@ ue_sync_nr_test.o: ue_sync_nr_test.c.o
 
 # target to build an object file
 ue_sync_nr_test.c.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/ue/test/CMakeFiles/ue_sync_nr_test.dir/build.make lib/src/phy/ue/test/CMakeFiles/ue_sync_nr_test.dir/ue_sync_nr_test.c.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/ue/test/CMakeFiles/ue_sync_nr_test.dir/build.make lib/src/phy/ue/test/CMakeFiles/ue_sync_nr_test.dir/ue_sync_nr_test.c.o
 .PHONY : ue_sync_nr_test.c.o
 
 ue_sync_nr_test.i: ue_sync_nr_test.c.i
@@ -486,7 +486,7 @@ ue_sync_nr_test.i: ue_sync_nr_test.c.i
 
 # target to preprocess a source file
 ue_sync_nr_test.c.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/ue/test/CMakeFiles/ue_sync_nr_test.dir/build.make lib/src/phy/ue/test/CMakeFiles/ue_sync_nr_test.dir/ue_sync_nr_test.c.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/ue/test/CMakeFiles/ue_sync_nr_test.dir/build.make lib/src/phy/ue/test/CMakeFiles/ue_sync_nr_test.dir/ue_sync_nr_test.c.i
 .PHONY : ue_sync_nr_test.c.i
 
 ue_sync_nr_test.s: ue_sync_nr_test.c.s
@@ -495,7 +495,7 @@ ue_sync_nr_test.s: ue_sync_nr_test.c.s
 
 # target to generate assembly for a file
 ue_sync_nr_test.c.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/ue/test/CMakeFiles/ue_sync_nr_test.dir/build.make lib/src/phy/ue/test/CMakeFiles/ue_sync_nr_test.dir/ue_sync_nr_test.c.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/ue/test/CMakeFiles/ue_sync_nr_test.dir/build.make lib/src/phy/ue/test/CMakeFiles/ue_sync_nr_test.dir/ue_sync_nr_test.c.s
 .PHONY : ue_sync_nr_test.c.s
 
 ue_sync_test_nbiot_usrp.o: ue_sync_test_nbiot_usrp.c.o
@@ -504,7 +504,7 @@ ue_sync_test_nbiot_usrp.o: ue_sync_test_nbiot_usrp.c.o
 
 # target to build an object file
 ue_sync_test_nbiot_usrp.c.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/ue/test/CMakeFiles/ue_sync_test_nbiot_usrp.dir/build.make lib/src/phy/ue/test/CMakeFiles/ue_sync_test_nbiot_usrp.dir/ue_sync_test_nbiot_usrp.c.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/ue/test/CMakeFiles/ue_sync_test_nbiot_usrp.dir/build.make lib/src/phy/ue/test/CMakeFiles/ue_sync_test_nbiot_usrp.dir/ue_sync_test_nbiot_usrp.c.o
 .PHONY : ue_sync_test_nbiot_usrp.c.o
 
 ue_sync_test_nbiot_usrp.i: ue_sync_test_nbiot_usrp.c.i
@@ -513,7 +513,7 @@ ue_sync_test_nbiot_usrp.i: ue_sync_test_nbiot_usrp.c.i
 
 # target to preprocess a source file
 ue_sync_test_nbiot_usrp.c.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/ue/test/CMakeFiles/ue_sync_test_nbiot_usrp.dir/build.make lib/src/phy/ue/test/CMakeFiles/ue_sync_test_nbiot_usrp.dir/ue_sync_test_nbiot_usrp.c.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/ue/test/CMakeFiles/ue_sync_test_nbiot_usrp.dir/build.make lib/src/phy/ue/test/CMakeFiles/ue_sync_test_nbiot_usrp.dir/ue_sync_test_nbiot_usrp.c.i
 .PHONY : ue_sync_test_nbiot_usrp.c.i
 
 ue_sync_test_nbiot_usrp.s: ue_sync_test_nbiot_usrp.c.s
@@ -522,7 +522,7 @@ ue_sync_test_nbiot_usrp.s: ue_sync_test_nbiot_usrp.c.s
 
 # target to generate assembly for a file
 ue_sync_test_nbiot_usrp.c.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/ue/test/CMakeFiles/ue_sync_test_nbiot_usrp.dir/build.make lib/src/phy/ue/test/CMakeFiles/ue_sync_test_nbiot_usrp.dir/ue_sync_test_nbiot_usrp.c.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/ue/test/CMakeFiles/ue_sync_test_nbiot_usrp.dir/build.make lib/src/phy/ue/test/CMakeFiles/ue_sync_test_nbiot_usrp.dir/ue_sync_test_nbiot_usrp.c.s
 .PHONY : ue_sync_test_nbiot_usrp.c.s
 
 # Help Target
@@ -583,6 +583,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/talha/srsRAN/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

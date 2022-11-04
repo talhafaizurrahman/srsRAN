@@ -26,4 +26,4 @@ srsue/src/stack/mac_common/CMakeFiles/srsue_mac_common.dir/mac_common.cc.o
  ../lib/include/srsran/srslog/sink.h
  ../lib/include/srsran/srslog/srslog.h
  ../srsue/hdr/stack/mac_common/mac_common.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/stack/mac_common/mac_common.cc
+ /home/talha/srsRAN/srsue/src/stack/mac_common/mac_common.cc

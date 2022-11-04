@@ -4,16 +4,16 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsenb/src/phy/lte/cc_worker.cc" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsenb/src/phy/CMakeFiles/srsenb_phy.dir/lte/cc_worker.cc.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsenb/src/phy/lte/sf_worker.cc" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsenb/src/phy/CMakeFiles/srsenb_phy.dir/lte/sf_worker.cc.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsenb/src/phy/lte/worker_pool.cc" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsenb/src/phy/CMakeFiles/srsenb_phy.dir/lte/worker_pool.cc.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsenb/src/phy/nr/slot_worker.cc" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsenb/src/phy/CMakeFiles/srsenb_phy.dir/nr/slot_worker.cc.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsenb/src/phy/nr/worker_pool.cc" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsenb/src/phy/CMakeFiles/srsenb_phy.dir/nr/worker_pool.cc.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsenb/src/phy/phy.cc" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsenb/src/phy/CMakeFiles/srsenb_phy.dir/phy.cc.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsenb/src/phy/phy_common.cc" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsenb/src/phy/CMakeFiles/srsenb_phy.dir/phy_common.cc.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsenb/src/phy/phy_ue_db.cc" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsenb/src/phy/CMakeFiles/srsenb_phy.dir/phy_ue_db.cc.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsenb/src/phy/prach_worker.cc" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsenb/src/phy/CMakeFiles/srsenb_phy.dir/prach_worker.cc.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsenb/src/phy/txrx.cc" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsenb/src/phy/CMakeFiles/srsenb_phy.dir/txrx.cc.o"
+  "/home/talha/srsRAN/srsenb/src/phy/lte/cc_worker.cc" "/home/talha/srsRAN/build/srsenb/src/phy/CMakeFiles/srsenb_phy.dir/lte/cc_worker.cc.o"
+  "/home/talha/srsRAN/srsenb/src/phy/lte/sf_worker.cc" "/home/talha/srsRAN/build/srsenb/src/phy/CMakeFiles/srsenb_phy.dir/lte/sf_worker.cc.o"
+  "/home/talha/srsRAN/srsenb/src/phy/lte/worker_pool.cc" "/home/talha/srsRAN/build/srsenb/src/phy/CMakeFiles/srsenb_phy.dir/lte/worker_pool.cc.o"
+  "/home/talha/srsRAN/srsenb/src/phy/nr/slot_worker.cc" "/home/talha/srsRAN/build/srsenb/src/phy/CMakeFiles/srsenb_phy.dir/nr/slot_worker.cc.o"
+  "/home/talha/srsRAN/srsenb/src/phy/nr/worker_pool.cc" "/home/talha/srsRAN/build/srsenb/src/phy/CMakeFiles/srsenb_phy.dir/nr/worker_pool.cc.o"
+  "/home/talha/srsRAN/srsenb/src/phy/phy.cc" "/home/talha/srsRAN/build/srsenb/src/phy/CMakeFiles/srsenb_phy.dir/phy.cc.o"
+  "/home/talha/srsRAN/srsenb/src/phy/phy_common.cc" "/home/talha/srsRAN/build/srsenb/src/phy/CMakeFiles/srsenb_phy.dir/phy_common.cc.o"
+  "/home/talha/srsRAN/srsenb/src/phy/phy_ue_db.cc" "/home/talha/srsRAN/build/srsenb/src/phy/CMakeFiles/srsenb_phy.dir/phy_ue_db.cc.o"
+  "/home/talha/srsRAN/srsenb/src/phy/prach_worker.cc" "/home/talha/srsRAN/build/srsenb/src/phy/CMakeFiles/srsenb_phy.dir/prach_worker.cc.o"
+  "/home/talha/srsRAN/srsenb/src/phy/txrx.cc" "/home/talha/srsRAN/build/srsenb/src/phy/CMakeFiles/srsenb_phy.dir/txrx.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsepc/src/spgw/gtpc.cc" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsepc/src/spgw/CMakeFiles/srsepc_sgw.dir/gtpc.cc.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsepc/src/spgw/gtpu.cc" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsepc/src/spgw/CMakeFiles/srsepc_sgw.dir/gtpu.cc.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsepc/src/spgw/spgw.cc" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsepc/src/spgw/CMakeFiles/srsepc_sgw.dir/spgw.cc.o"
+  "/home/talha/srsRAN/srsepc/src/spgw/gtpc.cc" "/home/talha/srsRAN/build/srsepc/src/spgw/CMakeFiles/srsepc_sgw.dir/gtpc.cc.o"
+  "/home/talha/srsRAN/srsepc/src/spgw/gtpu.cc" "/home/talha/srsRAN/build/srsepc/src/spgw/CMakeFiles/srsepc_sgw.dir/gtpu.cc.o"
+  "/home/talha/srsRAN/srsepc/src/spgw/spgw.cc" "/home/talha/srsRAN/build/srsepc/src/spgw/CMakeFiles/srsepc_sgw.dir/spgw.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -224,7 +224,7 @@ srsgnb/src/stack/mac/test/CMakeFiles/sched_nr_test.dir/sched_nr_test.cc.o
  ../srsgnb/hdr/stack/mac/sched_nr_rb.h
  ../srsgnb/hdr/stack/mac/sched_nr_ue.h
  ../srsgnb/hdr/stack/mac/sched_ue/ue_cfg_manager.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsgnb/src/stack/mac/test/sched_nr_cfg_generators.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsgnb/src/stack/mac/test/sched_nr_sim_ue.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsgnb/src/stack/mac/test/sched_nr_test.cc
+ /home/talha/srsRAN/srsgnb/src/stack/mac/test/sched_nr_cfg_generators.h
+ /home/talha/srsRAN/srsgnb/src/stack/mac/test/sched_nr_sim_ue.h
+ /home/talha/srsRAN/srsgnb/src/stack/mac/test/sched_nr_test.cc
  lib/include/srsran/version.h

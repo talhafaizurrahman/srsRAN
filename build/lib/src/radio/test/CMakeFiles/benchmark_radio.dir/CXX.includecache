@@ -2060,7 +2060,7 @@ srsran/phy/sync/sss.h
 srsran/phy/sync/sync.h
 ../lib/include/srsran/srsran/phy/sync/sync.h
 
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/radio/test/benchmark_radio.cc
+/home/talha/srsRAN/lib/src/radio/test/benchmark_radio.cc
 pthread.h
 -
 sys/mman.h
@@ -2068,15 +2068,15 @@ sys/mman.h
 unistd.h
 -
 srsran/phy/common/timestamp.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/radio/test/srsran/phy/common/timestamp.h
+/home/talha/srsRAN/lib/src/radio/test/srsran/phy/common/timestamp.h
 srsran/common/tsan_options.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/radio/test/srsran/common/tsan_options.h
+/home/talha/srsRAN/lib/src/radio/test/srsran/common/tsan_options.h
 srsran/phy/utils/debug.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/radio/test/srsran/phy/utils/debug.h
+/home/talha/srsRAN/lib/src/radio/test/srsran/phy/utils/debug.h
 srsran/radio/radio.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/radio/test/srsran/radio/radio.h
+/home/talha/srsRAN/lib/src/radio/test/srsran/radio/radio.h
 srsgui/srsgui.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/radio/test/srsgui/srsgui.h
+/home/talha/srsRAN/lib/src/radio/test/srsgui/srsgui.h
 semaphore.h
 -
 

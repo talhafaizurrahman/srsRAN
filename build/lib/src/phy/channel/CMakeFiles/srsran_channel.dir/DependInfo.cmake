@@ -5,12 +5,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/channel/ch_awgn.c" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/channel/CMakeFiles/srsran_channel.dir/ch_awgn.c.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/channel/delay.c" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/channel/CMakeFiles/srsran_channel.dir/delay.c.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/channel/fading.c" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/channel/CMakeFiles/srsran_channel.dir/fading.c.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/channel/gauss.c" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/channel/CMakeFiles/srsran_channel.dir/gauss.c.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/channel/hst.c" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/channel/CMakeFiles/srsran_channel.dir/hst.c.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/channel/rlf.c" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/channel/CMakeFiles/srsran_channel.dir/rlf.c.o"
+  "/home/talha/srsRAN/lib/src/phy/channel/ch_awgn.c" "/home/talha/srsRAN/build/lib/src/phy/channel/CMakeFiles/srsran_channel.dir/ch_awgn.c.o"
+  "/home/talha/srsRAN/lib/src/phy/channel/delay.c" "/home/talha/srsRAN/build/lib/src/phy/channel/CMakeFiles/srsran_channel.dir/delay.c.o"
+  "/home/talha/srsRAN/lib/src/phy/channel/fading.c" "/home/talha/srsRAN/build/lib/src/phy/channel/CMakeFiles/srsran_channel.dir/fading.c.o"
+  "/home/talha/srsRAN/lib/src/phy/channel/gauss.c" "/home/talha/srsRAN/build/lib/src/phy/channel/CMakeFiles/srsran_channel.dir/gauss.c.o"
+  "/home/talha/srsRAN/lib/src/phy/channel/hst.c" "/home/talha/srsRAN/build/lib/src/phy/channel/CMakeFiles/srsran_channel.dir/hst.c.o"
+  "/home/talha/srsRAN/lib/src/phy/channel/rlf.c" "/home/talha/srsRAN/build/lib/src/phy/channel/CMakeFiles/srsran_channel.dir/rlf.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -27,7 +27,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "../lib/include"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/channel/channel.cc" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/channel/CMakeFiles/srsran_channel.dir/channel.cc.o"
+  "/home/talha/srsRAN/lib/src/phy/channel/channel.cc" "/home/talha/srsRAN/build/lib/src/phy/channel/CMakeFiles/srsran_channel.dir/channel.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

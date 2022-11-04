@@ -522,7 +522,7 @@ stdint.h
 stdio.h
 -
 
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/ue/test/ue_mib_sync_test_nbiot_usrp.c
+/home/talha/srsRAN/lib/src/phy/ue/test/ue_mib_sync_test_nbiot_usrp.c
 math.h
 -
 signal.h
@@ -542,13 +542,13 @@ time.h
 unistd.h
 -
 srsran/phy/phch/npbch.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/ue/test/srsran/phy/phch/npbch.h
+/home/talha/srsRAN/lib/src/phy/ue/test/srsran/phy/phch/npbch.h
 srsran/phy/rf/rf.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/ue/test/srsran/phy/rf/rf.h
+/home/talha/srsRAN/lib/src/phy/ue/test/srsran/phy/rf/rf.h
 srsran/phy/sync/sync_nbiot.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/ue/test/srsran/phy/sync/sync_nbiot.h
+/home/talha/srsRAN/lib/src/phy/ue/test/srsran/phy/sync/sync_nbiot.h
 srsran/phy/ue/ue_mib_nbiot.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/ue/test/srsran/phy/ue/ue_mib_nbiot.h
+/home/talha/srsRAN/lib/src/phy/ue/test/srsran/phy/ue/ue_mib_nbiot.h
 srsran/phy/utils/debug.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/ue/test/srsran/phy/utils/debug.h
+/home/talha/srsRAN/lib/src/phy/ue/test/srsran/phy/utils/debug.h
 

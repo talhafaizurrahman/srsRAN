@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/test/phy/nr_phy_test.cc" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/test/phy/CMakeFiles/nr_phy_test.dir/nr_phy_test.cc.o"
+  "/home/talha/srsRAN/test/phy/nr_phy_test.cc" "/home/talha/srsRAN/build/test/phy/CMakeFiles/nr_phy_test.dir/nr_phy_test.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -28,20 +28,20 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsue/src/phy/CMakeFiles/srsue_phy.dir/DependInfo.cmake"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/common/CMakeFiles/srsran_common.dir/DependInfo.cmake"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/asn1/CMakeFiles/rrc_nr_asn1.dir/DependInfo.cmake"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/CMakeFiles/srsran_phy.dir/DependInfo.cmake"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/radio/CMakeFiles/srsran_radio.dir/DependInfo.cmake"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsenb/src/phy/CMakeFiles/srsenb_phy.dir/DependInfo.cmake"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/DependInfo.cmake"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/mac/CMakeFiles/srsran_mac.dir/DependInfo.cmake"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/rf/CMakeFiles/srsran_rf.dir/DependInfo.cmake"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/rf/CMakeFiles/srsran_rf_utils.dir/DependInfo.cmake"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/asn1/CMakeFiles/asn1_utils.dir/DependInfo.cmake"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/support/CMakeFiles/support.dir/DependInfo.cmake"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/srslog/CMakeFiles/srslog.dir/DependInfo.cmake"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsenb/src/stack/mac/common/CMakeFiles/srsenb_mac_common.dir/DependInfo.cmake"
+  "/home/talha/srsRAN/build/srsue/src/phy/CMakeFiles/srsue_phy.dir/DependInfo.cmake"
+  "/home/talha/srsRAN/build/lib/src/common/CMakeFiles/srsran_common.dir/DependInfo.cmake"
+  "/home/talha/srsRAN/build/lib/src/asn1/CMakeFiles/rrc_nr_asn1.dir/DependInfo.cmake"
+  "/home/talha/srsRAN/build/lib/src/phy/CMakeFiles/srsran_phy.dir/DependInfo.cmake"
+  "/home/talha/srsRAN/build/lib/src/radio/CMakeFiles/srsran_radio.dir/DependInfo.cmake"
+  "/home/talha/srsRAN/build/srsenb/src/phy/CMakeFiles/srsenb_phy.dir/DependInfo.cmake"
+  "/home/talha/srsRAN/build/srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/DependInfo.cmake"
+  "/home/talha/srsRAN/build/lib/src/mac/CMakeFiles/srsran_mac.dir/DependInfo.cmake"
+  "/home/talha/srsRAN/build/lib/src/phy/rf/CMakeFiles/srsran_rf.dir/DependInfo.cmake"
+  "/home/talha/srsRAN/build/lib/src/phy/rf/CMakeFiles/srsran_rf_utils.dir/DependInfo.cmake"
+  "/home/talha/srsRAN/build/lib/src/asn1/CMakeFiles/asn1_utils.dir/DependInfo.cmake"
+  "/home/talha/srsRAN/build/lib/src/support/CMakeFiles/support.dir/DependInfo.cmake"
+  "/home/talha/srsRAN/build/lib/src/srslog/CMakeFiles/srslog.dir/DependInfo.cmake"
+  "/home/talha/srsRAN/build/srsenb/src/stack/mac/common/CMakeFiles/srsenb_mac_common.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

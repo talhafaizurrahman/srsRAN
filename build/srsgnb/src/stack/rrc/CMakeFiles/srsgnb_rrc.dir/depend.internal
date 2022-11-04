@@ -192,7 +192,7 @@ srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/cell_asn1_config.cc.o
  ../srsgnb/hdr/phy/phy_nr_interfaces.h
  ../srsgnb/hdr/stack/rrc/cell_asn1_config.h
  ../srsgnb/hdr/stack/rrc/rrc_nr_config.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsgnb/src/stack/rrc/cell_asn1_config.cc
+ /home/talha/srsRAN/srsgnb/src/stack/rrc/cell_asn1_config.cc
  lib/include/srsran/version.h
 srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/rrc_nr.cc.o
  ../lib/include/srsran/adt/bounded_vector.h
@@ -435,7 +435,7 @@ srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/rrc_nr.cc.o
  ../srsue/hdr/stack/upper/gw.h
  ../srsue/hdr/stack/upper/gw_metrics.h
  ../srsue/hdr/stack/upper/tft_packet_filter.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsgnb/src/stack/rrc/rrc_nr.cc
+ /home/talha/srsRAN/srsgnb/src/stack/rrc/rrc_nr.cc
  lib/include/srsran/version.h
 srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/rrc_nr_du_manager.cc.o
  ../lib/include/srsran/adt/bounded_vector.h
@@ -637,7 +637,7 @@ srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/rrc_nr_du_manager.cc.o
  ../srsgnb/hdr/stack/rrc/cell_asn1_config.h
  ../srsgnb/hdr/stack/rrc/rrc_nr_config.h
  ../srsgnb/hdr/stack/rrc/rrc_nr_du_manager.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsgnb/src/stack/rrc/rrc_nr_du_manager.cc
+ /home/talha/srsRAN/srsgnb/src/stack/rrc/rrc_nr_du_manager.cc
  lib/include/srsran/version.h
 srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/rrc_nr_security_context.cc.o
  ../lib/include/srsran/adt/bounded_vector.h
@@ -828,7 +828,7 @@ srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/rrc_nr_security_context.cc.o
  ../srsgnb/hdr/phy/phy_nr_interfaces.h
  ../srsgnb/hdr/stack/rrc/rrc_nr_config.h
  ../srsgnb/hdr/stack/rrc/rrc_nr_security_context.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsgnb/src/stack/rrc/rrc_nr_security_context.cc
+ /home/talha/srsRAN/srsgnb/src/stack/rrc/rrc_nr_security_context.cc
  lib/include/srsran/version.h
 srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/rrc_nr_ue.cc.o
  ../lib/include/srsran/adt/bounded_vector.h
@@ -1066,5 +1066,5 @@ srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc.dir/rrc_nr_ue.cc.o
  ../srsue/hdr/stack/upper/gw.h
  ../srsue/hdr/stack/upper/gw_metrics.h
  ../srsue/hdr/stack/upper/tft_packet_filter.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsgnb/src/stack/rrc/rrc_nr_ue.cc
+ /home/talha/srsRAN/srsgnb/src/stack/rrc/rrc_nr_ue.cc
  lib/include/srsran/version.h

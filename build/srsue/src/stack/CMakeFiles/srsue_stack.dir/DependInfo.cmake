@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/stack/ue_stack_lte.cc" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsue/src/stack/CMakeFiles/srsue_stack.dir/ue_stack_lte.cc.o"
+  "/home/talha/srsRAN/srsue/src/stack/ue_stack_lte.cc" "/home/talha/srsRAN/build/srsue/src/stack/CMakeFiles/srsue_stack.dir/ue_stack_lte.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

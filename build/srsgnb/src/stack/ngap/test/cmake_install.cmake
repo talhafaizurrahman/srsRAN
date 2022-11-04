@@ -1,4 +1,4 @@
-# Install script for directory: /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsgnb/src/stack/ngap/test
+# Install script for directory: /home/talha/srsRAN/srsgnb/src/stack/ngap/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

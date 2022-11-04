@@ -4,12 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/modem/demod_hard.c" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/modem/CMakeFiles/srsran_modem.dir/demod_hard.c.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/modem/demod_soft.c" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/modem/CMakeFiles/srsran_modem.dir/demod_soft.c.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/modem/hard_demod_lte.c" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/modem/CMakeFiles/srsran_modem.dir/hard_demod_lte.c.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/modem/lte_tables.c" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/modem/CMakeFiles/srsran_modem.dir/lte_tables.c.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/modem/mod.c" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/modem/CMakeFiles/srsran_modem.dir/mod.c.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/modem/modem_table.c" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/modem/CMakeFiles/srsran_modem.dir/modem_table.c.o"
+  "/home/talha/srsRAN/lib/src/phy/modem/demod_hard.c" "/home/talha/srsRAN/build/lib/src/phy/modem/CMakeFiles/srsran_modem.dir/demod_hard.c.o"
+  "/home/talha/srsRAN/lib/src/phy/modem/demod_soft.c" "/home/talha/srsRAN/build/lib/src/phy/modem/CMakeFiles/srsran_modem.dir/demod_soft.c.o"
+  "/home/talha/srsRAN/lib/src/phy/modem/hard_demod_lte.c" "/home/talha/srsRAN/build/lib/src/phy/modem/CMakeFiles/srsran_modem.dir/hard_demod_lte.c.o"
+  "/home/talha/srsRAN/lib/src/phy/modem/lte_tables.c" "/home/talha/srsRAN/build/lib/src/phy/modem/CMakeFiles/srsran_modem.dir/lte_tables.c.o"
+  "/home/talha/srsRAN/lib/src/phy/modem/mod.c" "/home/talha/srsRAN/build/lib/src/phy/modem/CMakeFiles/srsran_modem.dir/mod.c.o"
+  "/home/talha/srsRAN/lib/src/phy/modem/modem_table.c" "/home/talha/srsRAN/build/lib/src/phy/modem/CMakeFiles/srsran_modem.dir/modem_table.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

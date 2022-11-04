@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/msudurip1/Documents/srsRAN_modified/srsRAN
+CMAKE_SOURCE_DIR = /home/talha/srsRAN
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/msudurip1/Documents/srsRAN_modified/srsRAN/build
+CMAKE_BINARY_DIR = /home/talha/srsRAN/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -105,7 +105,7 @@ test/fast: test
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/CPackSourceConfig.cmake
+	cd /home/talha/srsRAN/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/talha/srsRAN/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -149,7 +149,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/talha/srsRAN/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -159,14 +159,14 @@ package/fast: package
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/CMakeFiles /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/common/CMakeFiles/progress.marks
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/common/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/CMakeFiles 0
+	cd /home/talha/srsRAN/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/talha/srsRAN/build/CMakeFiles /home/talha/srsRAN/build/lib/src/phy/common/CMakeFiles/progress.marks
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/common/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/talha/srsRAN/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/common/clean
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/common/clean
 .PHONY : clean
 
 # The main clean target
@@ -176,22 +176,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: cmake_check_build_system
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/common/preinstall
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/common/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/common/preinstall
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/common/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/talha/srsRAN/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/rule:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/rule
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/rule
 .PHONY : lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/rule
 
 # Convenience name for target.
@@ -201,7 +201,7 @@ srsran_phy_common: lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/rule
 
 # fast build rule for target.
 srsran_phy_common/fast:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/build.make lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/build
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/build.make lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/build
 .PHONY : srsran_phy_common/fast
 
 phy_common.o: phy_common.c.o
@@ -210,7 +210,7 @@ phy_common.o: phy_common.c.o
 
 # target to build an object file
 phy_common.c.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/build.make lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/phy_common.c.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/build.make lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/phy_common.c.o
 .PHONY : phy_common.c.o
 
 phy_common.i: phy_common.c.i
@@ -219,7 +219,7 @@ phy_common.i: phy_common.c.i
 
 # target to preprocess a source file
 phy_common.c.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/build.make lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/phy_common.c.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/build.make lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/phy_common.c.i
 .PHONY : phy_common.c.i
 
 phy_common.s: phy_common.c.s
@@ -228,7 +228,7 @@ phy_common.s: phy_common.c.s
 
 # target to generate assembly for a file
 phy_common.c.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/build.make lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/phy_common.c.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/build.make lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/phy_common.c.s
 .PHONY : phy_common.c.s
 
 phy_common_nr.o: phy_common_nr.c.o
@@ -237,7 +237,7 @@ phy_common_nr.o: phy_common_nr.c.o
 
 # target to build an object file
 phy_common_nr.c.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/build.make lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/phy_common_nr.c.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/build.make lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/phy_common_nr.c.o
 .PHONY : phy_common_nr.c.o
 
 phy_common_nr.i: phy_common_nr.c.i
@@ -246,7 +246,7 @@ phy_common_nr.i: phy_common_nr.c.i
 
 # target to preprocess a source file
 phy_common_nr.c.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/build.make lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/phy_common_nr.c.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/build.make lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/phy_common_nr.c.i
 .PHONY : phy_common_nr.c.i
 
 phy_common_nr.s: phy_common_nr.c.s
@@ -255,7 +255,7 @@ phy_common_nr.s: phy_common_nr.c.s
 
 # target to generate assembly for a file
 phy_common_nr.c.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/build.make lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/phy_common_nr.c.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/build.make lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/phy_common_nr.c.s
 .PHONY : phy_common_nr.c.s
 
 phy_common_sl.o: phy_common_sl.c.o
@@ -264,7 +264,7 @@ phy_common_sl.o: phy_common_sl.c.o
 
 # target to build an object file
 phy_common_sl.c.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/build.make lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/phy_common_sl.c.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/build.make lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/phy_common_sl.c.o
 .PHONY : phy_common_sl.c.o
 
 phy_common_sl.i: phy_common_sl.c.i
@@ -273,7 +273,7 @@ phy_common_sl.i: phy_common_sl.c.i
 
 # target to preprocess a source file
 phy_common_sl.c.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/build.make lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/phy_common_sl.c.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/build.make lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/phy_common_sl.c.i
 .PHONY : phy_common_sl.c.i
 
 phy_common_sl.s: phy_common_sl.c.s
@@ -282,7 +282,7 @@ phy_common_sl.s: phy_common_sl.c.s
 
 # target to generate assembly for a file
 phy_common_sl.c.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/build.make lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/phy_common_sl.c.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/build.make lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/phy_common_sl.c.s
 .PHONY : phy_common_sl.c.s
 
 sequence.o: sequence.c.o
@@ -291,7 +291,7 @@ sequence.o: sequence.c.o
 
 # target to build an object file
 sequence.c.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/build.make lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/sequence.c.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/build.make lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/sequence.c.o
 .PHONY : sequence.c.o
 
 sequence.i: sequence.c.i
@@ -300,7 +300,7 @@ sequence.i: sequence.c.i
 
 # target to preprocess a source file
 sequence.c.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/build.make lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/sequence.c.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/build.make lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/sequence.c.i
 .PHONY : sequence.c.i
 
 sequence.s: sequence.c.s
@@ -309,7 +309,7 @@ sequence.s: sequence.c.s
 
 # target to generate assembly for a file
 sequence.c.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/build.make lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/sequence.c.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/build.make lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/sequence.c.s
 .PHONY : sequence.c.s
 
 sliv.o: sliv.c.o
@@ -318,7 +318,7 @@ sliv.o: sliv.c.o
 
 # target to build an object file
 sliv.c.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/build.make lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/sliv.c.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/build.make lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/sliv.c.o
 .PHONY : sliv.c.o
 
 sliv.i: sliv.c.i
@@ -327,7 +327,7 @@ sliv.i: sliv.c.i
 
 # target to preprocess a source file
 sliv.c.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/build.make lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/sliv.c.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/build.make lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/sliv.c.i
 .PHONY : sliv.c.i
 
 sliv.s: sliv.c.s
@@ -336,7 +336,7 @@ sliv.s: sliv.c.s
 
 # target to generate assembly for a file
 sliv.c.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/build.make lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/sliv.c.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/build.make lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/sliv.c.s
 .PHONY : sliv.c.s
 
 timestamp.o: timestamp.c.o
@@ -345,7 +345,7 @@ timestamp.o: timestamp.c.o
 
 # target to build an object file
 timestamp.c.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/build.make lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/timestamp.c.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/build.make lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/timestamp.c.o
 .PHONY : timestamp.c.o
 
 timestamp.i: timestamp.c.i
@@ -354,7 +354,7 @@ timestamp.i: timestamp.c.i
 
 # target to preprocess a source file
 timestamp.c.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/build.make lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/timestamp.c.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/build.make lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/timestamp.c.i
 .PHONY : timestamp.c.i
 
 timestamp.s: timestamp.c.s
@@ -363,7 +363,7 @@ timestamp.s: timestamp.c.s
 
 # target to generate assembly for a file
 timestamp.c.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/build.make lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/timestamp.c.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/build.make lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/timestamp.c.s
 .PHONY : timestamp.c.s
 
 zc_sequence.o: zc_sequence.c.o
@@ -372,7 +372,7 @@ zc_sequence.o: zc_sequence.c.o
 
 # target to build an object file
 zc_sequence.c.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/build.make lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/zc_sequence.c.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/build.make lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/zc_sequence.c.o
 .PHONY : zc_sequence.c.o
 
 zc_sequence.i: zc_sequence.c.i
@@ -381,7 +381,7 @@ zc_sequence.i: zc_sequence.c.i
 
 # target to preprocess a source file
 zc_sequence.c.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/build.make lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/zc_sequence.c.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/build.make lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/zc_sequence.c.i
 .PHONY : zc_sequence.c.i
 
 zc_sequence.s: zc_sequence.c.s
@@ -390,7 +390,7 @@ zc_sequence.s: zc_sequence.c.s
 
 # target to generate assembly for a file
 zc_sequence.c.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/build.make lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/zc_sequence.c.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/build.make lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/zc_sequence.c.s
 .PHONY : zc_sequence.c.s
 
 # Help Target
@@ -441,6 +441,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/talha/srsRAN/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

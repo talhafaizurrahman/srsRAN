@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/msudurip1/Documents/srsRAN_modified/srsRAN
+CMAKE_SOURCE_DIR = /home/talha/srsRAN
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/msudurip1/Documents/srsRAN_modified/srsRAN/build
+CMAKE_BINARY_DIR = /home/talha/srsRAN/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,16 +68,17 @@ install/strip/fast: preinstall/fast
 	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
-# Special rule for the target package
-package: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && /usr/bin/cpack --config ./CPackConfig.cmake
-.PHONY : package
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
 
-# Special rule for the target package
-package/fast: package
-
-.PHONY : package/fast
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
 
 # Special rule for the target list_install_components
 list_install_components:
@@ -101,10 +102,21 @@ install/fast: preinstall/fast
 	/usr/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
+# Special rule for the target package
+package: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
+	cd /home/talha/srsRAN/build && /usr/bin/cpack --config ./CPackConfig.cmake
+.PHONY : package
+
+# Special rule for the target package
+package/fast: package
+
+.PHONY : package/fast
+
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/CPackSourceConfig.cmake
+	cd /home/talha/srsRAN/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/talha/srsRAN/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -145,28 +157,16 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
-# Special rule for the target install/local
-install/local: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local
-
-# Special rule for the target install/local
-install/local/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local/fast
-
 # The main all target
 all: cmake_check_build_system
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/CMakeFiles /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/rf/CMakeFiles/progress.marks
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/rf/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/CMakeFiles 0
+	cd /home/talha/srsRAN/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/talha/srsRAN/build/CMakeFiles /home/talha/srsRAN/build/lib/src/phy/rf/CMakeFiles/progress.marks
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/rf/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/talha/srsRAN/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/rf/clean
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/rf/clean
 .PHONY : clean
 
 # The main clean target
@@ -176,22 +176,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: cmake_check_build_system
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/rf/preinstall
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/rf/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/rf/preinstall
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/rf/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/talha/srsRAN/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/src/phy/rf/CMakeFiles/srsran_rf_utils.dir/rule:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/rf/CMakeFiles/srsran_rf_utils.dir/rule
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/rf/CMakeFiles/srsran_rf_utils.dir/rule
 .PHONY : lib/src/phy/rf/CMakeFiles/srsran_rf_utils.dir/rule
 
 # Convenience name for target.
@@ -201,12 +201,12 @@ srsran_rf_utils: lib/src/phy/rf/CMakeFiles/srsran_rf_utils.dir/rule
 
 # fast build rule for target.
 srsran_rf_utils/fast:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srsran_rf_utils.dir/build.make lib/src/phy/rf/CMakeFiles/srsran_rf_utils.dir/build
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srsran_rf_utils.dir/build.make lib/src/phy/rf/CMakeFiles/srsran_rf_utils.dir/build
 .PHONY : srsran_rf_utils/fast
 
 # Convenience name for target.
 lib/src/phy/rf/CMakeFiles/srsran_rf_uhd.dir/rule:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/rf/CMakeFiles/srsran_rf_uhd.dir/rule
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/rf/CMakeFiles/srsran_rf_uhd.dir/rule
 .PHONY : lib/src/phy/rf/CMakeFiles/srsran_rf_uhd.dir/rule
 
 # Convenience name for target.
@@ -216,12 +216,42 @@ srsran_rf_uhd: lib/src/phy/rf/CMakeFiles/srsran_rf_uhd.dir/rule
 
 # fast build rule for target.
 srsran_rf_uhd/fast:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srsran_rf_uhd.dir/build.make lib/src/phy/rf/CMakeFiles/srsran_rf_uhd.dir/build
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srsran_rf_uhd.dir/build.make lib/src/phy/rf/CMakeFiles/srsran_rf_uhd.dir/build
 .PHONY : srsran_rf_uhd/fast
 
 # Convenience name for target.
+lib/src/phy/rf/CMakeFiles/srsran_rf_zmq.dir/rule:
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/rf/CMakeFiles/srsran_rf_zmq.dir/rule
+.PHONY : lib/src/phy/rf/CMakeFiles/srsran_rf_zmq.dir/rule
+
+# Convenience name for target.
+srsran_rf_zmq: lib/src/phy/rf/CMakeFiles/srsran_rf_zmq.dir/rule
+
+.PHONY : srsran_rf_zmq
+
+# fast build rule for target.
+srsran_rf_zmq/fast:
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srsran_rf_zmq.dir/build.make lib/src/phy/rf/CMakeFiles/srsran_rf_zmq.dir/build
+.PHONY : srsran_rf_zmq/fast
+
+# Convenience name for target.
+lib/src/phy/rf/CMakeFiles/srsran_rf_soapy.dir/rule:
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/rf/CMakeFiles/srsran_rf_soapy.dir/rule
+.PHONY : lib/src/phy/rf/CMakeFiles/srsran_rf_soapy.dir/rule
+
+# Convenience name for target.
+srsran_rf_soapy: lib/src/phy/rf/CMakeFiles/srsran_rf_soapy.dir/rule
+
+.PHONY : srsran_rf_soapy
+
+# fast build rule for target.
+srsran_rf_soapy/fast:
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srsran_rf_soapy.dir/build.make lib/src/phy/rf/CMakeFiles/srsran_rf_soapy.dir/build
+.PHONY : srsran_rf_soapy/fast
+
+# Convenience name for target.
 lib/src/phy/rf/CMakeFiles/srsran_rf_object.dir/rule:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/rf/CMakeFiles/srsran_rf_object.dir/rule
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/rf/CMakeFiles/srsran_rf_object.dir/rule
 .PHONY : lib/src/phy/rf/CMakeFiles/srsran_rf_object.dir/rule
 
 # Convenience name for target.
@@ -231,12 +261,12 @@ srsran_rf_object: lib/src/phy/rf/CMakeFiles/srsran_rf_object.dir/rule
 
 # fast build rule for target.
 srsran_rf_object/fast:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srsran_rf_object.dir/build.make lib/src/phy/rf/CMakeFiles/srsran_rf_object.dir/build
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srsran_rf_object.dir/build.make lib/src/phy/rf/CMakeFiles/srsran_rf_object.dir/build
 .PHONY : srsran_rf_object/fast
 
 # Convenience name for target.
 lib/src/phy/rf/CMakeFiles/srsran_rf.dir/rule:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/rf/CMakeFiles/srsran_rf.dir/rule
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/rf/CMakeFiles/srsran_rf.dir/rule
 .PHONY : lib/src/phy/rf/CMakeFiles/srsran_rf.dir/rule
 
 # Convenience name for target.
@@ -246,12 +276,27 @@ srsran_rf: lib/src/phy/rf/CMakeFiles/srsran_rf.dir/rule
 
 # fast build rule for target.
 srsran_rf/fast:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srsran_rf.dir/build.make lib/src/phy/rf/CMakeFiles/srsran_rf.dir/build
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srsran_rf.dir/build.make lib/src/phy/rf/CMakeFiles/srsran_rf.dir/build
 .PHONY : srsran_rf/fast
 
 # Convenience name for target.
+lib/src/phy/rf/CMakeFiles/rf_zmq_test.dir/rule:
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/rf/CMakeFiles/rf_zmq_test.dir/rule
+.PHONY : lib/src/phy/rf/CMakeFiles/rf_zmq_test.dir/rule
+
+# Convenience name for target.
+rf_zmq_test: lib/src/phy/rf/CMakeFiles/rf_zmq_test.dir/rule
+
+.PHONY : rf_zmq_test
+
+# fast build rule for target.
+rf_zmq_test/fast:
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/rf_zmq_test.dir/build.make lib/src/phy/rf/CMakeFiles/rf_zmq_test.dir/build
+.PHONY : rf_zmq_test/fast
+
+# Convenience name for target.
 lib/src/phy/rf/CMakeFiles/rf_file_test.dir/rule:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/rf/CMakeFiles/rf_file_test.dir/rule
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/rf/CMakeFiles/rf_file_test.dir/rule
 .PHONY : lib/src/phy/rf/CMakeFiles/rf_file_test.dir/rule
 
 # Convenience name for target.
@@ -261,7 +306,7 @@ rf_file_test: lib/src/phy/rf/CMakeFiles/rf_file_test.dir/rule
 
 # fast build rule for target.
 rf_file_test/fast:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/rf_file_test.dir/build.make lib/src/phy/rf/CMakeFiles/rf_file_test.dir/build
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/rf_file_test.dir/build.make lib/src/phy/rf/CMakeFiles/rf_file_test.dir/build
 .PHONY : rf_file_test/fast
 
 rf_file_imp.o: rf_file_imp.c.o
@@ -270,7 +315,7 @@ rf_file_imp.o: rf_file_imp.c.o
 
 # target to build an object file
 rf_file_imp.c.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srsran_rf_object.dir/build.make lib/src/phy/rf/CMakeFiles/srsran_rf_object.dir/rf_file_imp.c.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srsran_rf_object.dir/build.make lib/src/phy/rf/CMakeFiles/srsran_rf_object.dir/rf_file_imp.c.o
 .PHONY : rf_file_imp.c.o
 
 rf_file_imp.i: rf_file_imp.c.i
@@ -279,7 +324,7 @@ rf_file_imp.i: rf_file_imp.c.i
 
 # target to preprocess a source file
 rf_file_imp.c.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srsran_rf_object.dir/build.make lib/src/phy/rf/CMakeFiles/srsran_rf_object.dir/rf_file_imp.c.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srsran_rf_object.dir/build.make lib/src/phy/rf/CMakeFiles/srsran_rf_object.dir/rf_file_imp.c.i
 .PHONY : rf_file_imp.c.i
 
 rf_file_imp.s: rf_file_imp.c.s
@@ -288,7 +333,7 @@ rf_file_imp.s: rf_file_imp.c.s
 
 # target to generate assembly for a file
 rf_file_imp.c.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srsran_rf_object.dir/build.make lib/src/phy/rf/CMakeFiles/srsran_rf_object.dir/rf_file_imp.c.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srsran_rf_object.dir/build.make lib/src/phy/rf/CMakeFiles/srsran_rf_object.dir/rf_file_imp.c.s
 .PHONY : rf_file_imp.c.s
 
 rf_file_imp_rx.o: rf_file_imp_rx.c.o
@@ -297,7 +342,7 @@ rf_file_imp_rx.o: rf_file_imp_rx.c.o
 
 # target to build an object file
 rf_file_imp_rx.c.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srsran_rf_object.dir/build.make lib/src/phy/rf/CMakeFiles/srsran_rf_object.dir/rf_file_imp_rx.c.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srsran_rf_object.dir/build.make lib/src/phy/rf/CMakeFiles/srsran_rf_object.dir/rf_file_imp_rx.c.o
 .PHONY : rf_file_imp_rx.c.o
 
 rf_file_imp_rx.i: rf_file_imp_rx.c.i
@@ -306,7 +351,7 @@ rf_file_imp_rx.i: rf_file_imp_rx.c.i
 
 # target to preprocess a source file
 rf_file_imp_rx.c.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srsran_rf_object.dir/build.make lib/src/phy/rf/CMakeFiles/srsran_rf_object.dir/rf_file_imp_rx.c.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srsran_rf_object.dir/build.make lib/src/phy/rf/CMakeFiles/srsran_rf_object.dir/rf_file_imp_rx.c.i
 .PHONY : rf_file_imp_rx.c.i
 
 rf_file_imp_rx.s: rf_file_imp_rx.c.s
@@ -315,7 +360,7 @@ rf_file_imp_rx.s: rf_file_imp_rx.c.s
 
 # target to generate assembly for a file
 rf_file_imp_rx.c.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srsran_rf_object.dir/build.make lib/src/phy/rf/CMakeFiles/srsran_rf_object.dir/rf_file_imp_rx.c.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srsran_rf_object.dir/build.make lib/src/phy/rf/CMakeFiles/srsran_rf_object.dir/rf_file_imp_rx.c.s
 .PHONY : rf_file_imp_rx.c.s
 
 rf_file_imp_tx.o: rf_file_imp_tx.c.o
@@ -324,7 +369,7 @@ rf_file_imp_tx.o: rf_file_imp_tx.c.o
 
 # target to build an object file
 rf_file_imp_tx.c.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srsran_rf_object.dir/build.make lib/src/phy/rf/CMakeFiles/srsran_rf_object.dir/rf_file_imp_tx.c.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srsran_rf_object.dir/build.make lib/src/phy/rf/CMakeFiles/srsran_rf_object.dir/rf_file_imp_tx.c.o
 .PHONY : rf_file_imp_tx.c.o
 
 rf_file_imp_tx.i: rf_file_imp_tx.c.i
@@ -333,7 +378,7 @@ rf_file_imp_tx.i: rf_file_imp_tx.c.i
 
 # target to preprocess a source file
 rf_file_imp_tx.c.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srsran_rf_object.dir/build.make lib/src/phy/rf/CMakeFiles/srsran_rf_object.dir/rf_file_imp_tx.c.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srsran_rf_object.dir/build.make lib/src/phy/rf/CMakeFiles/srsran_rf_object.dir/rf_file_imp_tx.c.i
 .PHONY : rf_file_imp_tx.c.i
 
 rf_file_imp_tx.s: rf_file_imp_tx.c.s
@@ -342,7 +387,7 @@ rf_file_imp_tx.s: rf_file_imp_tx.c.s
 
 # target to generate assembly for a file
 rf_file_imp_tx.c.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srsran_rf_object.dir/build.make lib/src/phy/rf/CMakeFiles/srsran_rf_object.dir/rf_file_imp_tx.c.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srsran_rf_object.dir/build.make lib/src/phy/rf/CMakeFiles/srsran_rf_object.dir/rf_file_imp_tx.c.s
 .PHONY : rf_file_imp_tx.c.s
 
 rf_file_test.o: rf_file_test.c.o
@@ -351,7 +396,7 @@ rf_file_test.o: rf_file_test.c.o
 
 # target to build an object file
 rf_file_test.c.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/rf_file_test.dir/build.make lib/src/phy/rf/CMakeFiles/rf_file_test.dir/rf_file_test.c.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/rf_file_test.dir/build.make lib/src/phy/rf/CMakeFiles/rf_file_test.dir/rf_file_test.c.o
 .PHONY : rf_file_test.c.o
 
 rf_file_test.i: rf_file_test.c.i
@@ -360,7 +405,7 @@ rf_file_test.i: rf_file_test.c.i
 
 # target to preprocess a source file
 rf_file_test.c.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/rf_file_test.dir/build.make lib/src/phy/rf/CMakeFiles/rf_file_test.dir/rf_file_test.c.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/rf_file_test.dir/build.make lib/src/phy/rf/CMakeFiles/rf_file_test.dir/rf_file_test.c.i
 .PHONY : rf_file_test.c.i
 
 rf_file_test.s: rf_file_test.c.s
@@ -369,7 +414,7 @@ rf_file_test.s: rf_file_test.c.s
 
 # target to generate assembly for a file
 rf_file_test.c.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/rf_file_test.dir/build.make lib/src/phy/rf/CMakeFiles/rf_file_test.dir/rf_file_test.c.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/rf_file_test.dir/build.make lib/src/phy/rf/CMakeFiles/rf_file_test.dir/rf_file_test.c.s
 .PHONY : rf_file_test.c.s
 
 rf_imp.o: rf_imp.c.o
@@ -378,7 +423,7 @@ rf_imp.o: rf_imp.c.o
 
 # target to build an object file
 rf_imp.c.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srsran_rf_object.dir/build.make lib/src/phy/rf/CMakeFiles/srsran_rf_object.dir/rf_imp.c.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srsran_rf_object.dir/build.make lib/src/phy/rf/CMakeFiles/srsran_rf_object.dir/rf_imp.c.o
 .PHONY : rf_imp.c.o
 
 rf_imp.i: rf_imp.c.i
@@ -387,7 +432,7 @@ rf_imp.i: rf_imp.c.i
 
 # target to preprocess a source file
 rf_imp.c.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srsran_rf_object.dir/build.make lib/src/phy/rf/CMakeFiles/srsran_rf_object.dir/rf_imp.c.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srsran_rf_object.dir/build.make lib/src/phy/rf/CMakeFiles/srsran_rf_object.dir/rf_imp.c.i
 .PHONY : rf_imp.c.i
 
 rf_imp.s: rf_imp.c.s
@@ -396,8 +441,35 @@ rf_imp.s: rf_imp.c.s
 
 # target to generate assembly for a file
 rf_imp.c.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srsran_rf_object.dir/build.make lib/src/phy/rf/CMakeFiles/srsran_rf_object.dir/rf_imp.c.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srsran_rf_object.dir/build.make lib/src/phy/rf/CMakeFiles/srsran_rf_object.dir/rf_imp.c.s
 .PHONY : rf_imp.c.s
+
+rf_soapy_imp.o: rf_soapy_imp.c.o
+
+.PHONY : rf_soapy_imp.o
+
+# target to build an object file
+rf_soapy_imp.c.o:
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srsran_rf_soapy.dir/build.make lib/src/phy/rf/CMakeFiles/srsran_rf_soapy.dir/rf_soapy_imp.c.o
+.PHONY : rf_soapy_imp.c.o
+
+rf_soapy_imp.i: rf_soapy_imp.c.i
+
+.PHONY : rf_soapy_imp.i
+
+# target to preprocess a source file
+rf_soapy_imp.c.i:
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srsran_rf_soapy.dir/build.make lib/src/phy/rf/CMakeFiles/srsran_rf_soapy.dir/rf_soapy_imp.c.i
+.PHONY : rf_soapy_imp.c.i
+
+rf_soapy_imp.s: rf_soapy_imp.c.s
+
+.PHONY : rf_soapy_imp.s
+
+# target to generate assembly for a file
+rf_soapy_imp.c.s:
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srsran_rf_soapy.dir/build.make lib/src/phy/rf/CMakeFiles/srsran_rf_soapy.dir/rf_soapy_imp.c.s
+.PHONY : rf_soapy_imp.c.s
 
 rf_uhd_imp.o: rf_uhd_imp.cc.o
 
@@ -405,7 +477,7 @@ rf_uhd_imp.o: rf_uhd_imp.cc.o
 
 # target to build an object file
 rf_uhd_imp.cc.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srsran_rf_uhd.dir/build.make lib/src/phy/rf/CMakeFiles/srsran_rf_uhd.dir/rf_uhd_imp.cc.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srsran_rf_uhd.dir/build.make lib/src/phy/rf/CMakeFiles/srsran_rf_uhd.dir/rf_uhd_imp.cc.o
 .PHONY : rf_uhd_imp.cc.o
 
 rf_uhd_imp.i: rf_uhd_imp.cc.i
@@ -414,7 +486,7 @@ rf_uhd_imp.i: rf_uhd_imp.cc.i
 
 # target to preprocess a source file
 rf_uhd_imp.cc.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srsran_rf_uhd.dir/build.make lib/src/phy/rf/CMakeFiles/srsran_rf_uhd.dir/rf_uhd_imp.cc.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srsran_rf_uhd.dir/build.make lib/src/phy/rf/CMakeFiles/srsran_rf_uhd.dir/rf_uhd_imp.cc.i
 .PHONY : rf_uhd_imp.cc.i
 
 rf_uhd_imp.s: rf_uhd_imp.cc.s
@@ -423,7 +495,7 @@ rf_uhd_imp.s: rf_uhd_imp.cc.s
 
 # target to generate assembly for a file
 rf_uhd_imp.cc.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srsran_rf_uhd.dir/build.make lib/src/phy/rf/CMakeFiles/srsran_rf_uhd.dir/rf_uhd_imp.cc.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srsran_rf_uhd.dir/build.make lib/src/phy/rf/CMakeFiles/srsran_rf_uhd.dir/rf_uhd_imp.cc.s
 .PHONY : rf_uhd_imp.cc.s
 
 rf_utils.o: rf_utils.c.o
@@ -432,7 +504,7 @@ rf_utils.o: rf_utils.c.o
 
 # target to build an object file
 rf_utils.c.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srsran_rf_utils.dir/build.make lib/src/phy/rf/CMakeFiles/srsran_rf_utils.dir/rf_utils.c.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srsran_rf_utils.dir/build.make lib/src/phy/rf/CMakeFiles/srsran_rf_utils.dir/rf_utils.c.o
 .PHONY : rf_utils.c.o
 
 rf_utils.i: rf_utils.c.i
@@ -441,7 +513,7 @@ rf_utils.i: rf_utils.c.i
 
 # target to preprocess a source file
 rf_utils.c.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srsran_rf_utils.dir/build.make lib/src/phy/rf/CMakeFiles/srsran_rf_utils.dir/rf_utils.c.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srsran_rf_utils.dir/build.make lib/src/phy/rf/CMakeFiles/srsran_rf_utils.dir/rf_utils.c.i
 .PHONY : rf_utils.c.i
 
 rf_utils.s: rf_utils.c.s
@@ -450,8 +522,116 @@ rf_utils.s: rf_utils.c.s
 
 # target to generate assembly for a file
 rf_utils.c.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srsran_rf_utils.dir/build.make lib/src/phy/rf/CMakeFiles/srsran_rf_utils.dir/rf_utils.c.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srsran_rf_utils.dir/build.make lib/src/phy/rf/CMakeFiles/srsran_rf_utils.dir/rf_utils.c.s
 .PHONY : rf_utils.c.s
+
+rf_zmq_imp.o: rf_zmq_imp.c.o
+
+.PHONY : rf_zmq_imp.o
+
+# target to build an object file
+rf_zmq_imp.c.o:
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srsran_rf_zmq.dir/build.make lib/src/phy/rf/CMakeFiles/srsran_rf_zmq.dir/rf_zmq_imp.c.o
+.PHONY : rf_zmq_imp.c.o
+
+rf_zmq_imp.i: rf_zmq_imp.c.i
+
+.PHONY : rf_zmq_imp.i
+
+# target to preprocess a source file
+rf_zmq_imp.c.i:
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srsran_rf_zmq.dir/build.make lib/src/phy/rf/CMakeFiles/srsran_rf_zmq.dir/rf_zmq_imp.c.i
+.PHONY : rf_zmq_imp.c.i
+
+rf_zmq_imp.s: rf_zmq_imp.c.s
+
+.PHONY : rf_zmq_imp.s
+
+# target to generate assembly for a file
+rf_zmq_imp.c.s:
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srsran_rf_zmq.dir/build.make lib/src/phy/rf/CMakeFiles/srsran_rf_zmq.dir/rf_zmq_imp.c.s
+.PHONY : rf_zmq_imp.c.s
+
+rf_zmq_imp_rx.o: rf_zmq_imp_rx.c.o
+
+.PHONY : rf_zmq_imp_rx.o
+
+# target to build an object file
+rf_zmq_imp_rx.c.o:
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srsran_rf_zmq.dir/build.make lib/src/phy/rf/CMakeFiles/srsran_rf_zmq.dir/rf_zmq_imp_rx.c.o
+.PHONY : rf_zmq_imp_rx.c.o
+
+rf_zmq_imp_rx.i: rf_zmq_imp_rx.c.i
+
+.PHONY : rf_zmq_imp_rx.i
+
+# target to preprocess a source file
+rf_zmq_imp_rx.c.i:
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srsran_rf_zmq.dir/build.make lib/src/phy/rf/CMakeFiles/srsran_rf_zmq.dir/rf_zmq_imp_rx.c.i
+.PHONY : rf_zmq_imp_rx.c.i
+
+rf_zmq_imp_rx.s: rf_zmq_imp_rx.c.s
+
+.PHONY : rf_zmq_imp_rx.s
+
+# target to generate assembly for a file
+rf_zmq_imp_rx.c.s:
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srsran_rf_zmq.dir/build.make lib/src/phy/rf/CMakeFiles/srsran_rf_zmq.dir/rf_zmq_imp_rx.c.s
+.PHONY : rf_zmq_imp_rx.c.s
+
+rf_zmq_imp_tx.o: rf_zmq_imp_tx.c.o
+
+.PHONY : rf_zmq_imp_tx.o
+
+# target to build an object file
+rf_zmq_imp_tx.c.o:
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srsran_rf_zmq.dir/build.make lib/src/phy/rf/CMakeFiles/srsran_rf_zmq.dir/rf_zmq_imp_tx.c.o
+.PHONY : rf_zmq_imp_tx.c.o
+
+rf_zmq_imp_tx.i: rf_zmq_imp_tx.c.i
+
+.PHONY : rf_zmq_imp_tx.i
+
+# target to preprocess a source file
+rf_zmq_imp_tx.c.i:
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srsran_rf_zmq.dir/build.make lib/src/phy/rf/CMakeFiles/srsran_rf_zmq.dir/rf_zmq_imp_tx.c.i
+.PHONY : rf_zmq_imp_tx.c.i
+
+rf_zmq_imp_tx.s: rf_zmq_imp_tx.c.s
+
+.PHONY : rf_zmq_imp_tx.s
+
+# target to generate assembly for a file
+rf_zmq_imp_tx.c.s:
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srsran_rf_zmq.dir/build.make lib/src/phy/rf/CMakeFiles/srsran_rf_zmq.dir/rf_zmq_imp_tx.c.s
+.PHONY : rf_zmq_imp_tx.c.s
+
+rf_zmq_test.o: rf_zmq_test.c.o
+
+.PHONY : rf_zmq_test.o
+
+# target to build an object file
+rf_zmq_test.c.o:
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/rf_zmq_test.dir/build.make lib/src/phy/rf/CMakeFiles/rf_zmq_test.dir/rf_zmq_test.c.o
+.PHONY : rf_zmq_test.c.o
+
+rf_zmq_test.i: rf_zmq_test.c.i
+
+.PHONY : rf_zmq_test.i
+
+# target to preprocess a source file
+rf_zmq_test.c.i:
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/rf_zmq_test.dir/build.make lib/src/phy/rf/CMakeFiles/rf_zmq_test.dir/rf_zmq_test.c.i
+.PHONY : rf_zmq_test.c.i
+
+rf_zmq_test.s: rf_zmq_test.c.s
+
+.PHONY : rf_zmq_test.s
+
+# target to generate assembly for a file
+rf_zmq_test.c.s:
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/rf_zmq_test.dir/build.make lib/src/phy/rf/CMakeFiles/rf_zmq_test.dir/rf_zmq_test.c.s
+.PHONY : rf_zmq_test.c.s
 
 # Help Target
 help:
@@ -460,19 +640,22 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... install/strip"
+	@echo "... install/local"
+	@echo "... list_install_components"
 	@echo "... srsran_rf_utils"
 	@echo "... srsran_rf_uhd"
+	@echo "... install"
+	@echo "... srsran_rf_zmq"
+	@echo "... srsran_rf_soapy"
 	@echo "... srsran_rf_object"
 	@echo "... srsran_rf"
+	@echo "... rf_zmq_test"
 	@echo "... rf_file_test"
 	@echo "... package"
-	@echo "... list_install_components"
-	@echo "... install"
 	@echo "... package_source"
 	@echo "... test"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... install/local"
 	@echo "... rf_file_imp.o"
 	@echo "... rf_file_imp.i"
 	@echo "... rf_file_imp.s"
@@ -488,12 +671,27 @@ help:
 	@echo "... rf_imp.o"
 	@echo "... rf_imp.i"
 	@echo "... rf_imp.s"
+	@echo "... rf_soapy_imp.o"
+	@echo "... rf_soapy_imp.i"
+	@echo "... rf_soapy_imp.s"
 	@echo "... rf_uhd_imp.o"
 	@echo "... rf_uhd_imp.i"
 	@echo "... rf_uhd_imp.s"
 	@echo "... rf_utils.o"
 	@echo "... rf_utils.i"
 	@echo "... rf_utils.s"
+	@echo "... rf_zmq_imp.o"
+	@echo "... rf_zmq_imp.i"
+	@echo "... rf_zmq_imp.s"
+	@echo "... rf_zmq_imp_rx.o"
+	@echo "... rf_zmq_imp_rx.i"
+	@echo "... rf_zmq_imp_rx.s"
+	@echo "... rf_zmq_imp_tx.o"
+	@echo "... rf_zmq_imp_tx.i"
+	@echo "... rf_zmq_imp_tx.s"
+	@echo "... rf_zmq_test.o"
+	@echo "... rf_zmq_test.i"
+	@echo "... rf_zmq_test.s"
 .PHONY : help
 
 
@@ -505,6 +703,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/talha/srsRAN/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

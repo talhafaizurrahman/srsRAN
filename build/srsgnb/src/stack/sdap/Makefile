@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/msudurip1/Documents/srsRAN_modified/srsRAN
+CMAKE_SOURCE_DIR = /home/talha/srsRAN
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/msudurip1/Documents/srsRAN_modified/srsRAN/build
+CMAKE_BINARY_DIR = /home/talha/srsRAN/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -105,7 +105,7 @@ test/fast: test
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/CPackSourceConfig.cmake
+	cd /home/talha/srsRAN/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/talha/srsRAN/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -149,7 +149,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/talha/srsRAN/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -159,14 +159,14 @@ package/fast: package
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/CMakeFiles /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsgnb/src/stack/sdap/CMakeFiles/progress.marks
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsgnb/src/stack/sdap/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/CMakeFiles 0
+	cd /home/talha/srsRAN/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/talha/srsRAN/build/CMakeFiles /home/talha/srsRAN/build/srsgnb/src/stack/sdap/CMakeFiles/progress.marks
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsgnb/src/stack/sdap/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/talha/srsRAN/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsgnb/src/stack/sdap/clean
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsgnb/src/stack/sdap/clean
 .PHONY : clean
 
 # The main clean target
@@ -176,22 +176,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: cmake_check_build_system
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsgnb/src/stack/sdap/preinstall
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsgnb/src/stack/sdap/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsgnb/src/stack/sdap/preinstall
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsgnb/src/stack/sdap/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/talha/srsRAN/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 srsgnb/src/stack/sdap/CMakeFiles/srsgnb_sdap.dir/rule:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsgnb/src/stack/sdap/CMakeFiles/srsgnb_sdap.dir/rule
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsgnb/src/stack/sdap/CMakeFiles/srsgnb_sdap.dir/rule
 .PHONY : srsgnb/src/stack/sdap/CMakeFiles/srsgnb_sdap.dir/rule
 
 # Convenience name for target.
@@ -201,7 +201,7 @@ srsgnb_sdap: srsgnb/src/stack/sdap/CMakeFiles/srsgnb_sdap.dir/rule
 
 # fast build rule for target.
 srsgnb_sdap/fast:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsgnb/src/stack/sdap/CMakeFiles/srsgnb_sdap.dir/build.make srsgnb/src/stack/sdap/CMakeFiles/srsgnb_sdap.dir/build
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsgnb/src/stack/sdap/CMakeFiles/srsgnb_sdap.dir/build.make srsgnb/src/stack/sdap/CMakeFiles/srsgnb_sdap.dir/build
 .PHONY : srsgnb_sdap/fast
 
 sdap.o: sdap.cc.o
@@ -210,7 +210,7 @@ sdap.o: sdap.cc.o
 
 # target to build an object file
 sdap.cc.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsgnb/src/stack/sdap/CMakeFiles/srsgnb_sdap.dir/build.make srsgnb/src/stack/sdap/CMakeFiles/srsgnb_sdap.dir/sdap.cc.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsgnb/src/stack/sdap/CMakeFiles/srsgnb_sdap.dir/build.make srsgnb/src/stack/sdap/CMakeFiles/srsgnb_sdap.dir/sdap.cc.o
 .PHONY : sdap.cc.o
 
 sdap.i: sdap.cc.i
@@ -219,7 +219,7 @@ sdap.i: sdap.cc.i
 
 # target to preprocess a source file
 sdap.cc.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsgnb/src/stack/sdap/CMakeFiles/srsgnb_sdap.dir/build.make srsgnb/src/stack/sdap/CMakeFiles/srsgnb_sdap.dir/sdap.cc.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsgnb/src/stack/sdap/CMakeFiles/srsgnb_sdap.dir/build.make srsgnb/src/stack/sdap/CMakeFiles/srsgnb_sdap.dir/sdap.cc.i
 .PHONY : sdap.cc.i
 
 sdap.s: sdap.cc.s
@@ -228,7 +228,7 @@ sdap.s: sdap.cc.s
 
 # target to generate assembly for a file
 sdap.cc.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsgnb/src/stack/sdap/CMakeFiles/srsgnb_sdap.dir/build.make srsgnb/src/stack/sdap/CMakeFiles/srsgnb_sdap.dir/sdap.cc.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsgnb/src/stack/sdap/CMakeFiles/srsgnb_sdap.dir/build.make srsgnb/src/stack/sdap/CMakeFiles/srsgnb_sdap.dir/sdap.cc.s
 .PHONY : sdap.cc.s
 
 # Help Target
@@ -261,6 +261,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/talha/srsRAN/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

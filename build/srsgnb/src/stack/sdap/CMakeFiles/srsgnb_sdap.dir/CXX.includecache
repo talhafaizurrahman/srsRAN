@@ -2198,9 +2198,9 @@ srsran/interfaces/gnb_interfaces.h
 srsran/interfaces/ue_gw_interfaces.h
 ../srsgnb/hdr/stack/sdap/srsran/interfaces/ue_gw_interfaces.h
 
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsgnb/src/stack/sdap/sdap.cc
+/home/talha/srsRAN/srsgnb/src/stack/sdap/sdap.cc
 srsgnb/hdr/stack/sdap/sdap.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsgnb/src/stack/sdap/srsgnb/hdr/stack/sdap/sdap.h
+/home/talha/srsRAN/srsgnb/src/stack/sdap/srsgnb/hdr/stack/sdap/sdap.h
 
 lib/include/srsran/version.h
 srsran/config.h

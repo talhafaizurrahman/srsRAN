@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsgnb/src/stack/mac
-# Build directory: /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsgnb/src/stack/mac
+# Source directory: /home/talha/srsRAN/srsgnb/src/stack/mac
+# Build directory: /home/talha/srsRAN/build/srsgnb/src/stack/mac
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

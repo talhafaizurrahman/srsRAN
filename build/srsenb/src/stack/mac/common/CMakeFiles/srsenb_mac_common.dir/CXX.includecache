@@ -294,17 +294,17 @@ srsran/support/srsran_assert.h
 cstdint
 -
 
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsenb/src/stack/mac/common/base_ue_buffer_manager.cc
+/home/talha/srsRAN/srsenb/src/stack/mac/common/base_ue_buffer_manager.cc
 srsenb/hdr/stack/mac/common/base_ue_buffer_manager.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsenb/src/stack/mac/common/srsenb/hdr/stack/mac/common/base_ue_buffer_manager.h
+/home/talha/srsRAN/srsenb/src/stack/mac/common/srsenb/hdr/stack/mac/common/base_ue_buffer_manager.h
 srsran/adt/bounded_vector.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsenb/src/stack/mac/common/srsran/adt/bounded_vector.h
+/home/talha/srsRAN/srsenb/src/stack/mac/common/srsran/adt/bounded_vector.h
 srsran/common/string_helpers.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsenb/src/stack/mac/common/srsran/common/string_helpers.h
+/home/talha/srsRAN/srsenb/src/stack/mac/common/srsran/common/string_helpers.h
 srsran/srslog/bundled/fmt/format.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsenb/src/stack/mac/common/srsran/srslog/bundled/fmt/format.h
+/home/talha/srsRAN/srsenb/src/stack/mac/common/srsran/srslog/bundled/fmt/format.h
 srsran/srslog/bundled/fmt/ranges.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsenb/src/stack/mac/common/srsran/srslog/bundled/fmt/ranges.h
+/home/talha/srsRAN/srsenb/src/stack/mac/common/srsran/srslog/bundled/fmt/ranges.h
 srsran/config.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsenb/src/stack/mac/common/srsran/config.h
+/home/talha/srsRAN/srsenb/src/stack/mac/common/srsran/config.h
 

@@ -347,8 +347,8 @@ srsenb/src/CMakeFiles/enb_cfg_parser.dir/enb_cfg_parser.cc.o
  ../srsue/hdr/stack/upper/gw.h
  ../srsue/hdr/stack/upper/gw_metrics.h
  ../srsue/hdr/stack/upper/tft_packet_filter.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsenb/src/enb_cfg_parser.cc
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsenb/src/enb_cfg_parser.h
+ /home/talha/srsRAN/srsenb/src/enb_cfg_parser.cc
+ /home/talha/srsRAN/srsenb/src/enb_cfg_parser.h
  lib/include/srsran/version.h
 srsenb/src/CMakeFiles/enb_cfg_parser.dir/parser.cc.o
  ../lib/include/srsran/adt/bounded_vector.h
@@ -386,4 +386,4 @@ srsenb/src/CMakeFiles/enb_cfg_parser.dir/parser.cc.o
  ../lib/include/srsran/srslog/srslog.h
  ../lib/include/srsran/support/srsran_assert.h
  ../srsenb/hdr/parser.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsenb/src/parser.cc
+ /home/talha/srsRAN/srsenb/src/parser.cc

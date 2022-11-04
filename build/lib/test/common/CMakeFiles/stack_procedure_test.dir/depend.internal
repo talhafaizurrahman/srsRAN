@@ -26,4 +26,4 @@ lib/test/common/CMakeFiles/stack_procedure_test.dir/stack_procedure_test.cc.o
  ../lib/include/srsran/srslog/sink.h
  ../lib/include/srsran/srslog/srslog.h
  ../lib/include/srsran/support/srsran_assert.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/test/common/stack_procedure_test.cc
+ /home/talha/srsRAN/lib/test/common/stack_procedure_test.cc

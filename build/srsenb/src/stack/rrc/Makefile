@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/msudurip1/Documents/srsRAN_modified/srsRAN
+CMAKE_SOURCE_DIR = /home/talha/srsRAN
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/msudurip1/Documents/srsRAN_modified/srsRAN/build
+CMAKE_BINARY_DIR = /home/talha/srsRAN/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -93,7 +93,7 @@ test/fast: test
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/CPackSourceConfig.cmake
+	cd /home/talha/srsRAN/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/talha/srsRAN/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -137,7 +137,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/talha/srsRAN/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -159,14 +159,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/CMakeFiles /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsenb/src/stack/rrc/CMakeFiles/progress.marks
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsenb/src/stack/rrc/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/CMakeFiles 0
+	cd /home/talha/srsRAN/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/talha/srsRAN/build/CMakeFiles /home/talha/srsRAN/build/srsenb/src/stack/rrc/CMakeFiles/progress.marks
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsenb/src/stack/rrc/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/talha/srsRAN/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsenb/src/stack/rrc/clean
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsenb/src/stack/rrc/clean
 .PHONY : clean
 
 # The main clean target
@@ -176,22 +176,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: cmake_check_build_system
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsenb/src/stack/rrc/preinstall
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsenb/src/stack/rrc/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsenb/src/stack/rrc/preinstall
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsenb/src/stack/rrc/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/talha/srsRAN/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/rule:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/rule
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/rule
 .PHONY : srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/rule
 
 # Convenience name for target.
@@ -201,7 +201,7 @@ srsenb_rrc: srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/rule
 
 # fast build rule for target.
 srsenb_rrc/fast:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/build.make srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/build
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/build.make srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/build
 .PHONY : srsenb_rrc/fast
 
 mac_controller.o: mac_controller.cc.o
@@ -210,7 +210,7 @@ mac_controller.o: mac_controller.cc.o
 
 # target to build an object file
 mac_controller.cc.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/build.make srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/mac_controller.cc.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/build.make srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/mac_controller.cc.o
 .PHONY : mac_controller.cc.o
 
 mac_controller.i: mac_controller.cc.i
@@ -219,7 +219,7 @@ mac_controller.i: mac_controller.cc.i
 
 # target to preprocess a source file
 mac_controller.cc.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/build.make srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/mac_controller.cc.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/build.make srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/mac_controller.cc.i
 .PHONY : mac_controller.cc.i
 
 mac_controller.s: mac_controller.cc.s
@@ -228,7 +228,7 @@ mac_controller.s: mac_controller.cc.s
 
 # target to generate assembly for a file
 mac_controller.cc.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/build.make srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/mac_controller.cc.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/build.make srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/mac_controller.cc.s
 .PHONY : mac_controller.cc.s
 
 rrc.o: rrc.cc.o
@@ -237,7 +237,7 @@ rrc.o: rrc.cc.o
 
 # target to build an object file
 rrc.cc.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/build.make srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/rrc.cc.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/build.make srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/rrc.cc.o
 .PHONY : rrc.cc.o
 
 rrc.i: rrc.cc.i
@@ -246,7 +246,7 @@ rrc.i: rrc.cc.i
 
 # target to preprocess a source file
 rrc.cc.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/build.make srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/rrc.cc.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/build.make srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/rrc.cc.i
 .PHONY : rrc.cc.i
 
 rrc.s: rrc.cc.s
@@ -255,7 +255,7 @@ rrc.s: rrc.cc.s
 
 # target to generate assembly for a file
 rrc.cc.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/build.make srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/rrc.cc.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/build.make srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/rrc.cc.s
 .PHONY : rrc.cc.s
 
 rrc_bearer_cfg.o: rrc_bearer_cfg.cc.o
@@ -264,7 +264,7 @@ rrc_bearer_cfg.o: rrc_bearer_cfg.cc.o
 
 # target to build an object file
 rrc_bearer_cfg.cc.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/build.make srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/rrc_bearer_cfg.cc.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/build.make srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/rrc_bearer_cfg.cc.o
 .PHONY : rrc_bearer_cfg.cc.o
 
 rrc_bearer_cfg.i: rrc_bearer_cfg.cc.i
@@ -273,7 +273,7 @@ rrc_bearer_cfg.i: rrc_bearer_cfg.cc.i
 
 # target to preprocess a source file
 rrc_bearer_cfg.cc.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/build.make srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/rrc_bearer_cfg.cc.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/build.make srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/rrc_bearer_cfg.cc.i
 .PHONY : rrc_bearer_cfg.cc.i
 
 rrc_bearer_cfg.s: rrc_bearer_cfg.cc.s
@@ -282,7 +282,7 @@ rrc_bearer_cfg.s: rrc_bearer_cfg.cc.s
 
 # target to generate assembly for a file
 rrc_bearer_cfg.cc.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/build.make srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/rrc_bearer_cfg.cc.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/build.make srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/rrc_bearer_cfg.cc.s
 .PHONY : rrc_bearer_cfg.cc.s
 
 rrc_cell_cfg.o: rrc_cell_cfg.cc.o
@@ -291,7 +291,7 @@ rrc_cell_cfg.o: rrc_cell_cfg.cc.o
 
 # target to build an object file
 rrc_cell_cfg.cc.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/build.make srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/rrc_cell_cfg.cc.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/build.make srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/rrc_cell_cfg.cc.o
 .PHONY : rrc_cell_cfg.cc.o
 
 rrc_cell_cfg.i: rrc_cell_cfg.cc.i
@@ -300,7 +300,7 @@ rrc_cell_cfg.i: rrc_cell_cfg.cc.i
 
 # target to preprocess a source file
 rrc_cell_cfg.cc.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/build.make srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/rrc_cell_cfg.cc.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/build.make srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/rrc_cell_cfg.cc.i
 .PHONY : rrc_cell_cfg.cc.i
 
 rrc_cell_cfg.s: rrc_cell_cfg.cc.s
@@ -309,7 +309,7 @@ rrc_cell_cfg.s: rrc_cell_cfg.cc.s
 
 # target to generate assembly for a file
 rrc_cell_cfg.cc.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/build.make srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/rrc_cell_cfg.cc.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/build.make srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/rrc_cell_cfg.cc.s
 .PHONY : rrc_cell_cfg.cc.s
 
 rrc_endc.o: rrc_endc.cc.o
@@ -318,7 +318,7 @@ rrc_endc.o: rrc_endc.cc.o
 
 # target to build an object file
 rrc_endc.cc.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/build.make srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/rrc_endc.cc.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/build.make srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/rrc_endc.cc.o
 .PHONY : rrc_endc.cc.o
 
 rrc_endc.i: rrc_endc.cc.i
@@ -327,7 +327,7 @@ rrc_endc.i: rrc_endc.cc.i
 
 # target to preprocess a source file
 rrc_endc.cc.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/build.make srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/rrc_endc.cc.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/build.make srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/rrc_endc.cc.i
 .PHONY : rrc_endc.cc.i
 
 rrc_endc.s: rrc_endc.cc.s
@@ -336,7 +336,7 @@ rrc_endc.s: rrc_endc.cc.s
 
 # target to generate assembly for a file
 rrc_endc.cc.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/build.make srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/rrc_endc.cc.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/build.make srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/rrc_endc.cc.s
 .PHONY : rrc_endc.cc.s
 
 rrc_mobility.o: rrc_mobility.cc.o
@@ -345,7 +345,7 @@ rrc_mobility.o: rrc_mobility.cc.o
 
 # target to build an object file
 rrc_mobility.cc.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/build.make srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/rrc_mobility.cc.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/build.make srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/rrc_mobility.cc.o
 .PHONY : rrc_mobility.cc.o
 
 rrc_mobility.i: rrc_mobility.cc.i
@@ -354,7 +354,7 @@ rrc_mobility.i: rrc_mobility.cc.i
 
 # target to preprocess a source file
 rrc_mobility.cc.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/build.make srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/rrc_mobility.cc.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/build.make srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/rrc_mobility.cc.i
 .PHONY : rrc_mobility.cc.i
 
 rrc_mobility.s: rrc_mobility.cc.s
@@ -363,7 +363,7 @@ rrc_mobility.s: rrc_mobility.cc.s
 
 # target to generate assembly for a file
 rrc_mobility.cc.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/build.make srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/rrc_mobility.cc.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/build.make srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/rrc_mobility.cc.s
 .PHONY : rrc_mobility.cc.s
 
 rrc_ue.o: rrc_ue.cc.o
@@ -372,7 +372,7 @@ rrc_ue.o: rrc_ue.cc.o
 
 # target to build an object file
 rrc_ue.cc.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/build.make srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/rrc_ue.cc.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/build.make srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/rrc_ue.cc.o
 .PHONY : rrc_ue.cc.o
 
 rrc_ue.i: rrc_ue.cc.i
@@ -381,7 +381,7 @@ rrc_ue.i: rrc_ue.cc.i
 
 # target to preprocess a source file
 rrc_ue.cc.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/build.make srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/rrc_ue.cc.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/build.make srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/rrc_ue.cc.i
 .PHONY : rrc_ue.cc.i
 
 rrc_ue.s: rrc_ue.cc.s
@@ -390,7 +390,7 @@ rrc_ue.s: rrc_ue.cc.s
 
 # target to generate assembly for a file
 rrc_ue.cc.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/build.make srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/rrc_ue.cc.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/build.make srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/rrc_ue.cc.s
 .PHONY : rrc_ue.cc.s
 
 ue_meas_cfg.o: ue_meas_cfg.cc.o
@@ -399,7 +399,7 @@ ue_meas_cfg.o: ue_meas_cfg.cc.o
 
 # target to build an object file
 ue_meas_cfg.cc.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/build.make srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/ue_meas_cfg.cc.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/build.make srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/ue_meas_cfg.cc.o
 .PHONY : ue_meas_cfg.cc.o
 
 ue_meas_cfg.i: ue_meas_cfg.cc.i
@@ -408,7 +408,7 @@ ue_meas_cfg.i: ue_meas_cfg.cc.i
 
 # target to preprocess a source file
 ue_meas_cfg.cc.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/build.make srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/ue_meas_cfg.cc.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/build.make srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/ue_meas_cfg.cc.i
 .PHONY : ue_meas_cfg.cc.i
 
 ue_meas_cfg.s: ue_meas_cfg.cc.s
@@ -417,7 +417,7 @@ ue_meas_cfg.s: ue_meas_cfg.cc.s
 
 # target to generate assembly for a file
 ue_meas_cfg.cc.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/build.make srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/ue_meas_cfg.cc.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/build.make srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/ue_meas_cfg.cc.s
 .PHONY : ue_meas_cfg.cc.s
 
 ue_rr_cfg.o: ue_rr_cfg.cc.o
@@ -426,7 +426,7 @@ ue_rr_cfg.o: ue_rr_cfg.cc.o
 
 # target to build an object file
 ue_rr_cfg.cc.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/build.make srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/ue_rr_cfg.cc.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/build.make srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/ue_rr_cfg.cc.o
 .PHONY : ue_rr_cfg.cc.o
 
 ue_rr_cfg.i: ue_rr_cfg.cc.i
@@ -435,7 +435,7 @@ ue_rr_cfg.i: ue_rr_cfg.cc.i
 
 # target to preprocess a source file
 ue_rr_cfg.cc.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/build.make srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/ue_rr_cfg.cc.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/build.make srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/ue_rr_cfg.cc.i
 .PHONY : ue_rr_cfg.cc.i
 
 ue_rr_cfg.s: ue_rr_cfg.cc.s
@@ -444,7 +444,7 @@ ue_rr_cfg.s: ue_rr_cfg.cc.s
 
 # target to generate assembly for a file
 ue_rr_cfg.cc.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/build.make srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/ue_rr_cfg.cc.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/build.make srsenb/src/stack/rrc/CMakeFiles/srsenb_rrc.dir/ue_rr_cfg.cc.s
 .PHONY : ue_rr_cfg.cc.s
 
 # Help Target
@@ -501,6 +501,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/talha/srsRAN/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

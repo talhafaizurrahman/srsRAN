@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/asn1/gtpc.cc" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/asn1/CMakeFiles/srsran_asn1.dir/gtpc.cc.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/asn1/liblte_common.cc" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/asn1/CMakeFiles/srsran_asn1.dir/liblte_common.cc.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/asn1/liblte_mme.cc" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/asn1/CMakeFiles/srsran_asn1.dir/liblte_mme.cc.o"
+  "/home/talha/srsRAN/lib/src/asn1/gtpc.cc" "/home/talha/srsRAN/build/lib/src/asn1/CMakeFiles/srsran_asn1.dir/gtpc.cc.o"
+  "/home/talha/srsRAN/lib/src/asn1/liblte_common.cc" "/home/talha/srsRAN/build/lib/src/asn1/CMakeFiles/srsran_asn1.dir/liblte_common.cc.o"
+  "/home/talha/srsRAN/lib/src/asn1/liblte_mme.cc" "/home/talha/srsRAN/build/lib/src/asn1/CMakeFiles/srsran_asn1.dir/liblte_mme.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

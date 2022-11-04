@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/msudurip1/Documents/srsRAN_modified/srsRAN
+CMAKE_SOURCE_DIR = /home/talha/srsRAN
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/msudurip1/Documents/srsRAN_modified/srsRAN/build
+CMAKE_BINARY_DIR = /home/talha/srsRAN/build
 
 # Include any dependencies generated for this target.
 include srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/depend.make
@@ -59,55 +59,55 @@ include srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/flags.make
 
 srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/ngap.cc.o: srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/flags.make
 srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/ngap.cc.o: ../srsgnb/src/stack/ngap/ngap.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/ngap.cc.o"
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsgnb/src/stack/ngap && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsgnb_ngap.dir/ngap.cc.o -c /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsgnb/src/stack/ngap/ngap.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/talha/srsRAN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/ngap.cc.o"
+	cd /home/talha/srsRAN/build/srsgnb/src/stack/ngap && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsgnb_ngap.dir/ngap.cc.o -c /home/talha/srsRAN/srsgnb/src/stack/ngap/ngap.cc
 
 srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/ngap.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsgnb_ngap.dir/ngap.cc.i"
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsgnb/src/stack/ngap && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsgnb/src/stack/ngap/ngap.cc > CMakeFiles/srsgnb_ngap.dir/ngap.cc.i
+	cd /home/talha/srsRAN/build/srsgnb/src/stack/ngap && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/talha/srsRAN/srsgnb/src/stack/ngap/ngap.cc > CMakeFiles/srsgnb_ngap.dir/ngap.cc.i
 
 srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/ngap.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/srsgnb_ngap.dir/ngap.cc.s"
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsgnb/src/stack/ngap && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsgnb/src/stack/ngap/ngap.cc -o CMakeFiles/srsgnb_ngap.dir/ngap.cc.s
+	cd /home/talha/srsRAN/build/srsgnb/src/stack/ngap && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/talha/srsRAN/srsgnb/src/stack/ngap/ngap.cc -o CMakeFiles/srsgnb_ngap.dir/ngap.cc.s
 
 srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/ngap_ue.cc.o: srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/flags.make
 srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/ngap_ue.cc.o: ../srsgnb/src/stack/ngap/ngap_ue.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/ngap_ue.cc.o"
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsgnb/src/stack/ngap && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsgnb_ngap.dir/ngap_ue.cc.o -c /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsgnb/src/stack/ngap/ngap_ue.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/talha/srsRAN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/ngap_ue.cc.o"
+	cd /home/talha/srsRAN/build/srsgnb/src/stack/ngap && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsgnb_ngap.dir/ngap_ue.cc.o -c /home/talha/srsRAN/srsgnb/src/stack/ngap/ngap_ue.cc
 
 srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/ngap_ue.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsgnb_ngap.dir/ngap_ue.cc.i"
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsgnb/src/stack/ngap && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsgnb/src/stack/ngap/ngap_ue.cc > CMakeFiles/srsgnb_ngap.dir/ngap_ue.cc.i
+	cd /home/talha/srsRAN/build/srsgnb/src/stack/ngap && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/talha/srsRAN/srsgnb/src/stack/ngap/ngap_ue.cc > CMakeFiles/srsgnb_ngap.dir/ngap_ue.cc.i
 
 srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/ngap_ue.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/srsgnb_ngap.dir/ngap_ue.cc.s"
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsgnb/src/stack/ngap && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsgnb/src/stack/ngap/ngap_ue.cc -o CMakeFiles/srsgnb_ngap.dir/ngap_ue.cc.s
+	cd /home/talha/srsRAN/build/srsgnb/src/stack/ngap && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/talha/srsRAN/srsgnb/src/stack/ngap/ngap_ue.cc -o CMakeFiles/srsgnb_ngap.dir/ngap_ue.cc.s
 
 srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/ngap_ue_proc.cc.o: srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/flags.make
 srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/ngap_ue_proc.cc.o: ../srsgnb/src/stack/ngap/ngap_ue_proc.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/ngap_ue_proc.cc.o"
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsgnb/src/stack/ngap && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsgnb_ngap.dir/ngap_ue_proc.cc.o -c /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsgnb/src/stack/ngap/ngap_ue_proc.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/talha/srsRAN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/ngap_ue_proc.cc.o"
+	cd /home/talha/srsRAN/build/srsgnb/src/stack/ngap && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsgnb_ngap.dir/ngap_ue_proc.cc.o -c /home/talha/srsRAN/srsgnb/src/stack/ngap/ngap_ue_proc.cc
 
 srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/ngap_ue_proc.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsgnb_ngap.dir/ngap_ue_proc.cc.i"
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsgnb/src/stack/ngap && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsgnb/src/stack/ngap/ngap_ue_proc.cc > CMakeFiles/srsgnb_ngap.dir/ngap_ue_proc.cc.i
+	cd /home/talha/srsRAN/build/srsgnb/src/stack/ngap && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/talha/srsRAN/srsgnb/src/stack/ngap/ngap_ue_proc.cc > CMakeFiles/srsgnb_ngap.dir/ngap_ue_proc.cc.i
 
 srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/ngap_ue_proc.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/srsgnb_ngap.dir/ngap_ue_proc.cc.s"
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsgnb/src/stack/ngap && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsgnb/src/stack/ngap/ngap_ue_proc.cc -o CMakeFiles/srsgnb_ngap.dir/ngap_ue_proc.cc.s
+	cd /home/talha/srsRAN/build/srsgnb/src/stack/ngap && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/talha/srsRAN/srsgnb/src/stack/ngap/ngap_ue_proc.cc -o CMakeFiles/srsgnb_ngap.dir/ngap_ue_proc.cc.s
 
 srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/ngap_ue_bearer_manager.cc.o: srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/flags.make
 srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/ngap_ue_bearer_manager.cc.o: ../srsgnb/src/stack/ngap/ngap_ue_bearer_manager.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/ngap_ue_bearer_manager.cc.o"
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsgnb/src/stack/ngap && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsgnb_ngap.dir/ngap_ue_bearer_manager.cc.o -c /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsgnb/src/stack/ngap/ngap_ue_bearer_manager.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/talha/srsRAN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/ngap_ue_bearer_manager.cc.o"
+	cd /home/talha/srsRAN/build/srsgnb/src/stack/ngap && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsgnb_ngap.dir/ngap_ue_bearer_manager.cc.o -c /home/talha/srsRAN/srsgnb/src/stack/ngap/ngap_ue_bearer_manager.cc
 
 srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/ngap_ue_bearer_manager.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsgnb_ngap.dir/ngap_ue_bearer_manager.cc.i"
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsgnb/src/stack/ngap && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsgnb/src/stack/ngap/ngap_ue_bearer_manager.cc > CMakeFiles/srsgnb_ngap.dir/ngap_ue_bearer_manager.cc.i
+	cd /home/talha/srsRAN/build/srsgnb/src/stack/ngap && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/talha/srsRAN/srsgnb/src/stack/ngap/ngap_ue_bearer_manager.cc > CMakeFiles/srsgnb_ngap.dir/ngap_ue_bearer_manager.cc.i
 
 srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/ngap_ue_bearer_manager.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/srsgnb_ngap.dir/ngap_ue_bearer_manager.cc.s"
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsgnb/src/stack/ngap && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsgnb/src/stack/ngap/ngap_ue_bearer_manager.cc -o CMakeFiles/srsgnb_ngap.dir/ngap_ue_bearer_manager.cc.s
+	cd /home/talha/srsRAN/build/srsgnb/src/stack/ngap && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/talha/srsRAN/srsgnb/src/stack/ngap/ngap_ue_bearer_manager.cc -o CMakeFiles/srsgnb_ngap.dir/ngap_ue_bearer_manager.cc.s
 
 # Object files for target srsgnb_ngap
 srsgnb_ngap_OBJECTS = \
@@ -125,9 +125,9 @@ srsgnb/src/stack/ngap/libsrsgnb_ngap.a: srsgnb/src/stack/ngap/CMakeFiles/srsgnb_
 srsgnb/src/stack/ngap/libsrsgnb_ngap.a: srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/ngap_ue_bearer_manager.cc.o
 srsgnb/src/stack/ngap/libsrsgnb_ngap.a: srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/build.make
 srsgnb/src/stack/ngap/libsrsgnb_ngap.a: srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libsrsgnb_ngap.a"
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsgnb/src/stack/ngap && $(CMAKE_COMMAND) -P CMakeFiles/srsgnb_ngap.dir/cmake_clean_target.cmake
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsgnb/src/stack/ngap && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/srsgnb_ngap.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/talha/srsRAN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libsrsgnb_ngap.a"
+	cd /home/talha/srsRAN/build/srsgnb/src/stack/ngap && $(CMAKE_COMMAND) -P CMakeFiles/srsgnb_ngap.dir/cmake_clean_target.cmake
+	cd /home/talha/srsRAN/build/srsgnb/src/stack/ngap && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/srsgnb_ngap.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/build: srsgnb/src/stack/ngap/libsrsgnb_ngap.a
@@ -135,10 +135,10 @@ srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/build: srsgnb/src/stack/ngap/li
 .PHONY : srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/build
 
 srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/clean:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsgnb/src/stack/ngap && $(CMAKE_COMMAND) -P CMakeFiles/srsgnb_ngap.dir/cmake_clean.cmake
+	cd /home/talha/srsRAN/build/srsgnb/src/stack/ngap && $(CMAKE_COMMAND) -P CMakeFiles/srsgnb_ngap.dir/cmake_clean.cmake
 .PHONY : srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/clean
 
 srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/depend:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/msudurip1/Documents/srsRAN_modified/srsRAN /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsgnb/src/stack/ngap /home/msudurip1/Documents/srsRAN_modified/srsRAN/build /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsgnb/src/stack/ngap /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/talha/srsRAN/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/talha/srsRAN /home/talha/srsRAN/srsgnb/src/stack/ngap /home/talha/srsRAN/build /home/talha/srsRAN/build/srsgnb/src/stack/ngap /home/talha/srsRAN/build/srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/depend
 

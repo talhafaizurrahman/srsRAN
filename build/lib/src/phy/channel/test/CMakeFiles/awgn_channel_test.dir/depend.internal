@@ -8,4 +8,4 @@ lib/src/phy/channel/test/CMakeFiles/awgn_channel_test.dir/awgn_channel_test.c.o
  ../lib/include/srsran/phy/utils/debug.h
  ../lib/include/srsran/phy/utils/phy_logger.h
  ../lib/include/srsran/phy/utils/vector.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/channel/test/awgn_channel_test.c
+ /home/talha/srsRAN/lib/src/phy/channel/test/awgn_channel_test.c

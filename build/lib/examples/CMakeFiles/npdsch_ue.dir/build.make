@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/msudurip1/Documents/srsRAN_modified/srsRAN
+CMAKE_SOURCE_DIR = /home/talha/srsRAN
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/msudurip1/Documents/srsRAN_modified/srsRAN/build
+CMAKE_BINARY_DIR = /home/talha/srsRAN/build
 
 # Include any dependencies generated for this target.
 include lib/examples/CMakeFiles/npdsch_ue.dir/depend.make
@@ -59,29 +59,29 @@ include lib/examples/CMakeFiles/npdsch_ue.dir/flags.make
 
 lib/examples/CMakeFiles/npdsch_ue.dir/npdsch_ue.c.o: lib/examples/CMakeFiles/npdsch_ue.dir/flags.make
 lib/examples/CMakeFiles/npdsch_ue.dir/npdsch_ue.c.o: ../lib/examples/npdsch_ue.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/examples/CMakeFiles/npdsch_ue.dir/npdsch_ue.c.o"
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/npdsch_ue.dir/npdsch_ue.c.o   -c /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/examples/npdsch_ue.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/talha/srsRAN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/examples/CMakeFiles/npdsch_ue.dir/npdsch_ue.c.o"
+	cd /home/talha/srsRAN/build/lib/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/npdsch_ue.dir/npdsch_ue.c.o   -c /home/talha/srsRAN/lib/examples/npdsch_ue.c
 
 lib/examples/CMakeFiles/npdsch_ue.dir/npdsch_ue.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/npdsch_ue.dir/npdsch_ue.c.i"
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/examples/npdsch_ue.c > CMakeFiles/npdsch_ue.dir/npdsch_ue.c.i
+	cd /home/talha/srsRAN/build/lib/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/talha/srsRAN/lib/examples/npdsch_ue.c > CMakeFiles/npdsch_ue.dir/npdsch_ue.c.i
 
 lib/examples/CMakeFiles/npdsch_ue.dir/npdsch_ue.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/npdsch_ue.dir/npdsch_ue.c.s"
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/examples/npdsch_ue.c -o CMakeFiles/npdsch_ue.dir/npdsch_ue.c.s
+	cd /home/talha/srsRAN/build/lib/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/talha/srsRAN/lib/examples/npdsch_ue.c -o CMakeFiles/npdsch_ue.dir/npdsch_ue.c.s
 
 lib/examples/CMakeFiles/npdsch_ue.dir/npdsch_ue_helper.cc.o: lib/examples/CMakeFiles/npdsch_ue.dir/flags.make
 lib/examples/CMakeFiles/npdsch_ue.dir/npdsch_ue_helper.cc.o: ../lib/examples/npdsch_ue_helper.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lib/examples/CMakeFiles/npdsch_ue.dir/npdsch_ue_helper.cc.o"
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/examples && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/npdsch_ue.dir/npdsch_ue_helper.cc.o -c /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/examples/npdsch_ue_helper.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/talha/srsRAN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lib/examples/CMakeFiles/npdsch_ue.dir/npdsch_ue_helper.cc.o"
+	cd /home/talha/srsRAN/build/lib/examples && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/npdsch_ue.dir/npdsch_ue_helper.cc.o -c /home/talha/srsRAN/lib/examples/npdsch_ue_helper.cc
 
 lib/examples/CMakeFiles/npdsch_ue.dir/npdsch_ue_helper.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/npdsch_ue.dir/npdsch_ue_helper.cc.i"
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/examples/npdsch_ue_helper.cc > CMakeFiles/npdsch_ue.dir/npdsch_ue_helper.cc.i
+	cd /home/talha/srsRAN/build/lib/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/talha/srsRAN/lib/examples/npdsch_ue_helper.cc > CMakeFiles/npdsch_ue.dir/npdsch_ue_helper.cc.i
 
 lib/examples/CMakeFiles/npdsch_ue.dir/npdsch_ue_helper.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/npdsch_ue.dir/npdsch_ue_helper.cc.s"
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/examples/npdsch_ue_helper.cc -o CMakeFiles/npdsch_ue.dir/npdsch_ue_helper.cc.s
+	cd /home/talha/srsRAN/build/lib/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/talha/srsRAN/lib/examples/npdsch_ue_helper.cc -o CMakeFiles/npdsch_ue.dir/npdsch_ue_helper.cc.s
 
 # Object files for target npdsch_ue
 npdsch_ue_OBJECTS = \
@@ -106,10 +106,9 @@ lib/examples/npdsch_ue: /usr/lib/x86_64-linux-gnu/libfftw3f.so
 lib/examples/npdsch_ue: lib/src/support/libsupport.a
 lib/examples/npdsch_ue: lib/src/srslog/libsrslog.a
 lib/examples/npdsch_ue: /usr/lib/x86_64-linux-gnu/libmbedcrypto.so
-lib/examples/npdsch_ue: /usr/lib/x86_64-linux-gnu/libsctp.so
 lib/examples/npdsch_ue: lib/examples/CMakeFiles/npdsch_ue.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable npdsch_ue"
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/npdsch_ue.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/talha/srsRAN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable npdsch_ue"
+	cd /home/talha/srsRAN/build/lib/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/npdsch_ue.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lib/examples/CMakeFiles/npdsch_ue.dir/build: lib/examples/npdsch_ue
@@ -117,10 +116,10 @@ lib/examples/CMakeFiles/npdsch_ue.dir/build: lib/examples/npdsch_ue
 .PHONY : lib/examples/CMakeFiles/npdsch_ue.dir/build
 
 lib/examples/CMakeFiles/npdsch_ue.dir/clean:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/examples && $(CMAKE_COMMAND) -P CMakeFiles/npdsch_ue.dir/cmake_clean.cmake
+	cd /home/talha/srsRAN/build/lib/examples && $(CMAKE_COMMAND) -P CMakeFiles/npdsch_ue.dir/cmake_clean.cmake
 .PHONY : lib/examples/CMakeFiles/npdsch_ue.dir/clean
 
 lib/examples/CMakeFiles/npdsch_ue.dir/depend:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/msudurip1/Documents/srsRAN_modified/srsRAN /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/examples /home/msudurip1/Documents/srsRAN_modified/srsRAN/build /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/examples /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/examples/CMakeFiles/npdsch_ue.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/talha/srsRAN/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/talha/srsRAN /home/talha/srsRAN/lib/examples /home/talha/srsRAN/build /home/talha/srsRAN/build/lib/examples /home/talha/srsRAN/build/lib/examples/CMakeFiles/npdsch_ue.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lib/examples/CMakeFiles/npdsch_ue.dir/depend
 

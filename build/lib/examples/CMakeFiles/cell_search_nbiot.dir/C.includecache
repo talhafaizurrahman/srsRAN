@@ -1898,7 +1898,7 @@ srsran/phy/sync/sss.h
 srsran/phy/sync/sync.h
 ../lib/include/srsran/srsran/phy/sync/sync.h
 
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/examples/cell_search_nbiot.c
+/home/talha/srsRAN/lib/examples/cell_search_nbiot.c
 math.h
 -
 signal.h
@@ -1916,11 +1916,11 @@ sys/time.h
 unistd.h
 -
 srsran/phy/rf/rf_utils.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/examples/srsran/phy/rf/rf_utils.h
+/home/talha/srsRAN/lib/examples/srsran/phy/rf/rf_utils.h
 srsran/phy/ue/ue_cell_search_nbiot.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/examples/srsran/phy/ue/ue_cell_search_nbiot.h
+/home/talha/srsRAN/lib/examples/srsran/phy/ue/ue_cell_search_nbiot.h
 srsran/phy/rf/rf.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/examples/srsran/phy/rf/rf.h
+/home/talha/srsRAN/lib/examples/srsran/phy/rf/rf.h
 
 lib/include/srsran/version.h
 srsran/config.h

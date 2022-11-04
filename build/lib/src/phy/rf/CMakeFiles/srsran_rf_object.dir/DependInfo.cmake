@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/rf/rf_file_imp.c" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/rf/CMakeFiles/srsran_rf_object.dir/rf_file_imp.c.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/rf/rf_file_imp_rx.c" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/rf/CMakeFiles/srsran_rf_object.dir/rf_file_imp_rx.c.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/rf/rf_file_imp_tx.c" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/rf/CMakeFiles/srsran_rf_object.dir/rf_file_imp_tx.c.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/rf/rf_imp.c" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/rf/CMakeFiles/srsran_rf_object.dir/rf_imp.c.o"
+  "/home/talha/srsRAN/lib/src/phy/rf/rf_file_imp.c" "/home/talha/srsRAN/build/lib/src/phy/rf/CMakeFiles/srsran_rf_object.dir/rf_file_imp.c.o"
+  "/home/talha/srsRAN/lib/src/phy/rf/rf_file_imp_rx.c" "/home/talha/srsRAN/build/lib/src/phy/rf/CMakeFiles/srsran_rf_object.dir/rf_file_imp_rx.c.o"
+  "/home/talha/srsRAN/lib/src/phy/rf/rf_file_imp_tx.c" "/home/talha/srsRAN/build/lib/src/phy/rf/CMakeFiles/srsran_rf_object.dir/rf_file_imp_tx.c.o"
+  "/home/talha/srsRAN/lib/src/phy/rf/rf_imp.c" "/home/talha/srsRAN/build/lib/src/phy/rf/CMakeFiles/srsran_rf_object.dir/rf_imp.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -15,8 +15,10 @@ set(CMAKE_C_COMPILER_ID "GNU")
 set(CMAKE_TARGET_DEFINITIONS_C
   "ASSERTS_ENABLED"
   "ENABLE_RF_PLUGINS"
+  "ENABLE_SOAPYSDR"
   "ENABLE_TIMEPROF"
   "ENABLE_UHD"
+  "ENABLE_ZEROMQ"
   "HAVE_MBEDTLS"
   )
 

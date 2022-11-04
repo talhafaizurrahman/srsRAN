@@ -276,5 +276,5 @@ srsgnb/src/stack/CMakeFiles/srsgnb_stack.dir/gnb_stack_nr.cc.o
  ../srsue/hdr/stack/upper/gw.h
  ../srsue/hdr/stack/upper/gw_metrics.h
  ../srsue/hdr/stack/upper/tft_packet_filter.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsgnb/src/stack/gnb_stack_nr.cc
+ /home/talha/srsRAN/srsgnb/src/stack/gnb_stack_nr.cc
  lib/include/srsran/version.h

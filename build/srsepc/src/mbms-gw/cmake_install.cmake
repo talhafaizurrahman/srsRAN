@@ -1,4 +1,4 @@
-# Install script for directory: /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsepc/src/mbms-gw
+# Install script for directory: /home/talha/srsRAN/srsepc/src/mbms-gw
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

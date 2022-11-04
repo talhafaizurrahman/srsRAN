@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/mimo/layermap.c" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/mimo/CMakeFiles/srsran_mimo.dir/layermap.c.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/mimo/precoding.c" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/mimo/CMakeFiles/srsran_mimo.dir/precoding.c.o"
+  "/home/talha/srsRAN/lib/src/phy/mimo/layermap.c" "/home/talha/srsRAN/build/lib/src/phy/mimo/CMakeFiles/srsran_mimo.dir/layermap.c.o"
+  "/home/talha/srsRAN/lib/src/phy/mimo/precoding.c" "/home/talha/srsRAN/build/lib/src/phy/mimo/CMakeFiles/srsran_mimo.dir/precoding.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

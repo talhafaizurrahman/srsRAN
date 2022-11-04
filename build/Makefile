@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/msudurip1/Documents/srsRAN_modified/srsRAN
+CMAKE_SOURCE_DIR = /home/talha/srsRAN
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/msudurip1/Documents/srsRAN_modified/srsRAN/build
+CMAKE_BINARY_DIR = /home/talha/srsRAN/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -104,7 +104,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	/usr/bin/cpack --config ./CPackSourceConfig.cmake /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/CPackSourceConfig.cmake
+	/usr/bin/cpack --config ./CPackSourceConfig.cmake /home/talha/srsRAN/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -159,9 +159,9 @@ package/fast: package
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/CMakeFiles /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/talha/srsRAN/build/CMakeFiles /home/talha/srsRAN/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/talha/srsRAN/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -1919,6 +1919,32 @@ srsran_rf_uhd/fast:
 .PHONY : srsran_rf_uhd/fast
 
 #=============================================================================
+# Target rules for targets named srsran_rf_zmq
+
+# Build rule for target.
+srsran_rf_zmq: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 srsran_rf_zmq
+.PHONY : srsran_rf_zmq
+
+# fast build rule for target.
+srsran_rf_zmq/fast:
+	$(MAKE) -f lib/src/phy/rf/CMakeFiles/srsran_rf_zmq.dir/build.make lib/src/phy/rf/CMakeFiles/srsran_rf_zmq.dir/build
+.PHONY : srsran_rf_zmq/fast
+
+#=============================================================================
+# Target rules for targets named srsran_rf_soapy
+
+# Build rule for target.
+srsran_rf_soapy: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 srsran_rf_soapy
+.PHONY : srsran_rf_soapy
+
+# fast build rule for target.
+srsran_rf_soapy/fast:
+	$(MAKE) -f lib/src/phy/rf/CMakeFiles/srsran_rf_soapy.dir/build.make lib/src/phy/rf/CMakeFiles/srsran_rf_soapy.dir/build
+.PHONY : srsran_rf_soapy/fast
+
+#=============================================================================
 # Target rules for targets named srsran_rf_object
 
 # Build rule for target.
@@ -1943,6 +1969,19 @@ srsran_rf: cmake_check_build_system
 srsran_rf/fast:
 	$(MAKE) -f lib/src/phy/rf/CMakeFiles/srsran_rf.dir/build.make lib/src/phy/rf/CMakeFiles/srsran_rf.dir/build
 .PHONY : srsran_rf/fast
+
+#=============================================================================
+# Target rules for targets named rf_zmq_test
+
+# Build rule for target.
+rf_zmq_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 rf_zmq_test
+.PHONY : rf_zmq_test
+
+# fast build rule for target.
+rf_zmq_test/fast:
+	$(MAKE) -f lib/src/phy/rf/CMakeFiles/rf_zmq_test.dir/build.make lib/src/phy/rf/CMakeFiles/rf_zmq_test.dir/build
+.PHONY : rf_zmq_test/fast
 
 #=============================================================================
 # Target rules for targets named rf_file_test
@@ -2801,6 +2840,19 @@ cell_search: cmake_check_build_system
 cell_search/fast:
 	$(MAKE) -f lib/examples/CMakeFiles/cell_search.dir/build.make lib/examples/CMakeFiles/cell_search.dir/build
 .PHONY : cell_search/fast
+
+#=============================================================================
+# Target rules for targets named zmq_remote_rx
+
+# Build rule for target.
+zmq_remote_rx: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 zmq_remote_rx
+.PHONY : zmq_remote_rx
+
+# fast build rule for target.
+zmq_remote_rx/fast:
+	$(MAKE) -f lib/examples/CMakeFiles/zmq_remote_rx.dir/build.make lib/examples/CMakeFiles/zmq_remote_rx.dir/build
+.PHONY : zmq_remote_rx/fast
 
 #=============================================================================
 # Target rules for targets named usrp_capture
@@ -5173,8 +5225,11 @@ help:
 	@echo "... prach_test_multi"
 	@echo "... srsran_rf_utils"
 	@echo "... srsran_rf_uhd"
+	@echo "... srsran_rf_zmq"
+	@echo "... srsran_rf_soapy"
 	@echo "... srsran_rf_object"
 	@echo "... srsran_rf"
+	@echo "... rf_zmq_test"
 	@echo "... rf_file_test"
 	@echo "... srsran_sync"
 	@echo "... pss_file"
@@ -5241,6 +5296,7 @@ help:
 	@echo "... npdsch_ue"
 	@echo "... npdsch_enodeb"
 	@echo "... cell_search"
+	@echo "... zmq_remote_rx"
 	@echo "... usrp_capture"
 	@echo "... synch_file"
 	@echo "... usrp_capture_sync_nbiot"

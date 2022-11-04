@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/msudurip1/Documents/srsRAN_modified/srsRAN
+CMAKE_SOURCE_DIR = /home/talha/srsRAN
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/msudurip1/Documents/srsRAN_modified/srsRAN/build
+CMAKE_BINARY_DIR = /home/talha/srsRAN/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -138,7 +138,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/talha/srsRAN/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -149,7 +149,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/CPackSourceConfig.cmake
+	cd /home/talha/srsRAN/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/talha/srsRAN/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -159,14 +159,14 @@ package_source/fast: package_source
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/CMakeFiles /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/gtpu/CMakeFiles/progress.marks
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/gtpu/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/CMakeFiles 0
+	cd /home/talha/srsRAN/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/talha/srsRAN/build/CMakeFiles /home/talha/srsRAN/build/lib/src/gtpu/CMakeFiles/progress.marks
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/gtpu/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/talha/srsRAN/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/gtpu/clean
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/gtpu/clean
 .PHONY : clean
 
 # The main clean target
@@ -176,22 +176,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: cmake_check_build_system
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/gtpu/preinstall
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/gtpu/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/gtpu/preinstall
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/gtpu/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/talha/srsRAN/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/src/gtpu/CMakeFiles/srsran_gtpu.dir/rule:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/gtpu/CMakeFiles/srsran_gtpu.dir/rule
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/gtpu/CMakeFiles/srsran_gtpu.dir/rule
 .PHONY : lib/src/gtpu/CMakeFiles/srsran_gtpu.dir/rule
 
 # Convenience name for target.
@@ -201,7 +201,7 @@ srsran_gtpu: lib/src/gtpu/CMakeFiles/srsran_gtpu.dir/rule
 
 # fast build rule for target.
 srsran_gtpu/fast:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/gtpu/CMakeFiles/srsran_gtpu.dir/build.make lib/src/gtpu/CMakeFiles/srsran_gtpu.dir/build
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/gtpu/CMakeFiles/srsran_gtpu.dir/build.make lib/src/gtpu/CMakeFiles/srsran_gtpu.dir/build
 .PHONY : srsran_gtpu/fast
 
 gtpu.o: gtpu.cc.o
@@ -210,7 +210,7 @@ gtpu.o: gtpu.cc.o
 
 # target to build an object file
 gtpu.cc.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/gtpu/CMakeFiles/srsran_gtpu.dir/build.make lib/src/gtpu/CMakeFiles/srsran_gtpu.dir/gtpu.cc.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/gtpu/CMakeFiles/srsran_gtpu.dir/build.make lib/src/gtpu/CMakeFiles/srsran_gtpu.dir/gtpu.cc.o
 .PHONY : gtpu.cc.o
 
 gtpu.i: gtpu.cc.i
@@ -219,7 +219,7 @@ gtpu.i: gtpu.cc.i
 
 # target to preprocess a source file
 gtpu.cc.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/gtpu/CMakeFiles/srsran_gtpu.dir/build.make lib/src/gtpu/CMakeFiles/srsran_gtpu.dir/gtpu.cc.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/gtpu/CMakeFiles/srsran_gtpu.dir/build.make lib/src/gtpu/CMakeFiles/srsran_gtpu.dir/gtpu.cc.i
 .PHONY : gtpu.cc.i
 
 gtpu.s: gtpu.cc.s
@@ -228,7 +228,7 @@ gtpu.s: gtpu.cc.s
 
 # target to generate assembly for a file
 gtpu.cc.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/gtpu/CMakeFiles/srsran_gtpu.dir/build.make lib/src/gtpu/CMakeFiles/srsran_gtpu.dir/gtpu.cc.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/gtpu/CMakeFiles/srsran_gtpu.dir/build.make lib/src/gtpu/CMakeFiles/srsran_gtpu.dir/gtpu.cc.s
 .PHONY : gtpu.cc.s
 
 # Help Target
@@ -261,6 +261,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/talha/srsRAN/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -10,12 +10,12 @@ lib/src/asn1/CMakeFiles/srsran_asn1.dir/gtpc.cc.o
  ../lib/include/srsran/common/common.h
  ../lib/include/srsran/config.h
  ../lib/include/srsran/phy/io/netsource.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/asn1/gtpc.cc
+ /home/talha/srsRAN/lib/src/asn1/gtpc.cc
 lib/src/asn1/CMakeFiles/srsran_asn1.dir/liblte_common.cc.o
  ../lib/include/srsran/asn1/liblte_common.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/asn1/liblte_common.cc
+ /home/talha/srsRAN/lib/src/asn1/liblte_common.cc
 lib/src/asn1/CMakeFiles/srsran_asn1.dir/liblte_mme.cc.o
  ../lib/include/srsran/asn1/liblte_common.h
  ../lib/include/srsran/asn1/liblte_mme.h
  ../lib/include/srsran/common/liblte_security.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/asn1/liblte_mme.cc
+ /home/talha/srsRAN/lib/src/asn1/liblte_mme.cc

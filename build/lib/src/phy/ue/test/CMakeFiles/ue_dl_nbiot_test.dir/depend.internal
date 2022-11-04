@@ -57,4 +57,4 @@ lib/src/phy/ue/test/CMakeFiles/ue_dl_nbiot_test.dir/ue_dl_nbiot_test.c.o
  ../lib/include/srsran/phy/utils/phy_logger.h
  ../lib/include/srsran/phy/utils/random.h
  ../lib/include/srsran/phy/utils/vector.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/ue/test/ue_dl_nbiot_test.c
+ /home/talha/srsRAN/lib/src/phy/ue/test/ue_dl_nbiot_test.c

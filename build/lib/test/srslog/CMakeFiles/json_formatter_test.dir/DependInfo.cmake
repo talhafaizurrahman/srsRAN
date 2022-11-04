@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/test/srslog/json_formatter_test.cpp" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/test/srslog/CMakeFiles/json_formatter_test.dir/json_formatter_test.cpp.o"
+  "/home/talha/srsRAN/lib/test/srslog/json_formatter_test.cpp" "/home/talha/srsRAN/build/lib/test/srslog/CMakeFiles/json_formatter_test.dir/json_formatter_test.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -25,7 +25,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/srslog/CMakeFiles/srslog.dir/DependInfo.cmake"
+  "/home/talha/srsRAN/build/lib/src/srslog/CMakeFiles/srslog.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/msudurip1/Documents/srsRAN_modified/srsRAN
+CMAKE_SOURCE_DIR = /home/talha/srsRAN
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/msudurip1/Documents/srsRAN_modified/srsRAN/build
+CMAKE_BINARY_DIR = /home/talha/srsRAN/build
 
 # Utility rule file for gen_build_info.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/msudurip1/Documents/srsRAN_modified/srsRAN/build
 include lib/src/common/CMakeFiles/gen_build_info.dir/progress.make
 
 lib/src/common/CMakeFiles/gen_build_info:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/common && cmake -P /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/SRSRANbuildinfo.cmake
+	cd /home/talha/srsRAN/build/lib/src/common && cmake -P /home/talha/srsRAN/build/SRSRANbuildinfo.cmake
 
 gen_build_info: lib/src/common/CMakeFiles/gen_build_info
 gen_build_info: lib/src/common/CMakeFiles/gen_build_info.dir/build.make
@@ -67,10 +67,10 @@ lib/src/common/CMakeFiles/gen_build_info.dir/build: gen_build_info
 .PHONY : lib/src/common/CMakeFiles/gen_build_info.dir/build
 
 lib/src/common/CMakeFiles/gen_build_info.dir/clean:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/common && $(CMAKE_COMMAND) -P CMakeFiles/gen_build_info.dir/cmake_clean.cmake
+	cd /home/talha/srsRAN/build/lib/src/common && $(CMAKE_COMMAND) -P CMakeFiles/gen_build_info.dir/cmake_clean.cmake
 .PHONY : lib/src/common/CMakeFiles/gen_build_info.dir/clean
 
 lib/src/common/CMakeFiles/gen_build_info.dir/depend:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/msudurip1/Documents/srsRAN_modified/srsRAN /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/common /home/msudurip1/Documents/srsRAN_modified/srsRAN/build /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/common /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/common/CMakeFiles/gen_build_info.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/talha/srsRAN/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/talha/srsRAN /home/talha/srsRAN/lib/src/common /home/talha/srsRAN/build /home/talha/srsRAN/build/lib/src/common /home/talha/srsRAN/build/lib/src/common/CMakeFiles/gen_build_info.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lib/src/common/CMakeFiles/gen_build_info.dir/depend
 

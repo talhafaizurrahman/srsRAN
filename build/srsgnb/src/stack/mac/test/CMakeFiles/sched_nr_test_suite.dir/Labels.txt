@@ -2,6 +2,6 @@
  sched
  nr
 # Source files and their labels
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsgnb/src/stack/mac/test/sched_nr_common_test.cc
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsgnb/src/stack/mac/test/sched_nr_ue_ded_test_suite.cc
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsgnb/src/stack/mac/test/sched_nr_sim_ue.cc
+/home/talha/srsRAN/srsgnb/src/stack/mac/test/sched_nr_common_test.cc
+/home/talha/srsRAN/srsgnb/src/stack/mac/test/sched_nr_ue_ded_test_suite.cc
+/home/talha/srsRAN/srsgnb/src/stack/mac/test/sched_nr_sim_ue.cc

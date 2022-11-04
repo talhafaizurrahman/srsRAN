@@ -4,15 +4,15 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsepc/src/mme/mme.cc" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsepc/src/mme/CMakeFiles/srsepc_mme.dir/mme.cc.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsepc/src/mme/mme_gtpc.cc" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsepc/src/mme/CMakeFiles/srsepc_mme.dir/mme_gtpc.cc.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsepc/src/mme/nas.cc" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsepc/src/mme/CMakeFiles/srsepc_mme.dir/nas.cc.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsepc/src/mme/s1ap.cc" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap.cc.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsepc/src/mme/s1ap_ctx_mngmt_proc.cc" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_ctx_mngmt_proc.cc.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsepc/src/mme/s1ap_erab_mngmt_proc.cc" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_erab_mngmt_proc.cc.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsepc/src/mme/s1ap_mngmt_proc.cc" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_mngmt_proc.cc.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsepc/src/mme/s1ap_nas_transport.cc" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_nas_transport.cc.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsepc/src/mme/s1ap_paging.cc" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_paging.cc.o"
+  "/home/talha/srsRAN/srsepc/src/mme/mme.cc" "/home/talha/srsRAN/build/srsepc/src/mme/CMakeFiles/srsepc_mme.dir/mme.cc.o"
+  "/home/talha/srsRAN/srsepc/src/mme/mme_gtpc.cc" "/home/talha/srsRAN/build/srsepc/src/mme/CMakeFiles/srsepc_mme.dir/mme_gtpc.cc.o"
+  "/home/talha/srsRAN/srsepc/src/mme/nas.cc" "/home/talha/srsRAN/build/srsepc/src/mme/CMakeFiles/srsepc_mme.dir/nas.cc.o"
+  "/home/talha/srsRAN/srsepc/src/mme/s1ap.cc" "/home/talha/srsRAN/build/srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap.cc.o"
+  "/home/talha/srsRAN/srsepc/src/mme/s1ap_ctx_mngmt_proc.cc" "/home/talha/srsRAN/build/srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_ctx_mngmt_proc.cc.o"
+  "/home/talha/srsRAN/srsepc/src/mme/s1ap_erab_mngmt_proc.cc" "/home/talha/srsRAN/build/srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_erab_mngmt_proc.cc.o"
+  "/home/talha/srsRAN/srsepc/src/mme/s1ap_mngmt_proc.cc" "/home/talha/srsRAN/build/srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_mngmt_proc.cc.o"
+  "/home/talha/srsRAN/srsepc/src/mme/s1ap_nas_transport.cc" "/home/talha/srsRAN/build/srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_nas_transport.cc.o"
+  "/home/talha/srsRAN/srsepc/src/mme/s1ap_paging.cc" "/home/talha/srsRAN/build/srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_paging.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

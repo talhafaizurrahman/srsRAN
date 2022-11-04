@@ -4,19 +4,19 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/ue/ue_cell_search.c" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_cell_search.c.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/ue/ue_cell_search_nbiot.c" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_cell_search_nbiot.c.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/ue/ue_dl.c" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_dl.c.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/ue/ue_dl_nbiot.c" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_dl_nbiot.c.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/ue/ue_dl_nr.c" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_dl_nr.c.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/ue/ue_mib.c" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_mib.c.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/ue/ue_mib_nbiot.c" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_mib_nbiot.c.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/ue/ue_mib_sl.c" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_mib_sl.c.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/ue/ue_sync.c" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_sync.c.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/ue/ue_sync_nbiot.c" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_sync_nbiot.c.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/ue/ue_sync_nr.c" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_sync_nr.c.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/ue/ue_ul.c" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_ul.c.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/ue/ue_ul_nr.c" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_ul_nr.c.o"
+  "/home/talha/srsRAN/lib/src/phy/ue/ue_cell_search.c" "/home/talha/srsRAN/build/lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_cell_search.c.o"
+  "/home/talha/srsRAN/lib/src/phy/ue/ue_cell_search_nbiot.c" "/home/talha/srsRAN/build/lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_cell_search_nbiot.c.o"
+  "/home/talha/srsRAN/lib/src/phy/ue/ue_dl.c" "/home/talha/srsRAN/build/lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_dl.c.o"
+  "/home/talha/srsRAN/lib/src/phy/ue/ue_dl_nbiot.c" "/home/talha/srsRAN/build/lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_dl_nbiot.c.o"
+  "/home/talha/srsRAN/lib/src/phy/ue/ue_dl_nr.c" "/home/talha/srsRAN/build/lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_dl_nr.c.o"
+  "/home/talha/srsRAN/lib/src/phy/ue/ue_mib.c" "/home/talha/srsRAN/build/lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_mib.c.o"
+  "/home/talha/srsRAN/lib/src/phy/ue/ue_mib_nbiot.c" "/home/talha/srsRAN/build/lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_mib_nbiot.c.o"
+  "/home/talha/srsRAN/lib/src/phy/ue/ue_mib_sl.c" "/home/talha/srsRAN/build/lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_mib_sl.c.o"
+  "/home/talha/srsRAN/lib/src/phy/ue/ue_sync.c" "/home/talha/srsRAN/build/lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_sync.c.o"
+  "/home/talha/srsRAN/lib/src/phy/ue/ue_sync_nbiot.c" "/home/talha/srsRAN/build/lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_sync_nbiot.c.o"
+  "/home/talha/srsRAN/lib/src/phy/ue/ue_sync_nr.c" "/home/talha/srsRAN/build/lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_sync_nr.c.o"
+  "/home/talha/srsRAN/lib/src/phy/ue/ue_ul.c" "/home/talha/srsRAN/build/lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_ul.c.o"
+  "/home/talha/srsRAN/lib/src/phy/ue/ue_ul_nr.c" "/home/talha/srsRAN/build/lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_ul_nr.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

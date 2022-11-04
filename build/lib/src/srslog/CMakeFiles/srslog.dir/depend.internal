@@ -31,19 +31,19 @@ lib/src/srslog/CMakeFiles/srslog.dir/backend_worker.cpp.o
  ../lib/include/srsran/srslog/sink.h
  ../lib/include/srsran/srslog/srslog.h
  ../lib/include/srsran/support/srsran_assert.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/srslog/backend_worker.cpp
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/srslog/backend_worker.h
+ /home/talha/srsRAN/lib/src/srslog/backend_worker.cpp
+ /home/talha/srsRAN/lib/src/srslog/backend_worker.h
 lib/src/srslog/CMakeFiles/srslog.dir/bundled/fmt/format.cc.o
  ../lib/include/srsran/srslog/bundled/fmt/core.h
  ../lib/include/srsran/srslog/bundled/fmt/format-inl.h
  ../lib/include/srsran/srslog/bundled/fmt/format.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/srslog/bundled/fmt/format.cc
+ /home/talha/srsRAN/lib/src/srslog/bundled/fmt/format.cc
 lib/src/srslog/CMakeFiles/srslog.dir/bundled/fmt/os.cc.o
  ../lib/include/srsran/srslog/bundled/fmt/core.h
  ../lib/include/srsran/srslog/bundled/fmt/format-inl.h
  ../lib/include/srsran/srslog/bundled/fmt/format.h
  ../lib/include/srsran/srslog/bundled/fmt/os.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/srslog/bundled/fmt/os.cc
+ /home/talha/srsRAN/lib/src/srslog/bundled/fmt/os.cc
 lib/src/srslog/CMakeFiles/srslog.dir/event_trace.cpp.o
  ../lib/include/srsran/srslog/bundled/fmt/core.h
  ../lib/include/srsran/srslog/bundled/fmt/format-inl.h
@@ -66,9 +66,9 @@ lib/src/srslog/CMakeFiles/srslog.dir/event_trace.cpp.o
  ../lib/include/srsran/srslog/shared_types.h
  ../lib/include/srsran/srslog/sink.h
  ../lib/include/srsran/srslog/srslog.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/srslog/event_trace.cpp
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/srslog/sinks/buffered_file_sink.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/srslog/sinks/file_utils.h
+ /home/talha/srsRAN/lib/src/srslog/event_trace.cpp
+ /home/talha/srsRAN/lib/src/srslog/sinks/buffered_file_sink.h
+ /home/talha/srsRAN/lib/src/srslog/sinks/file_utils.h
 lib/src/srslog/CMakeFiles/srslog.dir/formatters/json_formatter.cpp.o
  ../lib/include/srsran/srslog/bundled/fmt/core.h
  ../lib/include/srsran/srslog/bundled/fmt/format-inl.h
@@ -79,8 +79,8 @@ lib/src/srslog/CMakeFiles/srslog.dir/formatters/json_formatter.cpp.o
  ../lib/include/srsran/srslog/detail/log_entry_metadata.h
  ../lib/include/srsran/srslog/detail/support/tmp_utils.h
  ../lib/include/srsran/srslog/formatter.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/srslog/formatters/json_formatter.cpp
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/srslog/formatters/json_formatter.h
+ /home/talha/srsRAN/lib/src/srslog/formatters/json_formatter.cpp
+ /home/talha/srsRAN/lib/src/srslog/formatters/json_formatter.h
 lib/src/srslog/CMakeFiles/srslog.dir/formatters/text_formatter.cpp.o
  ../lib/include/srsran/srslog/bundled/fmt/chrono.h
  ../lib/include/srsran/srslog/bundled/fmt/core.h
@@ -93,8 +93,8 @@ lib/src/srslog/CMakeFiles/srslog.dir/formatters/text_formatter.cpp.o
  ../lib/include/srsran/srslog/detail/log_entry_metadata.h
  ../lib/include/srsran/srslog/detail/support/tmp_utils.h
  ../lib/include/srsran/srslog/formatter.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/srslog/formatters/text_formatter.cpp
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/srslog/formatters/text_formatter.h
+ /home/talha/srsRAN/lib/src/srslog/formatters/text_formatter.cpp
+ /home/talha/srsRAN/lib/src/srslog/formatters/text_formatter.h
 lib/src/srslog/CMakeFiles/srslog.dir/srslog.cpp.o
  ../lib/include/srsran/adt/circular_buffer.h
  ../lib/include/srsran/adt/detail/type_storage.h
@@ -125,17 +125,17 @@ lib/src/srslog/CMakeFiles/srslog.dir/srslog.cpp.o
  ../lib/include/srsran/srslog/sink.h
  ../lib/include/srsran/srslog/srslog.h
  ../lib/include/srsran/support/srsran_assert.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/srslog/backend_worker.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/srslog/formatters/json_formatter.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/srslog/formatters/text_formatter.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/srslog/log_backend_impl.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/srslog/object_repository.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/srslog/sinks/file_sink.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/srslog/sinks/file_utils.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/srslog/sinks/stream_sink.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/srslog/sinks/syslog_sink.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/srslog/srslog.cpp
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/srslog/srslog_instance.h
+ /home/talha/srsRAN/lib/src/srslog/backend_worker.h
+ /home/talha/srsRAN/lib/src/srslog/formatters/json_formatter.h
+ /home/talha/srsRAN/lib/src/srslog/formatters/text_formatter.h
+ /home/talha/srsRAN/lib/src/srslog/log_backend_impl.h
+ /home/talha/srsRAN/lib/src/srslog/object_repository.h
+ /home/talha/srsRAN/lib/src/srslog/sinks/file_sink.h
+ /home/talha/srsRAN/lib/src/srslog/sinks/file_utils.h
+ /home/talha/srsRAN/lib/src/srslog/sinks/stream_sink.h
+ /home/talha/srsRAN/lib/src/srslog/sinks/syslog_sink.h
+ /home/talha/srsRAN/lib/src/srslog/srslog.cpp
+ /home/talha/srsRAN/lib/src/srslog/srslog_instance.h
 lib/src/srslog/CMakeFiles/srslog.dir/srslog_c.cpp.o
  ../lib/include/srsran/srslog/bundled/fmt/core.h
  ../lib/include/srsran/srslog/bundled/fmt/format-inl.h
@@ -158,4 +158,4 @@ lib/src/srslog/CMakeFiles/srslog.dir/srslog_c.cpp.o
  ../lib/include/srsran/srslog/sink.h
  ../lib/include/srsran/srslog/srslog.h
  ../lib/include/srsran/srslog/srslog_c.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/srslog/srslog_c.cpp
+ /home/talha/srsRAN/lib/src/srslog/srslog_c.cpp

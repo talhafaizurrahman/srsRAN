@@ -1,4 +1,4 @@
-# Install script for directory: /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/fec/turbo/test
+# Install script for directory: /home/talha/srsRAN/lib/src/phy/fec/turbo/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -3364,13 +3364,13 @@ stack/upper/gw_metrics.h
 stack/upper/nas_metrics.h
 ../srsue/hdr/stack/upper/nas_metrics.h
 
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/stack/ue_stack_nr.cc
+/home/talha/srsRAN/srsue/src/stack/ue_stack_nr.cc
 srsue/hdr/stack/ue_stack_nr.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/stack/srsue/hdr/stack/ue_stack_nr.h
+/home/talha/srsRAN/srsue/src/stack/srsue/hdr/stack/ue_stack_nr.h
 srsran/srsran.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/stack/srsran/srsran.h
+/home/talha/srsRAN/srsue/src/stack/srsran/srsran.h
 srsue/hdr/stack/rrc_nr/rrc_nr.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/stack/srsue/hdr/stack/rrc_nr/rrc_nr.h
+/home/talha/srsRAN/srsue/src/stack/srsue/hdr/stack/rrc_nr/rrc_nr.h
 
 lib/include/srsran/version.h
 srsran/config.h

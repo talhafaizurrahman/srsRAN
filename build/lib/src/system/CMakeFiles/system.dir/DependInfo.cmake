@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/system/sys_metrics_processor.cc" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/system/CMakeFiles/system.dir/sys_metrics_processor.cc.o"
+  "/home/talha/srsRAN/lib/src/system/sys_metrics_processor.cc" "/home/talha/srsRAN/build/lib/src/system/CMakeFiles/system.dir/sys_metrics_processor.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

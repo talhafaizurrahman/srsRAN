@@ -37,7 +37,7 @@ lib/src/asn1/CMakeFiles/rrc_nr_asn1.dir/rrc_nr.cc.o
  ../lib/include/srsran/srslog/sink.h
  ../lib/include/srsran/srslog/srslog.h
  ../lib/include/srsran/support/srsran_assert.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/asn1/rrc_nr.cc
+ /home/talha/srsRAN/lib/src/asn1/rrc_nr.cc
 lib/src/asn1/CMakeFiles/rrc_nr_asn1.dir/rrc_nr_utils.cc.o
  ../lib/include/srsran/adt/bounded_vector.h
  ../lib/include/srsran/adt/circular_buffer.h
@@ -217,5 +217,5 @@ lib/src/asn1/CMakeFiles/rrc_nr_asn1.dir/rrc_nr_utils.cc.o
  ../lib/include/srsran/srslog/srslog.h
  ../lib/include/srsran/srsran.h
  ../lib/include/srsran/support/srsran_assert.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/asn1/rrc_nr_utils.cc
+ /home/talha/srsRAN/lib/src/asn1/rrc_nr_utils.cc
  lib/include/srsran/version.h

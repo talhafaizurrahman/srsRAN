@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/msudurip1/Documents/srsRAN_modified/srsRAN
+CMAKE_SOURCE_DIR = /home/talha/srsRAN
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/msudurip1/Documents/srsRAN_modified/srsRAN/build
+CMAKE_BINARY_DIR = /home/talha/srsRAN/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -105,7 +105,7 @@ test/fast: test
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/CPackSourceConfig.cmake
+	cd /home/talha/srsRAN/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/talha/srsRAN/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -149,7 +149,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/talha/srsRAN/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -159,14 +159,14 @@ package/fast: package
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/CMakeFiles /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/resampling/CMakeFiles/progress.marks
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/resampling/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/CMakeFiles 0
+	cd /home/talha/srsRAN/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/talha/srsRAN/build/CMakeFiles /home/talha/srsRAN/build/lib/src/phy/resampling/CMakeFiles/progress.marks
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/resampling/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/talha/srsRAN/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/resampling/clean
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/resampling/clean
 .PHONY : clean
 
 # The main clean target
@@ -176,22 +176,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: cmake_check_build_system
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/resampling/preinstall
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/resampling/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/resampling/preinstall
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/resampling/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/talha/srsRAN/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/rule:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/rule
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/rule
 .PHONY : lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/rule
 
 # Convenience name for target.
@@ -201,7 +201,7 @@ srsran_resampling: lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/rule
 
 # fast build rule for target.
 srsran_resampling/fast:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/build.make lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/build
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/build.make lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/build
 .PHONY : srsran_resampling/fast
 
 decim.o: decim.c.o
@@ -210,7 +210,7 @@ decim.o: decim.c.o
 
 # target to build an object file
 decim.c.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/build.make lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/decim.c.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/build.make lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/decim.c.o
 .PHONY : decim.c.o
 
 decim.i: decim.c.i
@@ -219,7 +219,7 @@ decim.i: decim.c.i
 
 # target to preprocess a source file
 decim.c.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/build.make lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/decim.c.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/build.make lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/decim.c.i
 .PHONY : decim.c.i
 
 decim.s: decim.c.s
@@ -228,7 +228,7 @@ decim.s: decim.c.s
 
 # target to generate assembly for a file
 decim.c.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/build.make lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/decim.c.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/build.make lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/decim.c.s
 .PHONY : decim.c.s
 
 interp.o: interp.c.o
@@ -237,7 +237,7 @@ interp.o: interp.c.o
 
 # target to build an object file
 interp.c.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/build.make lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/interp.c.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/build.make lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/interp.c.o
 .PHONY : interp.c.o
 
 interp.i: interp.c.i
@@ -246,7 +246,7 @@ interp.i: interp.c.i
 
 # target to preprocess a source file
 interp.c.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/build.make lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/interp.c.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/build.make lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/interp.c.i
 .PHONY : interp.c.i
 
 interp.s: interp.c.s
@@ -255,7 +255,7 @@ interp.s: interp.c.s
 
 # target to generate assembly for a file
 interp.c.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/build.make lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/interp.c.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/build.make lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/interp.c.s
 .PHONY : interp.c.s
 
 resample_arb.o: resample_arb.c.o
@@ -264,7 +264,7 @@ resample_arb.o: resample_arb.c.o
 
 # target to build an object file
 resample_arb.c.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/build.make lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/resample_arb.c.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/build.make lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/resample_arb.c.o
 .PHONY : resample_arb.c.o
 
 resample_arb.i: resample_arb.c.i
@@ -273,7 +273,7 @@ resample_arb.i: resample_arb.c.i
 
 # target to preprocess a source file
 resample_arb.c.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/build.make lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/resample_arb.c.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/build.make lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/resample_arb.c.i
 .PHONY : resample_arb.c.i
 
 resample_arb.s: resample_arb.c.s
@@ -282,7 +282,7 @@ resample_arb.s: resample_arb.c.s
 
 # target to generate assembly for a file
 resample_arb.c.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/build.make lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/resample_arb.c.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/build.make lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/resample_arb.c.s
 .PHONY : resample_arb.c.s
 
 resampler.o: resampler.c.o
@@ -291,7 +291,7 @@ resampler.o: resampler.c.o
 
 # target to build an object file
 resampler.c.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/build.make lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/resampler.c.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/build.make lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/resampler.c.o
 .PHONY : resampler.c.o
 
 resampler.i: resampler.c.i
@@ -300,7 +300,7 @@ resampler.i: resampler.c.i
 
 # target to preprocess a source file
 resampler.c.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/build.make lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/resampler.c.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/build.make lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/resampler.c.i
 .PHONY : resampler.c.i
 
 resampler.s: resampler.c.s
@@ -309,7 +309,7 @@ resampler.s: resampler.c.s
 
 # target to generate assembly for a file
 resampler.c.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/build.make lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/resampler.c.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/build.make lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/resampler.c.s
 .PHONY : resampler.c.s
 
 # Help Target
@@ -351,6 +351,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/talha/srsRAN/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

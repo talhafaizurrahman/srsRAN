@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/gnb/gnb_dl.c" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/gnb/CMakeFiles/srsran_gnb.dir/gnb_dl.c.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/gnb/gnb_ul.c" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/gnb/CMakeFiles/srsran_gnb.dir/gnb_ul.c.o"
+  "/home/talha/srsRAN/lib/src/phy/gnb/gnb_dl.c" "/home/talha/srsRAN/build/lib/src/phy/gnb/CMakeFiles/srsran_gnb.dir/gnb_dl.c.o"
+  "/home/talha/srsRAN/lib/src/phy/gnb/gnb_ul.c" "/home/talha/srsRAN/build/lib/src/phy/gnb/CMakeFiles/srsran_gnb.dir/gnb_ul.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

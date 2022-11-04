@@ -476,9 +476,9 @@ srsran/asn1/rrc/paging.h
 srsran/common/tti_point.h
 ../srsenb/hdr/stack/rrc/srsran/common/tti_point.h
 
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsenb/test/rrc/rrc_paging_test.cc
+/home/talha/srsRAN/srsenb/test/rrc/rrc_paging_test.cc
 srsenb/hdr/stack/rrc/rrc_paging.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsenb/test/rrc/srsenb/hdr/stack/rrc/rrc_paging.h
+/home/talha/srsRAN/srsenb/test/rrc/srsenb/hdr/stack/rrc/rrc_paging.h
 srsran/common/test_common.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsenb/test/rrc/srsran/common/test_common.h
+/home/talha/srsRAN/srsenb/test/rrc/srsran/common/test_common.h
 

@@ -321,5 +321,5 @@ srsue/src/stack/CMakeFiles/srsue_stack.dir/ue_stack_lte.cc.o
  ../srsue/hdr/stack/upper/usim.h
  ../srsue/hdr/stack/upper/usim_base.h
  ../srsue/hdr/ue_metrics_interface.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/stack/ue_stack_lte.cc
+ /home/talha/srsRAN/srsue/src/stack/ue_stack_lte.cc
  lib/include/srsran/version.h

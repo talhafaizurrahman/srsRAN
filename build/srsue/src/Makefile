@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/msudurip1/Documents/srsRAN_modified/srsRAN
+CMAKE_SOURCE_DIR = /home/talha/srsRAN
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/msudurip1/Documents/srsRAN_modified/srsRAN/build
+CMAKE_BINARY_DIR = /home/talha/srsRAN/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -105,7 +105,7 @@ test/fast: test
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/CPackSourceConfig.cmake
+	cd /home/talha/srsRAN/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/talha/srsRAN/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -149,7 +149,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/talha/srsRAN/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -159,14 +159,14 @@ package/fast: package
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/CMakeFiles /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsue/src/CMakeFiles/progress.marks
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsue/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/CMakeFiles 0
+	cd /home/talha/srsRAN/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/talha/srsRAN/build/CMakeFiles /home/talha/srsRAN/build/srsue/src/CMakeFiles/progress.marks
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsue/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/talha/srsRAN/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsue/src/clean
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsue/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -176,22 +176,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: cmake_check_build_system
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsue/src/preinstall
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsue/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsue/src/preinstall
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsue/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/talha/srsRAN/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 srsue/src/CMakeFiles/srsue.dir/rule:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsue/src/CMakeFiles/srsue.dir/rule
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsue/src/CMakeFiles/srsue.dir/rule
 .PHONY : srsue/src/CMakeFiles/srsue.dir/rule
 
 # Convenience name for target.
@@ -201,7 +201,7 @@ srsue: srsue/src/CMakeFiles/srsue.dir/rule
 
 # fast build rule for target.
 srsue/fast:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsue/src/CMakeFiles/srsue.dir/build.make srsue/src/CMakeFiles/srsue.dir/build
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsue/src/CMakeFiles/srsue.dir/build.make srsue/src/CMakeFiles/srsue.dir/build
 .PHONY : srsue/fast
 
 main.o: main.cc.o
@@ -210,7 +210,7 @@ main.o: main.cc.o
 
 # target to build an object file
 main.cc.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsue/src/CMakeFiles/srsue.dir/build.make srsue/src/CMakeFiles/srsue.dir/main.cc.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsue/src/CMakeFiles/srsue.dir/build.make srsue/src/CMakeFiles/srsue.dir/main.cc.o
 .PHONY : main.cc.o
 
 main.i: main.cc.i
@@ -219,7 +219,7 @@ main.i: main.cc.i
 
 # target to preprocess a source file
 main.cc.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsue/src/CMakeFiles/srsue.dir/build.make srsue/src/CMakeFiles/srsue.dir/main.cc.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsue/src/CMakeFiles/srsue.dir/build.make srsue/src/CMakeFiles/srsue.dir/main.cc.i
 .PHONY : main.cc.i
 
 main.s: main.cc.s
@@ -228,7 +228,7 @@ main.s: main.cc.s
 
 # target to generate assembly for a file
 main.cc.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsue/src/CMakeFiles/srsue.dir/build.make srsue/src/CMakeFiles/srsue.dir/main.cc.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsue/src/CMakeFiles/srsue.dir/build.make srsue/src/CMakeFiles/srsue.dir/main.cc.s
 .PHONY : main.cc.s
 
 metrics_csv.o: metrics_csv.cc.o
@@ -237,7 +237,7 @@ metrics_csv.o: metrics_csv.cc.o
 
 # target to build an object file
 metrics_csv.cc.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsue/src/CMakeFiles/srsue.dir/build.make srsue/src/CMakeFiles/srsue.dir/metrics_csv.cc.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsue/src/CMakeFiles/srsue.dir/build.make srsue/src/CMakeFiles/srsue.dir/metrics_csv.cc.o
 .PHONY : metrics_csv.cc.o
 
 metrics_csv.i: metrics_csv.cc.i
@@ -246,7 +246,7 @@ metrics_csv.i: metrics_csv.cc.i
 
 # target to preprocess a source file
 metrics_csv.cc.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsue/src/CMakeFiles/srsue.dir/build.make srsue/src/CMakeFiles/srsue.dir/metrics_csv.cc.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsue/src/CMakeFiles/srsue.dir/build.make srsue/src/CMakeFiles/srsue.dir/metrics_csv.cc.i
 .PHONY : metrics_csv.cc.i
 
 metrics_csv.s: metrics_csv.cc.s
@@ -255,7 +255,7 @@ metrics_csv.s: metrics_csv.cc.s
 
 # target to generate assembly for a file
 metrics_csv.cc.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsue/src/CMakeFiles/srsue.dir/build.make srsue/src/CMakeFiles/srsue.dir/metrics_csv.cc.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsue/src/CMakeFiles/srsue.dir/build.make srsue/src/CMakeFiles/srsue.dir/metrics_csv.cc.s
 .PHONY : metrics_csv.cc.s
 
 metrics_json.o: metrics_json.cc.o
@@ -264,7 +264,7 @@ metrics_json.o: metrics_json.cc.o
 
 # target to build an object file
 metrics_json.cc.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsue/src/CMakeFiles/srsue.dir/build.make srsue/src/CMakeFiles/srsue.dir/metrics_json.cc.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsue/src/CMakeFiles/srsue.dir/build.make srsue/src/CMakeFiles/srsue.dir/metrics_json.cc.o
 .PHONY : metrics_json.cc.o
 
 metrics_json.i: metrics_json.cc.i
@@ -273,7 +273,7 @@ metrics_json.i: metrics_json.cc.i
 
 # target to preprocess a source file
 metrics_json.cc.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsue/src/CMakeFiles/srsue.dir/build.make srsue/src/CMakeFiles/srsue.dir/metrics_json.cc.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsue/src/CMakeFiles/srsue.dir/build.make srsue/src/CMakeFiles/srsue.dir/metrics_json.cc.i
 .PHONY : metrics_json.cc.i
 
 metrics_json.s: metrics_json.cc.s
@@ -282,7 +282,7 @@ metrics_json.s: metrics_json.cc.s
 
 # target to generate assembly for a file
 metrics_json.cc.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsue/src/CMakeFiles/srsue.dir/build.make srsue/src/CMakeFiles/srsue.dir/metrics_json.cc.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsue/src/CMakeFiles/srsue.dir/build.make srsue/src/CMakeFiles/srsue.dir/metrics_json.cc.s
 .PHONY : metrics_json.cc.s
 
 metrics_stdout.o: metrics_stdout.cc.o
@@ -291,7 +291,7 @@ metrics_stdout.o: metrics_stdout.cc.o
 
 # target to build an object file
 metrics_stdout.cc.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsue/src/CMakeFiles/srsue.dir/build.make srsue/src/CMakeFiles/srsue.dir/metrics_stdout.cc.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsue/src/CMakeFiles/srsue.dir/build.make srsue/src/CMakeFiles/srsue.dir/metrics_stdout.cc.o
 .PHONY : metrics_stdout.cc.o
 
 metrics_stdout.i: metrics_stdout.cc.i
@@ -300,7 +300,7 @@ metrics_stdout.i: metrics_stdout.cc.i
 
 # target to preprocess a source file
 metrics_stdout.cc.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsue/src/CMakeFiles/srsue.dir/build.make srsue/src/CMakeFiles/srsue.dir/metrics_stdout.cc.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsue/src/CMakeFiles/srsue.dir/build.make srsue/src/CMakeFiles/srsue.dir/metrics_stdout.cc.i
 .PHONY : metrics_stdout.cc.i
 
 metrics_stdout.s: metrics_stdout.cc.s
@@ -309,7 +309,7 @@ metrics_stdout.s: metrics_stdout.cc.s
 
 # target to generate assembly for a file
 metrics_stdout.cc.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsue/src/CMakeFiles/srsue.dir/build.make srsue/src/CMakeFiles/srsue.dir/metrics_stdout.cc.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsue/src/CMakeFiles/srsue.dir/build.make srsue/src/CMakeFiles/srsue.dir/metrics_stdout.cc.s
 .PHONY : metrics_stdout.cc.s
 
 ue.o: ue.cc.o
@@ -318,7 +318,7 @@ ue.o: ue.cc.o
 
 # target to build an object file
 ue.cc.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsue/src/CMakeFiles/srsue.dir/build.make srsue/src/CMakeFiles/srsue.dir/ue.cc.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsue/src/CMakeFiles/srsue.dir/build.make srsue/src/CMakeFiles/srsue.dir/ue.cc.o
 .PHONY : ue.cc.o
 
 ue.i: ue.cc.i
@@ -327,7 +327,7 @@ ue.i: ue.cc.i
 
 # target to preprocess a source file
 ue.cc.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsue/src/CMakeFiles/srsue.dir/build.make srsue/src/CMakeFiles/srsue.dir/ue.cc.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsue/src/CMakeFiles/srsue.dir/build.make srsue/src/CMakeFiles/srsue.dir/ue.cc.i
 .PHONY : ue.cc.i
 
 ue.s: ue.cc.s
@@ -336,7 +336,7 @@ ue.s: ue.cc.s
 
 # target to generate assembly for a file
 ue.cc.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsue/src/CMakeFiles/srsue.dir/build.make srsue/src/CMakeFiles/srsue.dir/ue.cc.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsue/src/CMakeFiles/srsue.dir/build.make srsue/src/CMakeFiles/srsue.dir/ue.cc.s
 .PHONY : ue.cc.s
 
 # Help Target
@@ -381,6 +381,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/talha/srsRAN/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

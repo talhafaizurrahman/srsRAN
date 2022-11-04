@@ -65,4 +65,4 @@ lib/examples/CMakeFiles/npdsch_enodeb.dir/npdsch_enodeb.c.o
  ../lib/include/srsran/phy/utils/phy_logger.h
  ../lib/include/srsran/phy/utils/random.h
  ../lib/include/srsran/phy/utils/vector.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/examples/npdsch_enodeb.c
+ /home/talha/srsRAN/lib/examples/npdsch_enodeb.c

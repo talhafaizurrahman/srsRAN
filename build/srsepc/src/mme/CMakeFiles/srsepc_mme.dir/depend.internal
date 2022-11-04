@@ -61,7 +61,7 @@ srsepc/src/mme/CMakeFiles/srsepc_mme.dir/mme.cc.o
  ../srsepc/hdr/mme/s1ap_mngmt_proc.h
  ../srsepc/hdr/mme/s1ap_nas_transport.h
  ../srsepc/hdr/mme/s1ap_paging.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsepc/src/mme/mme.cc
+ /home/talha/srsRAN/srsepc/src/mme/mme.cc
 srsepc/src/mme/CMakeFiles/srsepc_mme.dir/mme_gtpc.cc.o
  ../lib/include/srsran/adt/bounded_vector.h
  ../lib/include/srsran/adt/circular_buffer.h
@@ -122,7 +122,7 @@ srsepc/src/mme/CMakeFiles/srsepc_mme.dir/mme_gtpc.cc.o
  ../srsepc/hdr/mme/s1ap_nas_transport.h
  ../srsepc/hdr/mme/s1ap_paging.h
  ../srsepc/hdr/spgw/spgw.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsepc/src/mme/mme_gtpc.cc
+ /home/talha/srsRAN/srsepc/src/mme/mme_gtpc.cc
 srsepc/src/mme/CMakeFiles/srsepc_mme.dir/nas.cc.o
  ../lib/include/srsran/adt/bounded_vector.h
  ../lib/include/srsran/adt/circular_buffer.h
@@ -182,7 +182,7 @@ srsepc/src/mme/CMakeFiles/srsepc_mme.dir/nas.cc.o
  ../srsepc/hdr/mme/s1ap_mngmt_proc.h
  ../srsepc/hdr/mme/s1ap_nas_transport.h
  ../srsepc/hdr/mme/s1ap_paging.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsepc/src/mme/nas.cc
+ /home/talha/srsRAN/srsepc/src/mme/nas.cc
 srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap.cc.o
  ../lib/include/srsran/adt/bounded_vector.h
  ../lib/include/srsran/adt/circular_buffer.h
@@ -246,7 +246,7 @@ srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap.cc.o
  ../srsepc/hdr/mme/s1ap_mngmt_proc.h
  ../srsepc/hdr/mme/s1ap_nas_transport.h
  ../srsepc/hdr/mme/s1ap_paging.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsepc/src/mme/s1ap.cc
+ /home/talha/srsRAN/srsepc/src/mme/s1ap.cc
 srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_ctx_mngmt_proc.cc.o
  ../lib/include/srsran/adt/bounded_vector.h
  ../lib/include/srsran/adt/circular_buffer.h
@@ -308,7 +308,7 @@ srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_ctx_mngmt_proc.cc.o
  ../srsepc/hdr/mme/s1ap_mngmt_proc.h
  ../srsepc/hdr/mme/s1ap_nas_transport.h
  ../srsepc/hdr/mme/s1ap_paging.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsepc/src/mme/s1ap_ctx_mngmt_proc.cc
+ /home/talha/srsRAN/srsepc/src/mme/s1ap_ctx_mngmt_proc.cc
 srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_erab_mngmt_proc.cc.o
  ../lib/include/srsran/adt/bounded_vector.h
  ../lib/include/srsran/adt/circular_buffer.h
@@ -370,7 +370,7 @@ srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_erab_mngmt_proc.cc.o
  ../srsepc/hdr/mme/s1ap_mngmt_proc.h
  ../srsepc/hdr/mme/s1ap_nas_transport.h
  ../srsepc/hdr/mme/s1ap_paging.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsepc/src/mme/s1ap_erab_mngmt_proc.cc
+ /home/talha/srsRAN/srsepc/src/mme/s1ap_erab_mngmt_proc.cc
 srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_mngmt_proc.cc.o
  ../lib/include/srsran/adt/bounded_vector.h
  ../lib/include/srsran/adt/circular_buffer.h
@@ -430,7 +430,7 @@ srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_mngmt_proc.cc.o
  ../srsepc/hdr/mme/s1ap_mngmt_proc.h
  ../srsepc/hdr/mme/s1ap_nas_transport.h
  ../srsepc/hdr/mme/s1ap_paging.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsepc/src/mme/s1ap_mngmt_proc.cc
+ /home/talha/srsRAN/srsepc/src/mme/s1ap_mngmt_proc.cc
 srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_nas_transport.cc.o
  ../lib/include/srsran/adt/bounded_vector.h
  ../lib/include/srsran/adt/circular_buffer.h
@@ -493,7 +493,7 @@ srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_nas_transport.cc.o
  ../srsepc/hdr/mme/s1ap_mngmt_proc.h
  ../srsepc/hdr/mme/s1ap_nas_transport.h
  ../srsepc/hdr/mme/s1ap_paging.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsepc/src/mme/s1ap_nas_transport.cc
+ /home/talha/srsRAN/srsepc/src/mme/s1ap_nas_transport.cc
 srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_paging.cc.o
  ../lib/include/srsran/adt/bounded_vector.h
  ../lib/include/srsran/adt/circular_buffer.h
@@ -556,4 +556,4 @@ srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_paging.cc.o
  ../srsepc/hdr/mme/s1ap_mngmt_proc.h
  ../srsepc/hdr/mme/s1ap_nas_transport.h
  ../srsepc/hdr/mme/s1ap_paging.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsepc/src/mme/s1ap_paging.cc
+ /home/talha/srsRAN/srsepc/src/mme/s1ap_paging.cc

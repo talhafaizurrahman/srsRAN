@@ -70,7 +70,7 @@ srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/ngap.cc.o
  ../srsgnb/hdr/stack/ngap/ngap_ue_bearer_manager.h
  ../srsgnb/hdr/stack/ngap/ngap_ue_proc.h
  ../srsgnb/hdr/stack/ngap/ngap_ue_utils.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsgnb/src/stack/ngap/ngap.cc
+ /home/talha/srsRAN/srsgnb/src/stack/ngap/ngap.cc
 srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/ngap_ue.cc.o
  ../lib/include/srsran/adt/bounded_vector.h
  ../lib/include/srsran/adt/circular_buffer.h
@@ -140,7 +140,7 @@ srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/ngap_ue.cc.o
  ../srsgnb/hdr/stack/ngap/ngap_ue_bearer_manager.h
  ../srsgnb/hdr/stack/ngap/ngap_ue_proc.h
  ../srsgnb/hdr/stack/ngap/ngap_ue_utils.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsgnb/src/stack/ngap/ngap_ue.cc
+ /home/talha/srsRAN/srsgnb/src/stack/ngap/ngap_ue.cc
 srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/ngap_ue_bearer_manager.cc.o
  ../lib/include/srsran/adt/bounded_vector.h
  ../lib/include/srsran/adt/circular_buffer.h
@@ -181,7 +181,7 @@ srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/ngap_ue_bearer_manager.cc.o
  ../lib/include/srsran/srslog/srslog.h
  ../lib/include/srsran/support/srsran_assert.h
  ../srsgnb/hdr/stack/ngap/ngap_ue_bearer_manager.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsgnb/src/stack/ngap/ngap_ue_bearer_manager.cc
+ /home/talha/srsRAN/srsgnb/src/stack/ngap/ngap_ue_bearer_manager.cc
 srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/ngap_ue_proc.cc.o
  ../lib/include/srsran/adt/bounded_vector.h
  ../lib/include/srsran/adt/circular_buffer.h
@@ -232,4 +232,4 @@ srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/ngap_ue_proc.cc.o
  ../srsgnb/hdr/stack/ngap/ngap_ue_bearer_manager.h
  ../srsgnb/hdr/stack/ngap/ngap_ue_proc.h
  ../srsgnb/hdr/stack/ngap/ngap_ue_utils.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsgnb/src/stack/ngap/ngap_ue_proc.cc
+ /home/talha/srsRAN/srsgnb/src/stack/ngap/ngap_ue_proc.cc

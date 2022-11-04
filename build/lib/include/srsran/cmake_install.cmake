@@ -1,4 +1,4 @@
-# Install script for directory: /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/include/srsran
+# Install script for directory: /home/talha/srsRAN/lib/include/srsran
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,6 +38,6 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/srsran" TYPE FILE FILES "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/include/srsran/version.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/srsran" TYPE FILE FILES "/home/talha/srsRAN/build/lib/include/srsran/version.h")
 endif()
 

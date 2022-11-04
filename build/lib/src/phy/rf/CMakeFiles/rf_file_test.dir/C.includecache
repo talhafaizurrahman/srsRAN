@@ -82,25 +82,25 @@ stdint.h
 stdio.h
 -
 
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/rf/rf_file_imp.h
+/home/talha/srsRAN/lib/src/phy/rf/rf_file_imp.h
 inttypes.h
 -
 srsran/config.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/rf/srsran/config.h
+/home/talha/srsRAN/lib/src/phy/rf/srsran/config.h
 srsran/phy/common/phy_common.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/rf/srsran/phy/common/phy_common.h
+/home/talha/srsRAN/lib/src/phy/rf/srsran/phy/common/phy_common.h
 srsran/phy/rf/rf.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/rf/srsran/phy/rf/rf.h
+/home/talha/srsRAN/lib/src/phy/rf/srsran/phy/rf/rf.h
 
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/rf/rf_file_test.c
+/home/talha/srsRAN/lib/src/phy/rf/rf_file_test.c
 rf_file_imp.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/rf/rf_file_imp.h
+/home/talha/srsRAN/lib/src/phy/rf/rf_file_imp.h
 srsran/common/tsan_options.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/rf/srsran/common/tsan_options.h
+/home/talha/srsRAN/lib/src/phy/rf/srsran/common/tsan_options.h
 srsran/phy/common/timestamp.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/rf/srsran/phy/common/timestamp.h
+/home/talha/srsRAN/lib/src/phy/rf/srsran/phy/common/timestamp.h
 srsran/phy/utils/debug.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/rf/srsran/phy/utils/debug.h
+/home/talha/srsRAN/lib/src/phy/rf/srsran/phy/utils/debug.h
 complex.h
 -
 pthread.h

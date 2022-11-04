@@ -7,4 +7,4 @@ lib/src/phy/agc/CMakeFiles/srsran_agc.dir/agc.c.o
  ../lib/include/srsran/phy/utils/debug.h
  ../lib/include/srsran/phy/utils/phy_logger.h
  ../lib/include/srsran/phy/utils/vector.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/agc/agc.c
+ /home/talha/srsRAN/lib/src/phy/agc/agc.c

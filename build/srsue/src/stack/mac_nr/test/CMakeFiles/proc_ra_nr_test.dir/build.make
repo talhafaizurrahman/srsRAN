@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/msudurip1/Documents/srsRAN_modified/srsRAN
+CMAKE_SOURCE_DIR = /home/talha/srsRAN
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/msudurip1/Documents/srsRAN_modified/srsRAN/build
+CMAKE_BINARY_DIR = /home/talha/srsRAN/build
 
 # Include any dependencies generated for this target.
 include srsue/src/stack/mac_nr/test/CMakeFiles/proc_ra_nr_test.dir/depend.make
@@ -59,16 +59,16 @@ include srsue/src/stack/mac_nr/test/CMakeFiles/proc_ra_nr_test.dir/flags.make
 
 srsue/src/stack/mac_nr/test/CMakeFiles/proc_ra_nr_test.dir/proc_ra_nr_test.cc.o: srsue/src/stack/mac_nr/test/CMakeFiles/proc_ra_nr_test.dir/flags.make
 srsue/src/stack/mac_nr/test/CMakeFiles/proc_ra_nr_test.dir/proc_ra_nr_test.cc.o: ../srsue/src/stack/mac_nr/test/proc_ra_nr_test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object srsue/src/stack/mac_nr/test/CMakeFiles/proc_ra_nr_test.dir/proc_ra_nr_test.cc.o"
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsue/src/stack/mac_nr/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/proc_ra_nr_test.dir/proc_ra_nr_test.cc.o -c /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/stack/mac_nr/test/proc_ra_nr_test.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/talha/srsRAN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object srsue/src/stack/mac_nr/test/CMakeFiles/proc_ra_nr_test.dir/proc_ra_nr_test.cc.o"
+	cd /home/talha/srsRAN/build/srsue/src/stack/mac_nr/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/proc_ra_nr_test.dir/proc_ra_nr_test.cc.o -c /home/talha/srsRAN/srsue/src/stack/mac_nr/test/proc_ra_nr_test.cc
 
 srsue/src/stack/mac_nr/test/CMakeFiles/proc_ra_nr_test.dir/proc_ra_nr_test.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/proc_ra_nr_test.dir/proc_ra_nr_test.cc.i"
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsue/src/stack/mac_nr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/stack/mac_nr/test/proc_ra_nr_test.cc > CMakeFiles/proc_ra_nr_test.dir/proc_ra_nr_test.cc.i
+	cd /home/talha/srsRAN/build/srsue/src/stack/mac_nr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/talha/srsRAN/srsue/src/stack/mac_nr/test/proc_ra_nr_test.cc > CMakeFiles/proc_ra_nr_test.dir/proc_ra_nr_test.cc.i
 
 srsue/src/stack/mac_nr/test/CMakeFiles/proc_ra_nr_test.dir/proc_ra_nr_test.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/proc_ra_nr_test.dir/proc_ra_nr_test.cc.s"
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsue/src/stack/mac_nr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/stack/mac_nr/test/proc_ra_nr_test.cc -o CMakeFiles/proc_ra_nr_test.dir/proc_ra_nr_test.cc.s
+	cd /home/talha/srsRAN/build/srsue/src/stack/mac_nr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/talha/srsRAN/srsue/src/stack/mac_nr/test/proc_ra_nr_test.cc -o CMakeFiles/proc_ra_nr_test.dir/proc_ra_nr_test.cc.s
 
 # Object files for target proc_ra_nr_test
 proc_ra_nr_test_OBJECTS = \
@@ -89,10 +89,9 @@ srsue/src/stack/mac_nr/test/proc_ra_nr_test: /usr/lib/x86_64-linux-gnu/libfftw3f
 srsue/src/stack/mac_nr/test/proc_ra_nr_test: lib/src/support/libsupport.a
 srsue/src/stack/mac_nr/test/proc_ra_nr_test: lib/src/srslog/libsrslog.a
 srsue/src/stack/mac_nr/test/proc_ra_nr_test: /usr/lib/x86_64-linux-gnu/libmbedcrypto.so
-srsue/src/stack/mac_nr/test/proc_ra_nr_test: /usr/lib/x86_64-linux-gnu/libsctp.so
 srsue/src/stack/mac_nr/test/proc_ra_nr_test: srsue/src/stack/mac_nr/test/CMakeFiles/proc_ra_nr_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable proc_ra_nr_test"
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsue/src/stack/mac_nr/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/proc_ra_nr_test.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/talha/srsRAN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable proc_ra_nr_test"
+	cd /home/talha/srsRAN/build/srsue/src/stack/mac_nr/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/proc_ra_nr_test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 srsue/src/stack/mac_nr/test/CMakeFiles/proc_ra_nr_test.dir/build: srsue/src/stack/mac_nr/test/proc_ra_nr_test
@@ -100,10 +99,10 @@ srsue/src/stack/mac_nr/test/CMakeFiles/proc_ra_nr_test.dir/build: srsue/src/stac
 .PHONY : srsue/src/stack/mac_nr/test/CMakeFiles/proc_ra_nr_test.dir/build
 
 srsue/src/stack/mac_nr/test/CMakeFiles/proc_ra_nr_test.dir/clean:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsue/src/stack/mac_nr/test && $(CMAKE_COMMAND) -P CMakeFiles/proc_ra_nr_test.dir/cmake_clean.cmake
+	cd /home/talha/srsRAN/build/srsue/src/stack/mac_nr/test && $(CMAKE_COMMAND) -P CMakeFiles/proc_ra_nr_test.dir/cmake_clean.cmake
 .PHONY : srsue/src/stack/mac_nr/test/CMakeFiles/proc_ra_nr_test.dir/clean
 
 srsue/src/stack/mac_nr/test/CMakeFiles/proc_ra_nr_test.dir/depend:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/msudurip1/Documents/srsRAN_modified/srsRAN /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/stack/mac_nr/test /home/msudurip1/Documents/srsRAN_modified/srsRAN/build /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsue/src/stack/mac_nr/test /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsue/src/stack/mac_nr/test/CMakeFiles/proc_ra_nr_test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/talha/srsRAN/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/talha/srsRAN /home/talha/srsRAN/srsue/src/stack/mac_nr/test /home/talha/srsRAN/build /home/talha/srsRAN/build/srsue/src/stack/mac_nr/test /home/talha/srsRAN/build/srsue/src/stack/mac_nr/test/CMakeFiles/proc_ra_nr_test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : srsue/src/stack/mac_nr/test/CMakeFiles/proc_ra_nr_test.dir/depend
 

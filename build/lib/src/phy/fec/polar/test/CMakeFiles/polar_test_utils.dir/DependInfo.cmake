@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/fec/polar/test/polar_sets.c" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/fec/polar/test/CMakeFiles/polar_test_utils.dir/polar_sets.c.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/fec/polar/test/subchannel_allocation.c" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/fec/polar/test/CMakeFiles/polar_test_utils.dir/subchannel_allocation.c.o"
+  "/home/talha/srsRAN/lib/src/phy/fec/polar/test/polar_sets.c" "/home/talha/srsRAN/build/lib/src/phy/fec/polar/test/CMakeFiles/polar_test_utils.dir/polar_sets.c.o"
+  "/home/talha/srsRAN/lib/src/phy/fec/polar/test/subchannel_allocation.c" "/home/talha/srsRAN/build/lib/src/phy/fec/polar/test/CMakeFiles/polar_test_utils.dir/subchannel_allocation.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

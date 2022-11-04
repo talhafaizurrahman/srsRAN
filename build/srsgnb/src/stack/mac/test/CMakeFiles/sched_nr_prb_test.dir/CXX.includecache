@@ -2312,11 +2312,11 @@ srsran/adt/bounded_bitset.h
 srsran/phy/common/phy_common_nr.h
 ../srsgnb/hdr/stack/mac/srsran/phy/common/phy_common_nr.h
 
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsgnb/src/stack/mac/test/sched_nr_prb_test.cc
+/home/talha/srsRAN/srsgnb/src/stack/mac/test/sched_nr_prb_test.cc
 srsgnb/hdr/stack/mac/sched_nr_rb.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsgnb/src/stack/mac/test/srsgnb/hdr/stack/mac/sched_nr_rb.h
+/home/talha/srsRAN/srsgnb/src/stack/mac/test/srsgnb/hdr/stack/mac/sched_nr_rb.h
 srsran/common/test_common.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsgnb/src/stack/mac/test/srsran/common/test_common.h
+/home/talha/srsRAN/srsgnb/src/stack/mac/test/srsran/common/test_common.h
 
 lib/include/srsran/version.h
 srsran/config.h

@@ -1,4 +1,4 @@
-# Install script for directory: /home/msudurip1/Documents/srsRAN_modified/srsRAN
+# Install script for directory: /home/talha/srsRAN
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE PROGRAM FILES "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsran_install_configs.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE PROGRAM FILES "/home/talha/srsRAN/build/srsran_install_configs.sh")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/cmake_install.cmake")
-  include("/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsue/cmake_install.cmake")
-  include("/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsenb/cmake_install.cmake")
-  include("/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsgnb/cmake_install.cmake")
-  include("/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsepc/cmake_install.cmake")
-  include("/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/test/cmake_install.cmake")
+  include("/home/talha/srsRAN/build/lib/cmake_install.cmake")
+  include("/home/talha/srsRAN/build/srsue/cmake_install.cmake")
+  include("/home/talha/srsRAN/build/srsenb/cmake_install.cmake")
+  include("/home/talha/srsRAN/build/srsgnb/cmake_install.cmake")
+  include("/home/talha/srsRAN/build/srsepc/cmake_install.cmake")
+  include("/home/talha/srsRAN/build/test/cmake_install.cmake")
 
 endif()
 
@@ -60,5 +60,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/talha/srsRAN/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

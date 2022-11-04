@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/stack/rrc/rrc_cell.cc" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsue/src/stack/rrc_nr/CMakeFiles/srsue_rrc_nr.dir/__/rrc/rrc_cell.cc.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/stack/rrc_nr/rrc_nr.cc" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsue/src/stack/rrc_nr/CMakeFiles/srsue_rrc_nr.dir/rrc_nr.cc.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/stack/rrc_nr/rrc_nr_procedures.cc" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsue/src/stack/rrc_nr/CMakeFiles/srsue_rrc_nr.dir/rrc_nr_procedures.cc.o"
+  "/home/talha/srsRAN/srsue/src/stack/rrc/rrc_cell.cc" "/home/talha/srsRAN/build/srsue/src/stack/rrc_nr/CMakeFiles/srsue_rrc_nr.dir/__/rrc/rrc_cell.cc.o"
+  "/home/talha/srsRAN/srsue/src/stack/rrc_nr/rrc_nr.cc" "/home/talha/srsRAN/build/srsue/src/stack/rrc_nr/CMakeFiles/srsue_rrc_nr.dir/rrc_nr.cc.o"
+  "/home/talha/srsRAN/srsue/src/stack/rrc_nr/rrc_nr_procedures.cc" "/home/talha/srsRAN/build/srsue/src/stack/rrc_nr/CMakeFiles/srsue_rrc_nr.dir/rrc_nr_procedures.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

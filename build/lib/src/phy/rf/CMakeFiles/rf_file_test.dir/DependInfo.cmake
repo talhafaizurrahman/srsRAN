@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/rf/rf_file_test.c" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/rf/CMakeFiles/rf_file_test.dir/rf_file_test.c.o"
+  "/home/talha/srsRAN/lib/src/phy/rf/rf_file_test.c" "/home/talha/srsRAN/build/lib/src/phy/rf/CMakeFiles/rf_file_test.dir/rf_file_test.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -12,8 +12,10 @@ set(CMAKE_C_COMPILER_ID "GNU")
 set(CMAKE_TARGET_DEFINITIONS_C
   "ASSERTS_ENABLED"
   "ENABLE_RF_PLUGINS"
+  "ENABLE_SOAPYSDR"
   "ENABLE_TIMEPROF"
   "ENABLE_UHD"
+  "ENABLE_ZEROMQ"
   "HAVE_MBEDTLS"
   )
 
@@ -25,9 +27,9 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/rf/CMakeFiles/srsran_rf.dir/DependInfo.cmake"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/rf/CMakeFiles/srsran_rf_utils.dir/DependInfo.cmake"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/CMakeFiles/srsran_phy.dir/DependInfo.cmake"
+  "/home/talha/srsRAN/build/lib/src/phy/rf/CMakeFiles/srsran_rf.dir/DependInfo.cmake"
+  "/home/talha/srsRAN/build/lib/src/phy/rf/CMakeFiles/srsran_rf_utils.dir/DependInfo.cmake"
+  "/home/talha/srsRAN/build/lib/src/phy/CMakeFiles/srsran_phy.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

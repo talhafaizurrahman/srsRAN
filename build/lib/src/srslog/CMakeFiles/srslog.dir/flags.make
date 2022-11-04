@@ -6,5 +6,5 @@ CXX_FLAGS =  -Wall -Wno-comment -Wno-reorder -Wno-unused-variable -Wtype-limits 
 
 CXX_DEFINES = -DASSERTS_ENABLED -DENABLE_TIMEPROF -DHAVE_MBEDTLS
 
-CXX_INCLUDES = -I/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/include -I/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/include -I/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/include/srsran/srslog/bundled -I/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/include/srsran/srslog/formatters 
+CXX_INCLUDES = -I/home/talha/srsRAN/build/lib/include -I/home/talha/srsRAN/lib/include -I/home/talha/srsRAN/lib/include/srsran/srslog/bundled -I/home/talha/srsRAN/lib/include/srsran/srslog/formatters 
 

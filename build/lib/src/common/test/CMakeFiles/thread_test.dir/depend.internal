@@ -3,4 +3,4 @@
 
 lib/src/common/test/CMakeFiles/thread_test.dir/thread_test.cc.o
  ../lib/include/srsran/common/threads.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/common/test/thread_test.cc
+ /home/talha/srsRAN/lib/src/common/test/thread_test.cc

@@ -4,14 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/srslog/backend_worker.cpp" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/srslog/CMakeFiles/srslog.dir/backend_worker.cpp.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/srslog/bundled/fmt/format.cc" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/srslog/CMakeFiles/srslog.dir/bundled/fmt/format.cc.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/srslog/bundled/fmt/os.cc" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/srslog/CMakeFiles/srslog.dir/bundled/fmt/os.cc.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/srslog/event_trace.cpp" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/srslog/CMakeFiles/srslog.dir/event_trace.cpp.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/srslog/formatters/json_formatter.cpp" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/srslog/CMakeFiles/srslog.dir/formatters/json_formatter.cpp.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/srslog/formatters/text_formatter.cpp" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/srslog/CMakeFiles/srslog.dir/formatters/text_formatter.cpp.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/srslog/srslog.cpp" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/srslog/CMakeFiles/srslog.dir/srslog.cpp.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/srslog/srslog_c.cpp" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/srslog/CMakeFiles/srslog.dir/srslog_c.cpp.o"
+  "/home/talha/srsRAN/lib/src/srslog/backend_worker.cpp" "/home/talha/srsRAN/build/lib/src/srslog/CMakeFiles/srslog.dir/backend_worker.cpp.o"
+  "/home/talha/srsRAN/lib/src/srslog/bundled/fmt/format.cc" "/home/talha/srsRAN/build/lib/src/srslog/CMakeFiles/srslog.dir/bundled/fmt/format.cc.o"
+  "/home/talha/srsRAN/lib/src/srslog/bundled/fmt/os.cc" "/home/talha/srsRAN/build/lib/src/srslog/CMakeFiles/srslog.dir/bundled/fmt/os.cc.o"
+  "/home/talha/srsRAN/lib/src/srslog/event_trace.cpp" "/home/talha/srsRAN/build/lib/src/srslog/CMakeFiles/srslog.dir/event_trace.cpp.o"
+  "/home/talha/srsRAN/lib/src/srslog/formatters/json_formatter.cpp" "/home/talha/srsRAN/build/lib/src/srslog/CMakeFiles/srslog.dir/formatters/json_formatter.cpp.o"
+  "/home/talha/srsRAN/lib/src/srslog/formatters/text_formatter.cpp" "/home/talha/srsRAN/build/lib/src/srslog/CMakeFiles/srslog.dir/formatters/text_formatter.cpp.o"
+  "/home/talha/srsRAN/lib/src/srslog/srslog.cpp" "/home/talha/srsRAN/build/lib/src/srslog/CMakeFiles/srslog.dir/srslog.cpp.o"
+  "/home/talha/srsRAN/lib/src/srslog/srslog_c.cpp" "/home/talha/srsRAN/build/lib/src/srslog/CMakeFiles/srslog.dir/srslog_c.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

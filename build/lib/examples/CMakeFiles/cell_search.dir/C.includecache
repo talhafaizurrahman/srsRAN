@@ -1762,7 +1762,7 @@ srsran/phy/sync/sss.h
 srsran/phy/sync/sync.h
 ../lib/include/srsran/srsran/phy/sync/sync.h
 
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/examples/cell_search.c
+/home/talha/srsRAN/lib/examples/cell_search.c
 math.h
 -
 signal.h
@@ -1782,13 +1782,13 @@ unistd.h
 unistd.h
 -
 srsran/srsran.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/examples/srsran/srsran.h
+/home/talha/srsRAN/lib/examples/srsran/srsran.h
 srsran/common/crash_handler.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/examples/srsran/common/crash_handler.h
+/home/talha/srsRAN/lib/examples/srsran/common/crash_handler.h
 srsran/phy/rf/rf_utils.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/examples/srsran/phy/rf/rf_utils.h
+/home/talha/srsRAN/lib/examples/srsran/phy/rf/rf_utils.h
 srsran/phy/rf/rf.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/examples/srsran/phy/rf/rf.h
+/home/talha/srsRAN/lib/examples/srsran/phy/rf/rf.h
 
 lib/include/srsran/version.h
 srsran/config.h

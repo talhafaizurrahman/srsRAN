@@ -2800,23 +2800,23 @@ srsran/srslog/srslog.h
 mutex
 -
 
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/stack/rrc_nr/test/ue_rrc_nr_test.cc
+/home/talha/srsRAN/srsue/src/stack/rrc_nr/test/ue_rrc_nr_test.cc
 srsran/common/test_common.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/stack/rrc_nr/test/srsran/common/test_common.h
+/home/talha/srsRAN/srsue/src/stack/rrc_nr/test/srsran/common/test_common.h
 srsran/interfaces/ue_gw_interfaces.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/stack/rrc_nr/test/srsran/interfaces/ue_gw_interfaces.h
+/home/talha/srsRAN/srsue/src/stack/rrc_nr/test/srsran/interfaces/ue_gw_interfaces.h
 srsran/interfaces/ue_interfaces.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/stack/rrc_nr/test/srsran/interfaces/ue_interfaces.h
+/home/talha/srsRAN/srsue/src/stack/rrc_nr/test/srsran/interfaces/ue_interfaces.h
 srsran/interfaces/ue_pdcp_interfaces.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/stack/rrc_nr/test/srsran/interfaces/ue_pdcp_interfaces.h
+/home/talha/srsRAN/srsue/src/stack/rrc_nr/test/srsran/interfaces/ue_pdcp_interfaces.h
 srsran/interfaces/ue_rlc_interfaces.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/stack/rrc_nr/test/srsran/interfaces/ue_rlc_interfaces.h
+/home/talha/srsRAN/srsue/src/stack/rrc_nr/test/srsran/interfaces/ue_rlc_interfaces.h
 srsran/interfaces/ue_usim_interfaces.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/stack/rrc_nr/test/srsran/interfaces/ue_usim_interfaces.h
+/home/talha/srsRAN/srsue/src/stack/rrc_nr/test/srsran/interfaces/ue_usim_interfaces.h
 srsue/hdr/stack/rrc/rrc.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/stack/rrc_nr/test/srsue/hdr/stack/rrc/rrc.h
+/home/talha/srsRAN/srsue/src/stack/rrc_nr/test/srsue/hdr/stack/rrc/rrc.h
 srsue/hdr/stack/rrc_nr/rrc_nr.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/stack/rrc_nr/test/srsue/hdr/stack/rrc_nr/rrc_nr.h
+/home/talha/srsRAN/srsue/src/stack/rrc_nr/test/srsue/hdr/stack/rrc_nr/rrc_nr.h
 
 lib/include/srsran/version.h
 srsran/config.h

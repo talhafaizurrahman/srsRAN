@@ -33,6 +33,6 @@ lib/test/srslog/CMakeFiles/log_backend_test.dir/log_backend_test.cpp.o
  ../lib/include/srsran/support/srsran_assert.h
  ../lib/src/srslog/backend_worker.h
  ../lib/src/srslog/log_backend_impl.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/test/srslog/log_backend_test.cpp
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/test/srslog/test_dummies.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/test/srslog/testing_helpers.h
+ /home/talha/srsRAN/lib/test/srslog/log_backend_test.cpp
+ /home/talha/srsRAN/lib/test/srslog/test_dummies.h
+ /home/talha/srsRAN/lib/test/srslog/testing_helpers.h

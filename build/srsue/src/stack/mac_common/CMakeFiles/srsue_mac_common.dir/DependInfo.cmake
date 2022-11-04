@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/stack/mac_common/mac_common.cc" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsue/src/stack/mac_common/CMakeFiles/srsue_mac_common.dir/mac_common.cc.o"
+  "/home/talha/srsRAN/srsue/src/stack/mac_common/mac_common.cc" "/home/talha/srsRAN/build/srsue/src/stack/mac_common/CMakeFiles/srsue_mac_common.dir/mac_common.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

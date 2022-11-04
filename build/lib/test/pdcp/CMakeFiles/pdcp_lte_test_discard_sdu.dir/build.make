@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/msudurip1/Documents/srsRAN_modified/srsRAN
+CMAKE_SOURCE_DIR = /home/talha/srsRAN
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/msudurip1/Documents/srsRAN_modified/srsRAN/build
+CMAKE_BINARY_DIR = /home/talha/srsRAN/build
 
 # Include any dependencies generated for this target.
 include lib/test/pdcp/CMakeFiles/pdcp_lte_test_discard_sdu.dir/depend.make
@@ -59,16 +59,16 @@ include lib/test/pdcp/CMakeFiles/pdcp_lte_test_discard_sdu.dir/flags.make
 
 lib/test/pdcp/CMakeFiles/pdcp_lte_test_discard_sdu.dir/pdcp_lte_test_discard_sdu.cc.o: lib/test/pdcp/CMakeFiles/pdcp_lte_test_discard_sdu.dir/flags.make
 lib/test/pdcp/CMakeFiles/pdcp_lte_test_discard_sdu.dir/pdcp_lte_test_discard_sdu.cc.o: ../lib/test/pdcp/pdcp_lte_test_discard_sdu.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/test/pdcp/CMakeFiles/pdcp_lte_test_discard_sdu.dir/pdcp_lte_test_discard_sdu.cc.o"
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/test/pdcp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pdcp_lte_test_discard_sdu.dir/pdcp_lte_test_discard_sdu.cc.o -c /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/test/pdcp/pdcp_lte_test_discard_sdu.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/talha/srsRAN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/test/pdcp/CMakeFiles/pdcp_lte_test_discard_sdu.dir/pdcp_lte_test_discard_sdu.cc.o"
+	cd /home/talha/srsRAN/build/lib/test/pdcp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pdcp_lte_test_discard_sdu.dir/pdcp_lte_test_discard_sdu.cc.o -c /home/talha/srsRAN/lib/test/pdcp/pdcp_lte_test_discard_sdu.cc
 
 lib/test/pdcp/CMakeFiles/pdcp_lte_test_discard_sdu.dir/pdcp_lte_test_discard_sdu.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pdcp_lte_test_discard_sdu.dir/pdcp_lte_test_discard_sdu.cc.i"
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/test/pdcp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/test/pdcp/pdcp_lte_test_discard_sdu.cc > CMakeFiles/pdcp_lte_test_discard_sdu.dir/pdcp_lte_test_discard_sdu.cc.i
+	cd /home/talha/srsRAN/build/lib/test/pdcp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/talha/srsRAN/lib/test/pdcp/pdcp_lte_test_discard_sdu.cc > CMakeFiles/pdcp_lte_test_discard_sdu.dir/pdcp_lte_test_discard_sdu.cc.i
 
 lib/test/pdcp/CMakeFiles/pdcp_lte_test_discard_sdu.dir/pdcp_lte_test_discard_sdu.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pdcp_lte_test_discard_sdu.dir/pdcp_lte_test_discard_sdu.cc.s"
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/test/pdcp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/test/pdcp/pdcp_lte_test_discard_sdu.cc -o CMakeFiles/pdcp_lte_test_discard_sdu.dir/pdcp_lte_test_discard_sdu.cc.s
+	cd /home/talha/srsRAN/build/lib/test/pdcp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/talha/srsRAN/lib/test/pdcp/pdcp_lte_test_discard_sdu.cc -o CMakeFiles/pdcp_lte_test_discard_sdu.dir/pdcp_lte_test_discard_sdu.cc.s
 
 # Object files for target pdcp_lte_test_discard_sdu
 pdcp_lte_test_discard_sdu_OBJECTS = \
@@ -86,11 +86,10 @@ lib/test/pdcp/pdcp_lte_test_discard_sdu: /usr/lib/x86_64-linux-gnu/libfftw3f.so
 lib/test/pdcp/pdcp_lte_test_discard_sdu: lib/src/support/libsupport.a
 lib/test/pdcp/pdcp_lte_test_discard_sdu: lib/src/srslog/libsrslog.a
 lib/test/pdcp/pdcp_lte_test_discard_sdu: /usr/lib/x86_64-linux-gnu/libmbedcrypto.so
-lib/test/pdcp/pdcp_lte_test_discard_sdu: /usr/lib/x86_64-linux-gnu/libsctp.so
 lib/test/pdcp/pdcp_lte_test_discard_sdu: lib/src/asn1/libsrsran_asn1.a
 lib/test/pdcp/pdcp_lte_test_discard_sdu: lib/test/pdcp/CMakeFiles/pdcp_lte_test_discard_sdu.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable pdcp_lte_test_discard_sdu"
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/test/pdcp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pdcp_lte_test_discard_sdu.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/talha/srsRAN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable pdcp_lte_test_discard_sdu"
+	cd /home/talha/srsRAN/build/lib/test/pdcp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pdcp_lte_test_discard_sdu.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lib/test/pdcp/CMakeFiles/pdcp_lte_test_discard_sdu.dir/build: lib/test/pdcp/pdcp_lte_test_discard_sdu
@@ -98,10 +97,10 @@ lib/test/pdcp/CMakeFiles/pdcp_lte_test_discard_sdu.dir/build: lib/test/pdcp/pdcp
 .PHONY : lib/test/pdcp/CMakeFiles/pdcp_lte_test_discard_sdu.dir/build
 
 lib/test/pdcp/CMakeFiles/pdcp_lte_test_discard_sdu.dir/clean:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/test/pdcp && $(CMAKE_COMMAND) -P CMakeFiles/pdcp_lte_test_discard_sdu.dir/cmake_clean.cmake
+	cd /home/talha/srsRAN/build/lib/test/pdcp && $(CMAKE_COMMAND) -P CMakeFiles/pdcp_lte_test_discard_sdu.dir/cmake_clean.cmake
 .PHONY : lib/test/pdcp/CMakeFiles/pdcp_lte_test_discard_sdu.dir/clean
 
 lib/test/pdcp/CMakeFiles/pdcp_lte_test_discard_sdu.dir/depend:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/msudurip1/Documents/srsRAN_modified/srsRAN /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/test/pdcp /home/msudurip1/Documents/srsRAN_modified/srsRAN/build /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/test/pdcp /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/test/pdcp/CMakeFiles/pdcp_lte_test_discard_sdu.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/talha/srsRAN/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/talha/srsRAN /home/talha/srsRAN/lib/test/pdcp /home/talha/srsRAN/build /home/talha/srsRAN/build/lib/test/pdcp /home/talha/srsRAN/build/lib/test/pdcp/CMakeFiles/pdcp_lte_test_discard_sdu.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lib/test/pdcp/CMakeFiles/pdcp_lte_test_discard_sdu.dir/depend
 

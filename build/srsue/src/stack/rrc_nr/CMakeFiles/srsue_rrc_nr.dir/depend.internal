@@ -210,7 +210,7 @@ srsue/src/stack/rrc_nr/CMakeFiles/srsue_rrc_nr.dir/__/rrc/rrc_cell.cc.o
  ../srsenb/hdr/stack/mac/common/sched_config.h
  ../srsenb/hdr/stack/mac/sched_interface.h
  ../srsue/hdr/stack/rrc/rrc_cell.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/stack/rrc/rrc_cell.cc
+ /home/talha/srsRAN/srsue/src/stack/rrc/rrc_cell.cc
  lib/include/srsran/version.h
 srsue/src/stack/rrc_nr/CMakeFiles/srsue_rrc_nr.dir/rrc_nr.cc.o
  ../lib/include/srsran/adt/bounded_vector.h
@@ -448,7 +448,7 @@ srsue/src/stack/rrc_nr/CMakeFiles/srsue_rrc_nr.dir/rrc_nr.cc.o
  ../srsue/hdr/stack/upper/tft_packet_filter.h
  ../srsue/hdr/stack/upper/usim.h
  ../srsue/hdr/stack/upper/usim_base.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/stack/rrc_nr/rrc_nr.cc
+ /home/talha/srsRAN/srsue/src/stack/rrc_nr/rrc_nr.cc
  lib/include/srsran/version.h
 srsue/src/stack/rrc_nr/CMakeFiles/srsue_rrc_nr.dir/rrc_nr_procedures.cc.o
  ../lib/include/srsran/adt/bounded_vector.h
@@ -680,5 +680,5 @@ srsue/src/stack/rrc_nr/CMakeFiles/srsue_rrc_nr.dir/rrc_nr_procedures.cc.o
  ../srsue/hdr/stack/upper/gw.h
  ../srsue/hdr/stack/upper/gw_metrics.h
  ../srsue/hdr/stack/upper/tft_packet_filter.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/stack/rrc_nr/rrc_nr_procedures.cc
+ /home/talha/srsRAN/srsue/src/stack/rrc_nr/rrc_nr_procedures.cc
  lib/include/srsran/version.h

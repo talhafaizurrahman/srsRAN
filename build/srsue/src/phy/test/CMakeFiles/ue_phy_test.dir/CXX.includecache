@@ -2764,7 +2764,7 @@ srsran/interfaces/ue_phy_interfaces.h
 srsue/hdr/phy/phy_metrics.h
 ../srsue/hdr/phy/srsue/hdr/phy/phy_metrics.h
 
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/phy/test/ue_phy_test.cc
+/home/talha/srsRAN/srsue/src/phy/test/ue_phy_test.cc
 srsran/common/test_common.h
 -
 srsran/common/threads.h

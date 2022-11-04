@@ -214,5 +214,5 @@ srsue/src/stack/rrc/test/CMakeFiles/rrc_cell_test.dir/rrc_cell_test.cc.o
  ../srsenb/hdr/stack/mac/common/sched_config.h
  ../srsenb/hdr/stack/mac/sched_interface.h
  ../srsue/hdr/stack/rrc/rrc_cell.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/stack/rrc/test/rrc_cell_test.cc
+ /home/talha/srsRAN/srsue/src/stack/rrc/test/rrc_cell_test.cc
  lib/include/srsran/version.h

@@ -1,4 +1,4 @@
-# Install script for directory: /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/test/rlc
+# Install script for directory: /home/talha/srsRAN/lib/test/rlc
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

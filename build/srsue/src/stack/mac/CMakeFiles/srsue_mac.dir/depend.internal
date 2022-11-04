@@ -191,7 +191,7 @@ srsue/src/stack/mac/CMakeFiles/srsue_mac.dir/demux.cc.o
  ../lib/include/srsran/srsran.h
  ../lib/include/srsran/support/srsran_assert.h
  ../srsue/hdr/stack/mac/demux.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/stack/mac/demux.cc
+ /home/talha/srsRAN/srsue/src/stack/mac/demux.cc
  lib/include/srsran/version.h
 srsue/src/stack/mac/CMakeFiles/srsue_mac.dir/dl_harq.cc.o
  ../lib/include/srsran/adt/bounded_vector.h
@@ -382,7 +382,7 @@ srsue/src/stack/mac/CMakeFiles/srsue_mac.dir/dl_harq.cc.o
  ../srsue/hdr/stack/mac/dl_harq.h
  ../srsue/hdr/stack/mac/dl_sps.h
  ../srsue/hdr/stack/mac_common/mac_common.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/stack/mac/dl_harq.cc
+ /home/talha/srsRAN/srsue/src/stack/mac/dl_harq.cc
  lib/include/srsran/version.h
 srsue/src/stack/mac/CMakeFiles/srsue_mac.dir/mac.cc.o
  ../lib/include/srsran/adt/bounded_vector.h
@@ -600,7 +600,7 @@ srsue/src/stack/mac/CMakeFiles/srsue_mac.dir/mac.cc.o
  ../srsue/hdr/stack/mac/ul_sps.h
  ../srsue/hdr/stack/mac_common/mac_common.h
  ../srsue/hdr/stack/mac_common/mux_base.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/stack/mac/mac.cc
+ /home/talha/srsRAN/srsue/src/stack/mac/mac.cc
  lib/include/srsran/version.h
 srsue/src/stack/mac/CMakeFiles/srsue_mac.dir/mux.cc.o
  ../lib/include/srsran/adt/bounded_vector.h
@@ -812,7 +812,7 @@ srsue/src/stack/mac/CMakeFiles/srsue_mac.dir/mux.cc.o
  ../srsue/hdr/stack/mac/ul_sps.h
  ../srsue/hdr/stack/mac_common/mac_common.h
  ../srsue/hdr/stack/mac_common/mux_base.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/stack/mac/mux.cc
+ /home/talha/srsRAN/srsue/src/stack/mac/mux.cc
  lib/include/srsran/version.h
 srsue/src/stack/mac/CMakeFiles/srsue_mac.dir/proc_bsr.cc.o
  ../lib/include/srsran/adt/circular_buffer.h
@@ -1000,7 +1000,7 @@ srsue/src/stack/mac/CMakeFiles/srsue_mac.dir/proc_bsr.cc.o
  ../srsue/hdr/stack/mac/proc_sr.h
  ../srsue/hdr/stack/mac_common/mac_common.h
  ../srsue/hdr/stack/mac_common/mux_base.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/stack/mac/proc_bsr.cc
+ /home/talha/srsRAN/srsue/src/stack/mac/proc_bsr.cc
  lib/include/srsran/version.h
 srsue/src/stack/mac/CMakeFiles/srsue_mac.dir/proc_phr.cc.o
  ../lib/include/srsran/adt/circular_buffer.h
@@ -1186,7 +1186,7 @@ srsue/src/stack/mac/CMakeFiles/srsue_mac.dir/proc_phr.cc.o
  ../lib/include/srsran/srsran.h
  ../lib/include/srsran/support/srsran_assert.h
  ../srsue/hdr/stack/mac/proc_phr.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/stack/mac/proc_phr.cc
+ /home/talha/srsRAN/srsue/src/stack/mac/proc_phr.cc
  lib/include/srsran/version.h
 srsue/src/stack/mac/CMakeFiles/srsue_mac.dir/proc_ra.cc.o
  ../lib/include/srsran/adt/bounded_vector.h
@@ -1397,7 +1397,7 @@ srsue/src/stack/mac/CMakeFiles/srsue_mac.dir/proc_ra.cc.o
  ../srsue/hdr/stack/mac/proc_sr.h
  ../srsue/hdr/stack/mac_common/mac_common.h
  ../srsue/hdr/stack/mac_common/mux_base.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/stack/mac/proc_ra.cc
+ /home/talha/srsRAN/srsue/src/stack/mac/proc_ra.cc
  lib/include/srsran/version.h
 srsue/src/stack/mac/CMakeFiles/srsue_mac.dir/proc_sr.cc.o
  ../lib/include/srsran/adt/bounded_vector.h
@@ -1608,7 +1608,7 @@ srsue/src/stack/mac/CMakeFiles/srsue_mac.dir/proc_sr.cc.o
  ../srsue/hdr/stack/mac/proc_sr.h
  ../srsue/hdr/stack/mac_common/mac_common.h
  ../srsue/hdr/stack/mac_common/mux_base.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/stack/mac/proc_sr.cc
+ /home/talha/srsRAN/srsue/src/stack/mac/proc_sr.cc
  lib/include/srsran/version.h
 srsue/src/stack/mac/CMakeFiles/srsue_mac.dir/ul_harq.cc.o
  ../lib/include/srsran/adt/bounded_vector.h
@@ -1808,5 +1808,5 @@ srsue/src/stack/mac/CMakeFiles/srsue_mac.dir/ul_harq.cc.o
  ../srsue/hdr/stack/mac/ul_sps.h
  ../srsue/hdr/stack/mac_common/mac_common.h
  ../srsue/hdr/stack/mac_common/mux_base.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/stack/mac/ul_harq.cc
+ /home/talha/srsRAN/srsue/src/stack/mac/ul_harq.cc
  lib/include/srsran/version.h

@@ -197,5 +197,5 @@ srsue/src/phy/test/CMakeFiles/scell_search_test.dir/scell_search_test.cc.o
  ../srsue/hdr/phy/scell/scell_recv.h
  ../srsue/hdr/phy/scell/scell_state.h
  ../srsue/hdr/phy/ta_control.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/phy/test/scell_search_test.cc
+ /home/talha/srsRAN/srsue/src/phy/test/scell_search_test.cc
  lib/include/srsran/version.h

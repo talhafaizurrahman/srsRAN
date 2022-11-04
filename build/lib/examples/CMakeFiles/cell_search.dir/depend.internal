@@ -138,5 +138,5 @@ lib/examples/CMakeFiles/cell_search.dir/cell_search.c.o
  ../lib/include/srsran/phy/utils/ringbuffer.h
  ../lib/include/srsran/phy/utils/vector.h
  ../lib/include/srsran/srsran.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/examples/cell_search.c
+ /home/talha/srsRAN/lib/examples/cell_search.c
  lib/include/srsran/version.h

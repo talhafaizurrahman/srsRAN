@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsenb/src/stack/s1ap/s1ap.cc" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsenb/src/stack/s1ap/CMakeFiles/srsenb_s1ap.dir/s1ap.cc.o"
+  "/home/talha/srsRAN/srsenb/src/stack/s1ap/s1ap.cc" "/home/talha/srsRAN/build/srsenb/src/stack/s1ap/CMakeFiles/srsenb_s1ap.dir/s1ap.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

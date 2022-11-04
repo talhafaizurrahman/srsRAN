@@ -265,5 +265,5 @@ srsenb/src/common/CMakeFiles/srsenb_common.dir/rnti_pool.cc.o
  ../srsenb/hdr/stack/rrc/rrc_metrics.h
  ../srsenb/hdr/stack/rrc/rrc_mobility.h
  ../srsenb/hdr/stack/rrc/rrc_ue.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsenb/src/common/rnti_pool.cc
+ /home/talha/srsRAN/srsenb/src/common/rnti_pool.cc
  lib/include/srsran/version.h

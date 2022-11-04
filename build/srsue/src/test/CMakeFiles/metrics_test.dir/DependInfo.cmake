@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/metrics_csv.cc" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsue/src/test/CMakeFiles/metrics_test.dir/__/metrics_csv.cc.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/metrics_stdout.cc" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsue/src/test/CMakeFiles/metrics_test.dir/__/metrics_stdout.cc.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/test/metrics_test.cc" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsue/src/test/CMakeFiles/metrics_test.dir/metrics_test.cc.o"
+  "/home/talha/srsRAN/srsue/src/metrics_csv.cc" "/home/talha/srsRAN/build/srsue/src/test/CMakeFiles/metrics_test.dir/__/metrics_csv.cc.o"
+  "/home/talha/srsRAN/srsue/src/metrics_stdout.cc" "/home/talha/srsRAN/build/srsue/src/test/CMakeFiles/metrics_test.dir/__/metrics_stdout.cc.o"
+  "/home/talha/srsRAN/srsue/src/test/metrics_test.cc" "/home/talha/srsRAN/build/srsue/src/test/CMakeFiles/metrics_test.dir/metrics_test.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -27,10 +27,10 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/CMakeFiles/srsran_phy.dir/DependInfo.cmake"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/common/CMakeFiles/srsran_common.dir/DependInfo.cmake"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/support/CMakeFiles/support.dir/DependInfo.cmake"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/srslog/CMakeFiles/srslog.dir/DependInfo.cmake"
+  "/home/talha/srsRAN/build/lib/src/phy/CMakeFiles/srsran_phy.dir/DependInfo.cmake"
+  "/home/talha/srsRAN/build/lib/src/common/CMakeFiles/srsran_common.dir/DependInfo.cmake"
+  "/home/talha/srsRAN/build/lib/src/support/CMakeFiles/support.dir/DependInfo.cmake"
+  "/home/talha/srsRAN/build/lib/src/srslog/CMakeFiles/srslog.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

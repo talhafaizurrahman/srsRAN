@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/msudurip1/Documents/srsRAN_modified/srsRAN
+CMAKE_SOURCE_DIR = /home/talha/srsRAN
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/msudurip1/Documents/srsRAN_modified/srsRAN/build
+CMAKE_BINARY_DIR = /home/talha/srsRAN/build
 
 # Include any dependencies generated for this target.
 include lib/test/srslog/CMakeFiles/srslog_frontend_latency.dir/depend.make
@@ -59,16 +59,16 @@ include lib/test/srslog/CMakeFiles/srslog_frontend_latency.dir/flags.make
 
 lib/test/srslog/CMakeFiles/srslog_frontend_latency.dir/benchmarks/frontend_latency.cpp.o: lib/test/srslog/CMakeFiles/srslog_frontend_latency.dir/flags.make
 lib/test/srslog/CMakeFiles/srslog_frontend_latency.dir/benchmarks/frontend_latency.cpp.o: ../lib/test/srslog/benchmarks/frontend_latency.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/test/srslog/CMakeFiles/srslog_frontend_latency.dir/benchmarks/frontend_latency.cpp.o"
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/test/srslog && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srslog_frontend_latency.dir/benchmarks/frontend_latency.cpp.o -c /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/test/srslog/benchmarks/frontend_latency.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/talha/srsRAN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/test/srslog/CMakeFiles/srslog_frontend_latency.dir/benchmarks/frontend_latency.cpp.o"
+	cd /home/talha/srsRAN/build/lib/test/srslog && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srslog_frontend_latency.dir/benchmarks/frontend_latency.cpp.o -c /home/talha/srsRAN/lib/test/srslog/benchmarks/frontend_latency.cpp
 
 lib/test/srslog/CMakeFiles/srslog_frontend_latency.dir/benchmarks/frontend_latency.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srslog_frontend_latency.dir/benchmarks/frontend_latency.cpp.i"
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/test/srslog && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/test/srslog/benchmarks/frontend_latency.cpp > CMakeFiles/srslog_frontend_latency.dir/benchmarks/frontend_latency.cpp.i
+	cd /home/talha/srsRAN/build/lib/test/srslog && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/talha/srsRAN/lib/test/srslog/benchmarks/frontend_latency.cpp > CMakeFiles/srslog_frontend_latency.dir/benchmarks/frontend_latency.cpp.i
 
 lib/test/srslog/CMakeFiles/srslog_frontend_latency.dir/benchmarks/frontend_latency.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/srslog_frontend_latency.dir/benchmarks/frontend_latency.cpp.s"
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/test/srslog && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/test/srslog/benchmarks/frontend_latency.cpp -o CMakeFiles/srslog_frontend_latency.dir/benchmarks/frontend_latency.cpp.s
+	cd /home/talha/srsRAN/build/lib/test/srslog && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/talha/srsRAN/lib/test/srslog/benchmarks/frontend_latency.cpp -o CMakeFiles/srslog_frontend_latency.dir/benchmarks/frontend_latency.cpp.s
 
 # Object files for target srslog_frontend_latency
 srslog_frontend_latency_OBJECTS = \
@@ -81,8 +81,8 @@ lib/test/srslog/srslog_frontend_latency: lib/test/srslog/CMakeFiles/srslog_front
 lib/test/srslog/srslog_frontend_latency: lib/test/srslog/CMakeFiles/srslog_frontend_latency.dir/build.make
 lib/test/srslog/srslog_frontend_latency: lib/src/srslog/libsrslog.a
 lib/test/srslog/srslog_frontend_latency: lib/test/srslog/CMakeFiles/srslog_frontend_latency.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable srslog_frontend_latency"
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/test/srslog && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/srslog_frontend_latency.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/talha/srsRAN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable srslog_frontend_latency"
+	cd /home/talha/srsRAN/build/lib/test/srslog && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/srslog_frontend_latency.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lib/test/srslog/CMakeFiles/srslog_frontend_latency.dir/build: lib/test/srslog/srslog_frontend_latency
@@ -90,10 +90,10 @@ lib/test/srslog/CMakeFiles/srslog_frontend_latency.dir/build: lib/test/srslog/sr
 .PHONY : lib/test/srslog/CMakeFiles/srslog_frontend_latency.dir/build
 
 lib/test/srslog/CMakeFiles/srslog_frontend_latency.dir/clean:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/test/srslog && $(CMAKE_COMMAND) -P CMakeFiles/srslog_frontend_latency.dir/cmake_clean.cmake
+	cd /home/talha/srsRAN/build/lib/test/srslog && $(CMAKE_COMMAND) -P CMakeFiles/srslog_frontend_latency.dir/cmake_clean.cmake
 .PHONY : lib/test/srslog/CMakeFiles/srslog_frontend_latency.dir/clean
 
 lib/test/srslog/CMakeFiles/srslog_frontend_latency.dir/depend:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/msudurip1/Documents/srsRAN_modified/srsRAN /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/test/srslog /home/msudurip1/Documents/srsRAN_modified/srsRAN/build /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/test/srslog /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/test/srslog/CMakeFiles/srslog_frontend_latency.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/talha/srsRAN/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/talha/srsRAN /home/talha/srsRAN/lib/test/srslog /home/talha/srsRAN/build /home/talha/srsRAN/build/lib/test/srslog /home/talha/srsRAN/build/lib/test/srslog/CMakeFiles/srslog_frontend_latency.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lib/test/srslog/CMakeFiles/srslog_frontend_latency.dir/depend
 

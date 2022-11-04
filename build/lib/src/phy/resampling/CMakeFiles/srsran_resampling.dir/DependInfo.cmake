@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/resampling/decim.c" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/decim.c.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/resampling/interp.c" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/interp.c.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/resampling/resample_arb.c" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/resample_arb.c.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/resampling/resampler.c" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/resampler.c.o"
+  "/home/talha/srsRAN/lib/src/phy/resampling/decim.c" "/home/talha/srsRAN/build/lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/decim.c.o"
+  "/home/talha/srsRAN/lib/src/phy/resampling/interp.c" "/home/talha/srsRAN/build/lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/interp.c.o"
+  "/home/talha/srsRAN/lib/src/phy/resampling/resample_arb.c" "/home/talha/srsRAN/build/lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/resample_arb.c.o"
+  "/home/talha/srsRAN/lib/src/phy/resampling/resampler.c" "/home/talha/srsRAN/build/lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/resampler.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

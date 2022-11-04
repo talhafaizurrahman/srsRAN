@@ -4,14 +4,14 @@
 
 
 # Configuration directories and files
-SourceDirectory: /home/msudurip1/Documents/srsRAN_modified/srsRAN
-BuildDirectory: /home/msudurip1/Documents/srsRAN_modified/srsRAN/build
+SourceDirectory: /home/talha/srsRAN
+BuildDirectory: /home/talha/srsRAN/build
 
 # Where to place the cost data store
 CostDataFile: 
 
 # Site is something like machine.domain, i.e. pragmatic.crd
-Site: msudurip1-Super-Server
+Site: talha-ThinkPad-X1-Carbon-Gen-9
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
 BuildName: Linux-c++
@@ -26,7 +26,7 @@ SubmitURL: http://my.cdash.org/submit.php?project=srsRAN
 NightlyStartTime: 00:00:00 GMT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/usr/bin/cmake" "/home/msudurip1/Documents/srsRAN_modified/srsRAN"
+ConfigureCommand: "/usr/bin/cmake" "/home/talha/srsRAN"
 MakeCommand: /usr/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 

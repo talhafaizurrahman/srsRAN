@@ -764,29 +764,29 @@ srsran/common/common.h
 srsran/phy/common/phy_common.h
 ../srsgnb/hdr/stack/ngap/srsran/phy/common/phy_common.h
 
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsgnb/src/stack/ngap/ngap.cc
+/home/talha/srsRAN/srsgnb/src/stack/ngap/ngap.cc
 srsgnb/hdr/stack/ngap/ngap.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsgnb/src/stack/ngap/srsgnb/hdr/stack/ngap/ngap.h
+/home/talha/srsRAN/srsgnb/src/stack/ngap/srsgnb/hdr/stack/ngap/ngap.h
 srsgnb/hdr/stack/ngap/ngap_ue.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsgnb/src/stack/ngap/srsgnb/hdr/stack/ngap/ngap_ue.h
+/home/talha/srsRAN/srsgnb/src/stack/ngap/srsgnb/hdr/stack/ngap/ngap_ue.h
 srsran/common/int_helpers.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsgnb/src/stack/ngap/srsran/common/int_helpers.h
+/home/talha/srsRAN/srsgnb/src/stack/ngap/srsran/common/int_helpers.h
 
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsgnb/src/stack/ngap/ngap_ue.cc
+/home/talha/srsRAN/srsgnb/src/stack/ngap/ngap_ue.cc
 srsgnb/hdr/stack/ngap/ngap_ue.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsgnb/src/stack/ngap/srsgnb/hdr/stack/ngap/ngap_ue.h
+/home/talha/srsRAN/srsgnb/src/stack/ngap/srsgnb/hdr/stack/ngap/ngap_ue.h
 srsgnb/hdr/stack/ngap/ngap.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsgnb/src/stack/ngap/srsgnb/hdr/stack/ngap/ngap.h
+/home/talha/srsRAN/srsgnb/src/stack/ngap/srsgnb/hdr/stack/ngap/ngap.h
 srsgnb/hdr/stack/ngap/ngap_ue_proc.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsgnb/src/stack/ngap/srsgnb/hdr/stack/ngap/ngap_ue_proc.h
+/home/talha/srsRAN/srsgnb/src/stack/ngap/srsgnb/hdr/stack/ngap/ngap_ue_proc.h
 srsran/common/int_helpers.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsgnb/src/stack/ngap/srsran/common/int_helpers.h
+/home/talha/srsRAN/srsgnb/src/stack/ngap/srsran/common/int_helpers.h
 
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsgnb/src/stack/ngap/ngap_ue_bearer_manager.cc
+/home/talha/srsRAN/srsgnb/src/stack/ngap/ngap_ue_bearer_manager.cc
 srsgnb/hdr/stack/ngap/ngap_ue_bearer_manager.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsgnb/src/stack/ngap/srsgnb/hdr/stack/ngap/ngap_ue_bearer_manager.h
+/home/talha/srsRAN/srsgnb/src/stack/ngap/srsgnb/hdr/stack/ngap/ngap_ue_bearer_manager.h
 
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsgnb/src/stack/ngap/ngap_ue_proc.cc
+/home/talha/srsRAN/srsgnb/src/stack/ngap/ngap_ue_proc.cc
 srsgnb/hdr/stack/ngap/ngap_ue_proc.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsgnb/src/stack/ngap/srsgnb/hdr/stack/ngap/ngap_ue_proc.h
+/home/talha/srsRAN/srsgnb/src/stack/ngap/srsgnb/hdr/stack/ngap/ngap_ue_proc.h
 

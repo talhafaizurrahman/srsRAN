@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/msudurip1/Documents/srsRAN_modified/srsRAN
+CMAKE_SOURCE_DIR = /home/talha/srsRAN
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/msudurip1/Documents/srsRAN_modified/srsRAN/build
+CMAKE_BINARY_DIR = /home/talha/srsRAN/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -105,7 +105,7 @@ test/fast: test
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/CPackSourceConfig.cmake
+	cd /home/talha/srsRAN/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/talha/srsRAN/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -149,7 +149,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/talha/srsRAN/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -159,14 +159,14 @@ package/fast: package
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/CMakeFiles /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/modem/test/CMakeFiles/progress.marks
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/modem/test/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/CMakeFiles 0
+	cd /home/talha/srsRAN/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/talha/srsRAN/build/CMakeFiles /home/talha/srsRAN/build/lib/src/phy/modem/test/CMakeFiles/progress.marks
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/modem/test/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/talha/srsRAN/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/modem/test/clean
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/modem/test/clean
 .PHONY : clean
 
 # The main clean target
@@ -176,22 +176,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: cmake_check_build_system
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/modem/test/preinstall
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/modem/test/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/modem/test/preinstall
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/modem/test/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/talha/srsRAN/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/src/phy/modem/test/CMakeFiles/soft_demod_test.dir/rule:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/modem/test/CMakeFiles/soft_demod_test.dir/rule
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/modem/test/CMakeFiles/soft_demod_test.dir/rule
 .PHONY : lib/src/phy/modem/test/CMakeFiles/soft_demod_test.dir/rule
 
 # Convenience name for target.
@@ -201,12 +201,12 @@ soft_demod_test: lib/src/phy/modem/test/CMakeFiles/soft_demod_test.dir/rule
 
 # fast build rule for target.
 soft_demod_test/fast:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/modem/test/CMakeFiles/soft_demod_test.dir/build.make lib/src/phy/modem/test/CMakeFiles/soft_demod_test.dir/build
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/modem/test/CMakeFiles/soft_demod_test.dir/build.make lib/src/phy/modem/test/CMakeFiles/soft_demod_test.dir/build
 .PHONY : soft_demod_test/fast
 
 # Convenience name for target.
 lib/src/phy/modem/test/CMakeFiles/modem_test.dir/rule:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/modem/test/CMakeFiles/modem_test.dir/rule
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/modem/test/CMakeFiles/modem_test.dir/rule
 .PHONY : lib/src/phy/modem/test/CMakeFiles/modem_test.dir/rule
 
 # Convenience name for target.
@@ -216,7 +216,7 @@ modem_test: lib/src/phy/modem/test/CMakeFiles/modem_test.dir/rule
 
 # fast build rule for target.
 modem_test/fast:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/modem/test/CMakeFiles/modem_test.dir/build.make lib/src/phy/modem/test/CMakeFiles/modem_test.dir/build
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/modem/test/CMakeFiles/modem_test.dir/build.make lib/src/phy/modem/test/CMakeFiles/modem_test.dir/build
 .PHONY : modem_test/fast
 
 modem_test.o: modem_test.c.o
@@ -225,7 +225,7 @@ modem_test.o: modem_test.c.o
 
 # target to build an object file
 modem_test.c.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/modem/test/CMakeFiles/modem_test.dir/build.make lib/src/phy/modem/test/CMakeFiles/modem_test.dir/modem_test.c.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/modem/test/CMakeFiles/modem_test.dir/build.make lib/src/phy/modem/test/CMakeFiles/modem_test.dir/modem_test.c.o
 .PHONY : modem_test.c.o
 
 modem_test.i: modem_test.c.i
@@ -234,7 +234,7 @@ modem_test.i: modem_test.c.i
 
 # target to preprocess a source file
 modem_test.c.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/modem/test/CMakeFiles/modem_test.dir/build.make lib/src/phy/modem/test/CMakeFiles/modem_test.dir/modem_test.c.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/modem/test/CMakeFiles/modem_test.dir/build.make lib/src/phy/modem/test/CMakeFiles/modem_test.dir/modem_test.c.i
 .PHONY : modem_test.c.i
 
 modem_test.s: modem_test.c.s
@@ -243,7 +243,7 @@ modem_test.s: modem_test.c.s
 
 # target to generate assembly for a file
 modem_test.c.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/modem/test/CMakeFiles/modem_test.dir/build.make lib/src/phy/modem/test/CMakeFiles/modem_test.dir/modem_test.c.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/modem/test/CMakeFiles/modem_test.dir/build.make lib/src/phy/modem/test/CMakeFiles/modem_test.dir/modem_test.c.s
 .PHONY : modem_test.c.s
 
 soft_demod_test.o: soft_demod_test.c.o
@@ -252,7 +252,7 @@ soft_demod_test.o: soft_demod_test.c.o
 
 # target to build an object file
 soft_demod_test.c.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/modem/test/CMakeFiles/soft_demod_test.dir/build.make lib/src/phy/modem/test/CMakeFiles/soft_demod_test.dir/soft_demod_test.c.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/modem/test/CMakeFiles/soft_demod_test.dir/build.make lib/src/phy/modem/test/CMakeFiles/soft_demod_test.dir/soft_demod_test.c.o
 .PHONY : soft_demod_test.c.o
 
 soft_demod_test.i: soft_demod_test.c.i
@@ -261,7 +261,7 @@ soft_demod_test.i: soft_demod_test.c.i
 
 # target to preprocess a source file
 soft_demod_test.c.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/modem/test/CMakeFiles/soft_demod_test.dir/build.make lib/src/phy/modem/test/CMakeFiles/soft_demod_test.dir/soft_demod_test.c.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/modem/test/CMakeFiles/soft_demod_test.dir/build.make lib/src/phy/modem/test/CMakeFiles/soft_demod_test.dir/soft_demod_test.c.i
 .PHONY : soft_demod_test.c.i
 
 soft_demod_test.s: soft_demod_test.c.s
@@ -270,7 +270,7 @@ soft_demod_test.s: soft_demod_test.c.s
 
 # target to generate assembly for a file
 soft_demod_test.c.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f lib/src/phy/modem/test/CMakeFiles/soft_demod_test.dir/build.make lib/src/phy/modem/test/CMakeFiles/soft_demod_test.dir/soft_demod_test.c.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f lib/src/phy/modem/test/CMakeFiles/soft_demod_test.dir/build.make lib/src/phy/modem/test/CMakeFiles/soft_demod_test.dir/soft_demod_test.c.s
 .PHONY : soft_demod_test.c.s
 
 # Help Target
@@ -307,6 +307,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/talha/srsRAN/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

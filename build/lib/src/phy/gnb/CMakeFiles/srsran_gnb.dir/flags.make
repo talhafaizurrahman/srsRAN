@@ -6,5 +6,5 @@ C_FLAGS =  -march=native -Werror=incompatible-pointer-types -Wall -Wno-comment -
 
 C_DEFINES = -DASSERTS_ENABLED -DENABLE_TIMEPROF -DHAVE_MBEDTLS
 
-C_INCLUDES = -I/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/include -I/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/include 
+C_INCLUDES = -I/home/talha/srsRAN/build/lib/include -I/home/talha/srsRAN/lib/include 
 

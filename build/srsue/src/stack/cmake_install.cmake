@@ -1,4 +1,4 @@
-# Install script for directory: /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/stack
+# Install script for directory: /home/talha/srsRAN/srsue/src/stack
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,12 +39,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsue/src/stack/mac_common/cmake_install.cmake")
-  include("/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsue/src/stack/mac/cmake_install.cmake")
-  include("/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsue/src/stack/mac_nr/cmake_install.cmake")
-  include("/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsue/src/stack/rrc/cmake_install.cmake")
-  include("/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsue/src/stack/rrc_nr/cmake_install.cmake")
-  include("/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsue/src/stack/upper/cmake_install.cmake")
+  include("/home/talha/srsRAN/build/srsue/src/stack/mac_common/cmake_install.cmake")
+  include("/home/talha/srsRAN/build/srsue/src/stack/mac/cmake_install.cmake")
+  include("/home/talha/srsRAN/build/srsue/src/stack/mac_nr/cmake_install.cmake")
+  include("/home/talha/srsRAN/build/srsue/src/stack/rrc/cmake_install.cmake")
+  include("/home/talha/srsRAN/build/srsue/src/stack/rrc_nr/cmake_install.cmake")
+  include("/home/talha/srsRAN/build/srsue/src/stack/upper/cmake_install.cmake")
 
 endif()
 

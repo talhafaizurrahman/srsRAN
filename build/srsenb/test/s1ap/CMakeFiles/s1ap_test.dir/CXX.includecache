@@ -2530,15 +2530,15 @@ srsran/interfaces/enb_rrc_interface_s1ap.h
 srsran/interfaces/enb_s1ap_interfaces.h
 ../srsenb/test/common/srsran/interfaces/enb_s1ap_interfaces.h
 
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsenb/test/s1ap/s1ap_test.cc
+/home/talha/srsRAN/srsenb/test/s1ap/s1ap_test.cc
 srsenb/hdr/stack/s1ap/s1ap.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsenb/test/s1ap/srsenb/hdr/stack/s1ap/s1ap.h
+/home/talha/srsRAN/srsenb/test/s1ap/srsenb/hdr/stack/s1ap/s1ap.h
 srsenb/test/common/dummy_classes.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsenb/test/s1ap/srsenb/test/common/dummy_classes.h
+/home/talha/srsRAN/srsenb/test/s1ap/srsenb/test/common/dummy_classes.h
 srsran/common/network_utils.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsenb/test/s1ap/srsran/common/network_utils.h
+/home/talha/srsRAN/srsenb/test/s1ap/srsran/common/network_utils.h
 srsran/common/test_common.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsenb/test/s1ap/srsran/common/test_common.h
+/home/talha/srsRAN/srsenb/test/s1ap/srsran/common/test_common.h
 
 lib/include/srsran/version.h
 srsran/config.h

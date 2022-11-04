@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/io/binsource.c" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/io/CMakeFiles/srsran_io.dir/binsource.c.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/io/filesink.c" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/io/CMakeFiles/srsran_io.dir/filesink.c.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/io/filesource.c" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/io/CMakeFiles/srsran_io.dir/filesource.c.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/io/netsink.c" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/io/CMakeFiles/srsran_io.dir/netsink.c.o"
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/io/netsource.c" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/phy/io/CMakeFiles/srsran_io.dir/netsource.c.o"
+  "/home/talha/srsRAN/lib/src/phy/io/binsource.c" "/home/talha/srsRAN/build/lib/src/phy/io/CMakeFiles/srsran_io.dir/binsource.c.o"
+  "/home/talha/srsRAN/lib/src/phy/io/filesink.c" "/home/talha/srsRAN/build/lib/src/phy/io/CMakeFiles/srsran_io.dir/filesink.c.o"
+  "/home/talha/srsRAN/lib/src/phy/io/filesource.c" "/home/talha/srsRAN/build/lib/src/phy/io/CMakeFiles/srsran_io.dir/filesource.c.o"
+  "/home/talha/srsRAN/lib/src/phy/io/netsink.c" "/home/talha/srsRAN/build/lib/src/phy/io/CMakeFiles/srsran_io.dir/netsink.c.o"
+  "/home/talha/srsRAN/lib/src/phy/io/netsource.c" "/home/talha/srsRAN/build/lib/src/phy/io/CMakeFiles/srsran_io.dir/netsource.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

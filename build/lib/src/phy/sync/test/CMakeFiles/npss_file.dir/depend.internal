@@ -13,4 +13,4 @@ lib/src/phy/sync/test/CMakeFiles/npss_file.dir/npss_file.c.o
  ../lib/include/srsran/phy/utils/debug.h
  ../lib/include/srsran/phy/utils/phy_logger.h
  ../lib/include/srsran/phy/utils/vector.h
- /home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/phy/sync/test/npss_file.c
+ /home/talha/srsRAN/lib/src/phy/sync/test/npss_file.c

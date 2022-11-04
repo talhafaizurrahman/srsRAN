@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/msudurip1/Documents/srsRAN_modified/srsRAN/lib/src/common/arch_select.cc" "/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/lib/src/common/CMakeFiles/arch_select.dir/arch_select.cc.o"
+  "/home/talha/srsRAN/lib/src/common/arch_select.cc" "/home/talha/srsRAN/build/lib/src/common/CMakeFiles/arch_select.dir/arch_select.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

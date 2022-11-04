@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/msudurip1/Documents/srsRAN_modified/srsRAN
+CMAKE_SOURCE_DIR = /home/talha/srsRAN
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/msudurip1/Documents/srsRAN_modified/srsRAN/build
+CMAKE_BINARY_DIR = /home/talha/srsRAN/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -105,7 +105,7 @@ test/fast: test
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/CPackSourceConfig.cmake
+	cd /home/talha/srsRAN/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/talha/srsRAN/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -149,7 +149,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/talha/srsRAN/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -159,14 +159,14 @@ package/fast: package
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/CMakeFiles /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsgnb/src/stack/ngap/CMakeFiles/progress.marks
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsgnb/src/stack/ngap/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/CMakeFiles 0
+	cd /home/talha/srsRAN/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/talha/srsRAN/build/CMakeFiles /home/talha/srsRAN/build/srsgnb/src/stack/ngap/CMakeFiles/progress.marks
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsgnb/src/stack/ngap/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/talha/srsRAN/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsgnb/src/stack/ngap/clean
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsgnb/src/stack/ngap/clean
 .PHONY : clean
 
 # The main clean target
@@ -176,22 +176,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: cmake_check_build_system
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsgnb/src/stack/ngap/preinstall
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsgnb/src/stack/ngap/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsgnb/src/stack/ngap/preinstall
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsgnb/src/stack/ngap/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/talha/srsRAN/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/rule:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/rule
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/rule
 .PHONY : srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/rule
 
 # Convenience name for target.
@@ -201,7 +201,7 @@ srsgnb_ngap: srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/rule
 
 # fast build rule for target.
 srsgnb_ngap/fast:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/build.make srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/build
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/build.make srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/build
 .PHONY : srsgnb_ngap/fast
 
 ngap.o: ngap.cc.o
@@ -210,7 +210,7 @@ ngap.o: ngap.cc.o
 
 # target to build an object file
 ngap.cc.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/build.make srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/ngap.cc.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/build.make srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/ngap.cc.o
 .PHONY : ngap.cc.o
 
 ngap.i: ngap.cc.i
@@ -219,7 +219,7 @@ ngap.i: ngap.cc.i
 
 # target to preprocess a source file
 ngap.cc.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/build.make srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/ngap.cc.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/build.make srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/ngap.cc.i
 .PHONY : ngap.cc.i
 
 ngap.s: ngap.cc.s
@@ -228,7 +228,7 @@ ngap.s: ngap.cc.s
 
 # target to generate assembly for a file
 ngap.cc.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/build.make srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/ngap.cc.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/build.make srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/ngap.cc.s
 .PHONY : ngap.cc.s
 
 ngap_ue.o: ngap_ue.cc.o
@@ -237,7 +237,7 @@ ngap_ue.o: ngap_ue.cc.o
 
 # target to build an object file
 ngap_ue.cc.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/build.make srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/ngap_ue.cc.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/build.make srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/ngap_ue.cc.o
 .PHONY : ngap_ue.cc.o
 
 ngap_ue.i: ngap_ue.cc.i
@@ -246,7 +246,7 @@ ngap_ue.i: ngap_ue.cc.i
 
 # target to preprocess a source file
 ngap_ue.cc.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/build.make srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/ngap_ue.cc.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/build.make srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/ngap_ue.cc.i
 .PHONY : ngap_ue.cc.i
 
 ngap_ue.s: ngap_ue.cc.s
@@ -255,7 +255,7 @@ ngap_ue.s: ngap_ue.cc.s
 
 # target to generate assembly for a file
 ngap_ue.cc.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/build.make srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/ngap_ue.cc.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/build.make srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/ngap_ue.cc.s
 .PHONY : ngap_ue.cc.s
 
 ngap_ue_bearer_manager.o: ngap_ue_bearer_manager.cc.o
@@ -264,7 +264,7 @@ ngap_ue_bearer_manager.o: ngap_ue_bearer_manager.cc.o
 
 # target to build an object file
 ngap_ue_bearer_manager.cc.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/build.make srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/ngap_ue_bearer_manager.cc.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/build.make srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/ngap_ue_bearer_manager.cc.o
 .PHONY : ngap_ue_bearer_manager.cc.o
 
 ngap_ue_bearer_manager.i: ngap_ue_bearer_manager.cc.i
@@ -273,7 +273,7 @@ ngap_ue_bearer_manager.i: ngap_ue_bearer_manager.cc.i
 
 # target to preprocess a source file
 ngap_ue_bearer_manager.cc.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/build.make srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/ngap_ue_bearer_manager.cc.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/build.make srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/ngap_ue_bearer_manager.cc.i
 .PHONY : ngap_ue_bearer_manager.cc.i
 
 ngap_ue_bearer_manager.s: ngap_ue_bearer_manager.cc.s
@@ -282,7 +282,7 @@ ngap_ue_bearer_manager.s: ngap_ue_bearer_manager.cc.s
 
 # target to generate assembly for a file
 ngap_ue_bearer_manager.cc.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/build.make srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/ngap_ue_bearer_manager.cc.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/build.make srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/ngap_ue_bearer_manager.cc.s
 .PHONY : ngap_ue_bearer_manager.cc.s
 
 ngap_ue_proc.o: ngap_ue_proc.cc.o
@@ -291,7 +291,7 @@ ngap_ue_proc.o: ngap_ue_proc.cc.o
 
 # target to build an object file
 ngap_ue_proc.cc.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/build.make srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/ngap_ue_proc.cc.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/build.make srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/ngap_ue_proc.cc.o
 .PHONY : ngap_ue_proc.cc.o
 
 ngap_ue_proc.i: ngap_ue_proc.cc.i
@@ -300,7 +300,7 @@ ngap_ue_proc.i: ngap_ue_proc.cc.i
 
 # target to preprocess a source file
 ngap_ue_proc.cc.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/build.make srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/ngap_ue_proc.cc.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/build.make srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/ngap_ue_proc.cc.i
 .PHONY : ngap_ue_proc.cc.i
 
 ngap_ue_proc.s: ngap_ue_proc.cc.s
@@ -309,7 +309,7 @@ ngap_ue_proc.s: ngap_ue_proc.cc.s
 
 # target to generate assembly for a file
 ngap_ue_proc.cc.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/build.make srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/ngap_ue_proc.cc.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/build.make srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/ngap_ue_proc.cc.s
 .PHONY : ngap_ue_proc.cc.s
 
 # Help Target
@@ -351,6 +351,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/talha/srsRAN/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

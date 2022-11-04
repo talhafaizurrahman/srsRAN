@@ -2250,9 +2250,9 @@ stack/upper/gw_metrics.h
 stack/upper/nas_metrics.h
 ../srsue/hdr/stack/upper/nas_metrics.h
 
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/metrics_csv.cc
+/home/talha/srsRAN/srsue/src/metrics_csv.cc
 srsue/hdr/metrics_csv.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/srsue/hdr/metrics_csv.h
+/home/talha/srsRAN/srsue/src/srsue/hdr/metrics_csv.h
 float.h
 -
 iomanip
@@ -2270,9 +2270,9 @@ unistd.h
 stdio.h
 -
 
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/metrics_stdout.cc
+/home/talha/srsRAN/srsue/src/metrics_stdout.cc
 srsue/hdr/metrics_stdout.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/srsue/hdr/metrics_stdout.h
+/home/talha/srsRAN/srsue/src/srsue/hdr/metrics_stdout.h
 float.h
 -
 iomanip
@@ -2290,17 +2290,17 @@ unistd.h
 stdio.h
 -
 
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/test/metrics_test.cc
+/home/talha/srsRAN/srsue/src/test/metrics_test.cc
 srsran/common/metrics_hub.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/test/srsran/common/metrics_hub.h
+/home/talha/srsRAN/srsue/src/test/srsran/common/metrics_hub.h
 srsran/common/test_common.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/test/srsran/common/test_common.h
+/home/talha/srsRAN/srsue/src/test/srsran/common/test_common.h
 srsue/hdr/metrics_csv.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/test/srsue/hdr/metrics_csv.h
+/home/talha/srsRAN/srsue/src/test/srsue/hdr/metrics_csv.h
 srsue/hdr/metrics_stdout.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/test/srsue/hdr/metrics_stdout.h
+/home/talha/srsRAN/srsue/src/test/srsue/hdr/metrics_stdout.h
 srsue/hdr/ue_metrics_interface.h
-/home/msudurip1/Documents/srsRAN_modified/srsRAN/srsue/src/test/srsue/hdr/ue_metrics_interface.h
+/home/talha/srsRAN/srsue/src/test/srsue/hdr/ue_metrics_interface.h
 iostream
 -
 stdio.h

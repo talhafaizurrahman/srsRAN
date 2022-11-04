@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/msudurip1/Documents/srsRAN_modified/srsRAN
+CMAKE_SOURCE_DIR = /home/talha/srsRAN
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/msudurip1/Documents/srsRAN_modified/srsRAN/build
+CMAKE_BINARY_DIR = /home/talha/srsRAN/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -82,7 +82,7 @@ test/fast: test
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/talha/srsRAN/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -137,7 +137,7 @@ install/fast: preinstall/fast
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/CPackSourceConfig.cmake
+	cd /home/talha/srsRAN/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/talha/srsRAN/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -159,14 +159,14 @@ install/local/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/CMakeFiles /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsenb/test/rrc/CMakeFiles/progress.marks
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsenb/test/rrc/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/CMakeFiles 0
+	cd /home/talha/srsRAN/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/talha/srsRAN/build/CMakeFiles /home/talha/srsRAN/build/srsenb/test/rrc/CMakeFiles/progress.marks
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsenb/test/rrc/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/talha/srsRAN/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsenb/test/rrc/clean
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsenb/test/rrc/clean
 .PHONY : clean
 
 # The main clean target
@@ -176,22 +176,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: cmake_check_build_system
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsenb/test/rrc/preinstall
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsenb/test/rrc/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsenb/test/rrc/preinstall
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsenb/test/rrc/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/talha/srsRAN/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 srsenb/test/rrc/CMakeFiles/rrc_mobility_test.dir/rule:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsenb/test/rrc/CMakeFiles/rrc_mobility_test.dir/rule
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsenb/test/rrc/CMakeFiles/rrc_mobility_test.dir/rule
 .PHONY : srsenb/test/rrc/CMakeFiles/rrc_mobility_test.dir/rule
 
 # Convenience name for target.
@@ -201,12 +201,12 @@ rrc_mobility_test: srsenb/test/rrc/CMakeFiles/rrc_mobility_test.dir/rule
 
 # fast build rule for target.
 rrc_mobility_test/fast:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/test/rrc/CMakeFiles/rrc_mobility_test.dir/build.make srsenb/test/rrc/CMakeFiles/rrc_mobility_test.dir/build
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/test/rrc/CMakeFiles/rrc_mobility_test.dir/build.make srsenb/test/rrc/CMakeFiles/rrc_mobility_test.dir/build
 .PHONY : rrc_mobility_test/fast
 
 # Convenience name for target.
 srsenb/test/rrc/CMakeFiles/rrc_paging_test.dir/rule:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsenb/test/rrc/CMakeFiles/rrc_paging_test.dir/rule
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsenb/test/rrc/CMakeFiles/rrc_paging_test.dir/rule
 .PHONY : srsenb/test/rrc/CMakeFiles/rrc_paging_test.dir/rule
 
 # Convenience name for target.
@@ -216,12 +216,12 @@ rrc_paging_test: srsenb/test/rrc/CMakeFiles/rrc_paging_test.dir/rule
 
 # fast build rule for target.
 rrc_paging_test/fast:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/test/rrc/CMakeFiles/rrc_paging_test.dir/build.make srsenb/test/rrc/CMakeFiles/rrc_paging_test.dir/build
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/test/rrc/CMakeFiles/rrc_paging_test.dir/build.make srsenb/test/rrc/CMakeFiles/rrc_paging_test.dir/build
 .PHONY : rrc_paging_test/fast
 
 # Convenience name for target.
 srsenb/test/rrc/CMakeFiles/rrc_meascfg_test.dir/rule:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsenb/test/rrc/CMakeFiles/rrc_meascfg_test.dir/rule
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsenb/test/rrc/CMakeFiles/rrc_meascfg_test.dir/rule
 .PHONY : srsenb/test/rrc/CMakeFiles/rrc_meascfg_test.dir/rule
 
 # Convenience name for target.
@@ -231,12 +231,12 @@ rrc_meascfg_test: srsenb/test/rrc/CMakeFiles/rrc_meascfg_test.dir/rule
 
 # fast build rule for target.
 rrc_meascfg_test/fast:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/test/rrc/CMakeFiles/rrc_meascfg_test.dir/build.make srsenb/test/rrc/CMakeFiles/rrc_meascfg_test.dir/build
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/test/rrc/CMakeFiles/rrc_meascfg_test.dir/build.make srsenb/test/rrc/CMakeFiles/rrc_meascfg_test.dir/build
 .PHONY : rrc_meascfg_test/fast
 
 # Convenience name for target.
 srsenb/test/rrc/CMakeFiles/test_helpers.dir/rule:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsenb/test/rrc/CMakeFiles/test_helpers.dir/rule
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsenb/test/rrc/CMakeFiles/test_helpers.dir/rule
 .PHONY : srsenb/test/rrc/CMakeFiles/test_helpers.dir/rule
 
 # Convenience name for target.
@@ -246,12 +246,12 @@ test_helpers: srsenb/test/rrc/CMakeFiles/test_helpers.dir/rule
 
 # fast build rule for target.
 test_helpers/fast:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/test/rrc/CMakeFiles/test_helpers.dir/build.make srsenb/test/rrc/CMakeFiles/test_helpers.dir/build
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/test/rrc/CMakeFiles/test_helpers.dir/build.make srsenb/test/rrc/CMakeFiles/test_helpers.dir/build
 .PHONY : test_helpers/fast
 
 # Convenience name for target.
 srsenb/test/rrc/CMakeFiles/erab_setup_test.dir/rule:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsenb/test/rrc/CMakeFiles/erab_setup_test.dir/rule
+	cd /home/talha/srsRAN/build && $(MAKE) -f CMakeFiles/Makefile2 srsenb/test/rrc/CMakeFiles/erab_setup_test.dir/rule
 .PHONY : srsenb/test/rrc/CMakeFiles/erab_setup_test.dir/rule
 
 # Convenience name for target.
@@ -261,7 +261,7 @@ erab_setup_test: srsenb/test/rrc/CMakeFiles/erab_setup_test.dir/rule
 
 # fast build rule for target.
 erab_setup_test/fast:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/test/rrc/CMakeFiles/erab_setup_test.dir/build.make srsenb/test/rrc/CMakeFiles/erab_setup_test.dir/build
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/test/rrc/CMakeFiles/erab_setup_test.dir/build.make srsenb/test/rrc/CMakeFiles/erab_setup_test.dir/build
 .PHONY : erab_setup_test/fast
 
 erab_setup_test.o: erab_setup_test.cc.o
@@ -270,7 +270,7 @@ erab_setup_test.o: erab_setup_test.cc.o
 
 # target to build an object file
 erab_setup_test.cc.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/test/rrc/CMakeFiles/erab_setup_test.dir/build.make srsenb/test/rrc/CMakeFiles/erab_setup_test.dir/erab_setup_test.cc.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/test/rrc/CMakeFiles/erab_setup_test.dir/build.make srsenb/test/rrc/CMakeFiles/erab_setup_test.dir/erab_setup_test.cc.o
 .PHONY : erab_setup_test.cc.o
 
 erab_setup_test.i: erab_setup_test.cc.i
@@ -279,7 +279,7 @@ erab_setup_test.i: erab_setup_test.cc.i
 
 # target to preprocess a source file
 erab_setup_test.cc.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/test/rrc/CMakeFiles/erab_setup_test.dir/build.make srsenb/test/rrc/CMakeFiles/erab_setup_test.dir/erab_setup_test.cc.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/test/rrc/CMakeFiles/erab_setup_test.dir/build.make srsenb/test/rrc/CMakeFiles/erab_setup_test.dir/erab_setup_test.cc.i
 .PHONY : erab_setup_test.cc.i
 
 erab_setup_test.s: erab_setup_test.cc.s
@@ -288,7 +288,7 @@ erab_setup_test.s: erab_setup_test.cc.s
 
 # target to generate assembly for a file
 erab_setup_test.cc.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/test/rrc/CMakeFiles/erab_setup_test.dir/build.make srsenb/test/rrc/CMakeFiles/erab_setup_test.dir/erab_setup_test.cc.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/test/rrc/CMakeFiles/erab_setup_test.dir/build.make srsenb/test/rrc/CMakeFiles/erab_setup_test.dir/erab_setup_test.cc.s
 .PHONY : erab_setup_test.cc.s
 
 rrc_meascfg_test.o: rrc_meascfg_test.cc.o
@@ -297,7 +297,7 @@ rrc_meascfg_test.o: rrc_meascfg_test.cc.o
 
 # target to build an object file
 rrc_meascfg_test.cc.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/test/rrc/CMakeFiles/rrc_meascfg_test.dir/build.make srsenb/test/rrc/CMakeFiles/rrc_meascfg_test.dir/rrc_meascfg_test.cc.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/test/rrc/CMakeFiles/rrc_meascfg_test.dir/build.make srsenb/test/rrc/CMakeFiles/rrc_meascfg_test.dir/rrc_meascfg_test.cc.o
 .PHONY : rrc_meascfg_test.cc.o
 
 rrc_meascfg_test.i: rrc_meascfg_test.cc.i
@@ -306,7 +306,7 @@ rrc_meascfg_test.i: rrc_meascfg_test.cc.i
 
 # target to preprocess a source file
 rrc_meascfg_test.cc.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/test/rrc/CMakeFiles/rrc_meascfg_test.dir/build.make srsenb/test/rrc/CMakeFiles/rrc_meascfg_test.dir/rrc_meascfg_test.cc.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/test/rrc/CMakeFiles/rrc_meascfg_test.dir/build.make srsenb/test/rrc/CMakeFiles/rrc_meascfg_test.dir/rrc_meascfg_test.cc.i
 .PHONY : rrc_meascfg_test.cc.i
 
 rrc_meascfg_test.s: rrc_meascfg_test.cc.s
@@ -315,7 +315,7 @@ rrc_meascfg_test.s: rrc_meascfg_test.cc.s
 
 # target to generate assembly for a file
 rrc_meascfg_test.cc.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/test/rrc/CMakeFiles/rrc_meascfg_test.dir/build.make srsenb/test/rrc/CMakeFiles/rrc_meascfg_test.dir/rrc_meascfg_test.cc.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/test/rrc/CMakeFiles/rrc_meascfg_test.dir/build.make srsenb/test/rrc/CMakeFiles/rrc_meascfg_test.dir/rrc_meascfg_test.cc.s
 .PHONY : rrc_meascfg_test.cc.s
 
 rrc_mobility_test.o: rrc_mobility_test.cc.o
@@ -324,7 +324,7 @@ rrc_mobility_test.o: rrc_mobility_test.cc.o
 
 # target to build an object file
 rrc_mobility_test.cc.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/test/rrc/CMakeFiles/rrc_mobility_test.dir/build.make srsenb/test/rrc/CMakeFiles/rrc_mobility_test.dir/rrc_mobility_test.cc.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/test/rrc/CMakeFiles/rrc_mobility_test.dir/build.make srsenb/test/rrc/CMakeFiles/rrc_mobility_test.dir/rrc_mobility_test.cc.o
 .PHONY : rrc_mobility_test.cc.o
 
 rrc_mobility_test.i: rrc_mobility_test.cc.i
@@ -333,7 +333,7 @@ rrc_mobility_test.i: rrc_mobility_test.cc.i
 
 # target to preprocess a source file
 rrc_mobility_test.cc.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/test/rrc/CMakeFiles/rrc_mobility_test.dir/build.make srsenb/test/rrc/CMakeFiles/rrc_mobility_test.dir/rrc_mobility_test.cc.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/test/rrc/CMakeFiles/rrc_mobility_test.dir/build.make srsenb/test/rrc/CMakeFiles/rrc_mobility_test.dir/rrc_mobility_test.cc.i
 .PHONY : rrc_mobility_test.cc.i
 
 rrc_mobility_test.s: rrc_mobility_test.cc.s
@@ -342,7 +342,7 @@ rrc_mobility_test.s: rrc_mobility_test.cc.s
 
 # target to generate assembly for a file
 rrc_mobility_test.cc.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/test/rrc/CMakeFiles/rrc_mobility_test.dir/build.make srsenb/test/rrc/CMakeFiles/rrc_mobility_test.dir/rrc_mobility_test.cc.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/test/rrc/CMakeFiles/rrc_mobility_test.dir/build.make srsenb/test/rrc/CMakeFiles/rrc_mobility_test.dir/rrc_mobility_test.cc.s
 .PHONY : rrc_mobility_test.cc.s
 
 rrc_paging_test.o: rrc_paging_test.cc.o
@@ -351,7 +351,7 @@ rrc_paging_test.o: rrc_paging_test.cc.o
 
 # target to build an object file
 rrc_paging_test.cc.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/test/rrc/CMakeFiles/rrc_paging_test.dir/build.make srsenb/test/rrc/CMakeFiles/rrc_paging_test.dir/rrc_paging_test.cc.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/test/rrc/CMakeFiles/rrc_paging_test.dir/build.make srsenb/test/rrc/CMakeFiles/rrc_paging_test.dir/rrc_paging_test.cc.o
 .PHONY : rrc_paging_test.cc.o
 
 rrc_paging_test.i: rrc_paging_test.cc.i
@@ -360,7 +360,7 @@ rrc_paging_test.i: rrc_paging_test.cc.i
 
 # target to preprocess a source file
 rrc_paging_test.cc.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/test/rrc/CMakeFiles/rrc_paging_test.dir/build.make srsenb/test/rrc/CMakeFiles/rrc_paging_test.dir/rrc_paging_test.cc.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/test/rrc/CMakeFiles/rrc_paging_test.dir/build.make srsenb/test/rrc/CMakeFiles/rrc_paging_test.dir/rrc_paging_test.cc.i
 .PHONY : rrc_paging_test.cc.i
 
 rrc_paging_test.s: rrc_paging_test.cc.s
@@ -369,7 +369,7 @@ rrc_paging_test.s: rrc_paging_test.cc.s
 
 # target to generate assembly for a file
 rrc_paging_test.cc.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/test/rrc/CMakeFiles/rrc_paging_test.dir/build.make srsenb/test/rrc/CMakeFiles/rrc_paging_test.dir/rrc_paging_test.cc.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/test/rrc/CMakeFiles/rrc_paging_test.dir/build.make srsenb/test/rrc/CMakeFiles/rrc_paging_test.dir/rrc_paging_test.cc.s
 .PHONY : rrc_paging_test.cc.s
 
 test_helpers.o: test_helpers.cc.o
@@ -378,7 +378,7 @@ test_helpers.o: test_helpers.cc.o
 
 # target to build an object file
 test_helpers.cc.o:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/test/rrc/CMakeFiles/test_helpers.dir/build.make srsenb/test/rrc/CMakeFiles/test_helpers.dir/test_helpers.cc.o
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/test/rrc/CMakeFiles/test_helpers.dir/build.make srsenb/test/rrc/CMakeFiles/test_helpers.dir/test_helpers.cc.o
 .PHONY : test_helpers.cc.o
 
 test_helpers.i: test_helpers.cc.i
@@ -387,7 +387,7 @@ test_helpers.i: test_helpers.cc.i
 
 # target to preprocess a source file
 test_helpers.cc.i:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/test/rrc/CMakeFiles/test_helpers.dir/build.make srsenb/test/rrc/CMakeFiles/test_helpers.dir/test_helpers.cc.i
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/test/rrc/CMakeFiles/test_helpers.dir/build.make srsenb/test/rrc/CMakeFiles/test_helpers.dir/test_helpers.cc.i
 .PHONY : test_helpers.cc.i
 
 test_helpers.s: test_helpers.cc.s
@@ -396,7 +396,7 @@ test_helpers.s: test_helpers.cc.s
 
 # target to generate assembly for a file
 test_helpers.cc.s:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(MAKE) -f srsenb/test/rrc/CMakeFiles/test_helpers.dir/build.make srsenb/test/rrc/CMakeFiles/test_helpers.dir/test_helpers.cc.s
+	cd /home/talha/srsRAN/build && $(MAKE) -f srsenb/test/rrc/CMakeFiles/test_helpers.dir/build.make srsenb/test/rrc/CMakeFiles/test_helpers.dir/test_helpers.cc.s
 .PHONY : test_helpers.cc.s
 
 # Help Target
@@ -445,6 +445,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/talha/srsRAN/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

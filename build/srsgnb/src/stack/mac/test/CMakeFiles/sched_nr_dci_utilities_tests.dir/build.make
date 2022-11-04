@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/msudurip1/Documents/srsRAN_modified/srsRAN
+CMAKE_SOURCE_DIR = /home/talha/srsRAN
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/msudurip1/Documents/srsRAN_modified/srsRAN/build
+CMAKE_BINARY_DIR = /home/talha/srsRAN/build
 
 # Include any dependencies generated for this target.
 include srsgnb/src/stack/mac/test/CMakeFiles/sched_nr_dci_utilities_tests.dir/depend.make
@@ -59,16 +59,16 @@ include srsgnb/src/stack/mac/test/CMakeFiles/sched_nr_dci_utilities_tests.dir/fl
 
 srsgnb/src/stack/mac/test/CMakeFiles/sched_nr_dci_utilities_tests.dir/sched_nr_dci_utilities_tests.cc.o: srsgnb/src/stack/mac/test/CMakeFiles/sched_nr_dci_utilities_tests.dir/flags.make
 srsgnb/src/stack/mac/test/CMakeFiles/sched_nr_dci_utilities_tests.dir/sched_nr_dci_utilities_tests.cc.o: ../srsgnb/src/stack/mac/test/sched_nr_dci_utilities_tests.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object srsgnb/src/stack/mac/test/CMakeFiles/sched_nr_dci_utilities_tests.dir/sched_nr_dci_utilities_tests.cc.o"
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsgnb/src/stack/mac/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sched_nr_dci_utilities_tests.dir/sched_nr_dci_utilities_tests.cc.o -c /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsgnb/src/stack/mac/test/sched_nr_dci_utilities_tests.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/talha/srsRAN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object srsgnb/src/stack/mac/test/CMakeFiles/sched_nr_dci_utilities_tests.dir/sched_nr_dci_utilities_tests.cc.o"
+	cd /home/talha/srsRAN/build/srsgnb/src/stack/mac/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sched_nr_dci_utilities_tests.dir/sched_nr_dci_utilities_tests.cc.o -c /home/talha/srsRAN/srsgnb/src/stack/mac/test/sched_nr_dci_utilities_tests.cc
 
 srsgnb/src/stack/mac/test/CMakeFiles/sched_nr_dci_utilities_tests.dir/sched_nr_dci_utilities_tests.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sched_nr_dci_utilities_tests.dir/sched_nr_dci_utilities_tests.cc.i"
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsgnb/src/stack/mac/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsgnb/src/stack/mac/test/sched_nr_dci_utilities_tests.cc > CMakeFiles/sched_nr_dci_utilities_tests.dir/sched_nr_dci_utilities_tests.cc.i
+	cd /home/talha/srsRAN/build/srsgnb/src/stack/mac/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/talha/srsRAN/srsgnb/src/stack/mac/test/sched_nr_dci_utilities_tests.cc > CMakeFiles/sched_nr_dci_utilities_tests.dir/sched_nr_dci_utilities_tests.cc.i
 
 srsgnb/src/stack/mac/test/CMakeFiles/sched_nr_dci_utilities_tests.dir/sched_nr_dci_utilities_tests.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sched_nr_dci_utilities_tests.dir/sched_nr_dci_utilities_tests.cc.s"
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsgnb/src/stack/mac/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsgnb/src/stack/mac/test/sched_nr_dci_utilities_tests.cc -o CMakeFiles/sched_nr_dci_utilities_tests.dir/sched_nr_dci_utilities_tests.cc.s
+	cd /home/talha/srsRAN/build/srsgnb/src/stack/mac/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/talha/srsRAN/srsgnb/src/stack/mac/test/sched_nr_dci_utilities_tests.cc -o CMakeFiles/sched_nr_dci_utilities_tests.dir/sched_nr_dci_utilities_tests.cc.s
 
 # Object files for target sched_nr_dci_utilities_tests
 sched_nr_dci_utilities_tests_OBJECTS = \
@@ -91,10 +91,9 @@ srsgnb/src/stack/mac/test/sched_nr_dci_utilities_tests: /usr/lib/x86_64-linux-gn
 srsgnb/src/stack/mac/test/sched_nr_dci_utilities_tests: lib/src/support/libsupport.a
 srsgnb/src/stack/mac/test/sched_nr_dci_utilities_tests: lib/src/srslog/libsrslog.a
 srsgnb/src/stack/mac/test/sched_nr_dci_utilities_tests: /usr/lib/x86_64-linux-gnu/libmbedcrypto.so
-srsgnb/src/stack/mac/test/sched_nr_dci_utilities_tests: /usr/lib/x86_64-linux-gnu/libsctp.so
 srsgnb/src/stack/mac/test/sched_nr_dci_utilities_tests: srsgnb/src/stack/mac/test/CMakeFiles/sched_nr_dci_utilities_tests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/msudurip1/Documents/srsRAN_modified/srsRAN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable sched_nr_dci_utilities_tests"
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsgnb/src/stack/mac/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sched_nr_dci_utilities_tests.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/talha/srsRAN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable sched_nr_dci_utilities_tests"
+	cd /home/talha/srsRAN/build/srsgnb/src/stack/mac/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sched_nr_dci_utilities_tests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 srsgnb/src/stack/mac/test/CMakeFiles/sched_nr_dci_utilities_tests.dir/build: srsgnb/src/stack/mac/test/sched_nr_dci_utilities_tests
@@ -102,10 +101,10 @@ srsgnb/src/stack/mac/test/CMakeFiles/sched_nr_dci_utilities_tests.dir/build: srs
 .PHONY : srsgnb/src/stack/mac/test/CMakeFiles/sched_nr_dci_utilities_tests.dir/build
 
 srsgnb/src/stack/mac/test/CMakeFiles/sched_nr_dci_utilities_tests.dir/clean:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsgnb/src/stack/mac/test && $(CMAKE_COMMAND) -P CMakeFiles/sched_nr_dci_utilities_tests.dir/cmake_clean.cmake
+	cd /home/talha/srsRAN/build/srsgnb/src/stack/mac/test && $(CMAKE_COMMAND) -P CMakeFiles/sched_nr_dci_utilities_tests.dir/cmake_clean.cmake
 .PHONY : srsgnb/src/stack/mac/test/CMakeFiles/sched_nr_dci_utilities_tests.dir/clean
 
 srsgnb/src/stack/mac/test/CMakeFiles/sched_nr_dci_utilities_tests.dir/depend:
-	cd /home/msudurip1/Documents/srsRAN_modified/srsRAN/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/msudurip1/Documents/srsRAN_modified/srsRAN /home/msudurip1/Documents/srsRAN_modified/srsRAN/srsgnb/src/stack/mac/test /home/msudurip1/Documents/srsRAN_modified/srsRAN/build /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsgnb/src/stack/mac/test /home/msudurip1/Documents/srsRAN_modified/srsRAN/build/srsgnb/src/stack/mac/test/CMakeFiles/sched_nr_dci_utilities_tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/talha/srsRAN/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/talha/srsRAN /home/talha/srsRAN/srsgnb/src/stack/mac/test /home/talha/srsRAN/build /home/talha/srsRAN/build/srsgnb/src/stack/mac/test /home/talha/srsRAN/build/srsgnb/src/stack/mac/test/CMakeFiles/sched_nr_dci_utilities_tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : srsgnb/src/stack/mac/test/CMakeFiles/sched_nr_dci_utilities_tests.dir/depend
 
