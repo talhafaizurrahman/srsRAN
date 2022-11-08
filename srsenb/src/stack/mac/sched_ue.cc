@@ -394,8 +394,8 @@ int sched_ue::generate_dl_dci_format(uint32_t                          pid,
   *(rbgmask_t*)&user_mask = temp_mask;
 
     fmt::memory_buffer str_buffer;
-    fmt::format_to(str_buffer, fmt::format("{:b}", user_mask));
-    printf(" $$$407 sched_ue::generate_dl_dci_format %s\n", srsran::to_c_str(str_buffer));
+    fmt::format_to(str_buffer, fmt::format("CQI is {}, Bit Mask is {:b}", cells[enb_cc_idx].get_dl_cqi(), user_mask));
+    printf("%s\n", srsran::to_c_str(str_buffer));
   }
     else if (cells[enb_cc_idx].get_dl_cqi() > 3 && cells[enb_cc_idx].get_dl_cqi() <= 10){
 
@@ -405,8 +405,8 @@ int sched_ue::generate_dl_dci_format(uint32_t                          pid,
     *(rbgmask_t*)&user_mask = temp_mask;
 
       fmt::memory_buffer str_buffer;
-      fmt::format_to(str_buffer, fmt::format("{:b}", user_mask));
-      printf(" $$$418 sched_ue::generate_dl_dci_format 421 %s\n", srsran::to_c_str(str_buffer));
+      fmt::format_to(str_buffer, fmt::format("CQI is {}, Bit Mask is {:b}", cells[enb_cc_idx].get_dl_cqi(), user_mask));
+      printf("%s\n", srsran::to_c_str(str_buffer));
     }
     else {
 
@@ -416,8 +416,8 @@ int sched_ue::generate_dl_dci_format(uint32_t                          pid,
     *(rbgmask_t*)&user_mask = temp_mask;
 
       fmt::memory_buffer str_buffer;
-      fmt::format_to(str_buffer, fmt::format("{:b}", user_mask));
-      printf(" $$$429 sched_ue::generate_dl_dci_format 421 %s\n", srsran::to_c_str(str_buffer));
+      fmt::format_to(str_buffer, fmt::format("CQI is {}, Bit Mask is {:b}", cells[enb_cc_idx].get_dl_cqi(), user_mask));
+      printf("%s\n", srsran::to_c_str(str_buffer));
     }
 // **************#############***************************
   switch (dci_format) {
