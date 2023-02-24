@@ -2668,16 +2668,6 @@ srsran/adt/pool/pool_interface.h
 ../sched_nr_cfg.h
 ../srsgnb/hdr/stack/mac/sched_nr_cfg.h
 
-/home/talha/srsRAN/srsgnb/src/stack/mac/test/sched_nr_common_test.cc
-sched_nr_common_test.h
-/home/talha/srsRAN/srsgnb/src/stack/mac/test/sched_nr_common_test.h
-srsgnb/hdr/stack/mac/sched_nr_cfg.h
-/home/talha/srsRAN/srsgnb/src/stack/mac/test/srsgnb/hdr/stack/mac/sched_nr_cfg.h
-srsgnb/hdr/stack/mac/sched_nr_helpers.h
-/home/talha/srsRAN/srsgnb/src/stack/mac/test/srsgnb/hdr/stack/mac/sched_nr_helpers.h
-srsran/support/srsran_test.h
-/home/talha/srsRAN/srsgnb/src/stack/mac/test/srsran/support/srsran_test.h
-
 /home/talha/srsRAN/srsgnb/src/stack/mac/test/sched_nr_common_test.h
 srsgnb/hdr/stack/mac/sched_nr_pdcch.h
 /home/talha/srsRAN/srsgnb/src/stack/mac/test/srsgnb/hdr/stack/mac/sched_nr_pdcch.h

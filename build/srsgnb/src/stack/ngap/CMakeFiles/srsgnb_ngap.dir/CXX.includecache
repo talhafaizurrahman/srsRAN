@@ -782,10 +782,6 @@ srsgnb/hdr/stack/ngap/ngap_ue_proc.h
 srsran/common/int_helpers.h
 /home/talha/srsRAN/srsgnb/src/stack/ngap/srsran/common/int_helpers.h
 
-/home/talha/srsRAN/srsgnb/src/stack/ngap/ngap_ue_bearer_manager.cc
-srsgnb/hdr/stack/ngap/ngap_ue_bearer_manager.h
-/home/talha/srsRAN/srsgnb/src/stack/ngap/srsgnb/hdr/stack/ngap/ngap_ue_bearer_manager.h
-
 /home/talha/srsRAN/srsgnb/src/stack/ngap/ngap_ue_proc.cc
 srsgnb/hdr/stack/ngap/ngap_ue_proc.h
 /home/talha/srsRAN/srsgnb/src/stack/ngap/srsgnb/hdr/stack/ngap/ngap_ue_proc.h

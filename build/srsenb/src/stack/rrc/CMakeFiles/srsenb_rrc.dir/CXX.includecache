@@ -2986,12 +2986,6 @@ srsran/asn1/obj_id_cmp_utils.h
 srsran/asn1/rrc_utils.h
 /home/talha/srsRAN/srsenb/src/stack/rrc/srsran/asn1/rrc_utils.h
 
-/home/talha/srsRAN/srsenb/src/stack/rrc/rrc_cell_cfg.cc
-srsenb/hdr/stack/rrc/rrc_cell_cfg.h
-/home/talha/srsRAN/srsenb/src/stack/rrc/srsenb/hdr/stack/rrc/rrc_cell_cfg.h
-srsran/phy/utils/vector.h
-/home/talha/srsRAN/srsenb/src/stack/rrc/srsran/phy/utils/vector.h
-
 /home/talha/srsRAN/srsenb/src/stack/rrc/rrc_endc.cc
 srsenb/hdr/stack/rrc/rrc_endc.h
 /home/talha/srsRAN/srsenb/src/stack/rrc/srsenb/hdr/stack/rrc/rrc_endc.h

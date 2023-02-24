@@ -347,6 +347,7 @@ bool cc_worker::decode_pusch_rnti(stack_interface_phy_lte::ul_sched_grant_t& ul_
   // Notify MAC of RL status
   if (snr_db >= PUSCH_RL_SNR_DB_TH) {
     // Notify MAC UL channel quality
+
     phy->stack->snr_info(ul_sf.tti, rnti, cc_idx, snr_db, mac_interface_phy_lte::PUSCH);
 
     // Notify MAC of Time Alignment only if it enabled and valid measurement, ignore value otherwise
@@ -722,13 +723,13 @@ int cc_worker::read_pucch_d(cf_t* pdsch_d)
   // ADDED: ouput pucch to probe
   string hex_output;
 
-  // complex<float>* pucch_array = (complex<float>*) enb_ul.pucch.z_tmp;
-  // for (int i=0; i < nof_re; i++){
-  //   hex_output = "6363";
-  //   hex_output.append(ieee_float_to_hex(pucch_array[i].real()));
-  //   hex_output.append(ieee_float_to_hex(pucch_array[i].imag()));
-  //   output_probe(hex_output, "iq_probe");
-  // }
+  complex<float>* pucch_array = (complex<float>*) enb_ul.pucch.z_tmp;
+  for (int i=0; i < nof_re; i++){
+    hex_output = "6363";
+    hex_output.append(ieee_float_to_hex(pucch_array[i].real()));
+    hex_output.append(ieee_float_to_hex(pucch_array[i].imag()));
+    output_probe(hex_output, "iq_probe.dat");
+  }
 
   return nof_re;
 }

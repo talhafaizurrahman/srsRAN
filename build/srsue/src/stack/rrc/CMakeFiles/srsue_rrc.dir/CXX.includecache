@@ -2832,10 +2832,6 @@ srsran/asn1/rrc.h
 srsran/common/common.h
 ../srsue/hdr/stack/rrc/srsran/common/common.h
 
-/home/talha/srsRAN/srsue/src/stack/rrc/phy_controller.cc
-srsue/hdr/stack/rrc/phy_controller.h
-/home/talha/srsRAN/srsue/src/stack/rrc/srsue/hdr/stack/rrc/phy_controller.h
-
 /home/talha/srsRAN/srsue/src/stack/rrc/rrc.cc
 srsue/hdr/stack/rrc/rrc.h
 /home/talha/srsRAN/srsue/src/stack/rrc/srsue/hdr/stack/rrc/rrc.h

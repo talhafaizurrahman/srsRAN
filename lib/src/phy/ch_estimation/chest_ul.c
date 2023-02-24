@@ -209,12 +209,12 @@ static float estimate_noise_pilots(srsran_chest_ul_t* q, cf_t* ce, uint32_t nslo
   }
 
   power /= nslots;
-
   if (q->smooth_filter_len == 3) {
     // Calibrated for filter length 3
     float w = q->smooth_filter[0];
     float a = 7.419 * w * w + 0.1117 * w - 0.005387;
     return (power / (a * 0.8));
+
   } else {
     return power;
   }
@@ -324,7 +324,6 @@ static void chest_ul_estimate(srsran_chest_ul_t*     q,
   } else {
     res->ta_us = 0.0f;
   }
-
   // Check if intra-subframe frequency hopping is enabled
   if (n_prb[0] != n_prb[1]) {
     ERROR("ERROR: intra-subframe frequency hopping not supported in the estimator!!");
@@ -429,11 +428,13 @@ estimate_noise_pilots_pucch(srsran_chest_ul_t* q, cf_t* ce, uint32_t n_rs, uint3
           &ce[SRSRAN_RE_IDX(q->cell.nof_prb, ns * SRSRAN_CP_NSYMB(q->cell.cp), n_prb[ns] * SRSRAN_NRE)],
           q->tmp_noise,
           SRSRAN_NRE);
+          // float dd = srsran_convert_amplitude_to_dB(q->pilot_estimates[(i + ns * n_rs) * SRSRAN_NRE]);
+          // printf("power is %f and dd %f \n",power, dd);
     }
   }
 
   power /= (SRSRAN_NOF_SLOTS_PER_SF * n_rs);
-
+  // printf("435 power is %f, SRSRAN_NOF_SLOTS_PER_SF %d,  n_rs %d \n", power, SRSRAN_NOF_SLOTS_PER_SF, n_rs);
   if (q->smooth_filter_len == 3) {
     // Calibrated for filter length 3
     float w = q->smooth_filter[0];
@@ -567,9 +568,14 @@ int srsran_chest_ul_estimate_pucch(srsran_chest_ul_t*     q,
             SRSRAN_NRE);
       }
     }
-
     // Estimate noise/interference
     res->noise_estimate = estimate_noise_pilots_pucch(q, res->ce, n_rs, n_prb);
+
+    // ADDED ****** ***** 88888888 *******
+    if (res->noise_estimate > (float)100){
+      res->noise_estimate = 0.016030;
+    }
+    // printf(" 579 res->noise_estimate is %f \n", res->noise_estimate);
     if (fpclassify(res->noise_estimate) == FP_ZERO) {
       res->noise_estimate = FLT_MIN;
     }

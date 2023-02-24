@@ -4032,12 +4032,6 @@ srsgnb/hdr/stack/rrc/rrc_nr_config.h
 srsran/asn1/asn1_utils.h
 /home/talha/srsRAN/srsenb/src/srsran/asn1/asn1_utils.h
 
-/home/talha/srsRAN/srsenb/src/parser.cc
-srsenb/hdr/parser.h
-/home/talha/srsRAN/srsenb/src/srsenb/hdr/parser.h
-iostream
--
-
 lib/include/srsran/version.h
 srsran/config.h
 lib/include/srsran/srsran/config.h

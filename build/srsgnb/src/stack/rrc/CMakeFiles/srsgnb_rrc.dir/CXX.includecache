@@ -264,16 +264,6 @@ srsran/interfaces/rrc_interface_types.h
 asn1_utils.h
 ../lib/include/srsran/asn1/asn1_utils.h
 
-../lib/include/srsran/common/band_helper.h
-srsran/phy/common/phy_common_nr.h
-../lib/include/srsran/common/srsran/phy/common/phy_common_nr.h
-array
--
-stdint.h
--
-vector
--
-
 ../lib/include/srsran/common/bcd_helpers.h
 ctype.h
 -
@@ -2818,20 +2808,6 @@ srsran/srslog/srslog.h
 mutex
 -
 
-/home/talha/srsRAN/srsgnb/src/stack/rrc/cell_asn1_config.cc
-srsgnb/hdr/stack/rrc/cell_asn1_config.h
-/home/talha/srsRAN/srsgnb/src/stack/rrc/srsgnb/hdr/stack/rrc/cell_asn1_config.h
-srsenb/hdr/common/common_enb.h
-/home/talha/srsRAN/srsgnb/src/stack/rrc/srsenb/hdr/common/common_enb.h
-srsran/asn1/obj_id_cmp_utils.h
-/home/talha/srsRAN/srsgnb/src/stack/rrc/srsran/asn1/obj_id_cmp_utils.h
-srsran/asn1/rrc_nr_utils.h
-/home/talha/srsRAN/srsgnb/src/stack/rrc/srsran/asn1/rrc_nr_utils.h
-srsran/common/band_helper.h
-/home/talha/srsRAN/srsgnb/src/stack/rrc/srsran/common/band_helper.h
-bitset
--
-
 /home/talha/srsRAN/srsgnb/src/stack/rrc/rrc_nr.cc
 srsgnb/hdr/stack/rrc/rrc_nr.h
 /home/talha/srsRAN/srsgnb/src/stack/rrc/srsgnb/hdr/stack/rrc/rrc_nr.h
@@ -2857,16 +2833,6 @@ srsran/common/phy_cfg_nr_default.h
 /home/talha/srsRAN/srsgnb/src/stack/rrc/srsran/common/phy_cfg_nr_default.h
 srsran/common/standard_streams.h
 /home/talha/srsRAN/srsgnb/src/stack/rrc/srsran/common/standard_streams.h
-srsran/common/string_helpers.h
-/home/talha/srsRAN/srsgnb/src/stack/rrc/srsran/common/string_helpers.h
-
-/home/talha/srsRAN/srsgnb/src/stack/rrc/rrc_nr_du_manager.cc
-srsgnb/hdr/stack/rrc/rrc_nr_du_manager.h
-/home/talha/srsRAN/srsgnb/src/stack/rrc/srsgnb/hdr/stack/rrc/rrc_nr_du_manager.h
-srsgnb/hdr/stack/rrc/cell_asn1_config.h
-/home/talha/srsRAN/srsgnb/src/stack/rrc/srsgnb/hdr/stack/rrc/cell_asn1_config.h
-srsran/asn1/rrc_nr_utils.h
-/home/talha/srsRAN/srsgnb/src/stack/rrc/srsran/asn1/rrc_nr_utils.h
 srsran/common/string_helpers.h
 /home/talha/srsRAN/srsgnb/src/stack/rrc/srsran/common/string_helpers.h
 

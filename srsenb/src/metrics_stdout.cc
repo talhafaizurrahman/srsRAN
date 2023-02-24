@@ -105,6 +105,8 @@ void metrics_stdout::set_metrics_helper(uint32_t                          num_ue
     } else {
       fmt::print("  {:>3.3}", "n/a");
     }
+
+    fmt::print("   {:>1}", int(mac.ues[i].nof_tti));
     fmt::print("   {:>1}", int(mac.ues[i].dl_ri));
     float dl_mcs = (is_nr) ? mac.ues[i].dl_mcs : phy[i].dl.mcs;
     if (not isnan(dl_mcs)) {
@@ -198,7 +200,7 @@ void metrics_stdout::set_metrics(const enb_metrics_t& metrics, const uint32_t pe
     fmt::print(
         "               -----------------DL----------------|-------------------------UL-------------------------\n");
     fmt::print(
-        "rat  pci rnti  cqi  ri  mcs  brate   ok  nok  (%) | pusch  pucch  phr  mcs  brate   ok  nok  (%)    bsr\n");
+        "rat  pci rnti  cqi  tti ri  mcs  brate   ok  nok  (%) | pusch  pucch  phr  mcs  brate   ok  nok  (%)    bsr\n");
   }
 
   set_metrics_helper(metrics.stack.rrc.ues.size(), metrics.stack.mac, metrics.phy, false);

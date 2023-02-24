@@ -371,9 +371,9 @@ int sched_ue::generate_dl_dci_format(uint32_t                          pid,
                                      const rbgmask_t&                  user_mask)
 {
   // ADDED
-  output_probe(__FILE__, "rbgmask_t_probe.txt");
-  output_probe("sched_ue::generate_dl_dci_format", "rbgmask_values.txt");
-  probe_rbg_mask(user_mask, "rbgmask_values.txt");
+  // output_probe(__FILE__, "rbgmask_t_probe.txt");
+  // output_probe("sched_ue::generate_dl_dci_format", "rbgmask_values.txt");
+  // probe_rbg_mask(user_mask, "rbgmask_values.txt");
 
   srsran_dci_format_t dci_format = get_dci_format();
   int                 tbs_bytes  = 0;
@@ -385,52 +385,61 @@ int sched_ue::generate_dl_dci_format(uint32_t                          pid,
   dci->ue_cc_idx       = cells[enb_cc_idx].get_ue_cc_idx();
   dci->format          = dci_format;
   rbgmask_t temp1_mask(user_mask.size()), temp_mask(user_mask.size());
+
+    // fmt::memory_buffer str_buffer;
+    // fmt::format_to(str_buffer, fmt::format("RNTI is 0x{:0x}, CQI is {}, Bit Mask is {:b}", rnti, cells[enb_cc_idx].get_dl_cqi(), user_mask));
+    // fmt::format_to(str_buffer, fmt::format("RNTI is 0x{:0x}",  rnti));
+    // printf("%s\n", srsran::to_c_str(str_buffer));
+
 // here is the if else loop for cqi based DL allocation
 // **************#############***************************
-  if (cells[enb_cc_idx].get_dl_cqi() <= 3){
-
-    temp1_mask.fill(0, 3);
-    temp_mask |= temp1_mask;
-  *(rbgmask_t*)&user_mask = temp_mask;
-
-    fmt::memory_buffer str_buffer;
-    fmt::format_to(str_buffer, fmt::format("CQI is {}, Bit Mask is {:b}", cells[enb_cc_idx].get_dl_cqi(), user_mask));
-    printf("%s\n", srsran::to_c_str(str_buffer));
-  }
-    else if (cells[enb_cc_idx].get_dl_cqi() > 3 && cells[enb_cc_idx].get_dl_cqi() <= 10){
-
-      temp1_mask.fill(0, 10);
-      temp_mask |= temp1_mask;
-
-    *(rbgmask_t*)&user_mask = temp_mask;
-
-      fmt::memory_buffer str_buffer;
-      fmt::format_to(str_buffer, fmt::format("CQI is {}, Bit Mask is {:b}", cells[enb_cc_idx].get_dl_cqi(), user_mask));
-      printf("%s\n", srsran::to_c_str(str_buffer));
-    }
-    else {
-
-      temp1_mask.fill(0, user_mask.size());
-      temp_mask |= temp1_mask;
-
-    *(rbgmask_t*)&user_mask = temp_mask;
-
-      fmt::memory_buffer str_buffer;
-      fmt::format_to(str_buffer, fmt::format("CQI is {}, Bit Mask is {:b}", cells[enb_cc_idx].get_dl_cqi(), user_mask));
-      printf("%s\n", srsran::to_c_str(str_buffer));
-    }
+  // if (cells[enb_cc_idx].get_dl_cqi() <= 3){
+  //
+  //   temp1_mask.fill(0, 3);
+  //   temp_mask |= temp1_mask;
+  // *(rbgmask_t*)&user_mask = temp_mask;
+  //
+  //   fmt::memory_buffer str_buffer;
+  //   fmt::format_to(str_buffer, fmt::format("RNTI is 0x{:0x}, CQI is {}, Bit Mask is {:b}", rnti, cells[enb_cc_idx].get_dl_cqi(), user_mask));
+  //   printf("%s\n", srsran::to_c_str(str_buffer));
+  // }
+  //   else if (cells[enb_cc_idx].get_dl_cqi() > 3 && cells[enb_cc_idx].get_dl_cqi() <= 10){
+  //
+  //     temp1_mask.fill(0, 10);
+  //     temp_mask |= temp1_mask;
+  //
+  //   *(rbgmask_t*)&user_mask = temp_mask;
+  //
+  //     fmt::memory_buffer str_buffer;
+  //     fmt::format_to(str_buffer, fmt::format("RNTI is 0x{:0x}, CQI is {}, Bit Mask is {:b}", rnti, cells[enb_cc_idx].get_dl_cqi(), user_mask));
+  //     printf("%s\n", srsran::to_c_str(str_buffer));
+  //   }
+  //   else {
+  //
+  //     temp1_mask.fill(0, user_mask.size());
+  //     temp_mask |= temp1_mask;
+  //
+  //   *(rbgmask_t*)&user_mask = temp_mask;
+  //
+  //     fmt::memory_buffer str_buffer;
+  //     fmt::format_to(str_buffer, fmt::format("RNTI is 0x{:0x}, CQI is {}, Bit Mask is {:b}", rnti, cells[enb_cc_idx].get_dl_cqi(), user_mask));
+  //     printf("%s\n", srsran::to_c_str(str_buffer));
+  //   }
 // **************#############***************************
   switch (dci_format) {
     case SRSRAN_DCI_FORMAT1A:
       tbs_bytes = generate_format1a(pid, data, tti_tx_dl, enb_cc_idx, cfi, user_mask);
       break;
     case SRSRAN_DCI_FORMAT1:
-      tbs_bytes = generate_format1(pid, data, tti_tx_dl, enb_cc_idx, cfi, user_mask);
+
+      tbs_bytes = generate_format1(pid, data, tti_tx_dl, enb_cc_idx, cfi, user_mask); // this is implemented in srsRAN
       break;
     case SRSRAN_DCI_FORMAT2:
+
       tbs_bytes = generate_format2(pid, data, tti_tx_dl, enb_cc_idx, cfi, user_mask);
       break;
     case SRSRAN_DCI_FORMAT2A:
+
       tbs_bytes = generate_format2a(pid, data, tti_tx_dl, enb_cc_idx, cfi, user_mask);
       break;
     default:
@@ -453,9 +462,9 @@ int sched_ue::generate_format1a(uint32_t                          pid,
                                 const rbgmask_t&                  user_mask)
 {
   // ADDED
-  output_probe(__FILE__, "rbgmask_t_probe.txt");
-  output_probe("sched_ue::generate_format1a", "rbgmask_values.txt");
-  probe_rbg_mask(user_mask, "rbgmask_values.txt");
+  // output_probe(__FILE__, "rbgmask_t_probe.txt");
+  // output_probe("sched_ue::generate_format1a", "rbgmask_values.txt");
+  // probe_rbg_mask(user_mask, "rbgmask_values.txt");
 
   srsran_dci_dl_t* dci = &data->dci;
 
@@ -482,9 +491,9 @@ int sched_ue::generate_format1_common(uint32_t                          pid,
                                       const rbgmask_t&                  user_mask)
 {
   // ADDED
-  output_probe(__FILE__, "rbgmask_t_probe.txt");
-  output_probe("sched_ue::generate_format1_common", "rbgmask_values.txt");
-  probe_rbg_mask(user_mask, "rbgmask_values.txt");
+  // output_probe(__FILE__, "rbgmask_t_probe.txt");
+  // output_probe("sched_ue::generate_format1_common", "rbgmask_values.txt");
+  // probe_rbg_mask(user_mask, "rbgmask_values.txt");
 
   dl_harq_proc*    h   = &cells[enb_cc_idx].harq_ent.dl_harq_procs()[pid];
   srsran_dci_dl_t* dci = &data->dci;
@@ -516,9 +525,9 @@ int sched_ue::generate_format1(uint32_t                          pid,
                                const rbgmask_t&                  user_mask)
 {
   // ADDED
-  output_probe(__FILE__, "rbgmask_t_probe.txt");
-  output_probe("sched_ue::generate_format1", "rbgmask_values.txt");
-  probe_rbg_mask(user_mask, "rbgmask_values.txt");
+  // output_probe(__FILE__, "rbgmask_t_probe.txt");
+  // output_probe("sched_ue::generate_format1", "rbgmask_values.txt");
+  // probe_rbg_mask(user_mask, "rbgmask_values.txt");
 
   srsran_dci_dl_t* dci = &data->dci;
 
@@ -544,9 +553,9 @@ tbs_info sched_ue::compute_mcs_and_tbs(uint32_t               enb_cc_idx,
                                        const srsran_dci_dl_t& dci)
 {
   // ADDED
-  output_probe(__FILE__, "rbgmask_t_probe.txt");
-  output_probe("sched_ue::compute_mcs_and_tbs", "rbgmask_values.txt");
-  probe_rbg_mask(rbg_mask, "rbgmask_values.txt");
+  // output_probe(__FILE__, "rbgmask_t_probe.txt");
+  // output_probe("sched_ue::compute_mcs_and_tbs", "rbgmask_values.txt");
+  // probe_rbg_mask(rbg_mask, "rbgmask_values.txt");
 
   srsran_assert(cells[enb_cc_idx].configured(), "computation of MCS/TBS called for non-configured CC");
   srsran::interval<uint32_t> req_bytes = get_requested_dl_bytes(enb_cc_idx);
@@ -573,10 +582,6 @@ int sched_ue::generate_format2a(uint32_t                          pid,
                                 uint32_t                          cfi,
                                 const rbgmask_t&                  user_mask)
 {
-  // ADDED
-  output_probe(__FILE__, "rbgmask_t_probe.txt");
-  output_probe("sched_ue::generate_format2a", "rbgmask_values.txt");
-  probe_rbg_mask(user_mask, "rbgmask_values.txt");
 
   dl_harq_proc* h                    = &cells[enb_cc_idx].harq_ent.dl_harq_procs()[pid];
   bool          tb_en[SRSRAN_MAX_TB] = {false};
@@ -648,9 +653,9 @@ int sched_ue::generate_format2(uint32_t                          pid,
                                const rbgmask_t&                  user_mask)
 {
   // ADDED
-  output_probe(__FILE__, "rbgmask_t_probe.txt");
-  output_probe("sched_ue::generate_format2", "rbgmask_values.txt");
-  probe_rbg_mask(user_mask, "rbgmask_values.txt");
+  // output_probe(__FILE__, "rbgmask_t_probe.txt");
+  // output_probe("sched_ue::generate_format2", "rbgmask_values.txt");
+  // probe_rbg_mask(user_mask, "rbgmask_values.txt");
 
   /* Call Format 2a (common) */
   int ret = generate_format2a(pid, data, tti_tx_dl, enb_cc_idx, cfi, user_mask);

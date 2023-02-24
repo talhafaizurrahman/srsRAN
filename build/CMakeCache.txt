@@ -614,7 +614,7 @@ UHD_INCLUDE_DIRS:PATH=/usr/local/include
 UHD_LIBRARIES:FILEPATH=/usr/local/lib/libuhd.so
 
 //Use standard LTE sampling rates
-USE_LTE_RATES:BOOL=OFF
+USE_LTE_RATES:BOOL=True
 
 //Use MKL instead of fftw
 USE_MKL:BOOL=OFF
@@ -686,7 +686,7 @@ srsgnb_rrc_config_utils_LIB_DEPENDS:STATIC=general;srsran_phy;
 srslog_LIB_DEPENDS:STATIC=general;-lpthread;
 
 //Dependencies for the target
-srsran_common_LIB_DEPENDS:STATIC=general;srsran_phy;general;support;general;srslog;general;/usr/lib/x86_64-linux-gnu/libmbedcrypto.so;
+srsran_common_LIB_DEPENDS:STATIC=general;srsran_phy;general;support;general;srslog;general;/usr/lib/x86_64-linux-gnu/libmbedcrypto.so;general;/usr/lib/x86_64-linux-gnu/libsctp.so;
 
 //Dependencies for the target
 srsran_gtpu_LIB_DEPENDS:STATIC=general;srsran_common;general;srsran_asn1;

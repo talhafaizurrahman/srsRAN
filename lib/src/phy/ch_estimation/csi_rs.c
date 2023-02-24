@@ -744,6 +744,7 @@ int srsran_csi_rs_nzp_measure(const srsran_carrier_nr_t*          carrier,
   measure->rsrp_dB = srsran_convert_power_to_dB(measure->rsrp);
   measure->epre_dB = srsran_convert_power_to_dB(measure->epre);
   measure->n0_dB   = srsran_convert_power_to_dB(measure->n0);
+  
   measure->snr_dB  = measure->rsrp_dB - measure->n0_dB;
 
   return SRSRAN_SUCCESS;
@@ -848,6 +849,8 @@ int srsran_csi_rs_nzp_measure_trs(const srsran_carrier_nr_t*     carrier,
   measure->rsrp_dB = srsran_convert_power_to_dB(measure->rsrp);
   measure->epre_dB = srsran_convert_power_to_dB(measure->epre);
   measure->n0_dB   = srsran_convert_power_to_dB(measure->n0);
+
+
   measure->snr_dB  = measure->rsrp_dB - measure->n0_dB;
 
   return count;
@@ -899,6 +902,8 @@ int srsran_csi_rs_nzp_measure_channel(const srsran_carrier_nr_t*         carrier
   measure->cri               = measurements[0].cri;
   measure->wideband_rsrp_dBm = srsran_convert_power_to_dB(rsrp_sum);
   measure->wideband_epre_dBm = srsran_convert_power_to_dB(epre_sum);
+
+
   measure->wideband_snr_db   = measure->wideband_rsrp_dBm - n0_db;
 
   // Set other parameters

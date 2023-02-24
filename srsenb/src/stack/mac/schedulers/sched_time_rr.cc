@@ -20,6 +20,8 @@
  */
 
 #include "srsenb/hdr/stack/mac/schedulers/sched_time_rr.h"
+#include "srsenb/hdr/stack/mac/sched_ue.h"
+#include "srsenb/hdr/stack/mac/sched.h"
 
 namespace srsenb {
 
@@ -40,6 +42,8 @@ void sched_time_rr::sched_dl_users(sched_ue_list& ue_db, sf_sched* tti_sched)
 
   // give priority in a time-domain RR basis.
   uint32_t priority_idx = tti_sched->get_tti_tx_dl().to_uint() % (uint32_t)ue_db.size();
+  // printf("Priority index %d\n", priority_idx);
+
   sched_dl_retxs(ue_db, tti_sched, priority_idx);
   sched_dl_newtxs(ue_db, tti_sched, priority_idx);
 }

@@ -2654,6 +2654,22 @@ vector
 cstdint
 -
 
+../srsenb/hdr/stack/mac/sched.h
+sched_grid.h
+../srsenb/hdr/stack/mac/sched_grid.h
+sched_interface.h
+../srsenb/hdr/stack/mac/sched_interface.h
+sched_ue.h
+../srsenb/hdr/stack/mac/sched_ue.h
+srsenb/hdr/common/common_enb.h
+../srsenb/hdr/stack/mac/srsenb/hdr/common/common_enb.h
+atomic
+-
+map
+-
+mutex
+-
+
 ../srsenb/hdr/stack/mac/sched_common.h
 
 ../srsenb/hdr/stack/mac/sched_grid.h
@@ -2865,6 +2881,10 @@ vector
 /home/talha/srsRAN/srsenb/src/stack/mac/schedulers/sched_time_rr.cc
 srsenb/hdr/stack/mac/schedulers/sched_time_rr.h
 /home/talha/srsRAN/srsenb/src/stack/mac/schedulers/srsenb/hdr/stack/mac/schedulers/sched_time_rr.h
+srsenb/hdr/stack/mac/sched_ue.h
+/home/talha/srsRAN/srsenb/src/stack/mac/schedulers/srsenb/hdr/stack/mac/sched_ue.h
+srsenb/hdr/stack/mac/sched.h
+/home/talha/srsRAN/srsenb/src/stack/mac/schedulers/srsenb/hdr/stack/mac/sched.h
 
 lib/include/srsran/version.h
 srsran/config.h

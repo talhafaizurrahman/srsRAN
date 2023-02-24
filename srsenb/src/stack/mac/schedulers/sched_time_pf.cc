@@ -90,7 +90,7 @@ void sched_time_pf::sched_dl_users(sched_ue_list& ue_db, sf_sched* tti_sched)
 
   while (not dl_queue.empty()) {
     ue_ctxt& ue = *dl_queue.top();
-    ue.save_dl_alloc(try_dl_alloc(ue, *ue_db[ue.rnti], tti_sched), 0.01);
+    ue.save_dl_alloc(try_dl_alloc(ue, *ue_db[ue.rnti], tti_sched), 0.01); //0.01
     dl_queue.pop();
   }
 }
@@ -111,11 +111,6 @@ uint32_t sched_time_pf::try_dl_alloc(ue_ctxt& ue_ctxt, sched_ue& ue, sf_sched* t
 
     code = try_dl_newtx_alloc_greedy(*tti_sched, ue, *ue_ctxt.dl_newtx_h, &alloc_mask);
     if (code == alloc_result::success) {
-      // ADDED
-      output_probe(__FILE__, "rbgmask_t_probe.txt");
-      output_probe("sched_time_pf::try_dl_alloc", "rbgmask_values.txt");
-      probe_rbg_mask(alloc_mask, "rbgmask_values.txt");
-
       return ue.get_expected_dl_bitrate(cc_cfg->enb_cc_idx, alloc_mask.count()) * tti_duration_ms / 8;
     }
   }
@@ -135,7 +130,7 @@ void sched_time_pf::sched_ul_users(sched_ue_list& ue_db, sf_sched* tti_sched)
 
   while (not ul_queue.empty()) {
     ue_ctxt& ue = *ul_queue.top();
-    ue.save_ul_alloc(try_ul_alloc(ue, *ue_db[ue.rnti], tti_sched), 0.01);
+    ue.save_ul_alloc(try_ul_alloc(ue, *ue_db[ue.rnti], tti_sched), 0.01); //0.01
     ul_queue.pop();
   }
 }
@@ -199,7 +194,9 @@ void sched_time_pf::ue_ctxt::new_tti(const sched_cell_params_t& cell, sched_ue& 
     // calculate DL PF priority
     float r = ue.get_expected_dl_bitrate(cell.enb_cc_idx) / 8;
     float R = dl_avg_rate();
-    dl_prio = (R != 0) ? r / pow(R, fairness_coeff) : (r == 0 ? 0 : std::numeric_limits<float>::max());
+    // printf("fairness_coeff is %f \n", fairness_coeff);
+    dl_prio = (R != 0) ? pow(r, 1) / pow(R, fairness_coeff) : (r == 0 ? 0 : std::numeric_limits<float>::max());
+
   }
 
   // Calculate UL priority
@@ -210,7 +207,7 @@ void sched_time_pf::ue_ctxt::new_tti(const sched_cell_params_t& cell, sched_ue& 
   if (ul_h != nullptr) {
     float r = ue.get_expected_ul_bitrate(cell.enb_cc_idx) / 8;
     float R = ul_avg_rate();
-    ul_prio = (R != 0) ? r / pow(R, fairness_coeff) : (r == 0 ? 0 : std::numeric_limits<float>::max());
+    ul_prio = (R != 0) ? pow(r, 1) / pow(R, fairness_coeff) : (r == 0 ? 0 : std::numeric_limits<float>::max());
   }
 }
 
@@ -222,6 +219,7 @@ void sched_time_pf::ue_ctxt::save_dl_alloc(uint32_t alloc_bytes, float exp_avg_a
   } else {
     dl_avg_rate_ = (1 - exp_avg_alpha) * dl_avg_rate_ + (exp_avg_alpha)*alloc_bytes;
   }
+
   dl_nof_samples++;
 }
 
